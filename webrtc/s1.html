@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>This is a test for webrtc using video element and js</title>
+    </head>
+    <body>
+        <style type="text/css">
+            video {width: 1280px; height: 720px;}
+        </style>
+        <video id="video" autoplay></video>
+        <script lang="javascript">
+            let localVideo;
+            navigator.mediaDevices.getUserMedia({video: true}).then((mediaStream) => {
+                localVideo = document.getElementById("video").srcObject = mediaStream;
+            }).catch((error) => {
+                console.log("Error:", error);
+            })
+        </script>
+    </body>
+</html>
