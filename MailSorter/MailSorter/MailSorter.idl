@@ -1,0 +1,36 @@
+// MailSorter.idl : IDL source for MailSorter
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (MailSorter.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(4B837207-9D35-4B48-84F8-FBC1DEA4B465),
+	dual,
+	nonextensible,
+	helpstring("IConnect Interface"),
+	pointer_default(unique)
+]
+interface IConnect : IDispatch{
+};
+[
+	uuid(ABEA1441-A940-470B-B81E-7717AC68925C),
+	version(1.0),
+	helpstring("MailSorter 1.0 Type Library")
+]
+library MailSorterLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(B28D50A0-4571-4C70-BE55-5F7B26A0372D),
+		helpstring("Connect Class")
+	]
+	coclass Connect
+	{
+		[default] interface IConnect;
+	};
+};

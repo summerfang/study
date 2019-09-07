@@ -1,0 +1,51 @@
+HKCR
+{
+	MailSorter.Connect.1 = s 'Connect Class'
+	{
+		CLSID = s '{B28D50A0-4571-4C70-BE55-5F7B26A0372D}'
+	}
+	MailSorter.Connect = s 'Connect Class'
+	{
+		CLSID = s '{B28D50A0-4571-4C70-BE55-5F7B26A0372D}'
+		CurVer = s 'MailSorter.Connect.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {B28D50A0-4571-4C70-BE55-5F7B26A0372D} = s 'Connect Class'
+		{
+			ProgID = s 'MailSorter.Connect.1'
+			VersionIndependentProgID = s 'MailSorter.Connect'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{ABEA1441-A940-470B-B81E-7717AC68925C}'
+		}
+	}
+}
+
+HKCU
+{
+	NoRemove Software
+	{
+		NoRemove Microsoft
+		{
+			NoRemove Office
+			{
+				NoRemove Outlook
+				{
+					NoRemove Addins
+					{
+						MailSorter.Connect
+						{
+							val Description = s 'MailSorter'
+							val FriendlyName = s 'MailSorter'
+							val LoadBehavior = d 3
+						}
+					}
+				}
+			}
+		}
+	}
+}

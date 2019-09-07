@@ -1,0 +1,10 @@
+; MailSorter.def : Declares the module parameters.
+
+LIBRARY      "MailSorter.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MailSorter", "MailSorter\MailSorter.vcproj", "{4629D16D-A5F1-4356-8B41-E3BE0550A12C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MailSorterPS", "MailSorter\MailSorterPS.vcproj", "{DE551EE1-8315-4EB2-8F0B-6FB19E343248}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4629D16D-A5F1-4356-8B41-E3BE0550A12C} = {4629D16D-A5F1-4356-8B41-E3BE0550A12C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4629D16D-A5F1-4356-8B41-E3BE0550A12C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4629D16D-A5F1-4356-8B41-E3BE0550A12C}.Debug|Win32.Build.0 = Debug|Win32
+		{4629D16D-A5F1-4356-8B41-E3BE0550A12C}.Release|Win32.ActiveCfg = Release|Win32
+		{4629D16D-A5F1-4356-8B41-E3BE0550A12C}.Release|Win32.Build.0 = Release|Win32
+		{DE551EE1-8315-4EB2-8F0B-6FB19E343248}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE551EE1-8315-4EB2-8F0B-6FB19E343248}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
