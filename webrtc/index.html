@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>
+            This is a test for two video
+        </title>
+    </head>
+    <body>
+        <div>
+            <video id="sendVideo" autoplay style="height: 360px; background-color:black"></video>
+            <video id="RemoteVideo" autoplay style="height: 360px; background-color:chocolate"></video>
+        </div>
+        <div>
+            <button id="btnSend" onclick="sendVideo()">Send</button>
+            <button id="btnStop">Stop</button>
+        </div>
+        <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+
+        <script lang="javascript">
+            function sendVideo(){
+                pc1.addStream(localVideoStream);
+                pc1.createOffer({offerToReceiveVideo: 1}).then(createOffer).catch(null);
+            };
+
+            function HandleConnection(event){
+                const peerConnection = event.target;
+                const iceCandidate = event.candidate;
+
+                if(iceCandidate) {
+                    const newIceCandidate = new RTCIceCandidate(iceCandidate);
+                    const otherPeer = ((peerConnection === pc1) ? pc2 : pc1);
+
+                    otherPeer.addIceCandidate(newIceCandidate).then(null).catch(null);
+                }
+            };
+
+            function HandleConnectionChange(event) {
+
+            }
+
+            function createOffer(description){
+                pc1.setLocalDescription(description).then(null).catch(null);
+                pc2.setRemoteDescription(description).then(null).catch(null);
+
+                pc2.createAnswer().then(createAnswer).then(null); 
+            }
+
+            function createAnswer(description){
+                pc2.setLocalDescription(description).then(null).catch(null);
+                pc1.setRemoteDescription(description).then().catch(null)
+            }
+
+            let localVideoStream, remoteVideoSteam;
+            let pc1, pc2;
+
+            navigator.mediaDevices.getUserMedia({
+                video: true
+            }).then((mediaStream)=>{
+                localVideoStream = mediaStream;
+                document.getElementById("sendVideo").srcObject = localVideoStream;
+            }).catch(null);
+
+            servers = null;
+            pc1 = new RTCPeerConnection(servers);
+            pc1.addEventListener("icecandidate", HandleConnection);
+            pc1.addEventListener("connectionstatechange", HandleConnectionChange);
+
+            pc2 = new RTCPeerConnection(servers);
+            pc2.addEventListener("icecandidate", HandleConnection);
+            pc2.addEventListener("addstream", (event)=>{
+                remoteVideoSteam = event.stream;
+                document.getElementById("RemoteVideo").srcObject = remoteVideoSteam;
+            });
+
+        </script>
+    </body>
+</html>
