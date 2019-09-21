@@ -1,5 +1,6 @@
 .DS_Store
-*.pyc
-__pycache__/
-.pytest_cache/
-.vscode/
+
+**/.pytest_cache/
+**/.vscode/
+**/*.pyc
+**/__pycache__/

@@ -1,6 +1,0 @@
-[
-  "test_pytestHundreddigits.py::test_f1",
-  "test_pytestHundreddigits.py::test_f2",
-  "test_unittestHundreddigits.py::S1TestCase::test_f1",
-  "test_unittestHundreddigits.py::S1TestCase::test_f2"
-]
