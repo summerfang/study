@@ -1,12 +1,12 @@
 def isPrime(num):
-    if num <= 1:
+    if num <= 1: #Negative, 0 and 1 is not a prime number
         return False
 
-    hasNoRemainder = False
+    b = True # Assume num is a prime number
     
-    for i in range(1, num):
+    for i in range(2, num):
         if num % i == 0:
-            hasNoRemainder = True
+            b = False
             break
     
-    return hasNoRemainder
+    return b
