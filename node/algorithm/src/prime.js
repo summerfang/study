@@ -1,5 +1,5 @@
 
-exports.isPrime = num => {
+export function isPrime(num) {
   //Negative, 0, 1 is not a prime number
   if (num <= 1) return false;
 
@@ -13,4 +13,4 @@ exports.isPrime = num => {
   }
 
   return b;
-};
+}

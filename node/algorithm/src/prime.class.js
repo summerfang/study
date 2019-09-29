@@ -1,4 +1,4 @@
-module.exports = class Prime {
+export default class Prime {
   isPrime(num) {
     //Negative, 0, 1 is not a prime number
     if (num <= 1) return false;
