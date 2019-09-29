@@ -1,4 +1,4 @@
-var isSuccess = false;
+var isSuccess = true;
 
 function s(){
     console.log("Success!");
