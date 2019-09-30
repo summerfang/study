@@ -1,20 +1,20 @@
-var isSuccess = true;
+var isSuccess = false;
 
-function s(){
-    console.log("Success!");
-}
+// function s(){
+//     console.log("Success!");
+// }
 
-function f(){
-    console.log("fail");
-}
+// function f(){
+//     console.log("fail");
+// }
 
-function w(s,f){
+function w(resolve, reject){
     setTimeout(()=>{}, 1000);
 
     if(isSuccess) {
-        s();
+        resolve("Ok");
     } else{
-        f();
+        reject("Fail");
     }
 }
 
