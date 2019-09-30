@@ -12,7 +12,12 @@ Now, web can do almost everything desktop can do. It becomes first choice to use
 
 However, starting from nodes, JQuery, Javascript demostrate the incredible potential and become not an easy languages. Here I study and list the knowledge that is not an easy one.
 
-* High order function
-* Immediately-Invoke Function Expression (IIFE)
-* Promise
-* Closure
+## High order function
+## Immediately-Invoke Function Expression (IIFE)
+## Promise
+* One of difficult is understand the resolve is equal to the function used in then and reject is equal to the function in catch.
+## Closure
+## Generator
+## Prototype
+## Closure
+## Arrow function
