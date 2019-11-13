@@ -1,0 +1,19 @@
+{
+  "name": "s1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "webpack": "^4.39.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  },
+  "keywords": [],
+  "description": ""
+}
