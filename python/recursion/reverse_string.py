@@ -1,3 +1,4 @@
+# Reverse list in fact
 def reverseString(s, first=0, last=-1):
         if first >= len(s)/2:
             return
