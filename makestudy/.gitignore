@@ -1040,6 +1040,5 @@ Makefile.in
 /config.guess
 /config.status
 /config.sub
-=======
 hw
 .deps/
