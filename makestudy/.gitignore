@@ -1042,3 +1042,5 @@ Makefile.in
 /config.sub
 hw
 .deps/
+config.h
+stamp-h1
