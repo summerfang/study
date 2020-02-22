@@ -1,5 +1,5 @@
 # initilize the process 
-AC_INIT([s1], [0.01]) 
+AC_INIT([hw], [0.01]) 
 # make config headers
 AC_CONFIG_HEADERS([config.h])
 # Auxillary files go here
