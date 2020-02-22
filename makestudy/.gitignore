@@ -1022,7 +1022,6 @@ dkms.conf
 aclocal.m4
 autom4te.cache/
 config.h.in
-<<<<<<< HEAD
 Makefile
 Makefile.in
 /build
@@ -1044,4 +1043,3 @@ Makefile.in
 =======
 hw
 .deps/
->>>>>>> fdb528a8e6ef86b4298d5c7b347c7c88b16129e6
