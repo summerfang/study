@@ -1,0 +1,16 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <video id="camera" autoplay></video>
+<script>
+    let localVideo;
+
+    navigator.mediaDevices.getUserMedia({video:true}).then((mediaStream)=>{
+        localVideo = document.getElementById("camera").srcObject = mediaStream;
+    }).catch();
+
+</script>
+    </body>
+</html>
