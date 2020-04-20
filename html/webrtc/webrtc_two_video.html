@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>This is learning course of WebRTC</title>
+    </head>
+    <body>
+        <div>
+            <video id="localVideo" autoplay></video>
+        </div>
+        <div>
+            <video id="remoteVideo" autoplay></video>
+        </div>
+    </body>
+    <style>
+        div {
+            display:inline-block; 
+            border:1px solid #000
+        }
+        video {
+            width: 108px;
+            height: 72px;
+        };
+
+    </style>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+
+    <script>
+        navigator.mediaDevices.getUserMedia({
+            video: true,
+        }).then((mediaStream) => {
+            document.getElementById("localVideo").srcObject = mediaStream;
+        });
+    </script>
+</html>

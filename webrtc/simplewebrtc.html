@@ -9,11 +9,12 @@
         <video id="video" autoplay></video>
         <script lang="javascript">
             let localVideo;
+
             navigator.mediaDevices.getUserMedia({video: true}).then((mediaStream) => {
                 localVideo = document.getElementById("video").srcObject = mediaStream;
             }).catch((error) => {
-                console.log("Error:", error);
-            })
+                console.log("Error", error);
+            });
         </script>
     </body>
 </html>
