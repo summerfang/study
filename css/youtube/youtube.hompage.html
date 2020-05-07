@@ -8,14 +8,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
 
     <title>This is a study for youtube home page</title>
     <style>
         #sidebar {
-            max-width: 250pt;
-            min-width: 250pt;
+            max-width: 150pt;
+            min-width: 150pt;
         }
 
         #sidebar ul li a {
@@ -25,11 +29,11 @@
             display: block;
         }
 
-        #sidebar ul li a:hover{
+        #sidebar ul li a:hover {
             background-color: lightgrey;
         }
 
-        #sidebar ul li a i{
+        #sidebar ul li a i {
             padding-left: 10pt;
             padding-right: 10pt;
         }
@@ -45,8 +49,18 @@
     <nav class="navbar bg-light">
         <button>☰</button>
         <a href="#"><img src="./youtube.png" alt="Youtube Home" width="20%"></a>
-        <div><input type="text" placeholder="Search"></div>
-        <a href=""><i></i></a>
+        <form class="form-inline">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <span class="input-group-text"><i class="fa fa-fw fa-search"></i></span>
+                </div>
+            </div>
+        </form>
+        <a href=""><i class='fas fa-video'></i></a>
+        <a href=""><i class='fas fa-th'></i></a>
+        <a href=""><i class='fas fa-bell'></i></a>
+        <a href="#"><img src="./summerfang.jpg" class="rounded-circle" alt="" style="width: 25pt;"></a>
     </nav>
 
     <div class="wrapper">
