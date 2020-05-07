@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google login example</title>
+  <script src="https://apis.google.com/js/client:platform.js" async defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <style media="screen">
+    h3 {
+      color:green;
+    }
+  </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+  <button name="button" id="disconnect" style="display:none;">Disconnect</button>
+
+  <!-- https://developers.google.com/+/web/signin/?hl=en#button_attributes -->
+  <div id="gConnect">
+    <button class="g-signin"
+        data-clientid="111278717810216533381"
+        data-scope="https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/contacts.readonly"
+        data-requestvisibleactions="http://schemas.google.com/AddActivity"
+        data-callback="_onSignInCallback"
+        data-theme="dark"
+        data-cookiepolicy="single_host_origin">
+    </button>
+  </div>
+
+  <h2>
+    Result
+  </h2>
+  <div id="result">
+
+    <h3>
+      About me from plus API
+    </h3>
+    <div id="me_from_plus">
+    </div>
+
+    <h3>
+      People from plus API
+    </h3>
+    <div id="people_from_plus_api">
+    </div>
+
+    <h3>
+      Contact from contacts API
+    </h3>
+    <div id="contacts_from_contact_api">
+    </div>
+
+  </div>
+
+</body>
+<script type="text/javascript">
+
+// https://developers.google.com/google-apps/contacts/v3/index#getting_started
+// http://vincentwoo.com/2012/08/15/the-api-for-googles-most-valuable-resource-sucks/
+
+function disconnect() {
+  $.ajax({
+    type: 'GET',
+    url: 'https://accounts.google.com/o/oauth2/revoke?token=' +
+        gapi.auth.getToken().access_token,
+    async: false,
+    contentType: 'application/json',
+    dataType: 'jsonp',
+    success: function(result) {
+      console.log('revoke response: ' + result);
+      $('#gConnect').show();
+      $('#disconnect').hide();
+      $("#result div").empty();
+    },
+    error: function(e) {
+      console.log(e);
+
+    }
+  });
+}
+
+function _onSignInCallback(authResult){
+  gapi.client.load('plus','v1')
+              .then(function() {
+                console.log('authResult', JSON.stringify(authResult));
+                if (authResult['access_token']) {
+                  $('#gConnect').hide();
+                  $('#disconnect').show();
+                  loadSelf();
+                  loadPlusFriends();
+                  loadContacts();
+                } else if (authResult['error']) {
+                  console.error("failed to authentication")
+                }
+              });
+}
+
+
+
+function loadSelf(){
+  gapi.client.plus.people.get({
+    'userId': 'me'
+  }).then(function(res) {
+    var me = res.result;
+    $('#me_from_plus').empty()
+    .append(JSON.stringify(me))
+    .append($('<p><img src=\"' + me.image.url + '\"></p>'))
+  },function(e){
+    console.error("failed to load self",e);
+  });
+
+}
+
+function loadPlusFriends(){
+  gapi.client.plus.people.list({
+    'userId': 'me',
+    'collection': 'visible'
+  }).then(function(res) {
+    var people = res.result;
+    $('#people_from_plus_api').empty().append(JSON.stringify(people));
+
+    for (var personIndex in people.items) {
+      person = people.items[personIndex];
+      $('#people_from_plus_api').append('<img src="' + person.image.url + '">');
+    }
+
+  },function(err){
+    console.error("failed to load people",e);
+  });
+}
+
+function loadContacts(){
+  var urls =[];
+
+  $.ajax({
+    url: 'https://www.google.com/m8/feeds/contacts/default/full?alt=json',
+    dataType: 'jsonp',
+    data: gapi.auth.getToken()
+  }).done(function(data) {
+    $('#contacts_from_contact_api')
+      .empty()
+      .append(JSON.stringify(data.feed));
+    data.feed.entry.forEach(function(e){
+      var pushed = false;
+      e.link.forEach(function(l){
+        if (l.type === "image/*" && !pushed){
+          urls.push(l.href + "?"+ $.param({"access_token":gapi.auth.getToken().access_token, "token_type":gapi.auth.getToken().token_type}));
+          pushed = true;
+        }
+      });
+    });
+
+  function staggerImages(index) {
+    if (index == urls.length) return;
+
+    var img = new Image();
+    var notFound = false;
+    img.onload = function() {
+      staggerImages(index + 1);
+    };
+    img.onerror = function() {
+      img.src = "404.png"
+    };
+    img.src = urls[index];
+    $('#contacts_from_contact_api').append(img);
+  }
+  staggerImages(0);
+  });
+
+}
+
+$(function(){
+  $('#disconnect').on("click", disconnect);
+});
+</script>
+</html>
+
+<!-- <html>
+
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+    <div id="login_container">
+        <div id="login_logo">
+            <img id="login_image" src="./login.png">
+        </div>
+        <div id="login_text">
+            <h1><strong>Happy.Meet.Me</strong></h1>
+        </div>
+        <div id="login_button">
+            <button>Login</button>
+        </div>
+    </div>
+</body>
+
+</html> -->
