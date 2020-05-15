@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        #videobg {
+            position: fixed;
+            top: 0pt;
+            left: 0pt;
+            min-width: 100%;
+            min-height: 100%;
+            opacity: 30%;
+        }
+
+        #content {
+            display: flex;
+            position: fixed;
+            top: 0pt;
+            bottom: 0px;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        #leftvideo {
+            margin: 1pt;
+            padding: 3pt;
+            min-height: 80%;
+            max-height: 80%;
+            min-width: 40%;
+            max-width: 40%;
+            overflow: hidden;
+        }
+
+        #leftvideo video{
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        #rightvideo {
+            margin: 1pt;
+            padding: 3pt;
+            min-height: 80%;
+            max-height: 80%;
+            min-width: 40%;
+            max-width: 40%;
+            overflow: hidden;
+        }
+
+        #rightvideo video{
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        #break_news_bar {
+            position:absolute;
+            bottom: 10pt;
+            min-width: 80%;
+        }
+
+        #break_news {
+            background-color: red;
+            color: white;
+            height: 50pt;
+            max-width: 30%;
+            opacity: 100%;
+        }
+
+        #break_news h1{
+            padding-left: 10pt;
+        }
+
+        #break_news_message {
+            position: absolute;
+            top: 40pt;
+            background: white;
+            color: black;
+            min-width: 60%;
+            left: 5pt;
+            bottom: 0pt;
+            opacity: 100%;
+        }
+    </style>
+</head>
+<body>
+    <video id ="videobg" autoplay loop muted src="https://www.w3schools.com/howto/rain.mp4">
+        Comment: since I am using the video source from other site, if you don't put a muted attribute, the video don't automatically play even you have autoplay attribute.
+        Your browser does not support HTML5 video.
+
+    </video>
+    <div id="content">
+
+        <div id="leftvideo">
+            <video src="https://www.w3schools.com/html/mov_bbb.mp4" autoplay loop muted></video>
+        </div>
+        <div id="rightvideo">
+            <video src="https://www.w3schools.com/html/movie.mp4" autoplay loop muted></video>
+        </div>
+
+        <div id="break_news_bar">
+            <div id="break_news">
+                <h1>BREAKING NEWS</h1>
+            </div>
+            <div id="break_news_message">
+                LOS ANGELES COUNTY COULD BE UNDER STAY-AT-HOME ORDER UNTIL AUGUEST
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
