@@ -1,0 +1,23 @@
+{
+  "name": "s1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main/index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "clear": "cross-env rm -rf build&&mkdir build",
+    "build": "cross-env NODE_ENV=production webpack",
+    "childScript": "cross-env-shell \"echo Hello $Greet\"",
+    "parentScript": "cross-env Greet=\"Joe Huang\" npm run childScript"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "webpack": "4.42.1",
+    "webpack-cli": "^3.3.11",
+    "electron": "8.2.4"
+  }
+}

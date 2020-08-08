@@ -1,0 +1,23 @@
+{
+  "name": "electron-webpack-first",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "compile": "electron-webpack",
+    "start": "electron .",
+    "build": "build"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.16"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.4.1",
+    "electron-webpack": "^2.8.2",
+    "webpack": "~4.42.1",
+    "electron": "9.2.0"
+  },
+  "build": {
+    "appId": "com.cisco.app.summerfang"
+  }
+}

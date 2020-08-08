@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+
+    <title>This is a study for youtube home page</title>
+    <style>
+        #sidebar {
+            max-width: 150pt;
+            min-width: 150pt;
+        }
+
+        #sidebar ul li a {
+            color: black;
+            text-decoration: none;
+            padding: 5px;
+            display: block;
+        }
+
+        #sidebar ul li a:hover {
+            background-color: lightgrey;
+        }
+
+        #sidebar ul li a i {
+            padding-left: 10pt;
+            padding-right: 10pt;
+        }
+
+        .wrapper {
+            display: flex;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-light">
+        <button>☰</button>
+        <a href="#"><img src="./youtube.png" alt="Youtube Home" width="20%"></a>
+        <form class="form-inline">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <span class="input-group-text"><i class="fa fa-fw fa-search"></i></span>
+                </div>
+            </div>
+        </form>
+        <a href=""><i class='fas fa-video'></i></a>
+        <a href=""><i class='fas fa-th'></i></a>
+        <a href=""><i class='fas fa-bell'></i></a>
+        <a href="#"><img src="./summerfang.jpg" class="rounded-circle" alt="" style="width: 25pt;"></a>
+    </nav>
+
+    <div class="wrapper">
+        <nav id="sidebar">
+            <ul class="list-unstyled">
+                <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Subscriptions</a></li>
+                <li><a href="#"><i class='fas fa-angle-down'></i>Show More</a></li>
+                <li><a href="#"><i class='fas fa-angle-up'></i>Show Less</a></li>
+            </ul>
+        </nav>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore voluptatum harum dolorem sint suscipit
+            debitis natus temporibus excepturi quis, commodi, amet similique explicabo accusantium error dolor hic
+            maxime enim nesciunt?</p>
+
+    </div>
+</body>
+
+</html>

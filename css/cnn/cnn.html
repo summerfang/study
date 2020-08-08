@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNN View</title>
+    <style>
+          body {
+            background-image: url("./bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+
+          #broadcast {
+              display: flex;
+              padding: 5px;
+          }
+
+          .speaker {
+              border: 1pt white solid;
+              width: 200px;
+              height: 200px;
+              display: block;
+              overflow: hidden;
+              margin: 1px;
+          }
+
+          .location_left {
+              position: absolute;
+              background:transparent;
+              display:grid;
+              grid-template-columns: 20% 88%, 2%;
+          }
+
+          .location_left .location_span {
+              background-color:red;
+              width: 20px;
+              height:max-content;
+              grid-column: 1/1;
+          }
+
+          .location_name {
+              background-color: white;
+              color: black;
+          }
+
+          .location_time {
+              background-color: black;
+              color: white;
+          }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="broadcast">
+        <div id="left_video"  class="speaker">
+            <video src="https://www.w3schools.com/html/mov_bbb.mp4" autoplay muted></video>
+
+        </div>
+        <div id="right_video" class="speaker">
+            <video src="https://www.w3schools.com/html/mov_bbb.mp4" autoplay muted></video>
+
+        </div>
+        <div class="location_left">
+            <div class="location_span"></div>
+            <div class="location_name">Washington</div>
+            <div class="location_time">8:20 PM ET</div>
+        </div>
+    </div> 
+
+
+</body>
+</html>
