@@ -1,0 +1,1 @@
+print("test strategy design pattern")
