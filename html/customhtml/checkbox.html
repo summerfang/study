@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        class MyCheckbox extends HTMLElement {
+            static get formAssociated() { return true; }
+          
+            constructor() {
+              super();
+              this._internals = this.attachInternals();
+              this._checked = false;
+              this.addEventListener('click', this._onClick.bind(this));
+            }
+          
+            get form() { return this._internals.form; }
+            get name() { return this.getAttribute('name'); }
+            get type() { return this.localName; }
+          
+            get checked() { return this._checked; }
+            set checked(flag) {
+              this._checked = !!flag;
+              this._internals.setFormValue(this._checked ? 'on' : null);
+            }
+          
+            _onClick(event) {
+              this.checked = !this._checked;
+            }
+          }
+          customElements.define('my-checkbox', MyCheckbox);
+    </script>
+</head>
+<body>
+    <form action="..." method="...">
+        <label><my-checkbox name="agreed"></my-checkbox> I read the agreement.</label>
+        <input type="submit">
+      </form>
+      4.13.1.3 Creating a customized b
+</body>
+</html>
