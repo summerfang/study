@@ -1,0 +1,2 @@
+Integrated Camera
+Internal Microphone (Conexant SmartAudio HD)
