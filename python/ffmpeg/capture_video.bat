@@ -1,0 +1,1 @@
+ffmpeg -f dshow -i video="Integrated Camera" v.mp4

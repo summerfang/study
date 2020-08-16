@@ -1,0 +1,1 @@
+ffmpeg -f dshow -i video="Integrated Camera":audio="Internal Microphone (Conexant SmartAudio HD)" av.mp4
