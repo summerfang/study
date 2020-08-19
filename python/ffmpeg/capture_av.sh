@@ -1,0 +1,1 @@
+ffmpeg -f avfoundation -framerate 30 -video_device_index 0 -audio_device_index 0 -i "default" mac_av.mpg
