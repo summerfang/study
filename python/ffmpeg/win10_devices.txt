@@ -1,2 +1,32 @@
 Integrated Camera
 Internal Microphone (Conexant SmartAudio HD)
+
+[dshow @ 000001c5c6f09400] DirectShow video device options (from video devices)
+[dshow @ 000001c5c6f09400]  Pin "Capture" (alternative pin name "Capture")
+[dshow @ 000001c5c6f09400]   pixel_format=yuyv422  min s=640x480 fps=15 max s=640x480 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=bgr24  min s=640x480 fps=15 max s=640x480 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=yuyv422  min s=320x180 fps=15 max s=320x180 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=bgr24  min s=320x180 fps=15 max s=320x180 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=yuyv422  min s=320x240 fps=15 max s=320x240 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=bgr24  min s=320x240 fps=15 max s=320x240 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=yuyv422  min s=352x288 fps=15 max s=352x288 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=bgr24  min s=352x288 fps=15 max s=352x288 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=yuyv422  min s=424x240 fps=15 max s=424x240 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=bgr24  min s=424x240 fps=15 max s=424x240 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=yuyv422  min s=640x360 fps=15 max s=640x360 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=bgr24  min s=640x360 fps=15 max s=640x360 fps=30
+[dshow @ 000001c5c6f09400]   pixel_format=yuyv422  min s=848x480 fps=20 max s=848x480 fps=20
+[dshow @ 000001c5c6f09400]   pixel_format=bgr24  min s=848x480 fps=20 max s=848x480 fps=20
+[dshow @ 000001c5c6f09400]   pixel_format=yuyv422  min s=960x540 fps=15 max s=960x540 fps=15
+[dshow @ 000001c5c6f09400]   pixel_format=bgr24  min s=960x540 fps=15 max s=960x540 fps=15
+[dshow @ 000001c5c6f09400]   pixel_format=yuyv422  min s=1280x720 fps=10 max s=1280x720 fps=10
+[dshow @ 000001c5c6f09400]   pixel_format=bgr24  min s=1280x720 fps=10 max s=1280x720 fps=10
+[dshow @ 000001c5c6f09400]   vcodec=mjpeg  min s=640x480 fps=15 max s=640x480 fps=30
+[dshow @ 000001c5c6f09400]   vcodec=mjpeg  min s=320x180 fps=15 max s=320x180 fps=30
+[dshow @ 000001c5c6f09400]   vcodec=mjpeg  min s=320x240 fps=15 max s=320x240 fps=30
+[dshow @ 000001c5c6f09400]   vcodec=mjpeg  min s=352x288 fps=15 max s=352x288 fps=30
+[dshow @ 000001c5c6f09400]   vcodec=mjpeg  min s=424x240 fps=15 max s=424x240 fps=30
+[dshow @ 000001c5c6f09400]   vcodec=mjpeg  min s=640x360 fps=15 max s=640x360 fps=30
+[dshow @ 000001c5c6f09400]   vcodec=mjpeg  min s=848x480 fps=15 max s=848x480 fps=30
+[dshow @ 000001c5c6f09400]   vcodec=mjpeg  min s=960x540 fps=15 max s=960x540 fps=30
+[dshow @ 000001c5c6f09400]   vcodec=mjpeg  min s=1280x720 fps=15 max s=1280x720 fps=30
