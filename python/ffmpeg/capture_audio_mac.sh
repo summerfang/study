@@ -1,0 +1,1 @@
+ffmpeg -f avfoundation -framerate 30 -audio_device_index 0 mac_camera_audio.mkv
