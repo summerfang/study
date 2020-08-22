@@ -8,3 +8,5 @@
 *.xcf
 *.png
 *.mov
+!fox.png
+!_fox_10s.mp4
