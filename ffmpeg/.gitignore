@@ -1,0 +1,12 @@
+*.mp4
+*.mp3
+*.flv
+*.mkv
+*.avi
+*.mpg
+*.jpg
+*.xcf
+*.png
+*.mov
+!fox.png
+!_4speakers_10s.mp4
