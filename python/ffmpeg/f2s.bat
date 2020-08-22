@@ -13,3 +13,4 @@ ffmpeg -re -i "%WMSAPP_HOME%/content/sample.mp4" -pix_fmt yuv420p -vsync 1 -thre
 ffmpeg -re -stream_loop -1 -i win_av_720p.mp4 -i mask_4_pillar.png -i bird_small.mov -filter_complex "[0][1] overlay=enable='between(t,0,1)'[v1]; [v1][2]overlay=enable='between(t,1):x=100'[v2]" -map "[v2]" -map 0:a -f rtsp -rtsp_transport tcp rtsp://www.summerfang.me:8554/livestream
 
 ffplay -f rtsp -rtsp_transport tcp rtsp://www.summerfang.me:8554/livestream
+
