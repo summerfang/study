@@ -21,4 +21,7 @@ REM "Loop play one video. it look it need a long video to make loop work"
 ffmpeg -threads 2 -re -fflags +genpts -stream_loop -1 -i fox.mp4 -c copy -f mpegts -mpegts_service_id 102 -metadata service_name=My_channel -metadata service_provider=My_Self -max_interleave_delta 0 -use_wallclock_as_timestamps 1 -flush_packets 1 -f rtsp -rtsp_transport tcp rtsp://www.summerfang.me:8554/livestream
 
 REM "Play back the stream"
-ffplay -f rtsp -rtsp_transport tcp rtsp://www.summerfang.me:8554/livestream
+ffplay -f rtsp -rtsp_transport tcp rtsp://www.summerfang.me:8554/livestream1
+
+
+ffmpeg -f rtsp -rtsp_transport tcp - i rtsp://www.summerfang.me:8554/livestream -f rtsp -rtsp_transport tcp - i rtsp://www.summerfang.me:8554/livestream -filter_complex "nullsrc=size=1280*720 [base];[0:v]crop=293:466:37:62 [speaker1];[1:v]crop=293:466:341:62 [speaker2];[base][speaker1] overlay=x=37:y=62 [step0];[step0][speaker2] overlay=x=341:y=62 [step1]" -map "[step2]" -map 1:a:0 _fox_10s.mp4
