@@ -8,5 +8,7 @@
 *.xcf
 *.png
 *.mov
-!fox.png
-!_4speakers_10s.mp4
+!fox*.*
+!mask.png
+!powerby*.*
+!bird.mov
