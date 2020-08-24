@@ -34,7 +34,7 @@ ffmpeg -i win_av_720p.mp4 -i powerbylogo.png -filter_complex "[0:v][1:v] overlay
 ffmpeg -i win_av_720p.mp4 -i bird.mov -filter_complex "[1:v]setpts=PTS-10/TB[a]; [0:v][a]overlay=enable=gte(t\,5):shortest=1[out]" -map [out] -map 0:a -c:v libx264 -crf 18 -pix_fmt yuv420p -c:a copy win_av_with_bird.mp4
 
 REM "Put a bird in the video"
-ffmpeg -i win_av_720p.mp4 -vf "movie=bird.mov,scale=250:-1 [inner];[in][inner] overlay=10:10[out]" win_av_with_bird.mp4
+ffmpeg -i fox.mp4 -vf "movie=bird.mov,scale=250:-1 [inner];[in][inner] overlay=10:10[out]" _win_av_with_bird.mp4
 
 REM "Mask a picture to video with 4 rectangle available for people"
 ffmpeg -i win_av_720p.mp4 -i mask_4_pillar.png -filter_complex "[0:v][1:v] overlay=25:25:enable='between(t,0,20)'" -pix_fmt yuv420p -c:a copy win_av_720p_4_pillar.mp4
