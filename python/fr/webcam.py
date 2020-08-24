@@ -50,9 +50,9 @@ known_face_names = [
     "Barack Obama",
     "Joe Biden",
     "Wawayaya",
-    "Summer F",
+    "Summer",
     "Donald Trump",
-    "Weijia"
+    "Vicky"
 ]
 
 while True:
