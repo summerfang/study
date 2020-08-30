@@ -27,4 +27,14 @@ fn main() {
     println!("{}", a[0]);
     println!("{}", b[0]);
 
+    // Integer
+    let i8_smallest: i8 = -128;
+    let i8_largest: i8 = 127;
+
+    // Float
+    let f32_float: f32 = 0.123456;
+    let f64_float: f64 = 0.1234567890123;
+
+    
+
 }
