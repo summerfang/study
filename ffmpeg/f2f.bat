@@ -62,3 +62,26 @@ ffmpeg -i win_av_720p.mp4 -i mask_4_pillar.png -i bird_small.mov -filter_complex
 
 REM "Using a image to generate a video"
 ffmpeg -i fox.png -filter_complex "[0:v]crop=1280:720,scale=-1:360[vid];[0:v]crop=1280:720,scale=-1:360,reverse[r];[vid][r]concat,loop=2:80,setpts=N/13/TB[out]" -map "[out"] -vcodec libx264 -pix_fmt yuv420p -crf 23 -an _f2v.mp4
+
+ffmpeg -y -i _4speakers.mp4 -i background.jpg -filter_complex "[0:v]crop=293:466:37:62[spk1];[0:v]crop=293:466:341:62[spk2];[0:v]crop=293:466:645:62[spk3];[0:v]crop=293:466:948:62[spk4];[1:v][spk1]overlay=37:62[step1]" -map "[step4]" -c:v libx264 -c:a aac _new_4speakers.mp4
+
+REM "1 speaker with background"
+ffmpeg -y -i _4speakers.mp4 -i background.jpg -filter_complex "[0:v]crop=293:466:37:62[spk1];[1:v][spk1]overlay=37:62[step1]" -map "[step1]" -c:v libx264 -map 0:a -c:a aac _new_4speakers.mp4
+
+REM "2 speakers with background"
+ffmpeg -y -i _4speakers.mp4 -i background.jpg -filter_complex "[0:v]crop=293:466:37:62[spk1];[0:v]crop=293:466:341:62[spk2];[1:v][spk1]overlay=37:62[step1];[step1][spk2]overlay=341:62[step2]" -map "[step2]" -c:v libx264 -map 0:a -c:a aac _new_4speakers.mp4
+
+REM "3 speakers with background"
+ffmpeg -y -i _4speakers.mp4 -i background.jpg -filter_complex "[0:v]crop=293:466:37:62[spk1];[0:v]crop=293:466:341:62[spk2];[0:v]crop=293:466:645:62[spk3];[1:v][spk1]overlay=37:62[step1];[step1][spk2]overlay=341:62[step2];[step2][spk3]overlay=645:62[step3]" -map "[step3]" -c:v libx264 -map 0:a -c:a aac _new_4speakers.mp4
+
+REM "4 speakers with background"
+ffmpeg -y -i _4speakers.mp4 -i background.jpg -filter_complex "[0:v]crop=293:466:37:62[spk1];[0:v]crop=293:466:341:62[spk2];[0:v]crop=293:466:645:62[spk3];[0:v]crop=293:466:948:62[spk4];[1:v][spk1]overlay=37:62[step1];[step1][spk2]overlay=341:62[step2];[step2][spk3]overlay=645:62[step3];[step3][spk4]overlay=948:62[step4]" -map "[step4]" -c:v libx264 -map 0:a -c:a aac _new_4speakers.mp4
+
+REM "4 speakers with background and flying bird"
+ffmpeg -y -i _4speakers.mp4 -i background.jpg -i bird.mov -filter_complex "[0:v]crop=293:466:37:62[spk1];[0:v]crop=293:466:341:62[spk2];[0:v]crop=293:466:645:62[spk3];[0:v]crop=293:466:948:62[spk4];[2:v]scale=150:-1[bird];[1:v][spk1]overlay=37:62[step1];[step1][spk2]overlay=341:62[step2];[step2][spk3]overlay=645:62[step3];[step3][spk4]overlay=948:62[step4];[step4][bird]overlay=5:5[step5]" -map "[step5]" -c:v libx264 -map 0:a -c:a aac _new_4speakers.mp4
+
+REM "4 speakers with background, logo and flying bird"
+ffmpeg -y -i _4speakers.mp4 -i background.jpg -i bird.mov -i powerbylogo.png -filter_complex "[0:v]crop=293:466:37:62[spk1];[0:v]crop=293:466:341:62[spk2];[0:v]crop=293:466:645:62[spk3];[0:v]crop=293:466:948:62[spk4];[2:v]scale=150:-1[bird];[3:v]scale=150:-1[logo];[1:v][spk1]overlay=37:62[step1];[step1][spk2]overlay=341:62[step2];[step2][spk3]overlay=645:62[step3];[step3][spk4]overlay=948:62[step4];[step4][bird]overlay=1100:600[step5];[step5][logo]overlay[step6]" -map "[step6]" -c:v libx264 -map 0:a -c:a aac _new_4speakers.mp4
+
+REM "4 speakers with background, logo, banner and flying bird"
+ffmpeg -y -i _4speakers.mp4 -i background.jpg -i bird.mov -i powerbylogo.png -i banner.png -filter_complex "[0:v]crop=293:466:37:62[spk1];[0:v]crop=293:466:341:62[spk2];[0:v]crop=293:466:645:62[spk3];[0:v]crop=293:466:948:62[spk4];[2:v]scale=150:-1[bird];[3:v]scale=150:-1[logo];[4:v]scale=-1:-1[banner];[1:v][spk1]overlay=37:62[step1];[step1][spk2]overlay=341:62[step2];[step2][spk3]overlay=645:62[step3];[step3][spk4]overlay=948:62[step4];[step4][banner]overlay=60:540[step5];[step5][logo]overlay[step6];[step6][bird]overlay=1100:650[step7]" -map "[step7]" -c:v libx264 -map 0:a -c:a aac _new_4speakers.mp4
