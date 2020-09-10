@@ -62,3 +62,6 @@ ffmpeg -i win_av_720p.mp4 -i mask_4_pillar.png -i bird_small.mov -filter_complex
 
 REM "Using a image to generate a video"
 ffmpeg -i fox.png -filter_complex "[0:v]crop=1280:720,scale=-1:360[vid];[0:v]crop=1280:720,scale=-1:360,reverse[r];[vid][r]concat,loop=2:80,setpts=N/13/TB[out]" -map "[out"] -vcodec libx264 -pix_fmt yuv420p -crf 23 -an _f2v.mp4
+
+
+ffmpeg -i fox.mp4 -i background.jpg -filter_complex "[0:v]crop=293:466:37:62[spk1];[1:v][spk1]overlay=37:62[out]" -map "[out]" -c:v libx264 -c:a aac _new_fox.mp4
