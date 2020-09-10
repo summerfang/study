@@ -14,3 +14,9 @@ ffmpeg -re -stream_loop -1 -i win_av_720p.mp4 -i mask_4_pillar.png -i bird_small
 
 ffplay -f rtsp -rtsp_transport tcp rtsp://www.summerfang.me:8554/livestream
 
+
+REM "Steam 4 speakers with background, logo, banner and flying bird to server"
+ffmpeg -re -i _4speakers.mp4 -i background.jpg -i bird.mov -i powerbylogo.png -i banner.png -filter_complex "[0:v]crop=293:466:37:62[spk1];[0:v]crop=293:466:341:62[spk2];[0:v]crop=293:466:645:62[spk3];[0:v]crop=293:466:948:62[spk4];[2:v]scale=150:-1[bird];[3:v]scale=150:-1[logo];[4:v]scale=-1:-1[banner];[1:v][spk1]overlay=37:62[step1];[step1][spk2]overlay=341:62[step2];[step2][spk3]overlay=645:62[step3];[step3][spk4]overlay=948:62[step4];[step4][banner]overlay=60:540[step5];[step5][logo]overlay[step6];[step6][bird]overlay=1100:650[step7]" -map "[step7]" -c:v libx264 -map 0:a -c:a aac -f rtsp -rtsp_transport tcp rtsp://www.summerfang.me:8554/livestream
+
+REM Looply Steam 4 speakers with background, logo, banner and flying bird to server
+ffmpeg -stream_loop -1 -re -i _4speakers.mp4 -i background.jpg -i bird.mov -i powerbylogo.png -i banner.png -filter_complex "[0:v]crop=293:466:37:62[spk1];[0:v]crop=293:466:341:62[spk2];[0:v]crop=293:466:645:62[spk3];[0:v]crop=293:466:948:62[spk4];[2:v]scale=150:-1[bird];[3:v]scale=150:-1[logo];[4:v]scale=-1:-1[banner];[1:v][spk1]overlay=37:62[step1];[step1][spk2]overlay=341:62[step2];[step2][spk3]overlay=645:62[step3];[step3][spk4]overlay=948:62[step4];[step4][banner]overlay=60:540[step5];[step5][logo]overlay[step6];[step6][bird]overlay=1100:650[step7]" -map "[step7]" -c:v libx264 -map 0:a -c:a aac -f rtsp -rtsp_transport tcp rtsp://www.summerfang.me:8554/livestream
