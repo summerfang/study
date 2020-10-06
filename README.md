@@ -3,7 +3,7 @@
      width="36" height="36"/> <font size="7">Summer Fang</font>
 # Coding is fun
 
-Coding is a pleasant brain sport. I like to explore different kind of technology. Writing a few code snippet help me to undertstand the syntax or detail of different computer languages, framework or library. Nothing serious but a lot of fun here.
+Coding is a pleasant brain sport! I like to explore different kind of technology. Writing a few code snippet help me to undertstand the syntax or detail of different computer languages, framework or library. Nothing serious but a lot of fun here.
 
 
 Here is partial list of technology that I am intersted in. I classified it from different level of understanding:
