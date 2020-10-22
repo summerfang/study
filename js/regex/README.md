@@ -1,6 +1,8 @@
 After checkout the code, please run:
-> `npm install`\n
-> `npm test`
+```
+npm install
+npm test
+```
 
 or run:
-> `node testEmail.js`
+`node testEmail.js`
