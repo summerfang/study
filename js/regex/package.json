@@ -1,0 +1,14 @@
+{
+  "name": "regex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "email.js",
+  "scripts": {
+    "test": "qunit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "qunit": "^2.11.3"
+  }
+}

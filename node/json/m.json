@@ -1,0 +1,22 @@
+{
+    "v1": {
+        "meeting_id": "8dce5777-625b-462a-a60f-f941f91cf5b6",
+        "rosters": {
+            "df278cc8-c6ff-4412-bd21-4428754ab971": {
+                "name": "summerfang",
+                "display_name": "Summer Fang",
+                "role": "host"
+            },
+            "ef1969a8-5448-4bf3-bd78-21f3dad38cf7": {
+                "name": "wanghuiying",
+                "display_name": "Huiying Wang",
+                "role": "presenter"
+            },
+            "875c695e-6a2b-4729-b26d-99ca0cf0952e": {
+                "name": "fangweijia",
+                "display_name": "Weijia Fang",
+                "role": "audience"
+            }
+        }
+    }
+}
