@@ -5,6 +5,7 @@ npm test
 ```
 
 or run:
+
 ```
 node testEmail.js
 ```
