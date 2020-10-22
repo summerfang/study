@@ -1,5 +1,5 @@
 After checkout the code, please run:
-> `npm install`
+> `npm install`\n
 > `npm test`
 
 or run:
