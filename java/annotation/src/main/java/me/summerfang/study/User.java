@@ -8,23 +8,21 @@ import lombok.Getter;
 import lombok.Setter;
 
 public class User {
-    @Setter
+
     @Getter
+    @Setter
     private String firstName;
+
+    @Getter
+    @Setter
     private String lastName;
 
-    @Setter
-    @Getter
-    private Date createDate = new Date();
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    private Date createDate;
 
     public User(String firstName, String lastName, Date createDate) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.createDate = createDate;
-    }
-
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    public Date getDate() {
-        return createDate;
     }
 }

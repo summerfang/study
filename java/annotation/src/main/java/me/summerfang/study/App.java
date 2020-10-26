@@ -16,7 +16,7 @@ public class App
     {
         User usr = new User("John", "Smith", new Date());
         ObjectMapper om = new ObjectMapper();
-        String jsonStr = om.writeValueAsString(usr);
+        String jsonStr = om.writerWithDefaultPrettyPrinter().writeValueAsString(usr);
         
         System.out.println(jsonStr);
     }
