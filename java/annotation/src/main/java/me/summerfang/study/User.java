@@ -11,9 +11,6 @@ public class User {
     @Setter
     @Getter
     private String firstName;
-
-    @Setter
-    @Getter
     private String lastName;
 
     @Setter
