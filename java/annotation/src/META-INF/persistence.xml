@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence>
+ <persistence-unit name="mytest" transaction-type="RESOURCE_LOCAL">
+  <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+  <class>me.summerfang.study.Warehouse</class>
+  <properties>
+  <property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC" />
+  <property name="javax.persistence.jdbc.url" value="jdbc:sqlite:C:/sqlite/db/tests.db" />
+  <property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+  <property name="eclipselink.ddl-generation.output-mode" value="database" />
+  </properties>
+ </persistence-unit>
+</persistence>
