@@ -93,3 +93,5 @@ Minneapolis2013 %>% group_by(First) %>% summarise(count=n()) %>% top_n(5)
 * Third choice selections?
 4. What are the top 3 combinations of First and Second vote selections? (That is, of all the possible ways a voter might have marked his or her first and second choices, which received the highest number of votes?)
 5. Which Precinct had the highest number of ballots cast?
+
+#####
