@@ -1,0 +1,95 @@
+---
+title: "Chapter 7 Data Wrangling"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dcData)
+```
+
+
+##### Problem 7.1: For each of the operations listed here, say whether it involves a transformation function or a reduction function or neither.
+
+1. Determine the 3rd largest.
+<p>It involves a transformation function.</p>
+
+2. Determine the 3rd and 4th largest values.
+<p>It involves a transformation function.</p>
+
+3. Determine the number of cases.
+<p>It involves a reduction function.</p>
+
+4. Determine whether a year is a leap year.
+<p>it involves transformation function.</p>
+
+5. Determine whether a date is a legal holiday.
+<p>it involves transformation function.</p>
+
+6. Determine the range of a set, that is, the max minus the min.
+<p>It involves a reduction function.</p>
+
+7. Determine which day of the week (e.g., Sun, Mon, …) a given date is.
+<p>it involves transformation function.</p>
+
+8. Find the time interval in days spanned by a set of dates.
+<p>It involves a reduction function.</p>
+
+##### Problem 7.2: Each of these statements have an error. It might be an error in syntax or an error in the way the data tables are used, etc. Describe what each expression apparently attempts to do, as well as the error(s) that cause them to fail.
+
+a. 
+BabyNames %>% 
+  group_by( "First" ) %>%
+  summarise( votesReceived=n() )
+  
+```{r}
+BabyNames %>%
+  group_by("First") %>%
+  summarise(votesReceived=n())
+```
+  
+There are viarable "First" or "votesReceived"
+
+b. 
+Tmp <- group_by(BabyNames, year, sex ) %>% 
+  summarise( Tmp, totalBirths=sum(count))
+  
+
+%>% is chaining syntax. The function after it could not use a variable as the first parameter. The result of the chaining syntax will be the first parameter.
+
+```{r}
+BabyNames %>% group_by(year, sex) %>%
+summarise(totalBirths=sum(count))
+
+```
+c. 
+Tmp <- group_by(BabyNames, year, sex) 
+summarise( BabyNames, totalBirths=sum(count) )
+
+There syntax is right. But "Tmp" is not used in the second line. The correct should be:
+
+```{r}
+Tmp <- group_by(BabyNames, year, sex)
+summarise(Tmp, totalBirths=sum(count))
+```
+
+##### Problem 7.3 Using the Minneapolis2013 data table in the dcData package, answer these questions:
+
+1. How many cases are there?
+```{r}
+count(Minneapolis2013)
+```
+
+2. Who were the top 5 candidates in the Second vote selections.
+```{r}
+Minneapolis2013 %>% group_by(First) %>% summarise(count=n()) %>% top_n(5)
+```
+
+
+3. How many ballots are marked “undervote” in
+* First choice selections?
+
+* Second choice selections?
+* Third choice selections?
+4. What are the top 3 combinations of First and Second vote selections? (That is, of all the possible ways a voter might have marked his or her first and second choices, which received the highest number of votes?)
+5. Which Precinct had the highest number of ballots cast?
