@@ -88,10 +88,168 @@ Minneapolis2013 %>% group_by(First) %>% summarise(count=n()) %>% top_n(5)
 
 3. How many ballots are marked “undervote” in
 * First choice selections?
+```{r}
+Minneapolis2013 %>% filter(First=="undervote") %>% summarise(total=n())
+```
 
 * Second choice selections?
-* Third choice selections?
-4. What are the top 3 combinations of First and Second vote selections? (That is, of all the possible ways a voter might have marked his or her first and second choices, which received the highest number of votes?)
-5. Which Precinct had the highest number of ballots cast?
+```{r}
+Minneapolis2013 %>% filter(Second=="undervote") %>% summarise(total=n())
+```
 
-#####
+
+* Third choice selections?
+```{r}
+Minneapolis2013 %>% filter(Third=="undervote") %>% summarise(total=n())
+```
+
+
+4. What are the top 3 combinations of First and Second vote selections? (That is, of all the possible ways a voter might have marked his or her first and second choices, which received the highest number of votes?)
+```{r}
+
+```
+
+
+5. Which Precinct had the highest number of ballots cast?
+```{r}
+
+```
+
+
+##### Problem 7.4: Each of these statements has an error. It might be an error in syntax or an error in the way the data tables are used, etc. Write down a correct version of the statement.
+
+BabyNames %>% 
+  group_by(BabyNames, year, sex) %>%
+  summarise(BabyNames, total = sum(count))
+  
+```{r}
+BabyNames %>% 
+  group_by(year, sex) %>%
+  summarise(total = sum(count))
+```
+
+
+ZipGeography <- 
+  group_by(State) %>% 
+  summarise(pop = sum(Population))
+  
+```{r}
+ZipGeography %>% group_by(State) %>% summarise(pop=sum(Population))
+```
+
+Minneapolis2013 %>%
+  group_by(First) ->
+  summarise(voteReceived = n())
+  
+```{r}
+Minneapolis2013 %>%
+group_by(First) %>%
+summarise(voteReceived = n())
+```
+
+summarise(votesReceived = n()) %<% 
+  group_by(First) <- Minneapolis2013
+  
+```{r}
+Minneapolis2013 %>% group_by(First) %>% summarise(votesReceived=n())
+```
+
+  
+##### Problem 7.5: The data verbs group_by() and summarise() are very frequently used in combination. Experiment with the R code, help documentation, etc to investigate each of the following.
+
+How has the result VoterData_A apparently been modified when compared to the original Minneapolis2013 data? What does a case represent in VoterData_A?
+VoterData_A <-
+  Minneapolis2013 %>%
+  group_by(First, Second)
+  
+a. 
+
+How has the result VoterData_B apparently been modified when compared to the original Minneapolis2013 data? What does a case represent in VoterData_B?
+VoterData_B <-
+  Minneapolis2013 %>%
+  summarise( total = n() )
+
+b. It becomes a dataframe which only contain one case and one viarable which show the total cases of Minneapolis2013  
+  
+How has the result VoterData_C apparently been modified when compared to the original Minneapolis2013 data? What does a case represent in VoterData_C?
+VoterData_C <-
+  Minneapolis2013 %>%
+  group_by(First, Second) %>%
+  summarise( total = n() )
+  
+c. It becomes the group data by First and Second combination. Each case represents the unqiure case which is combination of First and second viarable.
+  
+Here, the group_by() and summarise() steps are reversed and now the result is an error indicating that “Column First is unknown.” Clearly the variable First existed in the Minneapolis2013 data frame, why is it now unknown?
+VoterData_D <-
+  Minneapolis2013 %>%
+  summarise( total = n() ) %>%
+  group_by(First, Second) 
+## Error: Must group by variables found in `.data`.
+## * Column `First` is not found.
+## * Column `Second` is not found.
+ d. It is because the clause before the group_by return the summary which don't have viariable First and Second.e
+
+###### Problem 7.6: Using the ZipGeography data
+
+Find the total land area and population in each state.
+
+```{r}
+ZipGeography %>% group_by(State) %>% summarise(totalPopu=sum(Population, na.rm = TRUE), totalLand=sum(LandArea, na.rm = TRUE))
+```
+
+
+Make a scatter plot showing the relationship between land area and population for each state.
+```{r}
+geo<-ZipGeography %>% group_by(State) %>% summarise(totalPopu=sum(Population, na.rm = TRUE), totalLand=sum(LandArea, na.rm = TRUE))
+ggplot(geo) +
+ aes(x = totalLand, y = totalPopu, colour = State) +
+ geom_point(size = 1L) +
+ scale_color_hue() +
+ theme_minimal()
+```
+
+
+
+Make a choropleth map showing the population of each state.
+```{r}
+ZipGeography %>% group_by(State) %>% summarise(total=sum(Population, na.rm = TRUE)) %>% mUSMap(key="State", fill="total")
+```
+
+
+Make a choropleth map showing the population per unit area of each state.
+```{r}
+ZipGeography %>% group_by(State) %>% summarise(total=sum(Population, na.rm = TRUE)/sum(LandArea, na.rm = TRUE)) %>% mUSMap(key="State", fill="total")
+```
+
+
+Problem 7.7: Imagine a data table, Patients, with categorical variables name, diagnosis, sex, and quantitative variable age.
+
+You have a statement in the form
+
+Patients %>%
+  group_by(  **SOME_VARIABLES** ) %>%
+  summarise(count = n(), meanAge = mean(age))
+Replacing **SOME_VARIABLES** with each of the following, tell what variables will appear in the output
+
+sex
+a. It outputs the total population and average age by sex
+
+diagnosis
+b. It outputs different diagnosis's total population and average age.
+
+sex, diagnosis
+c. It outputs all combination of sex and diagnosis of patients' total pupulation and average age.
+
+age, diagnosis
+d. It outputs all combination of age and diagnosis of patients' total population and average age.
+
+age
+e. It outputs different age's total population and age
+
+
+###### Problem 7.8: Use the ZipDemography data from the dcData package for the following tasks.
+
+Make a scatter plot showing the relationship, if any, between the number of Foreignborn people in a zip code and the number who SpeakalanguageotherthanEnglishathome5yearsandover. (Please note that such long variable names ought to be avoided as a matter of good style.)
+Warning: do NOT attempt to facet by ZIP code as you explore solutions. Doing so is very computationally intense (i.e., takes a long time if it finishes at all) only to show that one facet for each ZIP code is not a useful data visualization.
+
+Explain what would keep you, at this point, from calculating the fraction of people in each state who have a Bachelorsdegreeorhigher. Say how you would go about constructing such a plot — but don’t actually do it! Too much work.
