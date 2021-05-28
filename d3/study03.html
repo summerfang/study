@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+</head>
+<body>
+    <script>
+        const width = 640
+        const height = 480
+        const margin = 50
+
+        var svg = d3.select("body").append("svg")
+                        .attr("width", width)
+                        .attr("height", height)
+
+        svg.append("line")
+                .attr("fill", "none")
+                .attr("stroke", "steelblue")
+                .attr("stroke-width", 1.5)            
+                .attr("x1",0)
+                .attr("y1",0)
+                .attr("x2",100)
+                .attr("y2",200)
+
+
+        var data1 = [1,2,3,4,5,6,7,8]
+        var data2 = [1,10,100,1000,10000,100000,1000000,10000000]
+
+        xScale = d3.scaleLinear().domain(d3.extent(data1)).range([0, width - margin]);
+        var x_axis = d3.axisBottom().scale(xScale);
+
+        svg.append("g")
+            .attr("transform", "translate(" + margin + "," + (height - margin) + ")")
+            .call(x_axis)
+
+        yScale = d3.scaleLog().domain(d3.extent(data2)).range([height - margin,margin])
+
+        y_axis = d3.axisLeft().scale(yScale)
+
+        svg.append("g")
+            .attr("transform", "translate(" + margin + ", 0)")
+            .call(y_axis)
+    </script>    
+</body>
+</html>

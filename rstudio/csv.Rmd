@@ -1,0 +1,23 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+aug_test_df <- read.csv(file = 'aug_test.csv')
+head(aug_test_df)
+```
+
+```{r}
+aug_test <- read_csv("aug_test.csv")
+head(aug_test)
+```
+```{r}
+aug_test1 <- read_csv("aug_test.csv", use_cols=)
+```
+

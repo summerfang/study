@@ -1,0 +1,18 @@
+---
+title: "Graphing Networks"
+output: html_notebook
+---
+
+### Problem 14.1 
+
+Table 2
+
+### Problem 14.2
+1. A, B, C， D
+2. Table 2
+3. Table 1: B->C is wrong, Miss C->D
+Table 3: Missing A->B, A->C->D contain 3 vertices.
+
+### Problem 14.3
+1. 8 vertices
+2. 9 edges

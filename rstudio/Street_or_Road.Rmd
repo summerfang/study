@@ -1,0 +1,83 @@
+---
+title: "Street or Road"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dcData)
+
+Addresses <- read_csv("https://mdbeckman.github.io/dcSupplement/data/street-addresses.csv")
+Sample <- Addresses %>% sample_n(size = 50)
+
+pattern <- "BOX\\s+(\\d+)"
+Matches <- Sample %>%  filter(grepl(pattern, address))
+Dont <- Sample %>% filter( !grepl(pattern, address))
+
+```
+
+### Before Back to the street
+
+```{r}
+voter_address <- read_csv("https://mdbeckman.github.io/dcSupplement/data/street-addresses.csv")
+medicare_address <- readRDS("medicare_address.rds")
+```
+d
+
+### Your Turn
+
+```{r}
+pattern <- "(ST|RD|ROAD)"  # Define a variable pattern which will match one of the three "ST", "RD" and "ROAD"
+LeftOvers <-               # LeftOver is a variable which represent the data table contain the result of the next statements
+  Addresses %>%            # Start from data table Address.
+  filter( !grepl(pattern, address),                     # Must not match address column contain "ST", "RD" and "ROAD".
+          !grepl("\\sAPT|UNIT\\s[\\d]+$", address),     # Must not match address column contain space followed up APT or UNIT and follow with space and digit as end.
+          !grepl(" BOX ", address)                      # Must not match address column contain space followed up with BOX and space.
+          )
+
+```
+
+
+
+### Your Turn
+
+```{r}
+myPattern1 <- "(CIRCLE|WAY|RD|BLVD|ST|ROAD|AVE|LN|LANE|DR|CIR|DRIVE|CT|COURT)"  # Match address column contain one of "CIRCLE","WAY","RD", "BLVD", "ST", "ROAD","AVE", "LN", "LANE", "DR", "CIR", "DRIVE", "CT" and "COURT"
+
+
+Addresses %>% filter(grepl("WAY", address, ignore.case = TRUE)) %>% summarise(WAY=n())      # 165
+Addresses %>% filter(grepl("RD", address, ignore.case = TRUE)) %>% summarise(RD=n())        # 846
+Addresses %>% filter(grepl("BLVD", address, ignore.case = TRUE)) %>% summarise(BLVD=n())    # 61
+Addresses %>% filter(grepl("ST", address, ignore.case = TRUE)) %>% summarise(ST=n())        # 984
+Addresses %>% filter(grepl("ROAD", address, ignore.case = TRUE)) %>% summarise(ROAD=n())    # 220
+Addresses %>% filter(grepl("AVE", address, ignore.case = TRUE)) %>% summarise(AVE=n())      # 298
+Addresses %>% filter(grepl("LN", address, ignore.case = TRUE)) %>% summarise(LN=n())        # 177
+Addresses %>% filter(grepl("LANE", address, ignore.case = TRUE)) %>% summarise(LANE=n())    # 149 
+Addresses %>% filter(grepl("DR", address, ignore.case = TRUE)) %>% summarise(DR=n())        # 948
+Addresses %>% filter(grepl("CIR", address, ignore.case = TRUE)) %>% summarise(CIR=n())      # 127
+Addresses %>% filter(grepl("DRIVE", address, ignore.case = TRUE)) %>% summarise(DRIVE=n())  # 267
+Addresses %>% filter(grepl("CT", address, ignore.case = TRUE)) %>% summarise(CT=n())        # 254
+Addresses %>% filter(grepl("COURT", address, ignore.case = TRUE)) %>% summarise(COURT=n())  # 94
+
+myPattern2 <- "\\sBOX\\s"
+Addresses %>% filter(grepl(myPattern2, address, ignore.case = TRUE)) %>% summarise(BOX=n())  # 11058
+  
+myPatter3 <- "\\sAPT|UNIT\\s[\\d]+$" # Include space follow up with APT and UNIT and then space 
+Addresses %>% filter(grepl(myPatter3, address, ignore.case = TRUE)) %>% summarise(APT_UNIT=n()) # 215
+
+myPatter4 <- "^BOX\\s"   # Starting from BOX
+Addresses %>% filter(grepl(myPatter4, address, ignore.case = TRUE)) %>% summarise(BOX_START=n()) #
+```
+
+```{r}
+# MyLeftOver
+
+MyLeftOver <- Addresses %>% filter(!grepl(myPattern1, address), !grepl(myPattern2, address), !grepl(myPatter3, address), !grepl(myPatter4, address))  # My leftover for not fit in all patterns.
+
+```
+
+
+
+
+
+

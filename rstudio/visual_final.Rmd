@@ -1,0 +1,25 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+data = read_csv("aug_train.csv")
+```
+
+```{r}
+data %>%  filter(experience %in% c("1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16") %>% mutate(experience=as.numeric(experience)) & target=="1") %>% group_by(major_discipline,experience) %>% summarize(total=n()) %>% ggplot(aes(x=experience, y=total, colour=major_discipline)) + geom_line() + geom_point()
+```
+
+```{r}
+data %>% mutate(experience=as.numeric(experience)) %>% filter(target==1) %>% group_by(education_level,experience) %>% summarise(total=n())
+```
+
+```{r}
+data %>% mutate(experience=as.numeric(experience)) %>% filter(target==1) %>% group_by(education_level,experience) %>% summarise(total=n()) %>% ggplot(aes(x=experience,y=total, colour=education_level)) + geom_line()
+```
+

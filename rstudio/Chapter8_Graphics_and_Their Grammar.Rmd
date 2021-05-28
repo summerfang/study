@@ -1,0 +1,84 @@
+---
+title: "Graphics and Their Grammar"
+output: html_notebook
+---
+
+Construct a graphics frame.
+Add a layer of glyphs.
+Set an axis label.
+Divide the frame into facets.
+Change the scale for the frame.
+
+1. geom_point()
+Add a layer of glyphs.
+
+2. geom_histogram()
+Add a layer of glyphs.
+
+3. ggplot()
+Construct a graphics frame.
+
+4. scale_y_log10()
+Construct a graphics frame.
+
+5. ylab()
+Set an axis label.
+
+6. facet_wrap()
+Divide the frame into facets.
+
+7. geom_segment()
+Add a layer of glyphs.
+
+8. xlim()
+Construct a graphics frame.
+
+9. facet_grid()
+Divide the frame into facets.
+
+```{r}
+library(mosaicData)
+```
+
+Problem 8.2 
+
+```{r}
+
+ggplot( data = CPS85, aes(x = wage)) + geom_density() + aes(fill = sex, alpha=0.5, show.legend = FALSE) + facet_wrap(~married, ncol = 4) + labs(title = "") + theme(legend.position = "right")
+```
+
+
+```{r}
+CPS85_Wage_Age <- CPS85 %>% group_by(age, sex, married) %>% summarise(wage=mean(wage))
+ggplot(data = CPS85_Wage_Age, aes(x = age, y = wage))+ ylim(0,15) + geom_point(alpha=0) + aes(colour = sex) + facet_grid(rows = vars(married))  + stat_smooth(method = loess) + theme(legend.position = "right") + labs(title = "") 
+```
+```{r}
+
+CPS85_Sector <- CPS85 %>% group_by(age, sex, sector) %>% summarise(wage=mean(wage))
+ggplot(data = CPS85_Sector, aes(x = age, y = wage)) + geom_point(alpha=0)  + aes(colour = sex) + facet_wrap(~sector, ncol = 3)  + stat_smooth(method = loess) + theme(legend.position = "right") + labs(title = "") 
+
+```
+
+
+
+Problme 8.3
+
+A.
+```{r}
+ggplot(data = CPS85, aes(x = age, y = wage)) + geom_point()  + labs(title = "")
+```
+
+B.
+```{r}
+ggplot(data = CPS85, aes(x = age, y = wage, group=sex)) + geom_point(aes(shape=sex))  + labs(title = "") + theme(legend.position="top")
+```
+C.
+```{r}
+ggplot(data = CPS85, aes(x = age, y = wage, group=sex)) + geom_point(aes(shape=sex))  + facet_grid(rows = vars(married)) + labs(title = "") + theme(legend.position="top")
+
+```
+
+D.
+```{r}
+ggplot(data = CPS85, aes(x = age, y = wage, group=married)) + geom_point(aes(shape=married))  + labs(title = "") + theme(legend.position="top")
+```

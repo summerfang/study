@@ -1,0 +1,62 @@
+---
+title: "Bicycle Sharing"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+station_url <- "https://mdbeckman.github.io/dcSupplement/data/DC-Stations.csv"
+Stations <- readr::read_csv(station_url)
+trip_url <- "https://mdbeckman.github.io/dcSupplement/data/Trips-History-Data-2014-Q4-Small.rds"
+Trips <- readRDS(gzcon(url(trip_url)))
+```
+
+```{r}
+Trips %>% ggplot(aes(x=sdate)) + geom_density(fill="gray",color=NA)
+```
+
+```{r}
+TripDuration <- Trips %>% mutate(duration_in_minutes=as.numeric(edate - sdate)/60) %>% filter(duration_in_minutes<=60)
+ggplot(data = TripDuration, aes(x = client, y = duration_in_minutes)) + geom_boxplot()  + labs(title = "") + ylab("dur/60")
+```
+```{r}
+TripHours <- Trips %>% mutate(H=lubridate::hour(sdate))
+ggplot( data = TripHours, aes(x = H)) + geom_density(adjust = 2, fill="gray") + labs(title = "")
+```
+```{r}
+Trip_Count_Hours <- TripHours %>% group_by(H) %>% summarise(count=n())
+ggplot(data = Trip_Count_Hours, aes(x = H, y = count)) + geom_point() + geom_line()  + labs(title = "")
+```
+
+```{r}
+TripGroup <- Trips %>% mutate(hour_of_day=lubridate::hour(sdate), day_of_week=lubridate::wday(sdate)) %>% group_by(client,hour_of_day,day_of_week) %>% summarise(count=n())
+ggplot(data = TripGroup, aes(x=hour_of_day, y=count))+ geom_line(aes(linetype=client)) + facet_wrap(~day_of_week) + labs(title = "")
+```
+```{r}
+TripDensity <- Trips %>% mutate(hour_of_day=lubridate::hour(sdate), day_of_week=lubridate::wday(sdate))
+ggplot( data = TripDensity, aes(x = hour_of_day)) + geom_density(aes(linetype=client)) + facet_wrap(~day_of_week, ncol = 4) + labs(title = "")
+```
+
+
+18.8
+```{r}
+source("https://mdbeckman.github.io/dcSupplement/R/haversine.R")
+Simple <- Stations %>% select(name, lat, long) %>% rename(sstation = name)
+Simple2 <- Simple %>% rename(estation = sstation, lat2 = lat, long2 = long)
+StationPairs <- merge(Simple, Simple2, by = NULL)
+PairDistances <- StationPairs %>% mutate(distance = haversine(lat, long, lat2, long2)) %>% select(sstation, estation, distance)
+Trip_Ride_Distrbution <- Trips %>% inner_join(PairDistances)
+ggplot( data = Trip_Ride_Distrbution, aes(x = distance)) + geom_density(data=PairDistances,aes(x=distance, fill="pink"), show.legend = FALSE) +geom_density(color="blue", show.legend = FALSE) +xlim(0,15)+ labs(title = "") + xlab("Trip Distance (km)")
+```
+
+
+```{r}
+m
+
+```
+
+

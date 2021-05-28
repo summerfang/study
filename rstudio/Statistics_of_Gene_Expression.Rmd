@@ -1,0 +1,169 @@
+---
+title: "Statistics of Gene Expression"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dcData)
+```
+
+```{r}
+
+Narrow <- NCI60 %>% pivot_longer(-Probe, names_to="cellLine", values_to="expression")
+CellType <- NCI60cells %>% select(cellLine, tissue) %>% mutate(cellLine=gsub("\\:",".",cellLine))
+Narrow <- Narrow %>% inner_join(CellType)
+
+
+```
+
+```{r}
+Probe_TOP3A <- Narrow %>% filter(Probe=="TOP3A")
+
+#exp() function in R Language is used to calculate the power of e i.e. e^y or we can say exponential of y. The value of e is approximately equal to 2.71828….. Parameters: y: It is any valid R number either positive or negative
+SummaryStats <- Probe_TOP3A %>% group_by(tissue) %>% summarise(mn_expr = exp(mean(expression, na.rm = TRUE)))
+
+#"The heights of the bars commonly represent one of two things: either a count of cases in each group, or the values in a column of the data frame. By default, geom_bar uses stat="bin". This makes the height of each bar equal to the number of cases in each group, and it is incompatible with mapping values to the y aesthetic. If you want the heights of the bars to represent values in the data, use stat="identity" and map a value to the y aesthetic."
+
+SummaryStats %>% ggplot(aes(x=tissue, y= mn_expr)) + geom_bar(stat = "identity") + theme(axis.text.x = element_text(angle = 30, hjust=1))
+
+```
+
+```{r}
+Probe_TOP3A %>% ggplot(aes(x=tissue, y= exp(expression))) + geom_point() + theme(axis.text.x = element_text(angle = 30, hjust=1))
+
+```
+
+The bar chart only express the mean value. It doesn't reflect the distribution. I would suggest to use boxplot.
+
+1. Lighten up on the color. Perhaps alpha = 0.2, or maybe a dot plot rather than a bar chart.
+
+```{r}
+SummaryStats %>% ggplot(aes(x=tissue, y= mn_expr)) + geom_bar(stat = "identity", alpha=0.2) + theme(axis.text.x = element_text(angle = 30, hjust=1))
+
+```
+
+```{r}
+SummaryStats %>% ggplot(aes(x=tissue, y= mn_expr)) + geom_point() + theme(axis.text.x = element_text(angle = 30, hjust=1))
+```
+
+2. Reorder the tissue types.
+
+```{r}
+SummaryStats_reorder <- SummaryStats %>% mutate(tissue=reorder(tissue, mn_expr))
+
+```
+
+3. Show a statistical measure of the variation.
+```{r}
+SummaryStats_se <- Probe_TOP3A %>% group_by(tissue) %>% summarise(mn_expr=mean(expression, na.rm = TRUE), se=sd(expression, na.rm = TRUE)/sqrt(n()))
+SummaryStats_se %>% ggplot(aes(x=tissue, y=se)) + geom_bar(stat = "identity") 
+```
+
+
+
+```{r}
+SummaryStats %>% ggplot(aes(x=tissue, y=exp(mn_expr))) + geom_bar(stat = "identity", fill="gray", color=NA) + geom_point(data = Probe_TOP3A, aes(x=tissue, y=exp(expression))) + theme(axis.text.x = element_text(angle = 30, hjust = 1))
+                                                                                                  
+```
+
+
+4. Show the expression value for each of the individual cases in Probe_TOP3A as seen in Figure 18.2 in order to display cell variability directly.
+```{r}
+Probe_TOP3A %>% ggplot(aes(x=tissue, y= expression)) + geom_point() + theme(axis.text.x = element_text(angle = 30, hjust=1))
+```
+
+5. Use a different modality: e.g. a dot plot; a box-and-whiskers plot (with notch = TRUE); a violin plot
+
+```{r}
+Probe_TOP3A %>% ggplot(aes(x=tissue, y= expression)) + geom_boxplot() + theme(axis.text.x = element_text(angle = 30, hjust=1))
+
+```
+
+```{r}
+Probe_TOP3A %>% ggplot(aes(x=tissue, y= expression)) + geom_violin() + theme(axis.text.x = element_text(angle = 30, hjust=1))
+
+```
+
+TWo plot
+
+```{r}
+SummaryStats %>% 
+  ggplot(aes(x = tissue, y = exp(mn_expr))) +
+  geom_bar(stat = "identity", fill = "gray", color = NA) +
+  geom_point(data = Probe_TOP3A, aes(x = tissue, y = exp(expression))) + 
+  theme(axis.text.x = element_text(angle = 30, hjust = 1))
+```
+
+Top and Bottom
+
+```{r}
+SummaryStats_Top_Bottom <- 
+  SummaryStats_se %>%
+  mutate(top = mn_expr + 2 * se,
+         bottom = mn_expr - 2 * se)
+
+SummaryStats_Top_Bottom %>% ggplot(aes(x=tissue, y=exp(mn_expr))) + geom_bar(stat = "identity", alpha=0.2) + geom_errorbar(aes(x=tissue, ymax=exp(top), ymin=exp(bottom)), width=0.5) + theme(axis.text.x = element_text(angle = 30, hjust=1))
+```
+
+```{r}
+SummaryStats_Top_Bottom %>% ggplot(aes(x=tissue, y=exp(mn_expr))) + geom_errorbar(aes(x=tissue, ymax=exp(top), ymin=exp(bottom)), width=0.5) + geom_point(data = Probe_TOP3A, aes(x=tissue, y=exp(expression))) + theme(axis.text.x = element_text(angle = 30, hjust=1))
+```
+
+
+
+### Your turn
+I choose AT_D_3
+
+```{r}
+Probe_AT_D_3 <- Narrow %>% filter(Probe=="AT_D_3")
+SummaryStat_SE_TB_AT_D_3 <- Probe_AT_D_3 %>% group_by(tissue) %>% summarise(mn_expr = mean(expression, na.rm = TRUE), se=sd(expression, na.rm = TRUE)/sqrt(n())) %>% mutate(top = mn_expr + 2 * se, bottom = mn_expr - 2 * se)
+
+SummaryStat_SE_TB_AT_D_3 %>% ggplot(aes(x=tissue, y=exp(mn_expr))) + geom_errorbar(aes(x=tissue, ymax=exp(top), ymin=exp(bottom)), width=0.5) + geom_point(data = Probe_AT_D_3, aes(x=tissue, y=exp(expression))) + theme(axis.text.x = element_text(angle = 30, hjust=1))
+
+
+```
+
+
+### 18.12
+```{r}
+# customize a user-defined function called `r2`
+r2 <- function(data) {
+  mosaic::rsquared(lm(data$expression ~ data$tissue))
+}
+
+ProbeR2 <- 
+  Narrow %>% 
+  group_by(Probe) %>%
+  dplyr::do(probe_rsq = r2(.)) %>%
+  mutate(r2 = unlist(probe_rsq))
+
+Actual <-
+  ProbeR2 %>%
+  arrange(desc(r2)) %>%
+  head(30) 
+
+Actual %>%
+  ggplot(aes(x = reorder(Probe, desc(r2)), y = r2)) +
+  geom_point() + 
+  xlab("Probe") + 
+  ylab("R-squared") + 
+  ggtitle("Probes with large R-squared for expression level explained by tissue type") + 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+
+### Your turn
+
+I choose CD53
+
+```{r}
+Probe_CD53 <- Narrow %>% filter(Probe=="CD53")
+SummaryStat_SE_TB_CD53 <- Probe_CD53 %>% group_by(tissue) %>% summarise(mn_expr = mean(expression, na.rm = TRUE), se=sd(expression, na.rm = TRUE)/sqrt(n())) %>% mutate(top = mn_expr + 2 * se, bottom = mn_expr - 2 * se)
+
+SummaryStat_SE_TB_CD53 %>% ggplot(aes(x=tissue, y=exp(mn_expr))) + geom_errorbar(aes(x=tissue, ymax=exp(top), ymin=exp(bottom)), width=0.5) + geom_point(data = Probe_CD53, aes(x=tissue, y=exp(expression))) + theme(axis.text.x = element_text(angle = 30, hjust=1))
+
+```
+
+Yes, it is very different. Some specific tissue has very different shape.
+

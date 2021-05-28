@@ -1,0 +1,116 @@
+---
+title: "Chapter 12 Wide versus Narrow Data"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+library(dcData)
+```
+### Problem 12.1
+
+1. Sex
+
+```{r}
+BothSexes <-
+  BabyNames %>%
+  pivot_wider(names_from = sex, values_from = count) %>%
+  filter(M > 5 | F > 5)
+```
+
+2.
+```{r}
+BothSexes %>% mutate(gender_balance=abs(log(F/M))) %>% arrange(gender_balance) %>% head(10)
+```
+
+3. 
+```{r}
+BothSexes %>% filter(M>100 & F>100) %>% mutate(gender_balance=abs(log(F/M))) %>% arrange(gender_balance) %>% head(10)
+```
+
+4.  
+
+```{r}
+
+# Step 1. Get lasting popularity
+BabyNames_Exceed_100_Every_Year <- BabyNames %>% group_by(name,year) %>% summarise(total=sum(count)) %>% filter(total>100)
+BabyNames_lasting_popularity <- BabyNames_Exceed_100_Every_Year %>% group_by(name) %>% summarise(happen_times=n()) %>% filter(happen_times>20)
+
+# Step 2. Get gender balance value for all babies
+BabyNames_with_gender_balance_value <- BabyNames %>% pivot_wider(names_from = "sex", values_from="count", values_fill=0) %>% group_by(name) %>% summarise(F=sum(F),M=sum(M))%>% mutate(gender_balance=abs(log(F/M))) %>% arrange(gender_balance)
+
+# Step 3. Get the final answer. One of the name is unknown which need to be removed.
+BabyNames_lasting_popularity %>% left_join(BabyNames_with_gender_balance_value) %>% arrange(gender_balance) %>% filter(name !="Unknown") %>% head(10)
+```
+
+5. 
+```{r}
+BabyNames_happen_more_than_2 <- BabyNames %>% pivot_wider(names_from = "sex", values_from="count", values_fill=0) %>% mutate(gender_F_ratio=F/(F+M)) %>% group_by(name) %>% summarise(happy_times=n()) %>% filter(happy_times>1)
+
+
+BabyName_F_Ratio <- BabyNames %>% pivot_wider(names_from = "sex", values_from="count", values_fill=0) %>% mutate(gender_F_ratio=F/(F+M))
+
+BabyNames_happen_more_than_2 %>% left_join(BabyName_F_Ratio) %>% group_by(name) %>% summarise(gender_change=max(gender_F_ratio)-min(gender_F_ratio)) %>% arrange(desc(gender_change)) %>% head(1)
+
+BabyName_F_Ratio %>% filter(name=="Aalijah") %>% ggplot(aes(x=year, y=gender_F_ratio)) + geom_line()
+
+```
+
+### Problem 12.2.
+1. 
+    Version 1 is narrow data
+    Version 2 is wide data
+    Version 3 is wide data
+
+2. Version two is wider
+
+`
+Version_two = Version_one %>% pivot_wider(names_from = "sex"", values_from="nbabies"")
+`
+
+3. Version three is wider
+
+`
+Version_one = version_three %>% pivot_longer(c(1912,2012), names_to="year", values_to="nbabies")
+`
+
+4. Version two is better.
+
+Version two could add one variable as gender ratio by mutate data verb.
+
+
+
+5. No. You have to change it to version two.
+
+### Problem 12.3.
+1. 
+* A versus C
+    A is wider. 
+    
+* B versus C
+    B is wider
+    
+* A versus B
+    A is wider.
+    
+2. The answer B. 
+
+    B %>% mutate(change=Y2001-Y2000)
+
+3. The answer is C
+    How to do it:
+    a. C left join with ContinentData
+    b. group_by(Continent, Year)
+    c. summarise(total=sum(Value))
+
+
+### Problem 4.
+
+1. It is too narrow because the "when" column will vary from "subject", "before", "after". But subject is not a useful value for "when". So it is less useful when it convert to narrow form.
+
+2.
+
+BP_wide %>%
+  pivot_longer(cols = c(before, after), 
+               names_to = "when", values_to = "sbp")
