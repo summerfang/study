@@ -1,0 +1,40 @@
+---
+title: "Using Regular Expressions"
+output: html_notebook
+---
+
+```{r}
+NameList <- BabyNames %>% group_by(name, sex) %>% summarise(total=sum(count)) %>% arrange(desc(total))
+```
+
+### Problem 17.1
+
+#### Boys’ names ending in a vowel.
+
+```{r}
+BabyNames %>% filter(grepl("[aeiou]$", name)) %>% filter(sex=="M") %>% group_by(name) %>% summarise(total=sum(count)) %>% arrange(desc(total)) %>% head(10)
+```
+
+They are
+* George
+* Joshua
+* Kyle
+* Lawrence
+* Joe
+* Willie
+* Jesse
+* Bruce
+* Eugene
+
+#### Names with a space (like Lee Ann)
+```{r}
+
+```
+
+#### Names ending with “joe” (like BettyJoe)
+
+```{r}
+BabyNames %>% filter(grepl("*joe$", name, ignore.case = TRUE)) %>% group_by(name) %>% summarise(total=sum(count)) %>% arrange(desc(total))
+```
+
+There are only 7 name with end with "joe": Joe, Billyjoe, Bobbyjoe, Marjoe, Billiejoe, Maryjoe, Johnnyjoe
