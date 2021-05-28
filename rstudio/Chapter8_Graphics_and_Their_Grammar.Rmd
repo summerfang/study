@@ -1,0 +1,16 @@
+---
+title: "Chapter 8 Graphics and Their Grammar"
+output: html_notebook
+---
+
+##### Problem 8.1
+1. geom_point()
+
+2. geom_histogram()
+3. ggplot()
+4. scale_y_log10()
+5. ylab()
+6. facet_wrap()
+7. geom_segment()
+8. xlim()
+9. facet_grid()

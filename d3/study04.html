@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study scaleLinear</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <script>
+        var width = 200
+        var height = 200
+        var margin = 20
+
+        dataX = [1,2,3,4,5]
+        dataY = [10,20,30,40,50]
+
+        // This is the first axis
+        var svg = d3.select("body").append("svg")
+                                    .attr("width", width)
+                                    .attr("height", height)
+
+        svg.append("svg").append("rect")
+                        .attr("fill", "none")
+                        .attr("stroke", "steelblue")
+                        .attr("stroke-width", 1.5)     
+                        .attr("x",0)
+                        .attr("y",0)
+                        .attr("width",width)
+                        .attr("height",height)
+
+        const xScale = d3.scaleLinear().domain(d3.extent(dataX)).range([0, width])
+
+        x_axis = d3.axisBottom().scale(xScale)
+        svg.append("g")
+            // .attr("transform", "translate(" + margin + ","+ (height - margin) + ")")
+            .call(x_axis)
+
+        const yScale = d3.scaleLinear().domain(d3.extent(dataY)).range([0, height])
+
+        y_axis = d3.axisLeft().scale(yScale)
+        svg.append("g")
+            .attr("transform","translate(" + margin +",0)")
+            .call(y_axis)
+
+        // This is second axis
+        var svg2 = d3.select("body").append("svg")
+                                    .attr("width", width)
+                                    .attr("height", height)
+
+        svg2.append("svg").append("rect")
+                        .attr("fill", "none")
+                        .attr("stroke", "steelblue")
+                        .attr("stroke-width", 1.5)     
+                        .attr("x",0)
+                        .attr("y",0)
+                        .attr("width",width)
+                        .attr("height",height)        
+
+        const xScale2 = d3.scaleLinear().domain(d3.extent(dataX)).range([margin, width - margin])
+
+        x_axis2 = d3.axisBottom().scale(xScale2)
+        svg2.append("g")
+            .attr("transform", "translate(" + 0 + ","+ (height - margin) + ")")
+            .call(x_axis2)
+
+        const yScale2 = d3.scaleLinear().domain(d3.extent(dataY)).range([height - margin, margin])
+
+        y_axis2 = d3.axisLeft().scale(yScale2)
+        svg2.append("g")
+            .attr("transform","translate(" + margin +",0)")
+            .call(y_axis2)
+
+
+</script>
+</body>
+</html>

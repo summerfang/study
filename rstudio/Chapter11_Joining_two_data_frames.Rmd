@@ -1,0 +1,49 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dcData)
+```
+
+11.5
+1. There are 1910 counties
+```{r}
+ZipGeography %>% distinct(County) %>% nrow()
+```
+
+2. 
+
+3. 
+
+4. There are 9 states has more than 2 timezones.
+
+They are Tennessee			
+Kentucky				
+Indiana			
+Michigan				
+North Dakota				
+South Dakota				
+Kansas				
+Nebraska				
+Texas
+
+```{r}
+ZipGeography %>% select(State, Timezone) %>% group_by(State) %>% count(Timezone) %>% group_by(State) %>% summarise(total=n()) %>% arrange(desc(total)) %>% filter(total>2)
+```
+
+5. No city has 2 more time zones.
+```{r}
+ZipGeography %>% select(State,CityName, Timezone) %>% group_by(State,CityName) %>% count(Timezone) %>% group_by(State, CityName) %>% summarise(total=n()) %>% arrange(desc(total)) %>% filter(total!=1) %>% View()
+
+
+```
+
+6.There are 171 county has more than 2 timezones.
+```{r}
+ZipGeography %>% select(State, County, Timezone) %>% group_by(State, County) %>% count(Timezone) %>% group_by(State, County) %>% summarise(total=n()) %>% filter(total!=1) %>%View()
+```
+
+

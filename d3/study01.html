@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <script src="d3/d3.min.js"></script> -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <p>First paragraph</p>
+    <p>Second paragraph</p>
+
+    <table>
+        <tr style="background-color:white">
+            <td colspan="2" style="text-align: center;"><h1>People Vaccinated (x 100000) (Linear vs. Log Scale)</h1></td>
+        </tr>
+        <tr style="background-color:white">
+            <td><div id="final"></div></td><td><div id="input"></div></td>
+        </tr>
+        <tr style="background-color:white">
+            <td colspan="2"><div id="legend"></div></td>
+        </tr>
+    </table>
+<script>
+    // write your d3 code here.. 
+    d3.select("p").style("color", "green");
+</script>
+
+<script type="text/javascript">   
+    d3.csv('aug_train.csv')
+        .then(function(data) {
+            d3.select("div#final").selectAll("*").remove()
+            
+            const width = 700
+            const height = 400
+            const margin = 60 
+            data = data.filter(d=> (d.target == 1) && (d.experience != ""))
+//            data = data.filter(d=> (d.location != "United States") && (d.total_vaccinations != ""))
+  
+            data = data.map(d=>({education_level:d.education_level,experience:+d.experience}))
+           
+     
+            //d3.rollup(athletes, v => v.length, d => d.sport)
+            
+            
+            rollup = d3.rollup(data, v => v.length, d => d.experience)
+
+  
+//            const xScale = d3.scaleLinear().range([margin , width - margin]).domain(d3.extent(data, (d,i) => i))
+            const xScale = d3.scaleLinear().range([margin , width - margin]).domain(d3.extent(data, (d,i) => d.experience))
+//            const yScale = d3.scaleLinear().range([height-margin , margin]).domain(d3.extent(data, (d,i) => d.experience))
+            const yScale = d3.scaleLinear().range([height-margin , margin]).domain(d3.extent(rollup.values()))
+//            const color = d3.scaleLinear().range([0,1]).domain(d3.extent(unroll, (d,i) => d.avg))
+            const palette = d3.interpolateOranges
+            
+            const svg = d3.select("div#final").append("svg")
+                .attr("width", width)
+                .attr("height", height)
+            
+            
+            const xAxis = d3.axisBottom().scale(xScale)
+            
+            svg.append("g")
+                .attr("class", "axis")
+                .attr("transform", "translate(0," + (height-margin) + ")")
+                .call(xAxis) 
+            
+            svg.append("text")
+                .attr("x", width/2)
+                .attr("y", height-5)
+                .style("text-anchor", "middle")
+                .text("Work experience")
+            
+            const yAxis = d3.axisLeft().scale(yScale).tickFormat((d,i) => d )
+            
+            svg.append("g")
+                .attr("class", "yAxis")
+                .attr("transform", "translate(" + margin + ",0)")
+                .call(yAxis)  
+            
+            svg.append("text")
+                .attr("transform", "rotate(-90,15,"+(height/2)+")")
+                .attr("x", 15)
+                .attr("y", height/2)
+                .style("text-anchor", "middle")
+                .text("People has a target") 
+            
+            svg.append("line")
+                .attr("")
+            
+            rollup.delete(NaN)
+            var unroll = []
+            for (let [key, value] of rollup) {
+                unroll.push({"experience":key,"val":value})
+            } 
+
+        // Add the line
+        // svg.append("path")
+        //   .data(unroll)
+        //   .append("g")
+        //   .enter()
+        //   .attr("fill", "none")
+        //   .attr("stroke", "steelblue")
+        //   .attr("stroke-width", 1.5)
+        //   .attr("d", d3.line()
+        //     .x(function(d) { return x(d.experience) })
+        //     .y(function(d) { return y(d.val) })
+        //     )
+            
+            
+    //         const lines = svg.selectAll("lines")
+    //             .data(unroll)
+    //             .enter()
+    //             .append("g");
+
+    //             lines.append("path")
+    // .attr("d", function(d) { return line(d.val); });
+    
+            svg.append("line")
+                .attr("fill", "none")
+                .attr("stroke", "steelblue")
+                .attr("stroke-width", 1.5)            
+                .attr("x1",30)
+                .attr("y1",40)
+                .attr("x2",100)
+                .attr("y2",200)
+    
+                svg.append('line')
+    .style("stroke", "lightgreen")
+    .style("stroke-width", 10)
+    .attr("x1", 0)
+    .attr("y1", 0)
+    .attr("x2", 200)
+    .attr("y2", 200); 
+
+            svg.selectAll("circle")
+                .data(unroll)
+                .join("circle")
+                .attr("cx", (d,i)=> xScale(d.experience))
+                .attr("cy", (d,i)=> yScale(d.val))
+                .attr("r", 5)
+                .style("stroke","black")
+                // .style("fill", (d,i)=> palette(color(rollup.get(d.education_level))))
+                // .append("title")
+
+
+  
+        })
+        .catch(function(error){
+        
+        })
+</script>
+</body>
+</html>

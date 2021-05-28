@@ -1,0 +1,90 @@
+---
+title: "Using Regular Expressions"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dcData)
+```
+
+
+```{r}
+NameList <- BabyNames %>% group_by(name, sex) %>% summarise(total=sum(count)) %>% arrange(desc(total))
+```
+
+### Problem 17.1
+
+#### Boys’ names ending in a vowel.
+
+```{r}
+BabyNames %>% filter(grepl("[aeiou]$", name)) %>% filter(sex=="M") %>% group_by(name) %>% summarise(total=sum(count)) %>% arrange(desc(total)) %>% head(10)
+```
+
+They are
+* George
+* Joshua
+* Kyle
+* Lawrence
+* Joe
+* Willie
+* Jesse
+* Bruce
+* Eugene
+
+#### Names with a space (like Lee Ann)
+```{r}
+BabyNames %>% filter(grepl("\\w+ \\w+ ", name))
+```
+There are no name in BabyNames with a space.
+
+#### Names ending with “joe” (like BettyJoe)
+
+```{r}
+BabyNames %>% filter(grepl("*joe$", name, ignore.case = TRUE)) %>% group_by(name) %>% summarise(total=sum(count)) %>% arrange(desc(total))
+```
+
+There are only 7 name with end with "joe": Joe, Billyjoe, Bobbyjoe, Marjoe, Billiejoe, Maryjoe, Johnnyjoe
+
+
+### Problem 17.3
+It is phone number.
+
+There are 3 components are extracted:
+([2-9][0-9]{2}) - It must be 3 letters. The first letter is one of digit from 2 to 9. The remain two letter could be any number between 0 to 9.
+([0-9]{3}) - It must be 3 letters. Each letter could be any number from 0 to 9.
+([0-9]{4}) - It must be 4 letters. Each letter could be any number from 0 to 9.
+
+
+
+### Problem 17.4
+
+1. How long will the strings be that match the pattern?
+2 characters length will match the patter. For example: AL
+
+2. How many different strings will match?
+50?
+
+3. People living in the United States may be able to figure out what the pattern is meant to express. Give it a try.
+It looks the abbreviation of States.
+
+### Problem 17.5
+```{r}
+BibleNames <- readr::read_csv("https://mdbeckman.github.io/dcSupplement/data/BibleNames.csv")
+BibleNames %>% filter(grepl("bar|dam|lory", name, ignore.case = TRUE))
+BibleNames %>% filter(grepl("(bar|dam|lory)$", name, ignore.case = TRUE))
+
+```
+
+1. There are 32 names contains bar, dam and lory.
+2. There are 6 names end with these words
+
+### Problem 17.7
+```{r}
+BabyWithBibleName <- BabyNames %>% group_by(name) %>% summarise(total=sum(count)) %>% inner_join(BibleNames) %>% arrange(desc(total)) 
+BabyWithBibleName %>% head(10)
+```
+
+The ten most poupular name related with Bible name are:
+James, John, Mary, David, Joseph, Thomas, Daniel, Paul, Mark, Andrew.
+

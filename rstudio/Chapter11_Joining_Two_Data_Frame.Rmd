@@ -1,0 +1,19 @@
+---
+title: "Chapter11_Joining_Two_Data_Frame"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dcData)
+```
+
+
+Problem 11.2
+
+1. They has different rows
+2. The order is different
+
+Problem 11.3
+1. 
+State_age_pop <- ZipDemography %>% mutate(X5to18=(Totalpopulation-Under5years-X18yearsandover),X18to65=(X18yearsandover-X65yearsandover)) %>% select(ZIP, Under5years, X5to18, X18to65, X65yearsandover) %>% left_join(ZipGeography %>% select(State, ZIP)) %>% group_by(State) %>% summarise(Under5years=sum(Under5years, na.rm = TRUE),X5to18=sum(X5to18, na.rm = TRUE),X18to65=sum(X18to65, na.rm = TRUE),X65yearsandover=sum(X65yearsandover, na.rm = TRUE)) %>% View()

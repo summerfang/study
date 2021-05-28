@@ -1,0 +1,150 @@
+---
+title: "Chapter 1 Tidy Data"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dcData)
+```
+
+# Markdown syntax
+|Element|Markdown syntax|
+|---|---|
+|Heading|# H1 <br> ## H2 <br> ### H3<br>#### H4<br>##### H5<br>###### H6| 
+|Bold|**Bold**|
+|Italic|*Itatic*|
+|Bold and Italic|***Italic***|
+
+# List
+blockquote
+
+This is story of stone[^1]. It comes from another story[^stone]
+
+
+> This is a blockquote
+
+
+## Family members
+1. John
+    1. Male
+    2. 50
+2. Mary
+    * Female
+    * 48
+3. Jane
+    - Female
+    - 20
+4. Ben
+    + Male
+    + 15
+    + Additional infomration
+    
+        He is one of the most smart person in the world
+        
+            <html>
+                <head>
+                </head>
+            </html>
+
+## Table
+|name|sex|age|
+|---|:---:|---|
+|John|Male|47|
+|Mary|Female|48|
+|Jane|Female|21|
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+
+## Link
+
+[This is sina.com](https://www.sina.com.cn "This is a china new website")
+
+## Image
+
+I want to share a photo.
+
+[![niu](https://earthsky.org/upl/2020/01/chinese-lunar-new-year-2021-ox--e1611921186479.png "This is a ox photo")](https://www.baidu.com)
+
+
+[![An old rock in the desert](https://www.markdownguide.org/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.google.com)
+
+# Extended Syntax
+
+The project will be released on ~~March 12th~~ March 20th
+
+The completed features incldues:
+
+- [x] Order 
+- [x] Payment
+- [ ] Rebate
+
+Please enjoy the success! :joy: 
+
+```json
+{
+  "firstname":"Summer",
+  "lastname":"Fang"
+}
+```
+
+[^1]: This is an another one
+[^stone]: This is another story.
+    What is a note!
+    ```
+        <html>
+        </html>
+    ```
+    
+    
+## CSS
+
+### Test {#test-id}
+
+This is a test
+
+Gone camping! :tent: Be back soon.
+
+That is so funny! :joy:
+
+😀
+
+## The answer of Chapter 1
+
+#### Problem 1.1
+a) Taffy    
+    3
+b) year     
+    2
+c) sex     
+    1
+d) name    
+    1
+e) count    
+    2
+
+1. It’s a categorical variable.
+2. It’s a quantitative variable.
+3. It’s the value of a variable for a particular case.
+
+#### Problem 1.2
+Every column is the virable contains the same type of value of each case. So the column of number of states is not tidy.
+
+Rewrite:
+
+|president|start in office|leave office|number of states|
+|--|--|--|--|
+|Lincoln,Abraham|1861|1865|49|
+|George Washington|1791|1799|16|
+
+#### Problem 1.3
+
+#### Problem 1.4
+
+#### Problem 1.5
+
+

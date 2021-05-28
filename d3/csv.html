@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Commas seperated values (CSV)</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+</head>
+<body>
+
+<script>
+    d3.csv("test.csv")
+        .then(function(data){
+            console.log(data)
+            // The argument data return an array. The element in array is an dictionary. The column name would be the key and data is the value in the diectionary.
+        })
+        .catch(function(error){
+
+        })
+</script>
+</body>
+</html>
+

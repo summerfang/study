@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study d3 - x and y axis</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+<script>
+    var width = 640
+    var height = 480
+    var margin = 60
+
+    var svg = d3.select("body").append("svg")
+                    .attr("width", width)
+                    .attr("height", height)
+
+    svg.append("rect")
+        .attr("x",0)
+        .attr("y",0)
+        .attr("width", width)
+        .attr("height", height)
+        .attr("stroke", "steelblue")
+        .attr("stroke-width", 1.5)
+        .attr("fill", "none")
+
+    xData = [0,1,2,3,4,5]
+
+    xScale = d3.scaleLinear().domain(d3.extent(xData)).range([margin, width - margin])
+    x_axis = d3.axisBottom().scale(xScale)
+
+    svg.append("g")
+        .attr("transform", "translate(0," + (height - margin) + ")")
+        .call(x_axis)
+
+    yData = [0,10,20,30,40,50]
+
+    yScale = d3.scaleLinear().domain(d3.extent(yData)).range([height - margin, margin])
+
+    y_axis = d3.axisLeft().scale(yScale)
+
+    svg.append("g")
+        .attr("transform","translate(" + margin + ",0)")
+        .call(y_axis)
+</script>
+</body>
+</html>

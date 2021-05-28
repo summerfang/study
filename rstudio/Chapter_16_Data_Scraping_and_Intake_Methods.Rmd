@@ -1,0 +1,95 @@
+---
+title: "Chapter 16 Data Scraping and Intake Methods"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(data.table)
+library(rvest)
+```
+
+
+```{r}
+web_url <- "https://mdbeckman.github.io/dcSupplement/data/houses-for-sale.csv"
+MyDataTable <- read_csv(web_url)
+MyDataTable %>% select(price, bedrooms, bathrooms, fuel, air_cond, construction)
+
+```
+
+```{r}
+file_name <- file.choose()
+MyDataTable2 <- fread(file_name) %>% as.data.frame()
+
+```
+
+```{r}
+web_page <- "https://en.wikipedia.org/wiki/Mile_run_world_record_progression"
+SetOfTables <- web_page %>% read_html() %>% html_nodes(css="table") %>% html_table(fill=TRUE)
+Table1 <- SetOfTables[[0]]
+```
+
+
+### Problem 16.1
+```{r}
+lubridate::mdy("April 30, 1777")
+lubridate::mdy("06-23-1912")
+lubridate::dmy("3 March 1847")
+lubridate::mdy_hm("Nov. 11th, 1918 at 11:00 am")
+lubridate::mdy("July 20, 1969")
+```
+
+
+### Problem 16.2
+
+1. "42,659.30" 
+* as.numeric() can't convert the string to a numeric value
+* readr::parse_number() can convert the string to a numeric value
+
+2. "17%"
+* as.numeric() can't convert the string to a numeric value
+* readr::parse_number() can convert the string to a numeric value but the answer is wrong (17, the correct answer should be 0.17)
+
+3. "Nineteen"
+* Both can't convert the string to a numeric value
+
+4. "£100"
+* as.numeric() can't convert the string to a numeric value
+* readr::parse_number() can convert the string to a numeric value
+
+5. "9.8 m/seconds-square"
+* as.numeric() can't convert the string to a numeric value
+* readr::parse_number() can convert the string to a numeric value
+
+6. "9.8 m/s^2"
+* as.numeric() can't convert the string to a numeric value
+* readr::parse_number() can convert the string to a numeric value
+
+7. "6.62606957 × 10^-34 m2 kg / s"
+* as.numeric() can't convert the string to a numeric value
+* readr::parse_number() can convert the string to a numeric value but the answer is wrong (6.62607, the correct answer should be 6.62607e-34)
+
+
+8. "6.62606957e-34"
+* Both can convert the string to a numeric value
+
+9. "42.659,30" (A European style)
+* as.numeric() can't convert the string to a numeric value
+* readr::parse_number() can convert the string to a numeric value
+
+### Problem 16.3
+
+
+```{r}
+library(rvest)
+library(lubridate)
+
+web_page <- "http://en.wikipedia.org/wiki/Mile_run_world_record_progression"
+SetOfTables <- web_page %>% read_html() %>% html_nodes(css = "table") %>% html_table(fill = TRUE)
+Table4 <- SetOfTables[[4]]
+Record_table4 <- Table4 %>% mutate(time_sec=as.duration(ms(Time)), Date_happen= dmy(gsub("\\[.\\]$", "", Date)))
+                                   
+Record_table4 %>% ggplot(aes(x=Date_happen, y=time_sec)) + geom_point() + geom_text(aes(label=Athlete))
+```
+
+

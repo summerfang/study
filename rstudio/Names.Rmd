@@ -1,0 +1,21 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+#### Step 1
+
+```{r}
+library(dcData)
+
+names(BabyNames)
+```
+
+#### Step 2
+
+#### Step 3
+Sex
+
+Name, Year, Count
+
+#### Step 4

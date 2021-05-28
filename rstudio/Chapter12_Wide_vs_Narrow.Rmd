@@ -1,0 +1,33 @@
+---
+title: "Chapter 12 Wide vs Narrow"
+output: html_notebook
+---
+
+```{r}
+library(dcData)
+```
+
+Problem 12.1
+```{r}
+BothSexes <- BabyNames %>% pivot_wider(names_from = sex, values_from = count) %>% filter(M>5|F>5)
+```
+
+1. Sex should replace ???
+2. See the result of below R chunk
+
+```{r}
+BothSexes %>% mutate(gender_balance=abs(log(F/M))) %>% arrange(gender_balance) %>% head(10)
+```
+
+3. See the result of the below R chunk
+```{r}
+BothSexes %>% mutate(gender_balance=abs(log(F/M))) %>% filter(F>100 & M>100) %>% arrange(gender_balance) %>% head(10)
+```
+
+4.
+
+5. 
+
+
+Problem 12.2
+

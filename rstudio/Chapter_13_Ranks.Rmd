@@ -1,0 +1,70 @@
+---
+title: "Chapter 13 Ranks"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dcData)
+
+```
+
+
+### Problem 13.1
+```{r}
+BabyNames %>% group_by(name, sex) %>% summarise(the_total=sum(count)) %>% group_by(sex) %>% filter(rank(desc(the_total))<=5) %>% arrange(sex, desc(the_total))
+```
+
+If you want to find the least popular names, using ascending order and make rank(the_total) <= 5 will not return any result. It is because there are too many name are least popular. Their rank result will but more than 5. So it return nothing by:
+
+```{r}
+BabyNames %>% group_by(name, sex) %>% summarise(the_total=sum(count)) %>% group_by(sex) %>% filter(rank(the_total)<=5)
+```
+
+You could refer the row_number
+```{r}
+BabyNames %>% group_by(name, sex) %>% summarise(the_total=sum(count)) %>% group_by(sex) %>% mutate(the_rank=rank(the_total),the_order=row_number(the_total)) %>% arrange(the_order) %>% view()
+```
+
+
+### Problem 13.2
+Draw top 100 is messing. Intead of it, I draw top 5. Even top 5, there are more than 5.
+
+```{r}
+# This step is a bit slow. it returns top 100 names in each years
+
+BabyNames_Top5_in_years <- BabyNames %>% group_by(name, year) %>% summarise(the_total=sum(count)) %>% group_by(year) %>% filter(rank(desc(the_total))<=5)
+
+# Each year's baby numbers
+Babies_in_years<-BabyNames %>% group_by(year) %>% summarise(total_in_years=sum(count))
+
+# Top 100 baby names' fraction
+Baby_top5_fraction_in_years <-BabyNames_Top100_in_years %>% left_join(Babies_in_years) %>% mutate(fraction_top100=the_total/total_in_years)
+
+# Plot
+
+Baby_top5_fraction_in_years %>% ggplot(aes(x=year, y=fraction_top100)) + geom_line(aes(color=name)) + ylab("Percentage") + labs(title = "Percentage vs year")
+```
+
+I just don't use pivot_wider at all. Not sure why?
+
+
+### Problem 13.3
+
+
+```{r}
+# Return baby name once in top 50 popular names.
+BabyNames_in_years <- BabyNames %>% group_by(name, year) %>% summarise(the_total=sum(count))
+BabyName_top50_once <- BabyNames_in_years %>% group_by(year) %>% filter(rank(desc(the_total))<=50) %>% group_by(name) %>% distinct(name)
+
+
+# Return baby name once in least popular name rank above 1000
+BabyNames_least1000 <- BabyNames_in_years %>% group_by(year) %>% filter(rank(desc(the_total)) >1000) %>% group_by(name) %>% distinct(name)
+
+
+# Return the share part with inner_join
+BabyName_top50_once %>% inner_join(BabyNames_least1000)
+
+```
+
+There are 188 names meet the creteria.

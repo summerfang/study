@@ -1,0 +1,94 @@
+---
+title: "Chapter 10 More Data Verbs"
+output: html_notebook
+---
+
+##### Problem 10.1: Identify each of these functions as either a Data Verb, a Transformation, a Reduction Function, or a Summary Function. (Hint: If you are unfamiliar with the function, use help().)
+
+* str(): Summary function
+* group_by(): Data verbs
+* rank(): Transformation
+* mean(): Reduction Function
+* filter(): Data verbs
+* summary(): Summary function
+* summarise(): Data verbs
+* glimpse(): Summary function
+
+
+##### Problem 10.2: Each of these tasks can be performed using a single data verb. For each task, say which verb it is:
+
+1. Add a new column that is the ratio between two variables.
+mutate
+
+2. Sort the cases in descending order of a variable.
+arrange
+
+3. Create a new data table that includes only those cases that meet a criterion.
+filter
+
+4. From a data table with three categorical variables A, B, & C, and a quantitative variable X, produce an output that has the same cases but only the variables A and X.
+select
+
+5. From a data table with three categorical variables A, B, & C, and a quantitative variable X, produce an output that has a separate case for each of the combinations of the levels of A and B. (Hints: This requires two different data verbs. It might be easier to see the answer if the problem statement added, “and gives the maximum value of X over all the cases that have a given combination of A and B.”)
+
+group_by and filter
+
+##### Problem 10.3: For each of these computations, say what R function is the most appropriate:
+
+1. Count the number of cases in a data table.
+summarise(total=n()) or count()
+
+2. List the names of the variables in a data table.
+names()
+
+3. For data tables in an R package, display the documentation (“codebook”) for the data table.
+help()
+
+4. Load a package into your R session.
+library()
+
+5. Mark a data table as grouped by one or more categorical variables.
+group_BY()
+
+##### Problem 10.4
+1. BabyNames %>% group_by(sex) %>% arrange(count)
+2. BabyNames %>% filter(sex=="F")
+3. BabyNames %>% filter(sex=="M")
+4. BabyNames %>% summarise(total=sum(count))
+5. BabyNames %>% select(name, count)
+
+##### Problem 10.5
+1. Filter cases which virable first is equals second and first is not undervote
+```{r}
+Minneapolis2013 %>% filter(First == Second & First != "undervote") %>% head()
+```
+
+2. Filter cases which virable first is equals second and first is not "undervote". Group the result by first and summarize group by count cases and arrange the result by total count in descend order and only return top 3.
+```{r}
+Minneapolis2013 %>% filter(First == Second & First != "undervote") %>% group_by(First) %>% summarise(total=n()) %>% arrange(desc(total)) %>% top_n(3)
+```
+
+3. Using filter to get the cases which First vote is "OLE SAVIOR" and Second is not "undervote". Then group by second and summarize the count and arrange by total in descend order. Only return top 3 cases.
+```{r}
+Minneapolis2013 %>% filter(First == "OLE SAVIOR" & Second != "undervote") %>% group_by(Second) %>% summarise(total=n()) %>% arrange(desc(total)) %>% top_n(3)
+```
+
+
+##### Problem 10.6 
+1. Color J
+```{r}
+diamonds %>% group_by(color) %>% summarise(avg_weigh=mean(carat)) %>% arrange(desc(avg_weigh)) %>% head(1)
+```
+
+2. VVS1 has the largest average "table" per carat.
+```{r}
+diamonds %>% mutate(table_per_carat=table/carat) %>% group_by(clarity) %>% summarise(avg_tpc=mean(table_per_carat)) %>% arrange(desc(avg_tpc)) %>% head(1)
+```
+
+##### Problem 10.7
+Candiate <- Minneapolis2013 %>% group_by(First) %>% summarise(Total=n()) %>% rename(Candidate=First)
+Candiate2 <- Minneapolis2013 %>% group_by(Second) %>% summarise(Total=n()) %>% rename(Candidate=Second)
+Candiate3 <- Minneapolis2013 %>% group_by(Third) %>% summarise(Total=n()) %>% rename(Candidate=Third)
+Minor<-Candiate %>% bind_rows(Candiate2) %>% bind_rows(Candiate3) %>% group_by(Candidate) %>% summarise(Total=sum(Total)) %>% filter(Total<=5000)
+minor_v=unname(unlist(Minor[,1]))
+Minneapolis2013 %>% mutate(First=ifelse(First %in% minor_v, "minor", First),Second=ifelse(Second %in% minor_v, "minor", Second),Third=ifelse(Third %in% minor_v, "minor", Third))

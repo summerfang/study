@@ -1,0 +1,70 @@
+---
+title: "Chapter 15 Statistics"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(mosaicData)
+```
+
+
+### Problem 15.1
+```{r}
+CPS85 %>% ggplot(aes(x=sex, y=wage)) + geom_boxplot(aes(fill=sex))
+```
+
+
+### Problem 15.2
+
+1. 
+```{r}
+library(dcData)
+NCHS %>% ggplot(aes(x=height)) + geom_density(fill="grey", color="grey", alpha=0.5)
+```
+
+The answer: it is about 1.7 meter
+
+
+2. 
+```{r}
+NCHS %>% ggplot(aes(x=height)) + geom_density(aes(fill=sex, color=sex), alpha=0.5) + theme(legend.position = "top")
+```
+
+Anwser: The most likely height for women is 1.61 meter and for men is 1.70 meter
+
+
+3. 
+```{r}
+NCHS %>% ggplot(aes(x=age,y=bmi, z=)) + geom_density(bins=10)
+```
+
+Answer: TBD
+
+
+### Problem 15.3
+
+```{r}
+CPS85 %>% ggplot(aes(x=educ,y=wage)) + geom_point(aes(color=sex)) + geom_smooth(aes(color=sex))
+```
+
+
+
+### Problem 15.4
+```{r}
+library(mosaicData)
+Galton %>% ggplot(aes(height, mother)) + geom_density_2d() + facet_wrap(~sex)
+```
+
+
+### Problem 15.5
+
+TBD
+
+### Problem 15.6
+
+TBD
+
+### Problem 15.7
+
+TBD

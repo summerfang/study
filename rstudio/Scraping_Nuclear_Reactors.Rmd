@@ -1,0 +1,99 @@
+---
+title: "Scraping Nuclear Reactors"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(dcData)
+library(rvest)
+
+```
+
+```{r}
+page <- "http://en.wikipedia.org/wiki/List_of_nuclear_reactors"
+tableList <- page %>%
+  read_html() %>%
+  html_nodes(css = "table") %>%
+  html_table(fill = TRUE)
+```
+
+### Question 1
+
+1. tableList[[22] will return the data of Japan
+2. It is not tidy data. Its first line has different type data with other row.
+
+
+### Question 2
+```{r}
+Japan <- tableList[[22]]
+names(Japan)[c(3,7)] <- c("type", "grossMW")
+
+Japan <-
+  Japan %>%
+  filter(row_number() > 1) %>%
+  rename(name = Name, 
+         reactor = `UnitNo.`,
+         model = Reactor,
+         status = Status, 
+         netMW = `Capacity in MW`,
+         construction = `Construction start`,
+         operation = `Commercial operation`, 
+         closure = Closure)
+Japan<-Japan %>% mutate(netMW=as.integer(netMW), grossMW=as.integer(grossMW), construction=dmy(construction), operation=dmy(operation), closure=dmy(closure))
+Japan %>% ggplot(aes(x=construction, y=netMW, group=type)) + geom_point(aes(shape=type, color=type))
+```
+
+It shows:
+1. The later build time's capacity is larger
+2. BWR type of reactor become more in later date
+
+
+### Question 3
+```{r}
+China <- tableList[[10]]
+names(China)[c(3,7)] <- c("type", "grossMW")
+
+China <-
+  China %>%
+  filter(row_number() > 1) %>%
+  rename(name = Name, 
+         reactor = `UnitNo.`,
+         model = Reactor,
+         status = Status, 
+         netMW = `Capacity in MW`,
+         construction = `Construction start`,
+         operation = `Commercial operation`, 
+         closure = Closure)
+
+Japan<-Japan %>% mutate(coutry="Japan")
+China<-China %>% mutate(coutry="China")
+China <- rbind(China, Japan)
+```
+
+
+### Question 4
+
+```{r}
+Japan <- tableList[[22]]
+names(Japan)[c(3,7)] <- c("type", "grossMW")
+
+Japan <-
+  Japan %>%
+  filter(row_number() > 1) %>%
+  rename(name = Name, 
+         reactor = `UnitNo.`,
+         model = Reactor,
+         status = Status, 
+         netMW = `Capacity in MW`,
+         construction = `Construction start`,
+         operation = `Commercial operation`, 
+         closure = Closure)
+Japan<-Japan %>% mutate(netMW=as.integer(netMW), grossMW=as.integer(grossMW), construction=dmy(construction), operation=dmy(operation), closure=dmy(closure))
+
+Japan %>%mutate(reactorID=paste(name," ", reactor)) %>% ggplot(aes(x=operation, y=reactorID))  + geom_point(aes(shape=status, color="black",alpha=0))+ geom_segment(aes(x=construction, xend=operation,y=reactorID,yend=reactorID, color=type, size=2))
+
+
+```
+
+
