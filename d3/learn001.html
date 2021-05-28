@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <table>
+        <tr style="background-color:white">
+            <td colspan="2" style="text-align: center;"><h1>People Vaccinated (x 100000) (Linear vs. Log Scale)</h1></td>
+        </tr>
+        <tr style="background-color:white">
+            <td><div id="final"></div></td><td><div id="input"></div></td>
+        </tr>
+        <tr style="background-color:white">
+            <td colspan="2"><div id="legend"></div></td>
+        </tr>
+    </table>
+<script>
+    d3.csv('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/us_state_vaccinations.csv')
+    .then(function(data) {
+        d3.select("div#final").selectAll("*").remove()
+        
+        const width = 700
+        const height = 400
+        const margin = 60 
+        data = data.filter(d=> (d.location != "United States") && (d.total_vaccinations != ""))
+        const dataParse = d3.timeParse("%Y-%m-%d") // creates the date object
+        const dataFormat = d3.timeFormat("%Y-%m-%d") // creates a string from the date object
+        data = data.map(d=> ({date:dataParse(d.date),vaccinated:+d.people_vaccinated,location:d.location}))
+        rollup = d3.rollup(data, v => d3.mean(v, d => d.vaccinated), k => k.location)
+        var unroll = []
+        for (let [key, value] of rollup) {
+            unroll.push({"location":key,"avg":value})
+        } 
+        const lastDate = data.sort((a, b) => b.date - a.date)[0].date
+        data = data.filter(d=> dataFormat(d.date) == dataFormat(lastDate) )
+
+        data = data.filter(d=> d.vaccinated != 0 )
+        // Sorting by vaccinated and using a linear scale
+        data = data.sort((a, b) => b.vaccinated - a.vaccinated)
+
+        const xScale = d3.scaleLinear().range([margin , width - margin]).domain(d3.extent(data, (d,i) => i))
+        const yScale = d3.scaleLinear().range([height-margin , margin]).domain(d3.extent(data, (d,i) => d.vaccinated))
+        const color = d3.scaleLinear().range([0,1]).domain(d3.extent(unroll, (d,i) => d.avg))
+        const palette = d3.interpolateOranges
+        
+        const svg = d3.select("div#final").append("svg")
+            .attr("width", width)
+            .attr("height", height)
+        
+        svg.append("rect")
+            .attr("x",0)
+            .attr("y",0)
+            .attr("width",width)
+            .attr("height",height)
+            .attr("stroke","steelblue")
+            .attr("fill","none")
+            .attr("stroke-width",1.5)
+
+        const xAxis = d3.axisBottom().scale(xScale)
+        
+        svg.append("g")
+            .attr("class", "axis")
+            .attr("transform", "translate(0," + (height-margin) + ")")
+            .call(xAxis) 
+        
+        svg.append("text")
+            .attr("x", width/2)
+            .attr("y", height-5)
+            .style("text-anchor", "middle")
+            .text("Index ordered by vaccinated")
+        
+        const yAxis = d3.axisLeft().scale(yScale).tickFormat((d,i) => d/100000 )
+        
+        svg.append("g")
+            .attr("class", "yAxis")
+            .attr("transform", "translate(" + margin + ",0)")
+            .call(yAxis)  
+        
+        svg.append("text")
+            .attr("transform", "rotate(-90,15,"+(height/2)+")")
+            .attr("x", 15)
+            .attr("y", height/2)
+            .style("text-anchor", "middle")
+            .text("People Vaccinated (x 100000)") 
+        
+        svg.append("line")
+            .attr("")
+        
+        svg.selectAll("circle")
+            .data(data)
+            .join("circle")
+            .attr("cx", (d,i)=> xScale(i))
+            .attr("cy", (d,i)=> yScale(d.vaccinated))
+            .attr("r", 5)
+            .style("stroke","black")
+            .style("fill", (d,i)=> palette(color(rollup.get(d.location))))
+            .append("title")
+            .text(d=> "Location: "+d.location+" Vaccinated: "+d.vaccinated)
+    })
+    .catch(function(error){
+    
+    })
+</script>    
+<script>
+
+    d3.csv('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/us_state_vaccinations.csv')
+        .then(function(data) {
+            d3.select("div#legend").selectAll("*").remove()
+            const width = 800
+            const height = 100
+            const margin = 60 
+            data = data.filter(d=> (d.location != "United States") && (d.total_vaccinations != ""))
+            const dataParse = d3.timeParse("%Y-%m-%d") // creates the date object
+            const dataFormat = d3.timeFormat("%Y-%m-%d") // creates a string from the date object
+            data = data.map(d=> ({date:dataParse(d.date),vaccinated:+d.people_vaccinated,location:d.location}))
+
+            const lastDate = data.sort((a, b) => b.date - a.date)[0].date
+            data = data.filter(d=> dataFormat(d.date) == dataFormat(lastDate) )
+            data = data.filter(d=> d.vaccinated != 0 )
+
+            data = data.sort((a, b) => b.vaccinated - a.vaccinated)
+            // const palette = d3.interpolateOranges
+            const palette = d3.interpolateRainbow
+
+            const scaling = d3.scaleLinear().range([margin,width-margin]).domain(d3.extent(data, (d,i) => d.vaccinated))
+            
+            const svg = d3.select("div#legend").append("svg")
+                .attr("width", width)
+                .attr("height", height)
+            
+            
+            const xAxis = d3.axisBottom().scale(scaling)
+            
+            svg.append("g")
+                .attr("class", "axis")
+                .attr("transform", "translate(0," + (height-margin) + ")")
+                .call(xAxis) 
+
+            svg.append("text")
+                .attr("x", width/2)
+                .attr("y", height-5)
+                .style("text-anchor", "middle")
+                .text("Vaccinated (Log Scale)")
+                 
+            
+            const num = 20
+            const values = d3.range(1,num)
+            
+            const coloring = d3.scaleLinear().range([0,1]).domain(d3.extent(values))
+            var defs = svg.append("defs")
+            var linearGradient = defs.append("linearGradient")
+                .attr("id", "linear-gradient") 
+
+            linearGradient.selectAll("stop").data(values).join("stop")
+                .attr("offset", d=> d/num)
+                .attr("stop-color", d=>palette(coloring(d)) )
+            svg.append("rect")
+                .attr("class","legend")
+                .attr("x", margin)
+                .attr("y", (height-margin)-50)
+                .attr("width", (width-margin)-(margin))
+                .attr("height", 50)
+                .style("fill", "url(#linear-gradient)")
+
+            
+        })
+        .catch(function(error){
+            console.log(error)
+        })
+
+</script>
+<script>
+    d3.select("div#input").selectAll("*").remove()
+    d3.select("div#input").append("input")
+        .attr("id","linear")
+        .attr("type","radio")
+        .attr("name","switch")
+        .attr("value","linear")
+        .attr("checked","true")
+        .on("click", (event, d) => { switchGraph(event.currentTarget.value); })
+    d3.select("div#input").append("label")
+        .attr("for","switch")
+        .text("Linear Scaling")
+    d3.select("div#input").append("br")
+    d3.select("div#input").append("input")
+        .attr("id","log")
+        .attr("type","radio")
+        .attr("name","switch")
+        .attr("value","log")
+        .on("click", (event, d) => { switchGraph(event.currentTarget.value); })
+    d3.select("div#input").append("label")
+        .attr("for","switch")
+        .text("Log Scaling")
+
+
+
+    function switchGraph(x){
+        d3.csv('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/us_state_vaccinations.csv')
+            .then(function(data) {
+        const height = 400
+        const margin = 60 
+        const width = 800
+        data = data.filter(d=> (d.location != "United States") && (d.total_vaccinations != ""))
+        const dataParse = d3.timeParse("%Y-%m-%d") // creates the date object
+        const dataFormat = d3.timeFormat("%Y-%m-%d") // creates a string from the date object
+        data = data.map(d=> ({date:dataParse(d.date),vaccinated:+d.people_vaccinated,location:d.location}))
+        const lastDate = data.sort((a, b) => b.date - a.date)[0].date
+        data = data.filter(d=> dataFormat(d.date) == dataFormat(lastDate) )
+        data = data.filter(d=> d.vaccinated != 0 )
+
+        rollup = d3.rollup(data, v => d3.mean(v, d => d.vaccinated), k => k.location)
+        var unroll = []
+        for (let [key, value] of rollup) {
+            unroll.push({"location":key,"avg":value})
+        } 
+        // Sorting by vaccinated and using a linear scale
+        data = data.sort((a, b) => b.vaccinated - a.vaccinated)
+        const yLinear = d3.scaleLinear().range([height-margin , margin]).domain(d3.extent(data, (d,i) => d.vaccinated))
+        const yLog = d3.scaleLog().range([height-margin , margin]).domain(d3.extent(data, (d,i) => d.vaccinated))
+        const colorLinear = d3.scaleLinear().range([0,1]).domain(d3.extent(unroll, (d,i) => d.avg))
+        const colorLog = d3.scaleLog().range([0,1]).domain(d3.extent(unroll, (d,i) => d.avg))
+        const palette = d3.interpolateOranges
+        if (x=="linear") {
+
+            d3.selectAll("circle")
+                .transition("circle")
+                .delay((d,i)=> i*20)
+                .duration(2000)
+                .attr("cy", (d,i)=> yLinear(d.vaccinated))
+                .style("fill", (d,i)=> palette(colorLinear(rollup.get(d.location))))
+            const yAxis = d3.axisLeft().scale(yLinear).tickFormat((d,i) => d/100000 )
+
+            d3.select(".yAxis")
+                .transition("axis")
+                .duration(1000)
+                .call(yAxis)  
+
+            const scaling = d3.scaleLinear().range([margin,width-margin]).domain(d3.extent(data, (d,i) => d.vaccinated))
+            const xAxis = d3.axisBottom().scale(scaling)
+            d3.select("div#legend").select(".axis")
+                .transition("axis")
+                .duration(1000)
+                .call(xAxis) 
+            }
+        else {
+            d3.selectAll("circle")
+                .transition("circle")
+                .delay((d,i)=> i*20)
+                .duration(2000)
+                .style("fill", (d,i)=> palette(colorLog(rollup.get(d.location))))
+                .attr("cy", (d,i)=> yLog(d.vaccinated))
+            const yAxis = d3.axisLeft().scale(yLog).tickFormat((d,i) => d/100000 )
+
+            d3.select(".yAxis")
+                .transition("axis")
+                .duration(1000)
+                .call(yAxis) 
+
+            const scaling = d3.scaleLog().range([margin,width-margin]).domain(d3.extent(data, (d,i) => d.vaccinated))
+            const xAxis = d3.axisBottom().scale(scaling)
+            d3.select("div#legend").select(".axis")
+                .transition("axis-legend")
+                .duration(1000)
+                .call(xAxis) 
+            }
+        })
+    }
+</script>
+</body>
+</html>
