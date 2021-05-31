@@ -12,3 +12,5 @@ print(df2)
 f = lambda x : int(x) + 1
 df3 = pd.read_csv("test.csv", converters={"training_hours":f}, nrows=10)
 print(df3)
+
+df3.filter([])
