@@ -1,0 +1,17 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+name <- 'Summer Fang Ann Lee Smith Johnson'
+pattern <- 'n'
+
+print(paste("grep(pattern, name, value = TRUE) = ", grep(pattern, name, value = TRUE)))
+print(paste("grep(pattern, name) = ", grep(pattern, name)))
+print(paste("grepl(pattern, name) = ", grep(pattern, name)))
+print(paste("strsplit(name, pattern) = ", strsplit(name, pattern)))
+print(paste("gsub(pattern, '<Found>', name) = ", gsub(pattern, '<Found>', name)))
+
+```
+

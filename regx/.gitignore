@@ -1,0 +1,5 @@
+*.dSYM
+*.class
+*.html
+.vscode/*
+cplusplus_regx
