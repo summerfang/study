@@ -9,6 +9,10 @@ library(tidyverse)
 
 ```{r}
 df <- read_csv("cereal.csv")
+df %>% group_by(mfr) %>% summarise(avg=mean(calories), min=min(calories), max=max(calories), mean=mean(calories), median=median(calories))
+```
+
+```{r}
 df4draw <- df %>% group_by(mfr) %>% summarise(avg=mean(calories), min=min(calories), max=max(calories), mean=mean(calories), median=median(calories)) %>% pivot_longer(cols = c(avg,min,max,mean,median), names_to = "what", values_to = "value")
 df4draw
 
@@ -22,5 +26,13 @@ df4draw %>% ggplot(aes(x=mfr, y=value,fill=what)) + geom_bar(stat = "identity", 
 
 ```{r}
 df4draw %>% ggplot(aes(x=mfr, y=value,fill=what)) + geom_bar(stat = "identity")
+```
+
+```{r}
+df %>% ggplot(aes(x=mfr, y=calories)) + geom_boxplot()
+```
+```{r}
+df %>% ggplot(aes(x=mfr, y=calories)) + geom_violin()
+
 ```
 
