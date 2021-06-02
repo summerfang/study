@@ -1,0 +1,26 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+df <- read_csv("cereal.csv")
+df4draw <- df %>% group_by(mfr) %>% summarise(avg=mean(calories), min=min(calories), max=max(calories), mean=mean(calories), median=median(calories)) %>% pivot_longer(cols = c(avg,min,max,mean,median), names_to = "what", values_to = "value")
+df4draw
+
+
+```
+
+
+```{r}
+df4draw %>% ggplot(aes(x=mfr, y=value,fill=what)) + geom_bar(stat = "identity", position = "dodge")
+```
+
+```{r}
+df4draw %>% ggplot(aes(x=mfr, y=value,fill=what)) + geom_bar(stat = "identity")
+```
+
