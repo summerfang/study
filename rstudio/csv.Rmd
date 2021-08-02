@@ -18,6 +18,16 @@ aug_test <- read_csv("aug_test.csv")
 head(aug_test)
 ```
 ```{r}
-aug_test1 <- read_csv("aug_test.csv", use_cols=)
+aug_test %>% group_by(gender) %>% summarise(total = n()) %>% ggplot(aes(x=gender, y=total)) + geom_bar(stat = "identity")
+```
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
 ```
 

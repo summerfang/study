@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+
+        #editor-container {
+            border: 1px solid #cccccc;
+            display: inline-block;
+        }
+        
+        #editor-menu {
+            padding: 10px;
+        }
+        
+        #editor-menu button {
+            font-size: 12px;
+            font-family: inherit;
+            border: 1px solid #777777;
+            background-color: white;
+            padding: 5px;
+            margin: 0 10px 0 0;
+        }
+        
+        .highight-menu {
+            background-color: #777777 !important;
+            color: white !important;
+        }
+        
+        #editor-text {
+            width: 500px;
+            height: 300px;
+            border-top: 1px solid #cccccc;
+            outline: none;
+            padding: 5px;
+            overflow: auto;
+        }
+        
+        #editor-text img {
+            max-width: 250px;
+        }
+        
+        </style>    
+</head>
+<body>
+    <div id="editor-container">
+        <div id="editor-menu">
+            <button id="bold-button" title="Bold">Bold</button>
+            <button id="underline-button" title="Underline">Underline</button>
+            <button id="list-button" title="Bullet List">List</button>
+            <button id="image-button" title="Picture">Picture</button>
+        </div>
+        <div id="editor-text" contenteditable="true" spellcheck="false">
+            <hostname><blockquote><button>Summer Fang</button> </blockquote></hostname> want to invite you
+        </div>
+    </div>    
+</body>
+</html>
