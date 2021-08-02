@@ -1,0 +1,12 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+grepl("\\w+ \\w+", "Ann Lee")
+gsub("\\w+ \\w+", "x", "Ann Lee John Smith Allen Kuku")
+sub("\\w+ \\w+", "x", "Ann Lee John Smith Allen Kuku")
+strsplit("Ann Lee John Smith Allen Kuku", " ")
+```
+
