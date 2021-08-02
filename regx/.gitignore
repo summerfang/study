@@ -2,4 +2,9 @@
 *.class
 *.html
 .vscode/*
-cplusplus_regx
+.RData
+.Rhistory
+*.exe
+*.ilk
+*.obj
+*.pdb
