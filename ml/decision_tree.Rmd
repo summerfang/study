@@ -1,0 +1,19 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+install.packages('rpart')
+install.packages('caret')
+install.packages('rpart.plut')
+install.packages('rattle')
+```
+
+```{r}
+library(rpart, quietly = TRUE)
+library(caret, quietly = TRUE)
+library(rpart.plot, quietly = TRUE)
+library(rattle)
+```
+

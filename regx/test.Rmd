@@ -1,0 +1,38 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+library(ggplot2)
+library(dplyr)
+library(caret)
+library(randomForest)
+
+```
+
+```{r}
+all_data <- diamonds %>% mutate(cut=as.integer(cut), color=as.integer(color), clarity=as.integer(clarity))
+cutoff <- round(0.7*nrow(all_data))
+training_data <- all_data[1:cutoff,]
+test_data <- all_data[-(1:cutoff),]
+
+```
+
+```{r}
+rf <- randomForest(formula=price ~ ., data=training_data, ntree=100, maxnodes=15)
+pred_training <- predict(rf, newdata=training_data)
+pred_test <- predict(rf, newdata=test_data)
+
+```
+
+
+```{r}
+sqrt(mean((training_data$price - pred_training)^2))
+sqrt(mean((test_data$price - pred_test)^2))
+
+```
+
+```{r}
+rf %>% varImpPlot()
+```
+
