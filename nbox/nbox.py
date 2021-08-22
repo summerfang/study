@@ -51,9 +51,9 @@ def get_row_column_make_area_biggest(GW, GH, n, list_row_col, ratio):
 #     print(str(i) + ":")
 #     print(box_combination(i))
 
-GW = 108
-GH = 192
-n = 14
+GW = 64
+GH = 48
+n = 10
 ratio = 16/9 
 
 item = get_row_column_make_area_biggest(GW, GH, n, box_combination(n), ratio)
