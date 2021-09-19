@@ -1,0 +1,17 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(readxl)
+ageandheight = read_excel("Q1Data.xlsx", sheet = "Q1")
+lmHeightandAge = lm(height~age, data=ageandheight)
+summary(lmHeightandAge)
+```
+
+```{r}
+height_age_sbling = lm(height ~ age + no_siblings, data = ageandheight)
+summary(height_age_sbling)
+```
+
