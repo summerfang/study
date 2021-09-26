@@ -4,10 +4,14 @@ output: html_notebook
 ---
 
 ```{r}
-install.packages('rpart')
-install.packages('caret')
-install.packages('rpart.plut')
-install.packages('rattle')
+if (!"rpart" %in% installed.packages()[,"Package"])
+  install.packages('rpart')
+if (!"caret" %in% installed.packages()[,"Package"])
+  install.packages('caret')
+if (!"rpart.plot" %in% installed.packages()[,"Package"])
+  install.packages('rpart.plot')
+if (!"rattle" %in% installed.packages()[,"Package"])
+  install.packages('rattle')
 ```
 
 ```{r}
@@ -16,4 +20,7 @@ library(caret, quietly = TRUE)
 library(rpart.plot, quietly = TRUE)
 library(rattle)
 ```
+
+
+
 
