@@ -1,0 +1,2419 @@
+Paper 1: Breaking! A Typology of Security and Privacy News and How It’s Shared
+Sauvik Das (Georgia Institute of Technology),
+Joanne Lo, Laura Dabbish, Jason I. Hong (Carnegie Mellon University)
+Paper 2: Deep Thermal Imaging: Proximate Material Type Recognition in the Wild
+through Deep Learning of Spatial Surface Temperature Patterns
+Youngjun Cho, Nadia Bianchi-Berthouze, Nicolai Marquardt, Simon J. Julier
+(University College London)
+Paper 3: All Work and No Play? Conversations with a Question-and-Answer
+Chatbot in the Wild
+Q. Vera Liao (IBM T.J. Watson Research Center), Muhammed Mas-ud Hussain (Northwestern University),
+Praveen Chandar (Spotify Research), Matthew Davis, Yasaman Khazaeni, Marco Patricio Crasso, Dakuo Wang,
+Michael Muller, N. Sadat Shami, Werner Geyer (IBM Research)
+Paper 4: Designing the Desirable Smart Home:
+A Study of Household Experiences and Energy Consumption Impacts
+Rikke Hagensby Jensen (Aalborg University), Yolande Strengers (RMIT University),
+Jesper Kjeldskov (Aalborg University), Larissa Nicholls (RMIT University),
+Mikael B. Skov (Aalborg University)
+Paper 5: The Making of Performativity in Designing [with] Smart Material Composites
+Bahareh Barati, Elisa Giaccardi, Elvin Karana (Delft University of Technology)
+Paper 6: Patterns for How Users Overcome Obstacles in Voice User Interfaces
+Chelsea Myers, Anushay Furqan, Jessica Nebolsky, Karina Caro, Jichen Zhu (Drexel University)
+Paper 7: ThinkActive: Designing for Pseudonymous Activity Tracking in the Classroom
+Andrew Garbett, David Chatting, Gerard Wilkinson, Clement Lee, Ahmed Kharrufa (Newcastle University)
+Paper 8: Gender Recognition or Gender Reductionism? The Social Implications of Embedded
+Gender Recognition Systems
+Foad Hamidi, Morgan Klaus Scheuerman, Stacy M. Branham (University of Maryland, Baltimore County)
+Paper 9: CivilServant: Community-Led Experiments in Platform Governance
+J. Nathan Matias, Merry Mou (Massachusetts Institute of Technology)
+Paper 10: M-Kulinda: Using a Sensor-Based Technology Probe to Explore
+Domestic Security in Rural Kenya
+George “Hope” Chidziwisano, Susan Wyche (Michigan State University)
+Paper 11: Nonvisual Interaction Techniques at the Keyboard Surface
+Rushil Khurana, Duncan McIsaac, Elliot Lockerman (Carnegie Mellon University),
+Jennifer Mankoff (University of Washington)
+Paper 12: Admixed Portrait: Design to Understand Facebook Portrayals in New Parenthood
+Abigail C. Durrant, David S. Kirk, Diego Trujillo-Pisanty (Newcastle University),
+Sarah Martindale (University of Nottingham)
+Paper 13: MABLE: Mediating Young Children’s Smart Media Usage with Augmented Reality
+Gahgene Gweon, Bugeun Kim, Jinyoung Kim (Seoul National University),
+Kung Jin Lee (University of Washington - Seattle),
+Jungwook Rhim, Jueun Choi (Seoul National University),
+Paper 14: How Relevant are Incidental Power Poses for HCI?
+Yvonne Jansen (Sorbonne Université, CNRS, ISIR), Kasper Hornbæk (University of Copenhagen)
+CHI 2018 Proceedings Table of Contents
+vi
+Paper 15: Designing and Evaluating mHealth Interventions for Vulnerable Populations:
+A Systematic Review
+Elizabeth Stowell (Northeastern University), Mercedes C. Lyson (Tufts Medical Center),
+Herman Saksono, Reneé C. Wurth, Holly Jimison, Misha Pavel, Andrea G. Parker (Northeastern University)
+Paper 16: The Illusion of Control: Placebo Effects of Control Settings
+Kristen Vaccaro, Dylan Huang, Motahhare Eslami (University of Illinois at Urbana-Champaign),
+Christian Sandvig (University of Michigan), Kevin Hamilton (University of Illinois at Urbana-Champaign),
+Karrie Karahalios (University of Illinois at Urbana-Champaign & Adobe Research)
+Paper 17: Easy Return: An App for Indoor Backtracking Assistance
+German Flores, Roberto Manduchi (University of California, Santa Cruz)
+Paper 18: Point-and-Shake: Selecting from Levitating Object Displays
+Euan Freeman, Julie Williamson (University of Glasgow),
+Sriram Subramanian (University of Sussex), Stephen Brewster (University of Glasgow)
+Paper 19: When David Meets Goliath: Combining Smartwatches with a Large Vertical Display
+for Visual Data Exploration
+Tom Horak (Technische Universität Dresden),
+Sriram Karthik Badam, Niklas Elmqvist (University of Maryland),
+Raimund Dachselt (Technische Universität Dresden)
+Paper 20: SteeringWheel: A Locality-Preserving Magnification Interface for Low Vision
+Web Browsing
+Syed Masum Billah, Vikas Ashok (Stony Brook University),
+Donald E. Porter (University of North Carolina at Chapel Hill), I.V. Ramakrishnan (Stony Brook University)
+Paper 21: Extending Keyboard Shortcuts with Arm and Wrist Rotation Gestures
+Daniel Buschek, Bianka Roppelt (LMU Munich),
+Florian Alt (LMU Munich & Munich University of Applied Sciences)
+Paper 22: IntroAssist: A Tool to Support Writing Introductory Help Requests
+Julie S. Hui, Darren Gergle, Elizabeth M. Gerber (Northwestern University)
+Paper 23: Surprise Me If You Can: Serendipity in Health Information
+Xi Niu, Fakhri Abbas, Mary Lou Maher (University of North Carolina, Charlotte),
+Kazjon Grace (University of Sydney)
+Paper 24: Awe the Audience: How the Narrative Trajectories Affect Audience
+Perception in Public Speaking
+M. Iftekhar Tanveer, Samiha Samrose, Raiyan Abdul Baten, M. Ehsan Hoque (University of Rochester)
+Paper 25: Introducing Transient Gestures to Improve Pan and Zoom on Touch Surfaces
+Jeff Avery (University of Waterloo), Sylvain Malacria, Mathieu Nancel (Inria),
+Géry Casiez (Université de Lille), Edward Lank (University of Waterloo)
+Paper 26: MirrorMirror: A Mobile Application to Improve Speechreading Acquisition
+Benjamin M. Gorman (University of Dundee),
+David R. Flatla (University of Dundee & University of Guelph)
+Paper 27: Hybrid-Brailler: Combining Physical and Gestural Interaction for Mobile Braille Input
+and Editing
+Daniel Trindade (INESC-ID, Instituto Superior Técnico, University of Lisbon),
+André Rodrigues, Tiago Guerreiro (University of Lisbon),
+Hugo Nicolau (INESC-ID, Instituto Superior Técnico, University of Lisbon)
+Paper 28: Flexible and Mindful Self-Tracking: Design Implications from Paper Bullet Journals
+Amid Ayobi, Tobias Sonne (University College London),
+Paul Marshall (University College London & University of Bristol), Anna L. Cox (University College London)
+Paper 29: Predicting Human Performance in Vertical Menu Selection Using Deep Learning
+Yang Li (Google Research & Machine Intelligence),
+Samy Bengio (Google Research & Machine Intelligence and Google Brain),
+Gilles Bailly (Sorbonne Université, CNRS)
+CHI 2018 Proceedings Table of Contents
+vii
+Paper 30: Customizing Hybrid Products
+Steve Benford, Boriana Koleva, William Westwood Preston (University of Nottingham),
+Alice Angus (Proboscis), Emily-Clare Thorn, Kevin Glover (University of Nottingham)
+Paper 31: Fingers’ Range and Comfortable Area for One-Handed Smartphone Interaction
+Beyond the Touchscreen
+Huy Viet Le, Sven Mayer, Patrick Bader, Niels Henze (University of Stuttgart)
+Paper 32: Exploration and Explanation in Computational Notebooks
+Adam Rule (University of California, San Diego), Aurélien Tabard (Université de Lyon),
+James D. Hollan (University of California, San Diego)
+Paper 33: Multi-Touch Skin: A Thin and Flexible Multi-Touch Sensor for On-Skin Input
+Aditya Shekhar Nittala, Anusha Withana, Narjes Pourjafarian, Jürgen Steimle
+(Saarland University, Saarland Informatics Campus),
+Paper 34: Improving Comprehension of Measurements Using Concrete
+Re-expression Strategies
+Jessica Hullman, Yea-Seul Kim, Francis Nguyen (University of Washington),
+Lauren Speers (University of California, Berkeley), Maneesh Agrawala (Stanford University)
+Paper 35: Understanding the Needs of Searchers with Dyslexia
+Meredith Ringel Morris, Adam Fourney (Microsoft Research),
+Abdullah Ali, Laura Vonessen (Microsoft Research & University of Washington)
+Paper 36: Evaluation Strategies for HCI Toolkit Research
+David Ledo (University of Calgary), Steven Houben (Lancaster University),
+Jo Vermeulen (Aarhus University), Nicolai Marquardt (University College London),
+Lora Oehlberg, Saul Greenberg (University of Calgary),
+Paper 37: TopoText: Context-Preserving Text Data Exploration Across Multiple Spatial Scales
+Jiawei Zhang, Chittayong Surakitbanharn (Purdue University), Niklas Elmqvist (University of Maryland),
+Ross Maciejewski (Arizona State University), Zhenyu Qian, David S. Ebert (Purdue University),
+Paper 38: Design Patterns for Data Comics
+Benjamin Bach, Zezhong Wang (University of Edinburgh), Matteo Farinella (Columbia University),
+Dave Murray-Rust (University of Edinburgh), Nathalie Henry Riche (Microsoft Research)
+Paper 39: Practices and Technology Needs of a Network of Farmers in Tharaka Nithi, Kenya
+Erick Oduor, Peninah Waweru, Jonathan Lenchner (IBM Research Africa),
+Carman Neustaedter (Simon Fraser University)
+Paper 40: Design for Collaborative Survival: An Inquiry into Human-Fungi Relationships
+Jen Liu (University of Colorado Boulder), Daragh Byrne (Carnegie Mellon University),
+Laura Devendorf (University of Colorado Boulder)
+Paper 41: “An Odd Kind of Pleasure”: Differentiating Emotional Challenge in Digital Games
+Julia Ayumi Bopp, Klaus Opwis, Elisa D. Mekler (University of Basel)
+Paper 42: Eyes-Free Target Acquisition in Interaction Space around the Body for Virtual Reality
+Yukang Yan, Chun Yu (Tsinghua University),
+Xiaojuan Ma (Hong Kong University of Science and Technology),
+Shuai Huang, Hasan Iqbal, Yuanchun Shi (Tsinghua University)
+Paper 43: Change Blindness in Proximity-Aware Mobile Interfaces
+Michael Brock (University of Cambridge), Aaron Quigley (University of St Andrews),
+Per Ola Kristensson (University of Cambridge)
+Paper 44: Rethinking Thinking Aloud: A Comparison of Three Think-Aloud Protocols
+Obead Alhadreti (Umm Al-Qura University), Pam Mayhew (University of East Anglia)
+Paper 45: Reading on Smart Glasses: The Effect of Text Position, Presentation Type
+and Walking
+Rufat Rzayev, Paweł W. Woźniak (University of Stuttgart), Tilman Dingler (Osaka Prefecture University),
+Niels Henze (University of Stuttgart)
+Paper 46: Mini-Me: An Adaptive Avatar for Mixed Reality Remote Collaboration
+Thammathip Piumsomboon, Gun A. Lee, Jonathon D. Hart, Barrett Ens (University of South Australia),
+CHI 2018 Proceedings Table of Contents
+viii
+Robert W. Lindeman (University of Canterbury),
+Bruce H. Thomas, Mark Billinghurst (University of South Australia)
+Paper 47: Viewer Experience of Obscuring Scene Elements in Photos to Enhance Privacy
+Rakibul Hasan, Eman Hassan (Indiana University), Yifang Li, Kelly Caine (Clemson University),
+David J. Crandall (Indiana University), Roberto Hoyle (Oberlin College), Apu Kapadia (Indiana University)
+Paper 48: Navigating the Job Search as a Low-Resourced Job Seeker
+Earnest Wheeler, Tawanna R. Dillahunt (University of Michigan)
+Paper 49: The Value of Empty Space for Design
+EunJeong Cheon, Norman Makoto Su (Indiana University Bloomington)
+Paper 50: Disorder or Driver?: The Effects of Nomophobia on Work-Related Outcomes
+in Organizations
+Guan Wang, Ayoung Suh (City University of Hong Kong)
+Paper 51: My Telepresence, My Culture? An Intercultural Investigation of Telepresence Robot
+Operators’ Interpersonal Distance Behaviors
+Solace Shen, Hamish Tennent, Houston Claure, Malte Jung (Cornell University)
+Paper 52: Privacy Lies: Understanding How, When, and Why People Lie to Protect
+Their Privacy in Multiple Online Contexts
+Shruti Sannon, Natalya N. Bazarova, Dan Cosley (Cornell University)
+Paper 53: “We Are the Product”: Public Reactions to Online Data Sharing and Privacy
+Controversies in the Media
+Casey Fiesler, Blake Hallinan (University of Colorado Boulder)
+Paper 54: FaceDisplay: Towards Asymmetric Multi-User Interaction for Nomadic Virtual Reality
+Jan Gugenheimer, Evgeny Stemasov (Ulm University),
+Harpreet Sareen (Massachusetts Institute of Technology), Enrico Rukzio (Ulm University)
+Paper 55: Interactive Guidance Techniques for Improving Creative Feedback
+Tricia J. Ngoon, C. Ailie Fraser, Ariel S. Weingarten (University of California, San Diego),
+Mira Dontcheva (Adobe Research), Scott Klemmer (University of California, San Diego)
+Paper 56: Environmental Factors in Indoor Navigation Based on Real-World Trajectories
+of Blind Users
+Hernisa Kacorri (University of Maryland),
+Eshed Ohn-Bar, Kris M. Kitani, Chieko Asakawa (Carnegie Mellon University)
+Paper 57: BSpeak: An Accessible Voice-based Crowdsourcing Marketplace for Low-Income
+Blind People
+Aditya Vashistha, Pooja Sethi, Richard Anderson (University of Washington)
+Paper 58: Understanding Chatbot-mediated Task Management
+Carlos Toxtli (West Virginia University), Andres Monroy-Hern´andez, Justin Cranshaw (Microsoft Research)
+Paper 59: Rich Representations of Visual Content for Screen Reader Users
+Meredith Ringel Morris (Microsoft Research), Jazette Johnson (Microsoft Research & Vanderbilt University),
+Cynthia L. Bennett (Microsoft Research & University of Washington), Edward Cutrell (Microsoft Research)
+Paper 60: Let’s Hate Together: How People Share News in Messaging, Social,
+and Public Networks
+Danielle Lottridge, Frank R. Bentley (Yahoo)
+Paper 61: Reinterpreting Schlemmer’s Triadic Ballet: Interactive Costume
+for Unthinkable Movements
+Pavel Karpashevich (KTH Royal Institute of Technology & Bauhaus Universität Weimar),
+Eva Hornecker, Michaela Honauer (Bauhaus-Universität Weimar),
+Pedro Sanches (KTH Royal Institute of Technology)
+Paper 62: Exploring the Potential of Exergames to affect the Social and Daily Life of People
+with Dementia and their Caregivers
+David Unbehaun (University of Siegen), Daryoush Daniel Vaziri (University of Applied Sciences),
+Konstantin Aal, Rainer Wieching, Peter Tolmie, Volker Wulf (University of Siegen)
+CHI 2018 Proceedings Table of Contents
+ix
+Paper 63: Grafter: Remixing 3D-Printed Machines
+Thijs Jan Roumen, Willi Müller, Patrick Baudisch (Hasso Plattner Institute)
+Paper 64: Depth Conflict Reduction for Stereo VR Video Interfaces
+Cuong Nguyen (Portland State University), Stephen DiVerdi, Aaron Hertzmann (Adobe Research),
+Feng Liu (Portland State University)
+Paper 65: From Pulse Trains to “Coloring with Vibrations”: Motion Mappings
+for Mid-Air Haptic Textures
+Paul Strohmeier, Sebastian Boring, Kasper Hornbæk (University of Copenhagen)
+Paper 66: Collaborative Dynamic Queries: Supporting Distributed Small
+Group Decision-making
+Sungsoo (Ray) Hong, Minhyang (Mia) Suh (University of Washington),
+Nathalie Henry Riche (Microsoft Research),
+Jooyoung Lee, Juho Kim (Korea Advanced Institute of Science & Technology),
+Mark Zachry (University of Washington)
+Paper 67: Crowdsourcing Rural Network Maintenance and Repair via Network Messaging
+Esther Jang (University of Washington), Mary Claire Barela (University of the Philippines Diliman),
+Matt Johnson (University of Washington),
+Philip Martinez, Cedric Festin (University of the Philippines Diliman), Margaret Lynn (Unaffiliated),
+Josephine Dionisio (University of the Philippines Diliman), Kurtis Heimerl (University of Washington)
+Paper 68: Interactive Interior and Proxemics Thresholds: Empowering Participants
+in Sensitive Conversations
+Josephine Raun Thomsen, Peter Gall Krogh, Jacob Albæk Schnedler (Aarhus University),
+Hanne Linnet (Herning Hospital)
+Paper 69: Blocks4All: Overcoming Accessibility Barriers to Blocks Programming for Children
+with Visual Impairments
+Lauren R. Milne, Richard E. Ladner (University of Washington)
+Paper 70: What’s at Stake: Characterizing Risk Perceptions of Emerging Technologies
+Michael Warren Skirpan (University of Colorado Boulder & Probable Models),
+Tom Yeh, Casey Fiesler (University of Colorado Boulder)
+Paper 71: TaskCam: Designing and Testing an Open Tool for Cultural Probes Studies
+Andy Boucher, Dean Brown, Liliana Ovalle, Andy Sheen, Mike Vanis (Goldsmiths, University of London),
+William Odom, Doenja Oogjes (Simon Fraser University), William Gaver (Goldsmiths, University of London)
+Paper 72: Making Problems in Design Research: The Case of Teen Shoplifters on Tumblr
+Enrique Encinas, Mark Blythe, Shaun Lawson, John Vines, Jayne Wallace, 
+Pam Briggs (Northumbria University)
+Paper 73: Group vs Individual: Impact of TOUCH and TILT Cross-Device Interactions
+on Mixed-Focus Collaboration
+Leila Homaeian, Nippun Goyal, James R. Wallace (University of Waterloo),
+Stacey D. Scott (University of Waterloo & University of Guelph)
+Paper 74: Back to Analogue: Self-Reporting for Parkinson’s Disease
+Julio Vega, Samuel Couth, Ellen Poliakoff (University of Manchester), Sonja Kotz (University of Maastricht),
+Matthew Sullivan (Manchester Metropolitan University),
+Caroline Jay, Markel Vigo, Simon Harper (University of Manchester)
+Paper 75: The Hide and Seek of Workspace: Towards Human-Centric Sustainable Architecture
+Hamed S. Alavi, Himanshu Verma, Jakub Mlynar, Denis Lalanne (University of Fribourg)
+Paper 76: How Teens with Visual Impairments Take, Edit, and Share Photos on Social Media
+Cynthia L. Bennett (University of Washington), Jane E (Stanford University),
+Martez E. Mott (University of Washington), Edward Cutrell, Meredith Ringel Morris (Microsoft Research)
+Paper 77: Attending to Slowness and Temporality with Olly and Slow Game: A Design Inquiry
+Into Supporting Longer-Term Relations with Everyday Computational Objects
+William Odom (Simon Fraser University),
+Ron Wakkary (Simon Fraser University & Eindhoven University of Technology), Ishac Bertran (Microsoft),
+Matthew Harkness, Garnet Hertz (Emily Carr University), Jeroen Hol (Eindhoven University of Technology),
+CHI 2018 Proceedings Table of Contents
+x
+Henry Lin (Simon Fraser University), Bram Naus (Eindhoven University of Technology),
+Perry Tan (Simon Fraser University), Pepijn Verburg (Eindhoven University of Technology)
+Paper 78: VirtualGrasp: Leveraging Experience of Interacting with Physical Objects
+to Facilitate Digital Object Retrieval
+Yukang Yan, Chun Yu (Tsinghua University), Xiaojuan Ma (Hong Kong University of Science & Technology),
+Xin Yi, Ke Sun, Yuanchun Shi (Tsinghua University)
+Paper 79: Harvesting Caregiving Knowledge: Design Considerations for Integrating Volunteer
+Input in Dementia Care
+Pin Sym Foong, Shengdong Zhao, Felicia Tan, Joseph Jay Williams (National University of Singapore)
+Paper 80: Gamification for Self-Tracking: From World of Warcraft to the Design of Personal
+Informatics Systems
+Amon Rapp (University of Torino)
+Paper 81: Pinpointing: Precise Head- and Eye-Based Target Selection for Augmented Reality
+Mikko Kytö (Aalto University School of Science & University of South Australia),
+Barrett Ens, Thammathip Piumsomboon, Gun A. Lee, Mark Billinghurst (University of South Australia)
+Paper 82: Sketch&Stitch: Interactive Embroidery for E-textiles
+Nur Al-huda Hamdan, Simon Voelker, Jan Borchers (RWTH Aachen University)
+Paper 83: Using Stakeholder Theory to Examine Drivers’ Stake in Uber
+Ning F. Ma (Pennsylvania State University), Chien Wen Yuan (Fu Jen University),
+Moojan Ghafurian, Benjamin V. Hanrahan (Pennsylvania State University)
+Paper 84: Conversations in the Eye of the Storm: At-Scale Features of Conversational
+Structure in a High-Tempo, High-Stakes Microblogging Environment
+Marina Kogan (University of New Mexico), Leysia Palen (University of Colorado Boulder)
+Paper 85: Interactive Extraction of Examples from Existing Code
+Andrew Head, Elena L. Glassman, Björn Hartmann, Marti A. Hearst (University of California, Berkeley)
+Paper 86: Haptic Revolver: Touch, Shear, Texture, and Shape Rendering on a Reconfigurable
+Virtual Reality Controller
+Eric Whitmire (University of Washington),
+Hrvoje Benko, Christian Holz, Eyal Ofek, Mike Sinclair (Microsoft Research)
+Paper 87: Influences of Human Cognition and Visual Behavior on Password Strength during
+Picture Password Composition
+Christina Katsini (Human Opsis & University of Patras), Christos Fidas (University of Patras),
+George E. Raptis (Human Opsis & University of Patras),
+Marios Belk (Cognitive UX GmbH & University of Cyprus), George Samaras (University of Cyprus),
+Nikolaos Avouris (University of Patras)
+Paper 88: Supporting Workplace Detachment and Reattachment
+with Conversational Intelligence
+Alex C. Williams (University of Waterloo), Harmanpreet Kaur (University of Michigan),
+Gloria Mark (University of California, Irvine),
+Anne Loomis Thompson, Shamsi T. Iqbal, Jaime Teevan (Microsoft Research)
+Paper 89: iTurk: Turning Passive Haptics into Active Haptics by Making Users Reconfigure
+Props in Virtual Reality
+Lung-Pan Cheng (Hasso Plattner Institute), Li Chang (Hasso Plattner Institute & ETH Zurich),
+Sebastian Marwecki, Patrick Baudisch (Hasso Plattner Institute)
+Paper 90: Clusters, Trends, and Outliers: How Immersive Technologies Can Facilitate
+the Collaborative Analysis of Multidimensional Data
+Simon Butscher, Sebastian Hubenschmid, Jens Müller, Johannes Fuchs, 
+Harald Reiterer (University of Konstanz)
+Paper 91: Methods for Evaluation of Imperfect Captioning Tools by Deaf or Hard-of-Hearing
+Users at Different Reading Literacy Levels
+Larwan Berke, Sushant Kafle, Matt Huenerfauth (Rochester Institute of Technology)
+Paper 92: Effects of Individual Differences in Blocking Workplace Distractions
+Gloria Mark (University of California, Irvine), Mary Czerwinski, Shamsi T. Iqbal (Microsoft Research)
+CHI 2018 Proceedings Table of Contents 
+xi
+ Paper 93: Dynamic Demographics: Lessons from a Large-Scale Census of Performative 
+Possibilities in Games
+Daniel L. Gardner, Theresa Jean Tanenbaum (University of California, Irvine)
+ Paper 94: Philosophers Living with the Tilting Bowl
+Ron Wakkary (Simon Fraser University & Eindhoven University of Technology), 
+Doenja Oogjes, Henry W. J. Lin, Sabrina Hauser (Simon Fraser University)
+ Paper 95: LumiWatch: On-Arm Projected Graphics and Touch Input
+Robert Xiao (Carnegie Mellon University), Teng Cao, Ning Guo, Jun Zhuo (ASU Tech Co. Ltd.), 
+Yang Zhang, Chris Harrison (Carnegie Mellon University) 
+ Paper 96: Hit-or-Wait: Coordinating Opportunistic Low-effort Contributions to Achieve Global 
+Outcomes in On-the-go Crowdsourcing
+Yongsung Kim, Darren Gergle, Haoqi Zhang (Northwestern University)
+ Paper 97: An Empirical Exploration of Mindfulness Design Using Solo Travel Domain
+Runyuan (Jason) Chen (University of Washington), 
+Mania Orand (University of Washington & Institute for Research in Fundamental Sciences (IPM)), 
+Shin Young (Lucia) Choi, Leena Choi (University of Washington)
+ Paper 98: Inspiring AWE: Transforming Clinic Waiting Rooms into Informal Learning 
+Environments with Active Waiting Education
+Zeina Atrash Leong (Atraeleo & Northwestern University), Michael S. Horn (Northwestern University), 
+Lisa Thaniel (Children’s National Medical Center), Emily Meier (Indiana Hemopilia and Thrombosis Center)
+ Paper 99: Object Manipulation in Virtual Reality Under Increasing Levels of Translational Gain
+Graham Wilson, Mark McGill, Matthew Jamieson, Julie R. Williamson, 
+Stephen A. Brewster (University of Glasgow)
+Paper 100: Watch Me Play: Does Social Facilitation Apply to Digital Games?
+Katharina Emmerich, Maic Masuch (University of Duisburg-Essen)
+Paper 101: Do You Think What I Think: Perceptions of Delayed Instant Messages in
+Computer-Mediated Communication of Romantic Relations
+Pei-Yun Tu (National Tsing Hua University), Chien Wen (Tina) Yuan (Fu Jen University), 
+Hao-Chuan Wang (University of California, Davis & National Tsing Hua University) 
+Paper 102: From Research to Practice: Informing the Design of Autism Support 
+Smart Technology
+Moushumi Sharmin, Md Monsur Hossain (Western Washington University), 
+Abir Saha (Indiana University-Purdue University Indianapolis), Maitraye Das (Northwestern University), 
+Margot Maxwell, Shameem Ahmed (Western Washington University)
+Paper 103: Explanations as Mechanisms for Supporting Algorithmic Transparency
+Emilee Rader, Kelley Cotter, Janghee Cho (Michigan State University)
+Paper 104: On the Design of OLO Radio: Investigating Metadata as a Design Material
+William Odom, Tijs Duel (Simon Fraser University)
+Paper 105: Engage Early, Correct More: How Journalists Participate in False Rumors Online 
+during Crisis Events
+Kate Starbird, Dharma Dailey, Owla Mohamed, Gina Lee, Emma S. Spiro (University of Washington)
+Paper 106: Measuring the Why” of Interaction: Development and Validation of the User 
+Motivation Inventory (UMI)”
+Florian Brühlmann, Beat Vollenwyder, Klaus Opwis, Elisa D. Mekler (University of Basel)
+Paper 107: GestureWiz: A Human-Powered Gesture Design Environment for User Interface 
+Prototypes
+Maximilian Speicher, Michael Nebeling (University of Michigan)
+Paper 108: In Search of the Dream Team: Temporally Constrained Multi-Armed Bandits 
+for Identifying Effective Team Structures
+Sharon Zhou, Melissa Valentine, Michael S. Bernstein (Stanford University) 
+CHI 2018 Proceedings Table of Contents
+xii
+Paper 109: Troubling Vulnerability: Designing with LGBT Young People’s Ambivalence
+Towards Hate Crime Reporting
+Cally Gatehouse (Northumbria University), Matthew Wood (Newcastle University),
+Jo Briggs, James Pickles, Shaun Lawson (Northumbria University)
+Paper 110: PHUI-kit: Interface Layout and Fabrication on Curved 3D Printed Objects
+Michael D. Jones, Zann Anderson, Casey Walker, Kevin Seppi (Brigham Young University)
+Paper 111: Crowd-Guided Ensembles: How Can We Choreograph Crowd Workers
+for Video Segmentation?
+Alexandre Kaspar (Massachusetts Institute of Technology), Geneviéve Patterson (Microsoft Research),
+Changil Kim (Massachusetts Institute of Technology),
+Yağiz Aksoy (Massachusetts Institute of Technology & ETH Zürich),
+Wojciech Matusik (Massachusetts Institute of Technology),
+Mohamed Elgharib (Qatar Computing Research Institute)
+Paper 112: Phone vs. Tangible in Museums: A Comparative Study
+Daniela Petrelli (Sheffield Hallam University), Sinead O’Brien (University of Sheffield)
+Paper 113: Evaluating User Satisfaction with Typography Designs via Mining Touch Interaction
+Data in Mobile Reading
+Junxiang Wang, Jianwei Yin, Shuiguang Deng, Ying Li (Zhejiang University),
+Calton Pu (Georgia Institute of Technology), Yan Tang, Zhiling Luo (Zhejiang University)
+Paper 114: Keeping a Low Profile? Technology, Risk and Privacy among
+Undocumented Immigrants
+Tamy Guberek, Allison McDonald, Sylvia Simioni, Abraham H. Mhaidli, Kentaro Toyama, 
+Florian Schaub(University of Michigan)
+Paper 115: Comparing Computer-Based Drawing Methods for Blind People with Real-Time
+Tactile Feedback
+Jens Bornschein, Denise Bornschein, Gerhard Weber (Technische Universität Dresden)
+Paper 116: Enabling People with Visual Impairments to Navigate Virtual Reality with a Haptic
+and Auditory Cane Simulation
+Yuhang Zhao (Microsoft Research & Cornell University),
+Cynthia L. Bennett (Microsoft Research & University of Washington),
+Hrvoje Benko, Edward Cutrell, Christian Holz, Meredith Ringel Morris, Mike Sinclair (Microsoft Research)
+Paper 117: Pulp Nonfiction: Low-Cost Touch Tracking for Paper
+Yang Zhang, Chris Harrison (Carnegie Mellon University)
+Paper 118: Exploring New Metaphors for a Networked World through the File Biography
+Siân E. Lindley, Gavin Smyth, Robert Corish (Microsoft Research),
+Anastasia Loukianov (University of Surrey), Michael Golembewski (Royal College of Art),
+Ewa A. Luger (Edinburgh University), Abigail Sellen (Microsoft Research)
+Paper 119: Understanding Older Users’ Acceptance of Wearable Interfaces for Sensor-based
+Fall Risk Assessment
+Alan Yusheng Wu (University of Toronto), Cosmin Munteanu (University of Toronto Mississauga)
+Paper 120: How People Form Folk Theories of Social Media Feeds and What it Means
+for How We Study Self-Presentation
+Michael A. DeVito, Jeremy Birnholtz (Northwestern University),
+Jeffery T. Hancock, Megan French, Sunny Liu (Stanford University)
+Paper 121: Analogy Mining for Specific Design Needs
+Karni Gilon (Hebrew University of Jerusalem), Joel Chan, Felicia Y. Ng (Carnegie Mellon University),
+Hila Liifshitz-Assaf (New York University), Aniket Kittur (Carnegie Mellon University),
+Dafna Shahaf (Hebrew University of Jerusalem)
+Paper 122: Measuring Employment Demand Using Internet Search Data
+Stevie Chancellor (Georgia Institute of Technology), Scott Counts (Microsoft Research)
+CHI 2018 Proceedings Table of Contents
+xiii
+Paper 123: Data Illustrator: Augmenting Vector Design Tools with Lazy Data Binding
+for Expressive Visualization Authoring
+Zhicheng Liu (Adobe Research), John Thompson (Georgia Institute of Technology),
+Alan Wilson (Adobe Systems Inc.), Mira Dontcheva (Adobe Research),
+James Delorey, Sam Grigg, Bernard Kerr (Adobe Systems Inc.),
+John Stasko (Georgia Institute of Technology)
+Paper 124: Safety vs. Surveillance: What Children Have to Say about Mobile Apps
+for Parental Control
+Arup Kumar Ghosh, Karla Badillo-Urquiola (University of Central Florida),
+Shion Guha (Marquette University),
+Joseph J. LaViola Jr, Pamela J. Wisniewski (University of Central Florida)
+Paper 125: Co-performance: Conceptualizing the Role of Artificial Agency in the Design
+of Everyday Life
+Lenneke Kuijer (Eindhoven University of Technology),
+Elisa Giaccardi (Delft University of Technology)
+Paper 126: Social Influence and Reciprocity in Online Gift Giving
+René F. Kizilcec (Stanford University), Eytan Bakshy (Facebook),
+Dean Eckles (Massachusetts Institute of Technology), Moira Burke (Facebook)
+Paper 127: Time for Break: Understanding Information Workers’ Sedentary Behavior Through
+a Break Prompting System
+Yuhan Luo (University of Maryland), Bongshin Lee (Microsoft Research),
+Donghee Yvette Wohn (New Jersey Institute of Technology),
+Amanda L. Rebar (Central Queensland University),
+David E. Conroy (Pennsylvania State University), Eun Kyoung Choe (University of Maryland)
+Paper 128: Breaking the Tracking: Enabling Weight Perception using Perceivable
+Tracking Offsets
+Michael Rietzler, Florian Geiselhart, Jan Gugenheimer, Enrico Rukzio (Ulm University)
+Paper 129: Remixed Reality: Manipulating Space and Time in Augmented Reality
+David Lindlbauer (TU Berlin & Microsoft Research), Andy D. Wilson (Microsoft Research)
+Paper 130: Mapping Machine Learning Advances from HCI Research to Reveal Starting Places
+for Design Innovation
+Qian Yang, Nikola Banovic, John Zimmerman (Carnegie Mellon University)
+Paper 131: Pentelligence: Combining Pen Tip Motion and Writing Sounds for Handwritten
+Digit Recognition
+Maximilian Schrapel, Max-Ludwig Stadler, Michael Rohs (University of Hannover)
+Paper 132: Exploring Multimodal Watch-back Tactile Display using Wind and Vibration
+Youngbo Aram Shim, Jaeyeon Lee, Geehyuk Lee (Korea Advanced Institute of Science & Technology)
+Paper 133: eKichabi: Information Access through Basic Mobile Phones in Rural Tanzania
+Galen Weld (Cornell University), Trevor Perrier (University of Washington), Jenny Aker (Tufts University),
+Joshua E. Blumenstock (University of California, Berkeley), Brian Dillon (University of Washington),
+Adalbertus Kamanzi, Editha Kokushubira (Institute of Rural Development Planning Tanzania),
+Jennifer Webster, Richard J. Anderson (University of Washington)
+Paper 134: Understanding Identity Presentation in Medical Crowdfunding
+Jennifer G. Kim (University of Illinois at Urbana-Champaign),
+Hwajung Hong (Ulsan National Institute of Science & Technology (UNIST)),
+Karrie Karahalios (University of Illinois at Urbana-Champaign & Adobe Research)
+Paper 135: Pocket Transfers: Interaction Techniques for Transferring Content from Situated
+Displays to Mobile Devices
+Ville Mäkelä (University of Tampere & LMU Munich), Mohamed Khamis (LMU Munich),
+Lukas Mecke (LMU Munich & Munich University of Applied Sciences),
+Jobin James, Markku Turunen (University of Tampere), (University of Tampere),
+Florian Alt (LMU Munich & Munich University of Applied Sciences)
+CHI 2018 Proceedings Table of Contents
+xiv
+Paper 136: Understanding the Family Perspective on the Storage, Sharing and Handling
+of Family Civic Data
+Alex Bowyer, Kyle Montague (Newcastle University), Stuart Wheater (Arjuna Technologies Ltd),
+Ruth McGovern, Raghu Lingam (Newcastle University),
+Madeline Balaam (KTH Royal Institute of Technology)
+Paper 137: The Effects of Adding Search Functionality to Interactive Visualizations on the Web
+Mi Feng, Cheng Deng (Worcester Polytechnic Institute),
+Evan M. Peck (Bucknell University), Lane Harrison (Worcester Polytechnic Institute)
+Paper 138: Towards Design Principles for Visual Analytics in Operations Contexts
+Matthew Conlen (University of Washington), Sara Stalla (Carnegie Mellon University),
+Chelly Jin (University of California, Los Angeles), Maggie Hendrie (ArtCenter College of Design),
+Hillary Mushkin, Santiago Lombeyda (California Institute of Technology),
+Scott Davidoff (NASA Jet Propulsion Laboratory)
+Paper 139: Displaying Invisible Objects: Why People Rarely Re-read E-books
+Jane Gruning (University of Texas at Austin)
+Paper 140: A Visual Interaction Cue Framework from Video Game Environments
+for Augmented Reality
+Kody R. Dillman, Terrance Tin Hoi Mok, Anthony Tang, Lora Oehlberg (University of Calgary),
+Alex Mitchell (National University of Singapore)
+Paper 141: HARK No More: On the Preregistration of CHI Experiments
+Andy Cockburn (University of Canterbury), Carl Gutwin (University of Saskatchewan),
+Alan Dix (University of Birmingham)
+Paper 142: Designing Coherent Gesture Sets for Multi-scale Navigation on Tabletops
+Vít Rusňák, Caroline Appert, Olivier Chapuis, 
+Emmanuel Pietriga (University Paris-Sud, CNRS, Inria, Université Paris-Saclay)
+Paper 143: HindSight: Enhancing Spatial Awareness by Sonifying Detected Objects
+in Real-Time 360-Degree Video
+Eldon Schoop, James Smith, Bjoern Hartmann (University of California, Berkeley)
+Paper 144: Uncertainty Displays Using Quantile Dotplots or CDFs Improve Transit
+Decision-Making
+Michael Fernandes, Logan Walls, Sean Munson, Jessica Hullman (University of Washington),
+Matthew Kay (University of Michigan)
+Paper 145: What to Put on the User: Sensing Technologies for Studies and Physiology
+Aware Systems
+Katrin Hänsel (Queen Mary University of London), Romina Poguntke (University of Stuttgart),
+Hamed Haddadi (Imperial College London), Akram Alomainy (Queen Mary University of London),
+Albrecht Schmidt (Ludwig Maximilian University)
+Paper 146: Lost in Migration: Information Management and Community Building in an Online
+Health Community
+Drashko Nakikj, Lena Mamykina (Columbia University)
+Paper 147: On Visual Granularity: Collocated Sales Meeting Interactions in the Machine Industry
+Mikko Illi, Maria Karyda, Andrés Lucero (Aalto University)
+Paper 148: Distance and Attraction: Gravity Models for Geographic Content Production
+Jacob Thebault-Spieker (Virginia Tech & University of Minnesota), Aaron Halfaker (Wikimedia Foundation),
+Loren G. Terveen (University of Minnesota), Brent Hecht (Northwestern University)
+Paper 149: MatchSticks: Woodworking through Improvisational Digital Fabrication
+Rundong Tian, Sarah Sterman, Ethan Chiou, Jeremy Warner, Eric Paulos (University of California, Berkeley)
+Paper 150: Visuo-Haptic Illusions for Improving the Perceived Performance of Shape Displays
+Parastoo Abtahi, Sean Follmer (Stanford University)
+Paper 151: A Schnittmuster for Crafting Context-Sensitive Toolkits
+Janis Lena Meissner, Angelika Strohmayer, Peter Wright (Newcastle University),
+Geraldine Fitzpatrick (Vienna University of Technology)
+CHI 2018 Proceedings Table of Contents
+xv
+Paper 152: Repurposing Emoji for Personalised Communication: Why �� means
+“I love you”
+Sarah Wiseman (Goldsmiths, University of London), Sandy J. J. Gould (University of Birmingham)
+Paper 153: More Stars or More Reviews? Differential Effects of Reputation on Trust
+in the Sharing Economy
+Will Qiu (Stanford University), Palo Parigi (Airbnb & Stanford University),
+Bruno Abrahao (New York University Shanghai & Stanford University)
+Paper 154: Self-Reflection and Personal Physicalization Construction
+Alice Thudt (University of Calgary), Uta Hinrichs (University of St Andrews),
+Samuel Huron (Université Paris-Saclay), Sheelagh Carpendale (University of Calgary)
+Paper 155: G2G: The Design and Evaluation of a Shared Calendar and Messaging System
+for Grandparents and Grandchildren
+Azadeh Forghani, Carman Neustaedter (Simon Fraser University),
+Manh C. Vu (Hanoi University of Science & Technology), Tejinder K. Judge (Google Inc.),
+Alissa N. Antle (Simon Fraser University)
+Paper 156: Playing Close to Home: Interaction and Emerging Play in Outdoor Play Installations
+Jon Back, Laia Turmo Vidal, Annika Waern (Uppsala University),
+Susan Paget (Swedish University of Agricultural Sciences),
+Eva-Lotta Sallnäs Pysander (Royal Institute of Technology)
+Paper 157: CFar: A Tool to Increase Communication, Productivity, and Review Quality
+in Collaborative Code Review
+Austin Z. Henley (University of Memphis), Kıvanç Muşlu (Microsoft),
+Maria Christakis (Max Planck Institute for Software Systems (MPI-SWS)),
+Scott D. Fleming (University of Memphis), Christian Bird (Microsoft Research)
+Paper 158: Announcing Pregnancy Loss on Facebook: A Decision-Making Framework
+for Stigmatized Disclosures on Identified Social Network Sites
+Nazanin Andalibi, Andrea Forte (Drexel University)
+Paper 159: Conceptualizing Disagreement in Qualitative Coding
+Himanshu Zade, Margaret Drouhard, Bonnie Chinh, Lu Gan, Cecilia Aragon (University of Washington)
+Paper 160: Intermodulation: Improvisation and Art Practice for HCI
+Laewoo (Leo) Kang, Steven J. Jackson, Phoebe Sengers (Cornell University)
+Paper 161: OptiMo: Optimization-Guided Motion Editing for Keyframe Character Animation
+Yuki Koyama, Masataka Goto (National Institute of Advanced Industrial Science & Technology (AIST))
+Paper 162: Medley: A Library of Embeddables to Explore Rich Material Properties
+for 3D Printed Objects
+Xiang ‘Anthony’ Chen (Carnegie Mellon University), Stelian Coros (ETH Zurich),
+Scott E. Hudson (Carnegie Mellon University)
+Paper 163: GeoCoin: Supporting Ideation and Collaborative Design with Smart Contracts
+Bettina Nissen, Larissa Pschetz, Dave Murray-Rust (University of Edinburgh),
+Hadi Mehrpouya (Abertay Dundee University), Shaune Oosthuizen, Chris Speed (University of Edinburgh)
+Paper 164: Evaluating Attack and Defense Strategies for Smartphone PIN Shoulder Surfing
+Hassan Khan, Urs Hengartner, Daniel Vogel (University of Waterloo)
+Paper 165: VR-OOM: Virtual Reality On-rOad driving siMulation
+David Goedicke (University of Twente, Stanford University, & Cornell Tech),
+Jamy Li, Vanessa Evers (University of Twente), Wendy Ju (Cornell Tech & Stanford University)
+Paper 166: KickAR: Exploring Game Balancing Through Boosts and Handicaps in Augmented
+Reality Table Football
+Katja Rogers, Mark Colley, David Lehr, Julian Frommel, Marcel Walch (Ulm University),
+Lennart E. Nacke (University of Waterloo), Michael Weber (Ulm University)
+Paper 167: Digital Joinery For Hybrid Carpentry
+Shiran Magrisso (Bezalel Academy of Arts and Design), Moran Mizrahi (The Hebrew University of Jerusalem),
+Amit Zoran (Bezalel Academy of Arts and Design & The Hebrew University of Jerusalem)
+CHI 2018 Proceedings Table of Contents
+xvi
+Paper 168: What Makes an Automated Vehicle a Good Driver?: Exploring Lane Change
+Announcements in Dense Traffic Situations
+Nina Kauffmann, Franz Winkler (BMW Group), Mark Vollrath (Technical University of Braunschweig)
+Paper 169: Feel My Pain: Design and Evaluation of Painpad, a Tangible Device for Supporting
+Inpatient Self-Logging of Pain
+Blaine A. Price, Ryan Kelly, Vikram Mehta, Ciaran McCormick (Open University),
+Hanad Ahmed (University of Southampton), Oliver Pearce (Milton Keynes University Hospital)
+Paper 170: Challenges and Opportunities for Technology-Supported Activity Reporting
+in the Workplace
+Di Lu (University of Pittsburgh), Jennifer Marlow (FX Palo Alto Laboratory, Inc.),
+Rafal Kocielnik (University of Washington), Daniel Avrahami (FX Palo Alto Laboratory, Inc.)
+Paper 171: Supporting Meaningful Personal Fitness: the Tracker Goal Evolution Model
+Jasmin Niess (LMU Munich), Paweł W. Woźniak (University of Stuttgart)
+Paper 172: Everybody’s Hacking: Participation and the Mainstreaming of Hackathons
+Nick Taylor, Loraine Clarke (University of Dundee)
+Paper 173: Pointing at a Distance with Everyday Smart Devices
+Shaishav Siddhpuria (University of Waterloo), Sylvain Malacria, Mathieu Nancel (Inria),
+Edward Lank (University of Waterloo, Inria, & Université de Lille)
+Paper 174: The Story in the Notebook: Exploratory Data Science using a Literate
+Programming Tool
+Mary Beth Kery (Carnegie Mellon University), Marissa Radensky (Amherst College),
+Mahima Arya (Carnegie Mellon University), Bonnie E. John (Bloomberg LP),
+Brad A. Myers (Carnegie Mellon University)
+Paper 176: What Did I Really Vote For? On the Usability of Verifiable E-Voting Schemes
+Karola Marky, Oksana Kulyk (Technische Universität Darmstadt),
+Karen Renaud (Abertay University & University of South Africa),
+Melanie Volkamer (Karlsruhe Institute of Technology & Technische Universität Darmstadt)
+Paper 177: Tangible Drops: A Visio-Tactile Display Using Actuated Liquid-Metal Droplets
+Deepak Ranjan Sahoo, Timothy Neate (Swansea University), Yutaka Tokuda (University of Sussex),
+Jennifer Pearson, Simon Robinson (Swansea University), Sriram Subramanian (University of Sussex),
+Matt Jones (Swansea University)
+Paper 178: FingerT9: Leveraging Thumb-to-finger Interaction for Same-side-hand Text Entry
+on Smartwatches
+Pui Chung Wong, Kening Zhu, Hongbo Fu (City University of Hong Kong)
+Paper 179: Time-Turner: Designing for Reflection and Remembrance of Moments in the Home
+Samarth Singhal, Carman Neustaedter, William Odom, Lyn Bartram, Yasamin Heshmat
+(Simon Fraser University)
+Paper 180: Webcam Covering as Planned Behavior
+Dominique Machuletz, Stefan Laube (University of Münster), Rainer Böhme (University of Innsbruck)
+Paper 181: WrisText: One-handed Text Entry on Smartwatch using Wrist Gestures
+Jun Gong (Dartmouth College), Zheer Xu (Shanghai Jiao Tong University & Dartmouth College),
+Qifan Guo (University of Science & Technology of China & Dartmouth College),
+Teddy Seyed (University of Calgary), Xiang ‘Anthony’ Chen (Carnegie Mellon University),
+Xiaojun Bi (Stony Brook University), Xing-Dong Yang (Dartmouth College)
+Paper 182: Off-Line Sensing: Memorizing Interactions in Passive 3D-Printed Objects
+Martin Schmitz, Martin Herbers, Niloofar Dezfuli, Sebastian Günther, Max Mühlhäuser
+(Technische Universität Darmstadt)
+Paper 183: Social Computing-Driven Activism in Youth Empowerment Organizations:
+Challenges and Opportunities
+Farnaz Irannejad Bisafar, Lina Itzel Martinez, Andrea G. Parker (Northeastern University)
+CHI 2018 Proceedings Table of Contents
+xvii
+Paper 184: AdaM: Adapting Multi-User Interfaces for Collaborative Environments in Real-Time
+Seonwook Park, Christoph Gebhardt (ETH Zurich), Roman Rädle (Aarhus University),
+Anna Maria Feit (Aalto University), Hana Vrzakova (University of Eastern Finland),
+Niraj Ramesh Dayama (Aalto University), Hui-Shyong Yeo (University of St. Andrews),
+Clemens N. Klokmose (Aarhus University), Aaron Quigley (University of St Andrews),
+Antti Oulasvirta (Aalto University), Otmar Hilliges (ETH Zurich)
+Paper 185: SymbiosisSketch: Combining 2D & 3D Sketching for Designing Detailed
+3D Objects in Situ
+Rahul Arora (University of Toronto),
+Rubaiat Habib Kazi, Tovi Grossman, George Fitzmaurice (Autodesk Research),
+Karan Singh (University of Toronto)
+Paper 186: Video Game Selection Procedures For Experimental Research
+April Tyack, Peta Wyeth, Madison Klarkowski (Queensland University of Technology (QUT))
+Paper 187: Animated Edge Textures in Node-Link Diagrams: a Design Space
+and Initial Evaluation
+Hugo Romat (LRI, University Paris-Sud, CNRS, INRIA, Université Paris-Saclay & TecKnowMetrix),
+Caroline Appert (University Paris-Sud, CNRS, Inria, Université Paris-Saclay),
+Benjamin Bach (University of Edinburgh), Nathalie Henry-Riche (Microsoft Research),
+Emmanuel Pietriga (University Paris-Sud, CNRS, Inria, Université Paris-Saclay)
+Paper 188: Silicone Devices: A Scalable DIY Approach for Fabricating Self-Contained
+Multi-Layered Soft Circuits using Microfluidics
+Steven Nagels (Hasselt University), Raf Ramakers (Hasselt University -tUL-imec),
+Kris Luyten (Hasselt University - tUL - Flanders Make), Wim Deferme (Hasselt University)
+Paper 189: RFIBricks: Interactive Building Blocks Based on RFID
+Meng-Ju Hsieh (National Taiwan University),
+Rong-Hao Liang (Eindhoven University of Technology),
+Da-Yuan Huang (National Taiwan University of Science & Technology),
+Jheng-You Ke, Bing-Yu Chen (National Taiwan University)
+Paper 190: Let Me Be Implicit: Using Motive Disposition Theory to Predict and Explain
+Behaviour in Digital Games
+Susanne Poeller (University of Trier), Max V. Birk (University of Saskatchewan),
+Nicola Baumann (University of Trier), Regan L. Mandryk (University of Saskatchewan)
+Paper 191: Single or Multiple Conversational Agents? An Interactional Coherence Comparison
+Ana Paula Chaves (Northern Arizona University & Federal University of Technology - Paraná),
+Marco Aurelio Gerosa (Northern Arizona University)
+Paper 192: Understanding the Use and Impact of the Zero-Rated Free Basics Platform
+in South Africa
+Julianne Romanosky (University of Maryland), Marshini Chetty (Princeton University)
+Paper 193: Cooperating to Compete: the Mutuality of Cooperation and Competition
+in Boardgame Play
+Melissa J. Rogerson, Martin R. Gibbs, Wally Smith (University of Melbourne)
+Paper 194: A Matter of Control or Safety? Examining Parental Use of Technical Monitoring Apps
+on Teens’ Mobile Devices
+Arup Kumar Ghosh, Karla Badillo-Urquiola (University of Central Florida),
+Mary Beth Rosson, Heng Xu, John M. Carroll (Pennsylvania State University),
+Pamela J. Wisniewski (University of Central Florida)
+Paper 195: CommunityCrit: Inviting the Public to Improve and Evaluate Urban Design Ideas
+through Micro-Activities
+Narges Mahyar (University of California, San Diego), Michael R. James (Carnegie Mellon University),
+Michelle M. Ng (Harvard University), Reginald A. Wu, Steven P. Dow (University of California, San Diego)
+Paper 196: The Perils of Confounding Factors: How Fitts’ Law Experiments can Lead
+to False Conclusions
+Julien Gori, Olivier Rioul (Télécom ParisTech, Université Paris-Saclay),
+Yves Guiard, Michel Beaudouin-Lafon (Université Paris-Sud, CNRS, Université Paris-Saclay)
+CHI 2018 Proceedings Table of Contents
+xviii
+Paper 197: Utilizing Narrative Grounding to Design Storytelling Games for Creative Foreign
+Language Production
+Eda Zhang (New Oriental Education & Technology Group),
+Gabriel Culbertson, Solace Shen, Malte Jung (Cornell University)
+Paper 198: Accessible Maps for the Blind: Comparing 3D Printed Models with Tactile Graphics
+Leona Holloway, Kim Marriott, Matthew Butler (Monash Univesity)
+Paper 199: Reactile: Programming Swarm User Interfaces through Direct Physical Manipulation
+Ryo Suzuki (University of Colorado Boulder),
+Jun Kato (National Institute of Advanced Industrial Science & Technology),
+Mark D. Gross, Tom Yeh (University of Colorado Boulder)
+Paper 200: Increasing User Attention with a Comic-based Policy
+Madiha Tabassum, Abdulmajeed Alqhatani, Marran Aldossari, Heather Richter Lipford
+(University of North Carolina at Charlotte)
+Paper 201: Deployments of the table-non-table: A Reflection on the Relation Between Theory
+and Things in the Practice of Design Research
+Sabrina Hauser (Simon Fraser University),
+Ron Wakkary (Simon Fraser University & Eindhoven University of Technology),
+William Odom (Simon Fraser University), Peter-Paul Verbeek (University of Twente),
+Audrey Desjardins (University of Washington),
+Henry Lin, Matthew Dalton, Markus Schilling (Simon Fraser University)
+Paper 202: Investigating How Smartphone Movement is Affected by Body Posture
+Rachel Eardley (Cardiff Metropolitan University), Anne Roudaut (University of Bristol),
+Steve Gill , Stephen J. Thompson (Cardiff Metropolitan University)
+Paper 203: “I can do everything but see!” -- How People with Vision Impairments Negotiate their
+Abilities in Social Contexts
+Anja Thieme (Microsoft Resarch), Cynthia L. Bennett (University of Washington),
+Cecily Morrison, Edward Cutrell (Microsoft Research),
+Alex S. Taylor (City, University London)
+Paper 204: vrSocial: Toward Immersive Therapeutic VR Systems for Children with Autism
+LouAnne E. Boyd, Saumya Gupta, Sagar B. Vikmani, Carlos M. Gutierrez (University of California, Irvine),
+Junxiang Yang (Cornona Del Mar High School), Erik Linstead (Chapman University),
+Gillian R. Hayes (University of California, Irvine)
+Paper 205: DeepWriting: Making Digital Ink Editable via Deep Generative Modeling
+Emre Aksan, Fabrizio Pece, Otmar Hilliges (ETH Zürich)
+Paper 206: Media of Things: Supporting the Production of Metadata Rich Media Through
+IoT Sensing
+Gerard Wilkinson (Newcastle University & British Broadcasting Corporation),
+Tom Bartindale, Tom Nappey (Newcastle University), Michael Evans (British Broadcasting Corporation),
+Peter Wright, Patrick Olivier (Newcastle University)
+Paper 207: Enhancing Online Problems Through Instructor-Centered Tools
+for Randomized Experiments
+Joseph Jay Williams (National University of Singapore), Anna N. Rafferty (Carleton College),
+Dustin Tingley, Andrew Ang (Harvard University)
+Walter S. Lasecki (University of Michigan),
+Juho Kim (Korea Advanced Institute of Science & Technology)
+Paper 208: Exploring the Role of Conversational Cues in Guided Task Support
+with Virtual Assistants
+Alexandra Vtyurina (University of Waterloo & Microsoft Research), Adam Fourney (Microsoft Research)
+Paper 209: Simulator Sickness in Augmented Reality Training Using the Microsoft HoloLens
+Alla Vovk, Fridolin Wild, Will Guest (Oxford Brookes University),
+Timo Kuula (VTT Technical Research Centre of Finland Ltd),
+Paper 210: Experiencing the Body as Play
+Florian ‘Floyd’ Mueller, Richard Byrne, Josh Andres, Rakesh Patibanda (RMIT University)
+CHI 2018 Proceedings Table of Contents
+xix
+Paper 211: Upstanding by Design: Bystander Intervention in Cyberbullying
+Dominic DiFranzo, Samuel Hardman Taylor, Franccesca Kazerooni, Olivia D. Wherry, Natalya N. Bazarova
+(Cornell University)
+Paper 212: Examining the Demand for Spam: Who Clicks?
+Elissa M. Redmiles (University of Maryland), Neha Chachra, Brian Waismeyer (Facebook Inc..)
+Paper 213: ColorMod: Recoloring 3D Printed Objects using Photochromic Inks
+Parinya Punpongsanon, Xin Wen, David S. Kim, Stefanie Mueller (Massachusetts Institute of Technology)
+Paper 214: Multidimensional Risk Communication: Public Discourse on Risks during an
+Emerging Epidemic
+Xinning Gui (University of California, Irvine), Yubo Kou (Purdue University),
+Kathleen Pine (Arizona State University),
+Elisa Ladaw, Harold Kim, Eli Suzuki-Gill, Yunan Chen (University of California, Irvine)
+Paper 215: A Face Recognition Application for People with Visual Impairments: Understanding
+Use Beyond the Lab
+Yuhang Zhao (Cornell University & Facebook Inc..), Shaomei Wu, Lindsay Reynolds (Facebook Inc..),
+Shiri Azenkot (Cornell University)
+Paper 216: Evaluation Beyond Usability: Validating Sustainable HCI Research
+Christian Remy (University of Zurich), Oliver Bates (Lancaster University),
+Alan Dix (University of Birmingham), Vanessa Thomas (Aarhus University),
+Mike Hazas, Adrian Friday (Lancaster University), Elaine M. Huang (University of Zurich)
+Paper 217: Beyond Translation: Design and Evaluation of an Emotional and Contextual
+Knowledge Interface for Foreign Language Social Media Posts
+Hajin Lim, Dan Cosley, Susan R. Fussell (Cornell University)
+Paper 218: Projective Windows: Bringing Windows in Space to the Fingertip
+Joon Hyub Lee, Sang-Gyun An, Yongkwan Kim, Seok-Hyung Bae
+(Korea Advanced Institute of Science & Technology)
+Paper 219: Scenariot: Spatially Mapping Smart Things Within Augmented Reality Scenes
+Ke Huo, Yuanzhi Cao, Sang Ho Yoon, Zhuangying Xu, Guiming Chen, Karthik Ramani (Purdue University)
+Paper 220: AlterWear: Battery-Free Wearable Displays for Opportunistic Interactions
+Christine Dierk, Molly Jane Pearce Nicholas, Eric Paulos (University of California, Berkeley)
+Paper 221: The Role of Gamification in Participatory Environmental Sensing: A Study
+In the Wild
+Maria V. Palacin-Silva (Lappeenranta University of Technology),
+Antti Knutas (Dublin City University & Lappeenranta University of Technology),
+Maria Angela Ferrario (Lancaster University),
+Jari Porras, Jouni Ikonen, Chandara Chea (Lappeenranta University of Technology)
+Paper 222: How Information Sharing about Care Recipients by Family Caregivers Impacts
+Family Communication
+Naomi Yamashita (NTT Communication Science Labs), Hideaki Kuzuoka (University of Tsukuba),
+Takashi Kudo (Osaka University), Keiji Hirata (Future University Hakodate),
+Eiji Aramaki (Nara Institute of Science & Technology), Kazuki Hattori (University of Tsukuba)
+Paper 223: DataInk: Direct and Creative Data-Oriented Drawing
+Haijun Xia (University of Toronto), Nathalie Henry Riche (Microsoft Research),
+Fanny Chevalier (University of Toronto & Inria), Bruno De Araujo, Daniel Wigdor (University of Toronto)
+Paper 224: Remediating a Design Tool: Implications of Digitizing Sticky Notes
+Mads Møller Jensen, Roman Rädle, Clemens N. Klokmose, Susanne Bodker (Aarhus University)
+Paper 225: Slacktivists or Activists?: Identity Work in the Virtual Disability March
+Hanlin Li (Indiana University - Purdue University Indianapolis & Northwestern University),
+Disha Bora, Sagar Salvi, Erin Brady (Indiana University - Purdue University Indianapolis)
+Paper 226: Applying Computational Analysis to Textual Data from the Wild:
+A Feminist Perspective
+Shauna Julia Concannon (Newcastle University), Madeline Balaam (KTH Royal Institute of Technology),
+Emma Simpson (Newcastle University), Rob Comber (RISE SICS)
+CHI 2018 Proceedings Table of Contents
+xx
+Paper 227: Design Opportunities for AAC and Children with Severe Speech
+and Physical Impairments
+Seray B. Ibrahim, Asimina Vasalou, Michael Clarke (University College London)
+Paper 228: Facebook in Venezuela: Understanding Solidarity Economies
+in Low-Trust Environments
+Hayley I. Evans (Georgia Institute of Technology),
+Marisol Wong-Villacres (Georgia Institute of Technology & Escuela Superior Politécnica del Litoral),
+Daniel Castro, Eric Gilbert, Rosa I. Arriaga, Michaelanne Dye, 
+Amy Bruckman (Georgia Institute of Technology)
+Paper 229: Digital Payment and Its Discontents: Street Shops and the Indian Government’s
+Push for Cashless Transactions
+Joyojeet Pal, Priyank Chandra, Vaishnav Kameswaran, Aakanksha Parameshwar, 
+Sneha Joshi (University of Michigan), Aditya Johri (George Mason University)
+Paper 230: Moving Target Selection: A Cue Integration Model
+Byungjoo Lee (Korea Advanced Institute of Science & Technology),
+Sunjun Kim (Korea Advanced Institute of Science & Technology & Aalto University),
+Antti Oulasvirta (Aalto University),
+Jong-In Lee (Korea Advanced Institute of Science & Technology & Aalto University),
+Eunji Park (Korea Advanced Institute of Science & Technology)
+Paper 231: Inferring Loop Invariants through Gamification
+Dimitar Bounov, Anthony DeRossi, Massimiliano Menarini, William G. Griswold, 
+Sorin Lerner (University of California, San Diego)
+Paper 232: CrowdLayout: Crowdsourced Design and Evaluation of Biological
+Network Visualizations
+Divit P. Singh, Lee Lisle, T. M. Murali, Kurt Luther (Virginia Tech)
+Paper 233: Imaginary Design Workbooks: Constructive Criticism and Practical Provocation
+Mark Blythe, Enrique Encinas (Northumbria University), Jofish Kaye, Miriam Lueck Avery (Mozilla),
+Rob McCabe (Birmingham City Council), Kristina Andersen (Eindhoven University of Technology)
+Paper 234: Drunk User Interfaces: Determining Blood Alcohol Level through Everyday
+Smartphone Tasks
+Alex Mariakakis, Sayna Parsi, Shwetak N. Patel, Jacob O. Wobbrock (University of Washington)
+Paper 235: “That Really Pushes My Buttons”: Designing Bullying and Harassment Training
+for the Workplace
+Rosanna Bellini, Patrick Olivier (Newcastle University), Rob Comber (RISE SICS)
+Paper 236: Taking into Account Sensory Knowledge: The Case of Geo-techologies for Children
+with Visual Impairments
+Emeline Brulé (CNRS i3, Télécom ParisTech), Gilles Bailly (Sorbonne Université, CNRS, ISIR)
+Paper 237: Understanding the Uncertainty in 1D Unidirectional Moving Target Selection
+Jin Huang, Feng Tian (Chinese Academy of Sciences, Institute of Software
+& University of Chinese Academy of Sciences),
+Xiangmin Fan (Institute of Software, Chinese Academy of Sciences),
+Xiaolong (Luke) Zhang (Pennsylvania State University), Shumin Zhai (Google Inc.)
+Paper 238: Agile 3D Sketching with Air Scaffolding
+Yongkwan Kim, Sang-Gyun An, Joon Hyub Lee, 
+Seok-Hyung Bae (Korea Advanced Institute of Science & Technology)
+Paper 239: KeyTime: Super-Accurate Prediction of Stroke Gesture Production Times
+Luis A. Leiva (Sciling), Daniel Martín-Albo (Universitat Politècnica de València),
+Réjean Plamondon (École Polytechnique de Montréal),
+Radu-Daniel Vatavu (University Stefan cel Mare of Suceava)
+Paper 240: Entrepreneurship and the Socio-Technical Chasm in a Lean Economy
+Tawanna R. Dillahunt, Vaishnav Kameswaran, Desiree McLain (University of Michigan),
+Minnie Lester, Delores Orr (Eastside Community Network), Kentaro Toyama (University of Michigan)
+CHI 2018 Proceedings Table of Contents
+xxi
+Paper 241: VirtualSpace - Overloading Physical Space with Multiple Virtual Reality Users
+Sebastian Marwecki, Maximilian Brehm, Lukas Wagner, Lung-Pan Cheng (Hasso Plattner Institute),
+Florian ‘Floyd’ Mueller (RMIT University), Patrick Baudisch (Hasso Plattner Institute)
+Paper 242: Effects of Socially Stigmatized Crowdfunding Campaigns in Shaping Opinions
+Sanorita Dey, Karrie Karahalios, Wai-Tat Fu (University of Illinois at Urbana-Champaign)
+Paper 243: A Design Framework for Awareness Cues in Distributed Multiplayer Games
+Jason Wuertz (University of New Brunswick), Sultan A. Alharthi (New Mexico State University),
+William A. Hamilton (Interface Ecology Lab @ Texas A&M University),
+Scott Bateman (University of New Brunswick), Carl Gutwin (University of Saskatchewan),
+Anthony Tang (University of Calgary), Zachary Toups (New Mexico State University),
+Jessica Hammer (Carnegie Mellon University)
+Paper 244: Empowerment in HCI - A Survey and Framework
+Hanna Schneider, Malin Eiband (LMU Munich), Daniel Ullrich (Munich), Andreas Butz (LMU Munich)
+Paper 245: Multiray: Multi-Finger Raycasting for Large Displays
+Fabrice Matulic (University of Waterloo & Preferred Networks Inc.), Daniel Vogel (University of Waterloo)
+Paper 246: Feel the Movement: Real Motion Influences Responses to Take-over Requests
+in Highly Automated Vehicles
+Shadan Sadeghian Borojeni (OFFIS Institute for Information Technology),
+Susanne C.J. Boll (University of Oldenburg), Wilko Heuten (OFFIS - Institute for Information Technology),
+Heinrich H. Bülthoff, Lewis Chuang (Max Planck Institute for Biological Cybernetics)
+Paper 247: HomeFinder Revisited: Finding Ideal Homes with Reachability-Centric Multi-Criteria
+Decision Making
+Di Weng, Heming Zhu (Zhejiang University), Jie Bao, Yu Zheng (Microsoft Research),
+Yingcai Wu (Zhejiang University)
+Paper 248: SpaceTokens: Interactive Map Widgets for Location-centric Interactions
+Daniel Miau, Steven Feiner (Columbia University)
+Paper 249: M3 Gesture Menu: Design and Experimental Analyses of Marking Menus
+for Touchscreen Mobile Interaction
+Jingjie Zheng (University of Waterloo & Google, Inc.), Xiaojun Bi (Stony Brook University),
+Kun Li (University of Colorado Boulder), Yang Li, Shumin Zhai (Google, Inc.)
+Paper 250: Queer Visibility: Supporting LGBT+ Selective Visibility on Social Media
+Matthew Carrasco, Andruid Kerne (Texas A&M University)
+Paper 251: Bento Browser: Complex Mobile Search Without Tabs
+Nathan Hahn, Joseph Chee Chang (Human-Computer Interaction Institute),
+Aniket Kittur (Carnegie Mellon University)
+Paper 252: Chibitronics in the Wild: Engaging New Communities in Creating Technology
+with Paper Electronics
+Jie Qi, Leah Buechley (Massachusetts Institute of Technology),
+Andrew “bunnie” Huang, Patricia Ng, Sean Cross (Chibitronics),
+Joseph A. Paradiso (Massachusetts Institute of Technology)
+Paper 253: A Trip to the Moon: Personalized Animated Movies for Self-reflection
+Fengjiao Peng, Veronica Crista LaBelle (Massachusetts Institute of Technology),
+Emily Christen Yue (Harvard University), Rosalind W. Picard (Massachusetts Institute of Technology)
+Paper 254: Coco’s Videos: An Empirical Investigation of Video-Player Design Features
+and Children’s Media Use
+Alexis Hiniker, Sharon S. Heung, Sungsoo (Ray) Hong, Julie A. Kientz (University of Washington)
+Paper 255: ResearchIME: A Mobile Keyboard Application for Studying Free Typing Behaviour
+in the Wild
+Daniel Buschek, Benjamin Bisinger (LMU Munich),
+Florian Alt (LMU Munich & Munich University of Applied Sciences)
+Paper 256: Wearables for Learning: Examining the Smartwatch as a Tool for Situated
+Science Reflection
+Brittany Garcia, Sharon Lynn Chu, Beth Nam, Colin Banigan (Texas A&M University)
+CHI 2018 Proceedings Table of Contents
+xxii
+Paper 257: Investigating How Online Help and Learning Resources Support Children’s Use
+of 3D Design Software
+Nathaniel Hudson (Autodesk & Ross Video), Benjamin Lafreniere (Autodesk Research),
+Parmit K. Chilana (Simon Fraser University), Tovi Grossman (Autodesk Research)
+Paper 258: Tactile Information Transmission by 2D Stationary Phantom Sensations
+Gunhyuk Park, Seungmoon Choi (Pohang University of Science & Technology)
+Paper 259: Understanding Artefact and Process Challenges for Designing Low-Res
+Lighting Displays
+Marius Hoggenmueller (University of Munich (LMU) & University of Sydney),
+Martin Tomitsch (University of Sydney), Alexander Wiethoff (University of Munich (LMU))
+Paper 260: Thermorph: Democratizing 4D Printing of Self-Folding Materials and Interfaces
+Byoungkwon An (Carnegie Mellon University & Duke University),
+Ye Tao (Zhejiang University & Carnegie Mellon University),
+Jianzhe Gu, Tingyu Cheng, Xiang ‘Anthony’ Chen (Carnegie Mellon University),
+Xiaoxiao Zhang (Syracuse University), Wei Zhao (Glodon Company Limited),
+Youngwook Do (Carnegie Mellon University), Shigeo Takahashi (University of Aizu),
+Hsiang-Yun Wu (TU Wien), Teng Zhang (Syracuse University),
+Lining Yao (Carnegie Mellon University)
+Paper 261: Looks Can Be Deceiving: Using Gaze Visualisation to Predict and Mislead
+Opponents in Strategic Gameplay
+Joshua Newn, Fraser Allison, Eduardo Velloso, Frank Vetere (University of Melbourne)
+Paper 262: Security During Application Development: an Application Security
+Expert Perspective
+Tyler W. Thomas, Madiha Tabassum, Bill Chu, Heather Lipford (University of North Carolina at Charlotte)
+Paper 263: Insert Needle Here! A Custom Display for Optimized Biopsy Needle Placement
+Anke V. Reinschluessel (University of Bremen), Marc Herrlich (University of Kaiserslautern (TUK)),
+Tanja Döring (University of Bremen),
+Mark Vangel (Massachusetts General Hospital & Harvard Medical School),
+Clare Tempany (Brigham and Women’s Hospital & Harvard Medical School),
+Rainer Malaka (University of Bremen),
+Junichi Tokuda (Brigham and Women’s Hospital & Harvard Medical School)
+Paper 264: Automatic Diagnosis of Students’ Misconceptions in K-8 Mathematics
+Molly Q. Feldman (Cornell University), Ji Yong Cho (University of Pennsylvania),
+Monica Ong (Cornell University), Sumit Gulwani (Microsoft Research),
+Zoran Popović (University of Washington), Erik Andersen (Cornell University)
+Paper 265: Defining and Predicting the Localness of Volunteered Geographic Information
+using Ground Truth Data
+Ankit Kariryaa (University of Bremen), Isaac Johnson (Northwestern University),
+Johannes Schöning (University of Bremen), Brent Hecht (Northwestern University)
+Paper 266: Bots & (Main)Frames: Exploring the Impact of Tangible Blocks and Collaborative
+Play in an Educational Programming Game
+Edward F. Melcer (New York University), Katherine Isbister (University of California, Santa Cruz)
+Paper 267: StammerApp: Designing a Mobile Application to Support Self-Reflection and Goal
+Setting for People Who Stammer
+Roisin McNaney, Christopher Bull (Lancaster University), Lynne Mackie (Newcastle University),
+Floriane Dahman (Lancaster University), Helen Stringer, Dan Richardson, Daniel Welsh (Newcastle University)
+Paper 268: Contextualizing Privacy Decisions for Better Prediction (and Protection)
+Primal Wijesekera (University of British Columbia), Joel Reardon (University of Calgary),
+Irwin Reyes (International Computer Science Institute), Lynn Tsai (University of California, Berkeley),
+Jung-Wei Chen, Nathan Good (Good Research, Inc),
+David Wagner (University of California, Berkeley), Konstantin Beznosov (University of British Columbia),
+Serge Egelman (University of California, Berkeley & International Computer Science Institute)
+Paper 269: OptiSpace: Automated Placement of Interactive 3D Projection Mapping Content
+Andreas Fender (Aarhus University), Philipp Herholz, Marc Alexa (TU Berlin),
+Jörg Müller (University of Bayreuth)
+CHI 2018 Proceedings Table of Contents
+xxiii
+Paper 270: Technology and the Givens of Existence: Toward an Existential Inquiry Framework
+in HCI Research
+Victor Kaptelinin (Umeå University)
+Paper 271: Smart Kitchens for People with Cognitive Impairments: A Qualitative Study
+of Design Requirements
+Thomas Kosch (LMU Munich), Paweł W. Woźniak (University of Stuttgart),
+Erin Brady (Indiana University - Purdue University Indianapolis),
+Albrecht Schmidt (University of Stuttgart)
+Paper 272: Graphical Perception of Continuous Quantitative Maps: the Effects of Spatial
+Frequency and Colormap Design
+Khairi Reda, Pratik Nalawade, Kate Ansah-Koi (Indiana University-Purdue University Indianapolis)
+Paper 273: Wall++: Room-Scale Interactive and Context-Aware Sensing
+Yang Zhang (Disney Research & Carnegie Mellon University),
+Chouchang Jack Yang (Disney Research Pittsburgh),
+Scott E. Hudson, Chris Harrison (Disney Research & Carnegie Mellon University),
+Alanson Sample (Disney Research)
+Paper 274: Design Vocabulary for Human--IoT Systems Communication
+Yaliang Chuang (Eindhoven University of Technology),
+Lin-Lin Chen (Eindhoven University of Technology and National Taiwan University of Science & Technology),
+Yoga Liu (NTU IoX Center)
+Paper 275: Accountability Work: Examining the Values, Technologies and Work Practices
+that Facilitate Transparency in Charities
+Matthew Marshall (Newcastle University), John Vines (Northumbria University),
+Pete Wright (Newcastle University), David S. Kirk (Northumbria University),
+Toby Lowe, Rob Wilson (Newcastle University)
+Paper 276: Crowdsourcing Treatments for Low Back Pain
+Simo Johannes Hosio (University of Oulu),
+Jaro Karppinen, Esa-Pekka Takala (Finnish Institute of Occupational Health),
+Jani Takatalo (Oulu University Hospital), Jorge Goncalves, Niels van Berkel (University of Melbourne),
+Shin’ichi Konomi (Kyushu University),
+Vassilis Kostakos (University of Melbourne)
+Paper 277: Emotional Dialogue Generation using Image-Grounded Language Models
+Bernd Huber (Harvard University & Microsoft Research),
+Daniel McDuff, Chris Brockett, Michel Galley, Bill Dolan (Microsoft Research)
+Paper 278: Science Everywhere: Designing Public, Tangible Displays to Connect Youth
+Learning Across Settings
+June Ahn (New York University), Tamara Clegg (University of Maryland),
+Jason Yip (University of Washington),
+Elizabeth Bonsignore, Daniel Pauw, Lautaro Cabrera, Kenna Hernly (University of Maryland),
+Caroline Pitt (University of Washington), Kelly Mills (University of Maryland),
+Arturo Salazar, Diana Griffing (University of Washington),
+Jeff Rick (BadDesigner.us), Rachael Marr (University of Maryland)
+Paper 279: Collaborative Reflection: A Practice for Enriching Research Partnerships Spanning
+Culture, Discipline, and Time
+Daisy Yoo (University of Washington), Odeth Kantengwa (Never Again Rwanda),
+Nick Logler (University of Washington), Reverien Interayamahanga, Joseph Nkurunziza (Never Again Rwanda),
+Batya Friedman (University of Washington)
+Paper 280: Understanding Face and Eye Visibility in Front-Facing Cameras of Smartphones
+used in the Wild
+Mohamed Khamis, Anita Baier (LMU Munich), Niels Henze (University of Stuttgart),
+Florian Alt (LMU Munich & Munich University of Applied Sciences),
+Andreas Bulling (Max Planck Institute for Informatics)
+CHI 2018 Proceedings Table of Contents
+xxiv
+Paper 281: Perspective on and Re-orientation of Physical Proxies in Object-Focused
+Remote Collaboration
+Martin Feick (University of Calgary & htw saar),
+Terrance Mok, Anthony Tang, Lora Oehlberg, Ehud Sharlin (University of Calgary)
+Paper 282: The Index of Pupillary Activity: Measuring Cognitive Load vis-à-vis Task Difficulty
+with Pupil Oscillation
+Andrew T. Duchowski (Clemson University),
+Krzysztof Krejtz (SWPS University of Social Sciences & Humanities & Ulm University),
+Izabela Krejtz (SWPS University of Social Sciences & Humanities),
+Cezary Biele, Anna Niedzielska (Interactive Technologies Laboratory),
+Peter Kiefer, Martin Raubal (ETH Zurich),
+Ioannis Giannopoulos (Vienna University of Technology & ETH Zürich)
+Paper 283: Voicesetting: Voice Authoring UIs for Improved Expressivity in Augmentative
+Communication
+Alexander J. Fiannaca, Ann Paradiso, Jon Campbell, Meredith Ringel Morris (Microsoft Research)
+Paper 284: Digital Outdoor Play: Benefits and Risks from an Interaction Design Perspective
+Tom Hitron, Idan David, Netta Ofer, Andrey Grishko, Iddo Yehoshua Wald, Hadas Erel, 
+Oren Zuckerman (The Interdisciplinary Center)
+Paper 285: Leveraging Community-Generated Videos and Command Logs to Classify
+and Recommend Software Workflows
+Xu Wang (Autodesk Research & Carnegie Mellon University),
+Benjamin Lafreniere, Tovi Grossman (Autodesk Research)
+Paper 286: Towards Algorithmic Experience: Initial Efforts for Social Media Contexts
+Oscar Alvarado (Universidad de Costa Rica), Annika Waern (Uppsala University)
+Paper 287: Which one is me? Identifying Oneself on Public Displays
+Mohamed Khamis, Christian Becker (LMU Munich), Andreas Bulling (Max Planck Institute for Informatics),
+Florian Alt (LMU Munich & Munich University of Applied Sciences)
+Paper 288: Analysis and Modeling of Grid Performance on Touchscreen Mobile Devices
+Ken Pfeuffer (Google Research & Machine Intelligence & Lancaster University),
+Yang Li (Google Research & Machine Intelligence)
+Paper 289: Communication Behavior in Embodied Virtual Reality
+Harrison Jesse Smith, Michael Neff (Oculus Research & University of California, Davis)
+Paper 290: In the Eye of the Student: “An Intangible Cultural Heritage Experience with a HumanComputer Interaction Twist”
+Danilo Giglitto (Kingston University, London),
+Shaimaa Lazem (City of Scientific Research and Technological Applications),
+Anne Preston (Kingston University, London)
+Paper 291: shapeShift: 2D Spatial Manipulation and Self-Actuation of Tabletop Shape Displays
+for Tangible and Haptic Interaction
+Alexa F. Siu, Eric J. Gonzalez, Shenli Yuan, Jason B. Ginsberg, Sean Follmer (Stanford University)
+Paper 292: Where is Community Among Online Learners? Identity, Efficacy and Personal Ties
+Na Sun, Mary Beth Rosson, John M. Carroll (Pennsylvania State University)
+Paper 293: SpeechBubbles: Enhancing Captioning Experiences for Deaf and Hard-of-Hearing
+People in Group Conversations
+Yi-Hao Peng, Ming-Wei Hsi (National Taiwan University), Paul Taele (Texas A&M University),
+Ting-Yu Lin, Po-En Lai, Leon Hsu, Tzu-chuan Chen, Te-Yen Wu, Yu-An Chen (National Taiwan University),
+Hsien-Hui Tang (National Taiwan University of Science & Technology),
+Mike Y. Chen (National Taiwan University)
+Paper 294: Juxtapeer: Comparative Peer Review Yields Higher Quality Feedback and Promotes
+Deeper Reflection
+Julia Cambre (University of California, San Diego & Carnegie Mellon University),
+Scott Klemmer (University of California, San Diego), Chinmay Kulkarni (Carnegie Mellon University)
+CHI 2018 Proceedings Table of Contents
+xxv
+Paper 295: Evorus: A Crowd-powered Conversational Assistant Built to Automate
+Itself Over Time
+Ting-Hao (Kenneth) Huang, Joseph Chee Chang, Jeffrey P. Bigham (Carnegie Mellon University)
+Paper 296: Play PRBLMS”: Identifying and Correcting Less Accessible Content
+in Voice Interfaces”
+Aaron Springer (Spotify & University of California, Santa Cruz), Henriette Cramer (Spotify)
+Paper 297: Exploring the Value of Parent Tracked Baby Data in Interactions with Healthcare
+Professionals: A Data-Enabled Design Exploration
+Janne van Kollenburg (Philips Design & Eindhoven University of Technology),
+Sander Bogers (Eindhoven University of Technology & Philips Design),
+Heleen Rutjes (Eindhoven University of Technology), Eva Deckers (Philips Design),
+Joep Frens, Caroline Hummels (Eindhoven University of Technology)
+Paper 298: Tangible Awareness: How Tangibles on Tabletops Influence Awareness of Each
+Other’s Actions
+Christian Cherek, Anke Brocker, Simon Voelker, Jan Borchers (RWTH Aachen University)
+Paper 299: Grand Challenges in Shape-Changing Interface Research
+Jason Alexander (Lancaster University), Anne Roudaut (University of Bristol),
+Jürgen Steimle (Saarland University, Saarland Informatics Campus),
+Kasper Hornbæk (University of Copenhagen), Miguel Bruns Alonso (TU Eindhoven),
+Sean Follmer (Stanford University), Timothy Merritt (Aalborg University)
+Paper 300: Investigating the Role of an Overview Device in Multi-Device Collaboration
+Frederik Brudy, Joshua Kevin Budiman (University College London), Steven Houben (Lancaster University),
+Nicolai Marquardt (University College London)
+Paper 301: Greater than the Sum of its PARTs: Expressing and Reusing Design Intent
+in 3D Models
+Megan Hofmann, Gabriella Hann, Scott E. Hudson (Carnegie Mellon University),
+Jennifer Mankoff (University of Washington)
+Paper 302: Calling for a Revolution: An Analysis of IoT Manifestos
+Ester Fritsch, Irina Shklovski, Rachel Douglas-Jones (IT University of Copenhagen)
+Paper 303: Share and Share Alike? Social Information and Interaction Style in Coordination
+of Shared Use
+Karin Niemantsverdriet, Thomas van de Werff, Harm van Essen, Berry Eggen
+(Eindhoven University of Technology)
+Paper 304: What’s the Difference?: Evaluating Variations of Multi-Series Bar Charts for Visual
+Comparison Tasks
+Arjun Srinivasan (Georgia Institute of Technology),
+Matthew Brehmer, Bongshin Lee, Steven M. Drucker (Microsoft Research)
+Paper 305: Eliciting Users’ Demand for Interface Features
+Oded Nov, Han Su (New York University)
+Paper 306: The Space of Possibilities: Political Economies of Technology Innovation
+in Sub-Saharan Africa
+Christopher Csikszentmihalyi (Madeira Interactive Technologies Institute),
+Jude Mukundane (Madeira Interactive Technologies Institute & Instituto Superior Técnico
+– Universidade de Lisboa), Gemma F. Rodrigues (Madeira Interactive Technologies Institute),
+Daniel Mwesigwa (CIPESA),
+Michelle Kasprzak (Madeira Interactive Technologies Institute & University of Porto)
+Paper 307: “Genderfluid” or “Attack Helicopter”: Responsible HCI Research Practice with
+Non-binary Gender Variation in Online Communities
+Samantha Jaroszewski, Danielle Lottridge (Yahoo), Oliver L. Haimson (University of California, Irvine),
+Katie Quehl (Yahoo)
+Paper 308: “Debrief O’Clock”: Planning, Recording, and Making Sense of a Day in 
+the Field in Design Research
+Recording and Making Sense of a Day in the Field in Design Research” Jennyfer (Lawrence),
+Alessandro Soro, Paul Roe, Anita Lee Hong, Margot Brereton (Queensland University of Technology)
+CHI 2018 Proceedings Table of Contents
+xxvi
+Paper 309: Family Health Promotion in Low-SES Neighborhoods: A Two-Month Study
+of Wearable Activity Tracking
+Herman Saksono, Carmen Castaneda-Sceppa, Jessica Hoffman, Magy Seif El-Nasr (Northeastern University),
+Vivien Morris (Mattapan Food and Fitness Coalition), Andrea G. Parker (Northeastern University)
+Paper 310: Crowdsourcing vs Laboratory-Style Social Acceptability Studies? Examining
+the Social Acceptability of Spatial User Interactions for Head-Worn Displays
+Fouad Alallah, Ali Neshati, Nima Sheibani, Yumiko Sakamoto, Andrea Bunt, 
+Pourang Irani (University of Manitoba), Khalad Hasan (University of Waterloo)
+Paper 311: Empirical Support for a Causal Relationship Between Gamification
+and Learning Outcomes
+Paul Denny (The University of Auckland), Fiona McDonald, Ruth Empson, Philip Kelly (University of Otago),
+Andrew Petersen (University of Toronto Mississauga)
+Paper 312: Going the Distance: Trust Work for Citizen Participation
+Eric Corbett , Christopher A. Le Dantec (Georgia Institute of Technology)
+Paper 313: Methods for Intentional Encoding of High Capacity Human-Designable
+Visual Markers
+Joshua D. A. Jung, Daniel Vogel (University of Waterloo)
+Paper 314: Investigating the Impact of Annotation Interfaces on Player Performance
+in Distributed Multiplayer Games
+Sultan A. Alharthi, Ruth C. Torres, Ahmed S. Khalaf, Zachary O. Toups, 
+Igor Dolgov (New Mexico State University), Lennart E. Nacke (University of Waterloo)
+Paper 315: Let’s Talk About Race: Identity, Chatbots, and AI
+Ari Schlesinger (Georgia Institute of Technology), Kenton P. O’Hara (Microsoft Research),
+Alex S. Taylor (City, University of London)
+Paper 316: Extracting Regular FOV Shots from 360 Event Footage
+Anh Truong (Adobe Research), Sara Chen (Durham University),
+Ersin Yumer (Adobe Research), David Salesin (Snap Research), Wilmot Li (Adobe Research)
+Paper 317: “Is More Better?”: Impact of Multiple Photos on Perception of Persona Profiles
+Joni Salminen (Hamad Bin Khalifa University), Lene Nielsen (IT University),
+Soon-Gyo Jung, Jisun An, Haewoon Kwak, Bernard J. Jansen (Hamad Bin Khalifa University)
+Paper 318: Speak Up: A Multi-Year Deployment of Games to Motivate Speech Therapy in India
+Amal Nanavati, M. Bernardine Dias, Aaron Steinfeld (Carnegie Mellon University)
+Paper 319: Understanding the Effect of In-Video Prompting on Learners and Instructors
+Hyungyu Shin, Eun-Young Ko (Korea Advanced Institute of Science & Technology),
+Joseph Jay Williams (National University of Singapore),
+Juho Kim (Korea Advanced Institute of Science & Technology)
+Paper 320: Force Jacket: Pneumatically-Actuated Jacket for Embodied Haptic Experiences
+Alexandra Delazio (Disney Research),
+Ken Nakagaki (Massachusetts Institute of Technology & Disney Research),
+Roberta L. Klatzky, Scott E. Hudson (Carnegie Mellon University & Disney Research),
+Jill Fain Lehman, Alanson P. Sample (Disney Research)
+Paper 321: Toward Health Information Technology that Supports Overweight/Obese Women
+in Addressing Emotion- and Stress-Related Eating
+Andrea M. Barbarin (IBM Watson Health),
+Laura R. Saslow, Mark S. Ackerman, Tiffany C. Veinot (University of Michigan - Ann Arbor)
+Paper 322: Parody in Place: Exposing Socio-spatial Exclusions in Data-Driven Maps
+with Design Parody
+Sarah E. Fox, Meredith Lampe, Daniela K. Rosner (University of Washington)
+Paper 323: From Scanning Brains to Reading Minds: Talking to Engineers
+about Brain-Computer Interface
+Nick Merrill, John Chuang (University of California, Berkeley)
+CHI 2018 Proceedings Table of Contents
+xxvii
+Paper 324: Crowdsourcing Exercise Plans Aligned with Expert Guidelines
+and Everyday Constraints
+Elena Agapie, Bonnie Chinh, Laura R. Pina, Diana Oviedo (University of Washington),
+Molly C. Welsh (Seattle University), Gary Hsieh, Sean Munson (University of Washington)
+Paper 325: Bottom-Up Imaginaries: The Cultural-Technical Practice of Inventing Regional
+Advantage through IT R&D
+Guo Freeman (University of Cincinatti), Shaowen Bardzell, Jeffrey Bardzell (Indiana University)
+Paper 326: Balancing Privacy and Information Disclosure in Interactive Record Linkage
+with Visual Masking
+Eric D. Ragan, Hye-Chung Kum, Gurudev Ilangovan, Han Wang (Texas A&M University)
+Paper 327: Streets for People: Engaging Children in Placemaking Through
+a Socio-technical Process
+Sean Peacock, Robert Anderson, Clara Crivellaro (Newcastle University)
+Paper 328: Vanishing Importance: Studying Immersive Effects of Game Audio Perception
+on Player Experiences in Virtual Reality
+Katja Rogers (Ulm University), Giovanni Ribeiro, Rina R. Wehbe (University of Waterloo),
+Michael Weber (Ulm University),
+Lennart E. Nacke (University of Waterloo)
+Paper 329: Flexible Learning with Semantic Visual Exploration and Sequence-Based
+Recommendation of MOOC Videos
+Jian Zhao, Chidansh Bhatt, Matthew Cooper, David A. Shamma (FX Palo Alto Laboratory)
+Paper 330: “Trust Us”: Mobile Phone Use Patterns Can Predict Individual Trust Propensity
+Ghassan F. Bati (Umm Al-Qura University & Rutgers University), Vivek K. Singh (Rutgers University)
+Paper 331: “Suddenly, we got to become therapists for each other”: Designing Peer Support
+Chats for Mental Health
+Kathleen O’Leary (University of Washington), Stephen M. Schueller (Northwestern University),
+Jacob O. Wobbrock, Wanda Pratt (University of Washington)
+Paper 332: Accountability in the Blue-Collar Data-Driven Workplace
+Kristian Helbo Kristiansen, Mathias A. Valeur-Meller (University of Copenhagen),
+Lynn Dombrowski (Indiana University - Purdue University - Indianapolis (IUPUI)),
+Naja L.. Holten Moller (University of Copenhagen)
+Paper 333: Food Democracy in the Making: Designing with Local Food Networks
+Sebastian Prost, Clara Crivellaro (Newcastle University), Andy Haddon (Earth Doctors Ltd.),
+Rob Comber (RISE SICS)
+Paper 334: Better Understanding of Foot Gestures: An Elicitation Study
+Yasmin Felberbaum, Joel Lanir (University of Haifa)
+Paper 335: InfoNice: Easy Creation of Information Graphics
+Yun Wang (Hong Kong University of Science & Technology),
+Haidong Zhang, He Huang (Microsoft Research), Xi Chen (Peking University),
+Qiufeng Yin, Zhitao Hou, Dongmei Zhang (Microsoft Research), (Microsoft Research),
+Qiong Luo, Huamin Qu (Hong Kong University of Science and Techonlogy)
+Paper 336: Metamaterial Textures
+Alexandra Ion, Robert Kovacs, Oliver S. Schneider, Pedro Lopes, Patrick Baudisch (Hasso Plattner Institute)
+Paper 337: A Case for Design Localization: Diversity of Website Aesthetics in 44 Countries
+Manuel Nordhoff, Tal August, Nigini A. Oliveira, Katharina Reinecke (University of Washington)
+Paper 338: As We May Study: Towards the Web as a Personalized Language Textbook
+Mircea F. Lungu, Luc van den Brand, Dan Chirtoaca, Martin Avagyan (University of Groningen)
+Paper 339: KnobSlider: Design of a Shape-Changing UI for Parameter Control
+Hyunyoung Kim, Céline Coutrix (Université Grenoble Alpes & University of Stuttgart),
+Anne Roudaut (University of Bristol)
+CHI 2018 Proceedings Table of Contents
+xxviii
+Paper 340: BreathVR: Leveraging Breathing as a Directly Controlled Interface for Virtual
+Reality Games
+Misha Sra (Massachusetts Institute of Technology), Xuhai Xu (Tsinghua University),
+Pattie Maes (Massachusetts Institute of Technology)
+Paper 341: Choosing to Help Monsters: A Mixed-Method Examination of Meaningful Choices
+in Narrative-Rich Games and Interactive Narratives
+Glena H. Iten, Sharon T. Steinemann, Klaus Opwis (University of Basel)
+Paper 342: Support for Social and Cultural Capital Development in Real-time
+Ridesharing Services
+Vaishnav Kameswaran, Lindsey Cameron, Tawanna R. Dillahunt (University of Michigan)
+Paper 343: Are You Dreaming? A Phenomenological Study on Understanding Lucid Dreams
+as a Tool for Introspection in Virtual Reality
+Alexandra Kitson, Thecla Schiphorst, Bernhard E. Riecke (Simon Fraser University)
+Paper 344: A Large-Scale Study of iPhone App Launch Behaviour
+Alistair Morrison, Xiaoyu Xiong, Matthew Higgs, Marek Bell, Matthew Chalmers (University of Glasgow)
+Paper 345: Physical Keyboards in Virtual Reality: Analysis of Typing Performance and Effects
+of Avatar Hands
+Pascal Knierim (Ludwig-Maximilian University of Munich), Valentin Schwind (University of Stuttgart),
+Anna Maria Feit (Aalto University), Florian Nieuwenhuizen, Niels Henze (University of Stuttgart)
+Paper 346: “Bursting the Assistance Bubble”: Designing Inclusive Technology with Children
+with Mixed Visual Abilities
+Oussama Metatla, Clare Cullen (University of Bristol)
+Paper 347: Review of Intrinsic Motivation in Simulation-based Game Testing
+Shaghayegh Roohi, Jari Takatalo (Aalto University), Christian Guckelsberger (University of London),
+Perttu Hämäläinen (Aalto University)
+Paper 348: Semi-Automated Coding for Qualitative Research: A User-Centered Inquiry
+and Initial Prototypes
+Megh Marathe, Kentaro Toyama (University of Michigan)
+Paper 349: An Eye For Design: Gaze Visualizations for Remote Collaborative Work
+Sarah D’Angelo, Darren Gergle (Northwestern Univeristy)
+Paper 350: Assisting Students with Intellectual and Developmental Disabilities in Inclusive
+Education with Smartwatches
+Hui Zheng, Vivian Genaro Motti (George Mason University)
+Paper 351: Making as Expression: Informing Design with People with Complex Communication
+Needs through Art Therapy
+Amanda Lazar (University of Maryland & Northwestern University),
+Jessica L. Feuston (Northwestern University), Caroline Edasis (Mather LifeWays),
+Anne Marie Piper (Northwestern University)
+Paper 352: The Unexpected Entry and Exodus of Women in Computing and HCI in India
+Divy Thakkar, Nithya Sambasivan (Google Inc.), Purva Kulkarni (University of Michigan),
+Pratap Kalenahalli Sudarshan (Google Inc.), Kentaro Toyama (University of Michigan)
+Paper 353: ProtoAR: Rapid Physical-Digital Prototyping of Mobile Augmented
+Reality Applications
+Michael Nebeling, Janet Nebeling (University of Michigan),
+Ao Yu (University of Michigan & Tsinghua University), Rob Rumble (University of Michigan)
+Paper 354: SurfaceConstellations: A Modular Hardware Platform for Ad-Hoc Reconfigurable
+Cross-Device Workspaces
+Nicolai Marquardt, Frederik Brudy, Can Liu (University College London),
+Ben Bengler (IXDS & University College London), Christian Holz (Microsoft Research)
+Paper 355: Revisiting “The Rise and Decline” in a Population of Peer Production Projects
+Nathan TeBlunthuis (University of Washington), Aaron Shaw (Northwestern University),
+Benjamin Mako Hill (University of Washington)
+CHI 2018 Proceedings Table of Contents
+xxix
+Paper 356: Designing Pronunciation Learning Tools: The Case for Interactivity against
+Over-Engineering
+Sean Robertson (University of Toronto), Cosmin Munteanu (University of Toronto Mississauga),
+Gerald Penn (University of Toronto)
+Paper 357: From Her Story, to Our Story: Digital Storytelling as Public Engagement around
+Abortion Rights Advocacy in Ireland
+Lydia Michie (Newcastle University), Madeline Balaam (KTH Royal Institute of Technology),
+John McCarthy (University College Cork), Timur Osadchiy, Kellie Morrissey (Newcastle University)
+Paper 358: Capturing, Representing, and Interacting with Laughter
+Kimiko Ryokai, Elena Durán López, Noura Howell, Jon Gillick, 
+David Bamman (University of California, Berkeley)
+Paper 359: Geocaching with a Beam: Shared Outdoor Activities through a Telepresence Robot
+with 360 Degree Viewing
+Yasamin Heshmat (Simon Fraser University), Brennan Jones (Simon Fraser University & University of Calgary),
+Xiaoxuan Xiong (Hunan University), Carman Neustaedter (Simon Fraser University),
+Anthony Tang (University of Calgary), Bernhard E. Riecke, Lillian Yang (Simon Fraser University)
+Paper 360: PalmTouch: Using the Palm as an Additional Input Modality
+on Commodity Smartphones
+Huy Viet Le (University of Stuttgart), Thomas Kosch (LMU Munich), Patrick Bader, Sven Mayer, 
+Niels Henze (University of Stuttgart)
+Paper 361: “How Wide Walls” Can Increase Engagement: Evidence From a Natural
+Experiment in Scratch
+Sayamindu Dasgupta, Benjamin Mako Hill (University of Washington)
+Paper 362: Activity Tracking in vivo
+Rúben Gouveia (University of Madeira), Evangelos Karapanos (Cyprus University of Technology),
+Marc Hassenzahl (University of Siegen)
+Paper 363: Understanding Users’ Capability to Transfer Information between Mixed
+and Virtual Reality: Position Estimation across Modalities and Perspectives
+Joan Sol Roo (Inria), Jean Basset (Ecole Nationale Supérieure de Cognitique),
+Pierre-Antoine Cinquin (University of Bordeaux), Martin Hachet (Inria)
+Paper 364: Seemo: A Computational Approach to See Emotions
+Zhe Liu, Anbang Xu, Yufan Guo, Jalal U. Mahmud, Haibin Liu, Rama Akkiraju (IBM Research - Almaden)
+Paper 365: Knowing You, Seeing Me: Investigating User Preferences
+in Drone-Human Acknowledgement
+Walther Jensen, Simon Hansen, Hendrik Knoche (Aalborg University)
+Paper 366: Evaluating CoBlox: A Comparative Study of Robotics Programming
+Environments for Adult Novices
+David Weintrop (University of Maryland), Afsoon Afzal (Carnegie Mellon University),
+Jean Salac (University of Chicago), Patrick Francis, Boyang Li, David C. Shepherd (ABB Corporate Research),
+Diana Franklin (University of Chicago)
+Paper 367: Rolling-Menu: Rapid Command Selection in Toolbars Using Roll Gestures
+with a Multi-DoF Mouse
+Emmanuel Dubois, Marcos Serrano, Mathieu Raynal (University of Toulouse - IRIT)
+Paper 368: Effects of Enhanced Gaze Presentation on Gaze Leading in Remote
+Collaborative Physical Tasks
+Mai Otsuki, Keita Maruyama, Hideaki Kuzuoka (University of Tsukuba), 
+Yusuke SUZUKI (Oki Electric Industry Co., Ltd.)
+Paper 369: Dream Lens: Exploration and Visualization of Large-Scale Generative
+Design Datasets
+Justin Matejka, Michael Glueck, Erin Bradner, Ali Hashemi, Tovi Grossman, 
+George Fitzmaurice (Autodesk Research)
+CHI 2018 Proceedings Table of Contents
+xxx
+Paper 370: Seeing What Is and What Can Be: On Sustainability, Respect for Work,
+and Design for Respect
+Eli Blevis (Indiana University & Hong Kong Polytechnic University)
+Paper 371: Everything We Do, Everything We Press: Data-Driven Remote Performance
+Management in a Mobile Workplace
+Lyndsey L. Bakewell (Loughborough University), Konstantina Vasileiou (University of Bath), 
+Kiel S. Long (Northumbria University), Mark Atkinson (University of Exeter),
+Helen Rice (Independent Researcher), Manuela Barreto (University of Exeter),
+Julie Barnett (University of Bath), Michael Wilson (Loughborough University),
+Shaun Lawson, John Vines (Northumbria University)
+Paper 372: Social Affordances at Play: Game Design Toward Socio-Technical Innovation
+Katherine Isbister, Elena Márquez Segura (University of California, Santa Cruz),
+Edward F. Melcer (New York University)
+Paper 373: A Critical Examination of Feedback in Early Reading Games
+Laura Benton, Asimina Vasalou (University College London),
+Kay Berkling (Cooperative State University Baden Württemberg),
+Wolmet Barendregt (University of Gothenburg), Manolis Mavrikis (University College London)
+Paper 374: HCI meets Material Science: A Literature Review of Morphing Materials for
+the Design of Shape-Changing Interfaces
+Isabel P. S. Qamar, Rainer Groh (University of Bristol), David Holman (Tactual Labs),
+Anne Roudaut (University of Bristol)
+Paper 375: Ticket to Talk: Supporting Conversation between Young People and People
+with Dementia through Digital Media
+Daniel Welsh, Kellie Morrissey (Newcastle University), Sarah Foley (University College Cork),
+Roisin McNaney (Lancaster University), Christos Salis (Newcastle University),
+John McCarthy (University College Cork), John Vines (Northumbria University)
+Paper 376: Falling for Fake News: Investigating the Consumption of News via Social Media
+Martin Flintham, Christian Karner (University of Nottingham), Khaled Bachour (University of Lincoln),
+Helen Creswick, Neha Gupta, Stuart Moran (University of Nottingham)
+Paper 377: ‘It’s Reducing a Human Being to a Percentage’: Perceptions of Justice
+in Algorithmic Decisions
+Reuben Binns, Max Van Kleek (University of Oxford), Michael Veale (University College London),
+Ulrik Lyngs, Jun Zhao, Nigel Shadbolt (University of Oxford)
+Paper 378: I Really did That: Sense of Agency with Touchpad, Keyboard,
+and On-skin Interaction
+Joanna Bergstrom-Lehtovirta (University of Copenhagen), David Coyle (University College Dublin),
+Jarrod Knibbe, Kasper Hornbæk (University of Copenhagen)
+Paper 379: The Impact of Abstract vs. Concrete Feedback Design on Behavior
+– Insights from a Large Eco-Driving Field Experiment
+André Dahlinger, Felix Wortmann (University of St. Gallen), Benjamin Ryder (ETH Zurich),
+Bernhard Gahr (University St. Gallen)
+Paper 380: Tangible Landscape: A Hands-on Method for Teaching Terrain Analysis
+Garrett C. Millar, Payam Tabrizian, Anna Petrasova, Vaclav Petras (North Carolina State University), 
+Brendan Harmon (Louisiana State University),
+Helena Mitasova, Ross K. Meetenmeyer (North Carolina State University)
+Paper 381: [Un]breaking News: Design Opportunities for Enhancing Collaboration
+in Scientific Media Production
+C. Estelle Smith, Xinyi Wang, Raghav Pavan Karumur, Haiyi Zhu (University of Minnesota)
+Paper 382: ThermoKiosk: Investigating Roles for Digital Surveys of Thermal Experience
+in Workplace Comfort Management
+Adrian K. Clear (Northumbria University), Samantha Mitchell Finnigan (Newcastle University),
+Patrick Olivier (Newcastle University), Rob Comber (RISE SICS)
+CHI 2018 Proceedings Table of Contents
+xxxi
+Paper 383: The Privilege of Immersion: Racial and Ethnic Experiences, Perceptions,
+and Beliefs in Digital Gaming
+Cale J. Passmore, Max V. Birk, Regan L. Mandryk (University of Saskatchewan)
+Paper 384: Stitching Infrastructures to Facilitate Telemedicine for Low-Resource Environments
+Rajesh Chandwani (Indian Institute of Management Ahmedabad), Neha Kumar (Georgia Institute of Technology)
+Paper 385: BIGFile: Bayesian Information Gain for Fast File Retrieval
+Wanyu Liu (Telecom ParisTech, Université Paris-Saclay & University Paris-Sud, CNRS, Inria,
+Université Paris-Saclay), Olivier Rioul (Télécom ParisTech, Université Paris-Saclay),
+Joanna McGrenere (University of Brisith Columbia & Inria, Université Paris-Saclay),
+Wendy E. Mackay (Inria, Université Paris-Saclay),
+Michel Beaudouin-Lafon (University Paris-Sud, CNRS, Inria, Université Paris-Saclay)
+Paper 386: The Use of Private Mobile Phones at War: Accounts From the Donbas Conflict
+Irina Shklovski (IT University of Copenhagen & University of Siegen), Volker Wulf (University of Siegen)
+Paper 387: ConceptScape: Collaborative Concept Mapping for Video Learning
+Ching Liu (National Tsing Hua University), Juho Kim (Korea Advanced Institute of Science & Technology),
+Hao-Chuan Wang (National Tsing Hua University & University of California, Davis)
+Paper 388: Expressive Time Series Querying with Hand-Drawn Scale-Free Sketches
+Miro Mannino, Azza Abouzied (New York University - Abu Dhabi)
+Paper 389: Prayana: Intermediated Financial Management in Resource-Constrained Settings
+Apurv Mehra (Microsoft Research), Srihari Muralidhar (Aarhus University), Sambhav Satija (IIIT Delhi),
+Anupama Dhareshwar (Chalmers University of Technology), Jacki O’Neill (Microsoft Research)
+Paper 390: ChromaGlasses: Computational Glasses for Compensating Colour Blindness
+Tobias Langlotz, Jonathan Sutton, Stefanie Zollmann (University of Otago),
+Yuta Itoh (Tokyo Institute of Technology, RIKEN, & Keio University), Holger Regenbrecht (University of Otago)
+Paper 391: Face Value? Exploring the Effects of Embodiment for a Group Facilitation Agent
+Ameneh Shamekhi (Northeastern University),
+Q. Vera Liao, Dakuo Wang, Rachel K. E. Bellamy, Thomas Erickson (IBM T.J. Watson Research Center)
+Paper 392: Coding Tactile Symbols for Phonemic Communication
+Siyan Zhao, Ali Israr, Frances Lau, Freddy Abnousi (Facebook Inc.)
+Paper 393: X-Ray Refine: Supporting the Exploration and Refinement of Information Exposure
+Resulting from Smartphone Apps
+Max Van Kleek, Reuben Binns, Jun Zhao, Adam Slack, Sauyon Lee, Dean Ottewell, 
+Nigel Shadbolt (University of Oxford)
+Paper 394: Controlling Maximal Voluntary Contraction of the Upper Limb Muscles by Facial
+Electrical Stimulation
+Arinobu Niijima, Takashi Isezaki, Ryosuke Aoki, Tomoki Watanabe, Tomohiro Yamada (NTT Corporation)
+Paper 395: How to Design a Digital Storytelling Authoring Tool for Developing Pre-Reading
+and Pre-Writing Skills
+Elisa Rubegni (University of Lincoln), Monica Landoni (Università della Svizzera Italiana)
+Paper 396: Non-Native English Speakers Learning Computer Programming: Barriers, Desires,
+and Design Opportunities
+Philip J. Guo (University of California, San Diego)
+Paper 397: The Ambient Birdhouse: An IoT Device to Discover Birds and Engage with Nature
+Alessandro Soro, Margot Brereton, Tshering Dema, Jessica L. Oliver, Min Zhen Chai, 
+Aloha May Hufana Ambe (Queensland University of Technology)
+Paper 398: Pocket Skills: A Conversational Mobile Web App To Support Dialectical
+Behavioral Therapy
+Jessica Schroeder, Chelsey Wilkes (University of Washington),
+Kael Rowan, Arturo Toledo, Ann Paradiso, Mary Czerwinski (Microsoft Research),
+Gloria Mark (University of California, Irvine), Marsha M. Linehan (University of Washington)
+Paper 399: The Application and Its Consequences for Non-Standard Knowledge Work
+Midas Nouwens, Clemens Nylandsted Klokmose (Aarhus University)
+CHI 2018 Proceedings Table of Contents
+xxxii
+Paper 400: Digital Konditorei: Programmable Taste Structures using a Modular Mold
+Amit Zoran (Hebrew University), Dror Cohen (Microsoft)
+Paper 401: Exploring the Weak Association between Flow Experience and Performance
+in Virtual Environments
+Yulong Bian, Chenglei Yang (Shandong University), Chao Zhou (Liaoning Normal University),
+Juan Liu, Wei Gai, Xiangxu Meng (Shandong University), Feng Tian (Chinese Academy of Sciences),
+Chia Shen (National Science Foundation)
+Paper 402: Understanding the Mundane Nature of Self-care: Ethnographic Accounts of People
+Living with Parkinson’s
+Francisco Nunes (Fraunhofer Portugal AICOS & TU Wien (Vienna University of Technology)),
+Geraldine Fitzpatrick (TU Wien (Vienna University of Technology))
+Paper 403: EDITalk: Towards Designing Eyes-free Interactions for Mobile Word Processing
+Debjyoti Ghosh, Pin Sym Foong, Shengdong Zhao, Di Chen (National Univeristy of Singapore),
+Morten Fjeld (Chalmers University of Technology)
+Paper 404: Improving User Confidence in Concept Maps: Exploring Data Driven Explanations
+Pierre Le Bras, David A. Robb, Thomas S. Methven, Stefano Padilla, Mike J. Chantler (Heriot-Watt University)
+Paper 405: Spokespeople: Exploring Routes to Action through Citizen-Generated Data
+Thomas Maskell, Clara Crivellaro, Robert Anderson, Tom Nappey, Vera Araújo-Soares, 
+Kyle Montague (Newcastle University)
+Paper 406: Evaluating the Disruptiveness of Mobile Interactions: A Mixed-Method Approach
+Sven Mayer, Lars Lischke, Paweł W. Woźniak, Niels Henze (University of Stuttgart)
+Paper 407: Make Yourself at Phone: Reimagining Mobile Interaction Architectures
+with Emergent Users
+Simon Robinson, Jennifer Pearson, Thomas Reitmaier (Swansea University), Shashank Ahire (IIT Bombay),
+Matt Jones (Swansea University)
+Paper 408: Interactive Feedforward for Improving Performance and Maintaining Intrinsic
+Motivation in VR Exergaming
+Soumya C. Barathi, Daniel J. Finnegan, Matthew Farrow, Alexander Whaley, Pippa Heath (University Of Bath), 
+Jude Buckley, Peter W. Dowrick, Burkhard C. Wuensche (University of Auckland),
+James L. J. Bilzon, Eamonn O’Neill, Christof Lutteroth (University of Bath)
+Paper 409: ARcadia: A Rapid Prototyping Platform for Real-time Tangible Interfaces
+Annie Kelly, R. Benjamin Shapiro (University of Colorado Boulder),
+Jonathan de Halleux, Thomas Ball (Microsoft Research)
+Paper 410: Building Momentum: Scaling up Change in Community Organizations
+Aksel Biørn-Hansen (Chalmers University of Technology),
+Maria Håkansson (RISE Research Institutes of Sweden & Chalmers University of Technology)
+Paper 411: Mechanism Perfboard: An Augmented Reality Environment for Linkage Mechanism
+Design and Fabrication
+Yunwoo Jeong, Han-Jong Kim, Tek-Jin Nam (Korea Advanced Institute of Science & Technology)
+Paper 412: Addressing Age-Related Bias in Sentiment Analysis
+Mark Diaz, Isaac Johnson (Northwestern University), Amanda Lazar (University of Maryland),
+Anne Marie Piper, Darren Gergle (Northwestern University)
+Paper 413: Identification of Imminent Suicide Risk Among Young Adults using Text Messages
+Alicia L. Nobles, Jeffrey J. Glenn, Kamran Kowsari, Bethany A. Teachman, 
+Laura E. Barnes (University of Virginia)
+Paper 415: Touch Your Heart: A Tone-aware Chatbot for Customer Care on Social Media
+Tianran Hu (University of Rochester), Anbang Xu, Zhe Liu (IBM Research - Almaden),
+Quanzeng You (University of Rochester), Yufan Guo, Vibha Sinha (IBM Research - Almaden),
+Jiebo Luo (University of Rochester), Rama Akkiraju (IBM Research - Almaden)
+Paper 416: Modern Bereavement: A Model for Complicated Grief in the Digital Age
+Anna N. Baglione (Indiana University Bloomington), Maxine M. Girard (Simmons College),
+Meagan Price (Claflin University), James Clawson, Patrick C. Shih (Indiana University Bloomington)
+CHI 2018 Proceedings Table of Contents
+xxxiii
+Paper 417: Using Animation to Alleviate Overdraw in Multiclass Scatterplot Matrices
+Helen Chen, Sophie Engle, Alark Joshi (University of San Francisco),
+Eric D. Ragan (Texas A&M University), Beste F. Yuksel (University of San Francisco),
+Lane Harrison (Worcester Polytechnic Institute)
+Paper 418: The Context of College Students’ Facebook Use and Academic
+Performance: An Empirical Study
+Yiran Wang, Gloria Mark (University of California, Irvine)
+Paper 419: Designing Consistent Gestures Across Device Types: Eliciting RSVP Controls
+for Phone, Watch, and Glasses
+Tilman Dingler (Osaka Prefecture University),
+Rufat Rzayev, Alireza Sahami Shirazi , Niels Henze (University of Stuttgart)
+Paper 420: Supporting the Complex Social Lives of New Parents
+Austin L. Toombs (Purdue University & Newcastle University),
+Kellie Morrissey, Emma Simpson (Newcastle University), Colin M. Gray (Purdue University),
+John Vines (Northumbria University), Madeline Balaam (KTH Royal Institute of Technology)
+Paper 421: Algorithmic Anxiety and Coping Strategies of Airbnb Hosts
+Shagun Jhaver (Georgia Institute of Technology), Yoni Karpfen, Judd Antin (Airbnb Inc.)
+Paper 422: More Text Please! Understanding and Supporting the Use
+of Visualization for Clinical Text Overview
+Nicole Sultanum , Michael Brudno (University of Toronto & The Hospital of Sick Children),
+Daniel Wigdor (University of Toronto), Fanny Chevalier (University of Toronto & Inria),
+Paper 423: The SelfReflector: Design, IoT and the High Street
+Jayne Wallace (Northumbria University), Jon Rogers, Michael Shorter, Pete Thomas, 
+Martin Skelly (University of Dundee), Richard Cook (SPeX PisTOls)
+Paper 424: Co-constructing Family Memory: Understanding the Intergenerational Practices
+of Passing on Family Stories
+Jasmine Jones, Mark S. Ackerman (University of Michigan, Ann Arbor)
+Paper 425: Seismo: Blood Pressure Monitoring using Built-in Smartphone Accelerometer
+and Camera
+Edward Jay Wang, Junyi Zhu, Mohit Jain, Tien-Jui Lee, Elliot Saba (University of Washington),
+Lama Nachman (Intel Labs), Shwetak N. Patel (University of Washington)
+Paper 426: Jetto: Using Lateral Force Feedback for Smartwatch Interactions
+Jun Gong (Dartmouth College),
+Da-Yuan Huang (National Taiwan University of Science & Technology (NTUST) & Dartmouth College),
+Teddy Seyed (University of Calgary),
+Te Lin (Shanghai Jiao Tong University & Dartmouth College),
+Tao Hou (Beijing University of Posts and Telecommunications & Dartmouth College),
+Xin Liu (Beijing University of Posts and Telecommunications & Dartmouth College),
+Molin Yang (Beijing University of Posts and Telecommunications & Dartmouth College),
+Boyu Yang (Tsinghua University & Dartmouth College),
+Yuhan Zhang (Beijing University of Posts and Telecommunications & Dartmouth College),
+Xing-Dong Yang (Dartmouth College)
+Paper 427: ExtVision: Augmentation of Visual Experiences with Generation of Context Images
+for a Peripheral Vision Using Deep Neural Network
+Naoki Kimura (University of Tokyo), Jun Rekimoto (University of Tokyo / Sony CSL)
+Paper 428: Substituting Motion Effects with Vibrotactile Effects for 4D Experiences
+Jongman Seo, Sunung Mun (Pohang University of Science & Technology), Jaebong Lee (NVIDIA),
+Seungmoon Choi (Pohang University of Science & Technology)
+Paper 429: Communicating Awareness and Intent in Autonomous
+Vehicle-Pedestrian Interaction
+Karthik Mahadevan (University of Calgary), Sowmya Somanath (OCAD University),
+Ehud Sharlin (University of Calgary)
+Paper 430: Running Out of Time: The Impact and Value of Flexibility in On-Demand Crowdwork
+Ming Yin, Siddharth Suri, Mary L. Gray (Microsoft Research)
+CHI 2018 Proceedings Table of Contents
+xxxiv
+Paper 431: Tensions of Data-Driven Reflection: A Case Study of Real-Time
+Emotional Biosensing
+Noura Howell (University of California, Berkeley), Laura Devendorf (University of Colorado Boulder),
+Tomás Alfonso Vega Gálvez (Massachusetts Institute of Technology),
+Rundong Tian, Kimiko Ryokai (University of California, Berkeley)
+Paper 432: Communicating Algorithmic Process in Online Behavioral Advertising
+Motahhare Eslami (University of Illinois at Urbana-Champaign & Adobe Systems),
+Sneha R. Krishna Kumaran (University of Illinois at Urbana Champaign),
+Christian Sandvig (University of Michigan),
+Karrie Karahalios (University of Illinois at Urbana-Champaign & Adobe Systems),
+Paper 433: Quadcopter-Projected In-Situ Navigation Cues for Improved Location Awareness
+Pascal Knierim (LMU Munich), Steffen Maurer (Ulm University),
+Katrin Wolf (Hamburg University of Applied Science), Markus Funk (TU Darmstadt)
+Paper 434: P2PSTORY: Dataset of Children as Storytellers and Listeners
+in Peer-to-Peer Interactions
+Nikhita Singh, Jin Joo Lee, Ishaan Grover, Cynthia Breazeal (Massachusetts Institute of Technology)
+Paper 435: Personalizing Persuasive Strategies in Gameful Systems to Gamification
+User Types
+Rita Orji (Dalhousie University), Gustavo F. Tondello (University of Waterloo),
+Lennart E. Nacke (University of Waterloo)
+Paper 436: Your Eyes Tell: Leveraging Smooth Pursuit for Assessing Cognitive Workload
+Thomas Kosch, Mariam Hassib (University of Munich (LMU)), Paweł W. Woźniak (University of Stuttgart),
+Daniel Buschek (University of Munich (LMU)),
+Florian Alt (University of Munich (LMU) & Munich University of Applied Sciences)
+Paper 437: FingerPing: Recognizing Fine-grained Hand Poses using Active Acoustic
+On-body Sensing
+Cheng Zhang, Qiuyue Xue, Anandghan Waghmare, Ruichen Meng, 
+Sumeet Jain (Georgia Institute of Technology), Yizeng Han (Tsinghua University),
+Xinyu Li, Kenneth Cunefare, Thomas Ploetz, Thad Starner, Omer Inan, 
+Gregory D. Abowd (Georgia Institute of Technology)
+Paper 438: Frames and Slants in Titles of Visualizations on Controversial Topics
+Ha-Kyung Kong (University of Illinois at Urbana-Champaign), Zhicheng Liu (Adobe Research),
+Karrie Karahalios (Adobe Research & University of Illinois at Urbana-Champaign)
+Paper 439: Typing on an Invisible Keyboard
+Suwen Zhu, Tianyao Luo, Xiaojun Bi (Stony Brook University), Shumin Zhai (Google, Inc.)
+Paper 440: Fairness and Accountability Design Needs for Algorithmic Support in High-Stakes
+Public Sector Decision-Making
+Michael Veale (University College London), Max Van Kleek, Reuben Binns (University of Oxford)
+Paper 441: PEP (3D Printed Electronic Papercrafts): An Integrated Approach
+for 3D Sculpting Paper-Based Electronic Devices
+Hyunjoo Oh (University of Colorado Boulder), Tung D. Ta (University of Tokyo),
+Ryo Suzuki (University of Colorado Boulder), Mark D. Gross (University of Colorado),
+Yoshihiro Kawahara (University of Tokyo), Lining Yao (Carnegie Mellon University)
+Paper 442: Between Grassroots and the Hierarchy: Lessons Learned from the Design
+of a Public Services Directory
+Andy Dow (Newcastle University), Rob Comber (RISE SICS), John Vines (Northumbria University)
+Paper 443: Social Influences on Executive Functioning in Autism: Design of a Mobile
+Gaming Platform
+Beibin Li, Adham Atyabi (Seattle Children’s & University of Washington),
+Minah Kim, Erin Barney (Seattle Children’s), Amy Yeojin Ahn (Seattle Children’s & University of Washington),
+Yawen Luo, Madeline Aubertine (Seattle Children’s), Sarah Corrigan (Seattle Children’s),
+Tanya St. John (University of Washington), Quan Wang, Marilena Mademtzi (Yale University),
+Mary Best (Yale University School of Medicine), Frederick Shic (Seattle Children’s & University of Washington)
+CHI 2018 Proceedings Table of Contents
+xxxv
+Paper 444: A Large Inclusive Study of Human Listening Rates
+Danielle Bragg, Cynthia Bennett, Katharina Reinecke, Richard Ladner (University of Washington)
+Paper 445: Storyboard-Based Empirical Modeling of Touch Interface Performance
+Alix Goguey (University of Saskatchewan), Géry Casiez (Université de Lille & Inria),
+Andy Cockburn (University of Canterbury), Carl Gutwin (University of Saskatchewan)
+Paper 446: Adding Force Feedback to Mixed Reality Experiences and Games
+using Electrical Muscle Stimulation
+Pedro Lopes, Sijing You, Alexandra Ion, Patrick Baudisch (Hasso Plattner Institute)
+Paper 447: Learning from the Veg Box: Designing Unpredictability in Agency Delegation
+Jhim Kiel M. Verame (University of Southampton & University College London),
+Enrico Costanza (University College London), Joel Fischer, Andy Crabtree (University of Nottingham), 
+Sarvapali D. Ramchurn (University of Southampton), Tom Rodden (University of Nottingham),
+Nicholas R. Jennings (Imperial College)
+Paper 448: Knotation: Exploring and Documenting Choreographic Processes
+Marianela Ciolfi Felice, Sarah Fdili Alaoui, 
+Wendy E. Mackay (University Paris-Sud, CNRS, Inria, Université Paris-Saclay)
+Paper 449: A Data-Driven Analysis of Workers’ Earnings on Amazon Mechanical Turk
+Kotaro Hara (Singapore Management University & Carnegie Mellon University),
+Abigail Adams (University of Oxford), Kristy Milland (McMaster University & TurkerNation.com),
+Saiph Savage (West Virginia University), Chris Callison-Burch (University of Pennsylvania),
+Jeffrey P. Bigham (Carnegie Mellon University)
+Paper 450: Double-sided Printed Tactile Display with Electro Stimuli and Electrostatic Forces
+and its Assessment
+Kunihiro Kato (Meiji University), Hiroki Ishizuka (Kagawa University),
+Hiroyuki Kajimoto (The University of Electro-Communications), Homei Miyashita (Meiji University)
+Paper 451: RecipeScape: An Interactive Tool for Analyzing Cooking Instructions at Scale
+Minsuk Chang (Korea Advanced Institute of Science & Technology),
+Leonore V. Guillain (École Polytechnique Fédérale de Lausanne (EPFL)),
+Hyeungshik Jung (Korea Advanced Institute of Science & Technology),
+Vivian M. Hare (Stanford & Chan Zuckerberg Initiative),
+Juho Kim (Korea Advanced Institute of Science & Technology), Maneesh Agrawala (Stanford University)
+Paper 452: Fostering Commonfare. Infrastructuring Autonomous Social Collaboration
+Peter Lyle, Mariacristina Sciannamblo, Maurizio Teli (Madeira Interactive Technologies Institute)
+Paper 453: Designing for Student Interactions: The Role of Embodied Interactions in Mediating
+Collective Inquiry in an Immersive Simulation
+Michelle Lui (University of Toronto & University of Illinois at Chicago)
+Paper 454: LoopMaker: Automatic Creation of Music Loops from Pre-recorded Music
+Zhengshan Shi (Stanford University), Gautham J. Mysore (Adobe Research)
+Paper 455: Doppio: Tracking UI Flows and Code Changes for App Development
+Pei-Yu (Peggy) Chi, Sen-Po Hu, Yang Li (Google, Inc.)
+Paper 456: “It’s not actually that horrible”: Exploring Adoption of Two-Factor Authentication
+at a University
+Jessica Colnago (Carnegie Mellon University), Summer Devlin (University of California, Berkeley),
+Maggie Oates, Chelse Swoopes, Lujo Bauer, Lorrie Cranor, Nicolas Christin (Carnegie Mellon University)
+Paper 457: Am I a Bunny? The Impact of High and Low Immersion Platforms and Viewers’
+Perceptions of Role on Presence, Narrative Engagement, and Empathy during
+an Animated 360° Video
+Samantha W. Bindman, Lisa M. Castaneda, Mike Scanlon, Anna Cechony (foundry10)
+Paper 458: Making Sense of Blockchain Applications: A Typology for HCI
+Chris Elsden, Arthi Manohar, Jo Briggs (Northumbria University), Mike Harding (Lancaster University),
+Chris Speed (University of Edinburgh), John Vines (Northumbria University)
+CHI 2018 Proceedings Table of Contents
+xxxvi
+Paper 459: “Accessibility Came by Accident”: Use of Voice-Controlled Intelligent Personal
+Assistants by People with Disabilities
+Alisha Pradhan, Kanika Mehta (University of Maryland), Leah Findlater (University of Washington)
+Paper 460: Conveying the Perception of Kinesthetic Feedback in Virtual Reality using
+State-of-the-Art Hardware
+Michael Rietzler, Florian Geiselhart, Julian Frommel, Enrico Rukzio (Ulm University)
+Paper 461: A Bermuda Triangle? - A Review of Method Application and Triangulation in User
+Experience Evaluation
+Ingrid Pettersson (Volvo Cars & Chalmers University of Technology),
+Florian Lachner (University of Munich (LMU)),
+Anna-Katharina Frison, Andreas Riener (Technische Hochschule Ingolstadt (THI) & Johannes Kepler University),
+Andreas Butz (University of Munich (LMU))
+Paper 462: Designing Future Social Wearables with Live Action Role Play (Larp) Designers
+Elena Márquez Segura, James Fey, Ella Dagan, Samvid Niravbhai Jhaveri, Jared Pettitt, Miguel Flores,
+Katherine Isbister (University of California, Santa Cruz)
+Paper 463: Antibiotic-Responsive Bioart: Exploring DIYbio as a Design Studio Practice
+Stacey Kuznetsov, Cassandra Barrett, Piyum Fernando, Kat Fowler (Arizona State University)
+Paper 464: More Than a Show: Using Personalized Immersive Theater to Educate and Engage
+the Public in Technology Ethics
+Michael Warren Skirpan (University of Colorado Boulder & Probable Models), 
+Jacqueline Cameron, Tom Yeh (University of Colorado Boulder)
+Paper 465: CatAR: A Novel Stereoscopic Augmented Reality Cataract Surgery Training
+System with Dexterous Instruments Tracking Technology
+Yu-Hsuan Huang, Hao-Yu Chang, Wan-ling Yang, Yu-Kai Chiu, Tzu-Chieh Yu, Pei-Hsuan Tsai,
+Ming Ouhyoung (National Taiwan University)
+Paper 466: You Watch, You Give, and You Engage: A Study of Live Streaming
+Practices in China
+Zhicong Lu, Haijun Xia, Seongkook Heo, Daniel Wigdor (University of Toronto)
+Paper 467: Bolt: Instantaneous Crowdsourcing via Just-in-Time Training
+Alan Lundgard, Yiwei Yang (University of Michigan), Maya L. Foster (Johns Hopkins University),
+Walter S. Lasecki (University of Michigan)
+Paper 468: Convey: Exploring the Use of a Context View for Chatbots
+Mohit Jain (University of Washington & IBM Research),
+Ramachandra Kota (Realtor.com & IBM Research India), Pratyush Kumar (IBM Research),
+Shwetak N. Patel (University of Washington)
+Paper 469: Confronting Social Criticisms: Challenges when Adopting Data-Driven
+Policing Strategies
+Nitya Verma, Lynn Dombrowski (Indiana University, IUPUI)
+Paper 470: Weaving Lighthouses and Stitching Stories: Blind and Visually Impaired People
+Designing E-textiles
+Emilie Giles, Janet van der Linden, Marian Petre (Open University)
+Paper 471: This Changes Sustainable HCI
+Bran Knowles, Oliver Bates (Lancaster University),
+Maria Håkansson (Chalmers University of Technology & RISE Research Institutes of Sweden)
+Paper 472: Use the Right Sound for the Right Job: Verbal Commands and Auditory Icons for
+a Task-Management System Favor Different Information Processes in the Brain
+Christiane Glatz (Max Planck Institute for Biological Cybernetics
+& International Max Planck Research School for Cognitive and Systems Neuroscience),
+Stas S. Krupenia (Scania CV AB),
+Heinrich H. Bülthoff, Lewis L. Chuang (Max Planck Institute for Biological Cybernetics)
+Paper 473: Iris: A Conversational Agent for Complex Tasks
+Ethan Fast, Binbin Chen, Julia Mendelsohn, Jonathan Bassen, Michael S. Bernstein (Stanford University)
+CHI 2018 Proceedings Table of Contents
+xxxvii
+Paper 474: Explaining Viewers’ Emotional, Instrumental, and Financial Support Provision
+for Live Streamers
+Donghee Yvette Wohn (New Jersey Institute of Technology), Guo Freeman (University of Cincinnati),
+Caitlin McLaughlin (Thompson Rivers University)
+Paper 475: Making the News: Digital Creativity Support for Journalists
+Neil Maiden, Konstantinos Zachos, Amanda Brown, George Brock (City, University of London),
+Lars Nyre, Aleksander Nygård Tonheim (University of Bergen),
+Dimitris Apsotolou (National Technical University of Athens), Jeremy Evans (Explaain)
+Paper 476: Visual ODLs: Co-Designing Patient-Generated Observations of Daily Living
+to Support Data-Driven Conversations in Pediatric Care
+Matthew K. Hong, Udaya Lakshmi (Georgia Institute of Technology),
+Thomas A. Olson (Children’s Healthcare of Atlanta), Lauren Wilcox (Georgia Institute of Technology)
+Paper 477: Improving Discoverability and Expert Performance in Force-Sensitive Text
+Selection for Touch Devices with Mode Gauges
+Alix Goguey (University of Saskatchewan), Sylvain Malacria (Inria), Carl Gutwin (University of Saskatchewan)
+Paper 478: Vibrational Artificial Subtle Expressions: Conveying System’s Confidence Level
+to Users by Means of Smartphone Vibration
+Takanori Komatsu (Meiji University), Kazuki Kobayashi (Shinshu University),
+Seiji Yamada (National Institute of Informatics & SOKENDAI),
+Kotaro Funakoshi, Mikio Nakano (Honda Research Institute Japan Co., Ltd.)
+Paper 479: Investigating the Effect of the Multiple Comparisons Problem in Visual Analysis
+Emanuel Zgraggen, Zheguang Zhao (Brown University), Robert Zeleznik (Brown University),
+Tim Kraska (Brown University & Massachusetts Institute of Technology)
+Paper 480: Passenger Trip Planning using Ride-Sharing Services
+Michael K. Svangren, Mikael B. Skov, Jesper Kjeldskov (Aalborg University)
+Paper 481: Infrastructuring the Solidarity Economy: Unpacking Strategies and Tactics
+in Designing Social Innovation
+Vasillis Vlachokyriakos, Clara Crivellaro, Pete Wright, Patrick Olivier (Newcastle University)
+Paper 482: Exploring Co-design with Breastfeeding Mothers
+Chelsea-Joy Wardle, Mitchell Green, Christine Wanjiru Mburu, Melissa Densmore (University of Cape Town)
+Paper 483: The Dream is Collapsing: The Experience of Exiting VR
+Jarrod Knibbe (University of Copenhagen), Jonas Schjerlund (University of Roskilde), Mathias Petraeus, Kasper
+Hornbæk (University of Copenhagen)
+Paper 484: Common Barriers to the Use of Patient-Generated Data Across Clinical Settings
+Peter West (University of Southampton), Max Van Kleek (University of Oxford),
+Richard Giordano, Mark J. Weal (University of Southampton), Nigel Shadbolt (University of Oxford)
+Paper 485: Analyzing the Effect of Avatar Self-Similarity on Men and Women in a Search
+and Rescue Game
+Helen Wauck (University of Illinois Urbana-Champaign), Gale Lucas (Institute for Creative Technologies),
+Ari Shapiro, Andrew Feng, Jill Boberg, Jonathan Gratch (University of Southern California)
+Paper 486: Supporting Rhythm Activities of Deaf Children using
+Music-Sensory-Substitution Systems
+Benjamin Petry, Thavishi Illandara, Don Samitha Elvitigala,
+Suranga Nanayakkara (Singapore University of Technology and Design)
+Paper 487: Traces: Studying a Public Reactive Floor-Projection of Walking Trajectories
+to Support Social Awareness
+Beatrice Monastero, David K. McGookin (Aalto University)
+Paper 488: Exploring Accessible Smartwatch Interactions for People with Upper Body
+Motor Impairments
+Meethu Malu, Pramod Chundury (University of Maryland, College Park),
+Leah Findlater (University of Washington)
+CHI 2018 Proceedings Table of Contents
+xxxviii
+Paper 489: Pseudonymous Parents: Comparing Parenting Roles and Identities on
+the Mommit and Daddit Subreddits
+Tawfiq Ammari, Sarita Schoenebeck, Daniel M. Romero (University of Michigan)
+Paper 490: Experiential Augmentation: Uncovering The Meaning of Qualitative Visualizations
+when Applied to Augmented Objects
+Dixon Lo, Dan Lockton, Stacie Rohrbach (Carnegie Mellon University)
+Paper 491: Enabling the Participation of People with Parkinson’s and their Caregivers
+in Co-Inquiry around Collectivist Health Technologies
+Roisin McNaney (Lancaster University), John Vines (Northumbria University),
+Andy Dow (Newcastle University), Harry Robinson, Heather Robinson, Kate McDonald, Leslie Brown,
+Peter Santer, Don Murray, Janice Murray (South East Northumberland Parkinson’s UK Branch),
+David Green (Northumbria University), Peter Wright (Newcastle University)
+Paper 492: Who Provides Phishing Training? Facts, Stories, and People Like Me
+Rick Wash (Michigan State University),
+Molly M. Cooper (Michigan State University & Nova Southeastern University)
+Paper 493: Unpacking Perceptions of Data-Driven Inferences Underlying Online Targeting
+and Personalization
+Claire Dolin, Ben Weinshel, Shawn Shan, Chang Min Hahn, Euirim Choi (University of Chicago),
+Michelle L. Mazurek (University of Maryland), Blase Ur (University of Chicago)
+Paper 494: Inaccuracy Blindness in Collaboration Persists, even with an Evaluation Prompt
+Aimee A. Kane (Duquesne University), Sara Kiesler (Carnegie Mellon University), Ruogu Kang (Instagram)
+Paper 495: Huggable: The Impact of Embodiment on Promoting Socio-emotional Interactions
+for Young Pediatric Inpatients
+Sooyeon Jeong, Cynthia Breazeal (Massachusetts Institute of Technology),
+Deirdre Logan, Peter Weinstock (Boston Children’s Hospital)
+Paper 496: Forte: User-Driven Generative Design
+Xiang ‘Anthony’ Chen (Carnegie Mellon University), Ye Tao (Zhejiang University),
+Guanyun Wang, Runchang Kang (Carnegie Mellon University), Tovi Grossman (Autodesk Research),
+Stelian Coros (ETH Zurich), Scott E. Hudson (Carnegie Mellon University)
+Paper 497: PolarTrack: Optical Outside-In Device Tracking that Exploits Display Polarization
+Roman Rädle (Aarhus University), Hans-Christian Jetter (University of Applied Sciences Upper Austria),
+Jonathan Fischer, Inti Gabriel (University of Konstanz), Clemens N. Klokmose (Aarhus University),
+Harald Reiterer (University of Konstanz), Christian Holz (Microsoft Research)
+Paper 498: “Revisiting Hole in the Wall” Computing: Private Smart Speakers and Public
+Slum Setting
+Simon Robinson, Jennifer Pearson (Swansea University), Shashank Ahire, Rini Ahirwar, Bhakti Bhikne,
+Nimish Maravi (IIT Bombay), Matt Jones (Swansea University)
+Paper 499: Values, Identity, and Social Translucence: Neurodiverse Student Teams
+in Higher Education
+Annuska Zolyomi, Anne Spencer Ross, Arpita Bhattacharya, Lauren Milne,
+Sean A. Munson (University of Washington)
+Paper 500: T-Cal: Understanding Team Conversational Data with Calendar-based Visualization
+Siwei Fu (Hong Kong University of Science & Technology), Jian Zhao (FX Palo Alto Laboratory),
+Hao Fei Cheng, Haiyi Zhu (University of Minnesota), Jennifer Marlow (FX Palo Alto Laboratory)
+Paper 501: HapCube: A Wearable Tactile Device to Provide Tangential and Normal
+Pseudo-Force Feedback on a Fingertip
+Hwan Kim, HyeonBeom Yi, Hyein Lee, Woohun Lee (Korea Advanced Institute of Science & Technology)
+Paper 502: Keppi: A Tangible User Interface for Self-Reporting Pain
+Alexander T. Adams (Cornell University), Elizabeth L. Murnane (Stanford University),
+Phil Adams, Michael Elfenbein (Cornell University), Pamara F. Chang (University of Cincinnati),
+Shruti Sannon, Geri Gay, Tanzeem Choudhury (Cornell University)
+CHI 2018 Proceedings Table of Contents 
+xxxix
+Paper 503: Data, Data Everywhere, and Still Too Hard to Link: Insights from User Interactions 
+with Diabetes Apps
+Dmitri S. Katz, Blaine A. Price, Simon Holland (Open University), 
+Nicholas Sheep Dalton (Nortumbria University)
+Paper 504: Rewire: Interface Design Assistance from Examples
+Amanda Swearngin (Adobe Research & University of Washington), Mira Dontcheva, Wilmot Li, Joel 
+Brandt, Morgan Dixon (Adobe Research), Amy J. Ko (University of Washington) 
+Paper 505: Uncertainty Visualization Influences how Humans Aggregate Discrepant Information
+Miriam Greis (University of Stuttgart), Aditi Joshi (Olin College of Engineering), 
+Ken Singer (University of Stuttgart), Albrecht Schmidt (University of Stuttgart and LMU Munich), 
+Tonja Machulla (University of Stuttgart)
+Paper 506: Content is King, Leadership Lags: Effects of Prior Experience on Newcomer 
+Retention and Productivity in Online Production Groups
+Raghav Pavan Karumur, Bowen Yu, Haiyi Zhu, Joseph A. Konstan (University of Minnesota)
+Paper 507: Strategies for Engaging Communities in Creating Physical Civic Technologies
+Nick Taylor, Loraine Clarke, Martin Skelly, Sara Nevay (University of Dundee)
+Paper 508: Neuromechanics of a Button Press
+Antti Oulasvirta, Sunjun Kim (Aalto University), 
+Byungjoo Lee (Korea Advanced Institute of Science & Technology)
+Paper 509: Is it Happy? Behavioural and Narrative Frame Complexity Impact Perceptions 
+of a Simple Furry Robot’s Emotions
+Paul Bucci, Lotus Zhang, Xi Laura Cang, Karon E. MacLean (University of British Columbia)
+Paper 510: Designing a Reclamation of Body and Health: Cancer Survivor Tattoos 
+as Coping Ritual
+Jordan Eschler (University of Washington & Northwestern University), 
+Arpita Bhattacharya, Wanda Pratt (University of Washington)
+Paper 511: Mismatch of Expectations: How Modern Learning Resources Fail 
+Conversational Programmers
+April Y. Wang, Ryan Mitts (Simon Fraser University), Philip J. Guo (University of California, San Diego), 
+Parmit K. Chilana (Simon Fraser University)
+Paper 512: An Experience Sampling Study of User Reactions to Browser Warnings in the Field
+Robert W. Reeder, Adrienne Porter Felt, Sunny Consolvo (Google, Inc.), 
+Nathan Malkin, Christopher Thompson (University of California, Berkeley), 
+Serge Egelman (University of California, Berkeley & International Computer Science Institute)
+Paper 513: Extracting Design Guidelines for Wearables and Movement in Tabletop Role-Playing 
+Games via a Research Through Design Process
+Oğuz Turan Buruk, Oğuzhan Özcan (Koç University)
+Paper 514: Exploring the Design of Tailored Virtual Reality Experiences for People 
+with Dementia
+James Hodge (Newcastle University), Madeline Balaam (KTH Royal Institute of Technology), 
+Sandra Hastings (Silverline Memories), Kellie Morrissey (Newcastle University)
+Paper 515: Project Zanzibar: A Portable and Flexible Tangible Interaction Platform
+Nicolas Villar, Daniel Cletheroe, Greg Saul, Christian Holz, Tim Regan, Oscar Salandin, Misha Sra, 
+Hui-Shyong Yeo, William Field, Haiyan Zhang (Microsoft Research)
+Paper 516: The RAD: Making Racing Games Equivalently Accessible to People Who Are Blind
+Brian A. Smith, Shree K. Nayar (Columbia University)
+Paper 517: Inclusive Computing in Special Needs Classrooms: Designing for All
+Zuzanna Lechelt, Yvonne Rogers (University College London), Nicola Yuill, Lena Nagl, 
+Grazia Ragone (University of Sussex), Nicolai Marquardt (University College London)
+Paper 518: Caption Crawler: Enabling Reusable Alternative Text Descriptions 
+using Reverse Image Search
+Darren Guinness (University of Colorado Boulder & Microsoft Research), 
+Edward Cutrell, Meredith Ringel Morris (Microsoft Research)
+CHI 2018 Proceedings Table of Contents
+xl
+Paper 519: How Far Is Up? Bringing the Counterpointed Triad Technique to Digital
+Storybook Apps
+Betty Sargeant, Florian ‘Floyd’ Mueller (RMIT University)
+Paper 520: Understanding the Accessibility of Smartphone Photography for People
+with Motor Impairments
+Martez E. Mott (Microsoft Research & University of Washington),
+Jane E. (Microsoft Research & Stanford University),
+Cynthia L. Bennett (Microsoft Research & University of Washington),
+Edward Cutrell, Meredith Ringel Morris (Microsoft Research)
+Paper 521: Ohmic-Touch: Extending Touch Interaction by Indirect Touch
+through Resistive Objects
+Kaori Ikematsu, Itiro Siio (Ochanomizu University)
+Paper 522: TeleHuman2: A Cylindrical Light Field Teleconferencing System for Life-size 3D
+Human Telepresence
+Daniel Gotsch, Xujing Zhang (Queen’s University),
+Timothy Merritt (Aalborg University & Queen’s University), Roel Vertegaal (Queen’s University)
+Paper 523: Co-designing Mobile Online Safety Applications with Children
+Brenna McNally, Priya Kumar, Chelsea Hordatt, Matthew Louis Mauriello, Shalmali Naik, Leyla Norooz, 
+Alazandra Shorter, Evan Golub, Allison Druin (University of Maryland)
+Paper 524: Intellingo: An Intelligible Translation Environment
+Sven Coppers (Hasselt University - tUL - imec),
+Jan Van den Bergh, Kris Luyten, Karin Coninx (Hasselt University - tUL - Flanders Make),
+Iulianna van der Lek-Ciudin, Tom Vanallemeersch, Vincent Vandeghinste (KU Leuven - University of Leuven)
+Paper 525: Thor’s Hammer: An Ungrounded Force Feedback Device Utilizing Propeller-Induced
+Propulsive Force
+Seongkook Heo, Christina Chung (University of Toronto),
+Geehyuk Lee (Korea Advanced Institute of Science & Technology), Daniel Wigdor (University of Toronto)
+Paper 526: Transforming Last-mile Logistics: Opportunities for more Sustainable Deliveries
+Oliver Bates, Adrian Friday (Lancaster University), Julian Allen (University of Westminster),
+Tom Cherrett, Fraser McLeod, Tolga Bektas, ThuBa Nguyen (University of Southampton),
+Maja Piecyk, Marzena Piotrowska (University of Westminster), Sarah Wise (University College London),
+Nigel Davies (Lancaster University)
+Paper 527: CraftML: 3D Modeling is Web Programming
+Tom Yeh, Jeeeun Kim (University of Colorado Boulder)
+Paper 528: ForceBoard: Subtle Text Entry Leveraging Pressure
+Mingyuan Zhong, Chun Yu, Qian Wang, Xuhai Xu (Tsinghua University), Yuanchun Shi (Tsinghua University)
+Paper 529: PageFlip: Leveraging Page-Flipping Gestures for Efficient Command and Value
+Selection on Smartwatches
+Teng Han (University of Manitoba), Jiannan Li (University of Toronto), Khalad Hasan (University of Waterloo),
+Keisuke Nakamura, Randy Gomez (Honda Research Institute Japan Co., Ltd.),
+Ravin Balakrishnan (University of Toronto), Pourang Irani (University of Manitoba)
+Paper 530: Inpher: Inferring Physical Properties of Virtual Objects from Mid-Air Interaction
+Søren Qvist Jensen, Andreas Fender (Aarhus University), Jörg Müller (University of Bayreuth)
+Paper 531: Making Core Memory: Design Inquiry into Gendered Legacies of Engineering
+and Craftwork
+Daniela K. Rosner, Samantha Shorey, Brock R. Craft (University of Washington),
+Helen Remick (Self-employed)
+Paper 532: Augmenting Code with In Situ Visualizations to Aid Program Understanding
+Jane Hoffswell (University of Washington), Arvind Satyanarayan (Stanford University),
+Jeffrey Heer (University of Washington)
+Paper 533: Pointing All Around You: Selection Performance of Mouse and Ray-Cast Pointing
+in Full-Coverage Displays
+Julian Petford, Miguel A. Nacenta (University of St Andrews), Carl Gutwin (University of Saskatchewan)
+CHI 2018 Proceedings Table of Contents
+xli
+Paper 534: The Dark (Patterns) Side of UX Design
+Colin M. Gray, Yubo Kou, Bryan Battles, Joseph Hoggatt, Austin L. Toombs (Purdue University)
+Paper 535: Charrette: Supporting In-Person Discussions around Iterations in User
+Interface Design
+Jasper O’Leary (University of Washington & Adobe Research), Holger Winnemöller (Adobe Research), 
+Wilmot Li (Adobe Systems), Mira Dontcheva, Morgan Dixon (Adobe Research)
+Paper 536: Design Within a Patriarchal Society: Opportunities and Challenges in Designing
+for Rural Women in Bangladesh
+Sharifa Sultana, François Guimbretière, Phoebe Sengers (Cornell University), Nicola Dell (Cornell Tech)
+Paper 537: This App Would Like to Use Your Current Location to Better Serve You: Importance
+of User Assent and System Transparency in Personalized Mobile Services
+Tsai-Wei Chen (United Health), S. Shyam Sundar (Pennsylvania State University)
+Paper 538: Pictures Worth a Thousand Words: Reflections on Visualizing Personal Blood
+Glucose Forecasts for Individuals with Type 2 Diabetes
+Pooja M. Desai, Matthew E. Levine, David J. Albers, Lena Mamykina (Columbia University)
+Paper 539: Pac-Many: Movement Behavior when Playing Collaborative and Competitive Games
+on Large Displays
+Sven Mayer, Lars Lischke (University of Stuttgart), Jens Emil Grønbæk (Aarhus University),
+Zhanna Sarsenbayeva (University of Melbourne),
+Jonas Vogelsang, Paweł W. Woźniak, Niels Henze (University of Stuttgart),
+Giulio Jacucci (University of Helsinki)
+Paper 540: BebeCODE: Collaborative Child Development Tracking System
+Seokwoo Song, Juho Kim, Bumsoo Kang (Korea Advanced Institute of Science & Technology),
+Wonjeong Park (Ewha Womans University), John Kim (Korea Advanced Institute of Science & Technology)
+Paper 541: Beyond the Libet Clock: Modality Variants for Agency Measurements
+Patricia I. Cornelio Martinez, Emanuela Maggioni (University of Sussex),
+Kasper Hornbæk (University of Copenhagen), Marianna Obrist, Sriram Subramanian (University of Sussex)
+Paper 542: PokeRing: Notifications by Poking Around the Finger
+Seungwoo Je, Minkyeong Lee, Yoonji Kim (Korea Advanced Institute of Science & Technology),
+Liwei Chan (National Chiao Tung University), Xing-Dong Yang (Dartmouth College),
+Andrea Bianchi (Korea Advanced Institute of Science & Technology)
+Paper 543: Forgotten But Not Gone: Identifying the Need for Longitudinal Data Management
+in Cloud Storage
+Mohammad Taha Khan (University of Illinois at Chicago), Maria Hyun (University of Chicago),
+Chris Kanich (University of Illinois at Chicago), Blase Ur (University of Chicago)
+Paper 544: A Functional Optimization Based Approach for Continuous 3D Retargeted Touch
+of Arbitrary, Complex Boundaries in Haptic Virtual Reality
+Yiwei Zhao, Sean Follmer (Stanford University)
+Paper 545: Sense of Presence, Attitude Change, Perspective-Taking and Usability
+in First-Person Split-Sphere 360° Video
+Tanja Aitamurto (Stanford University), Shuo Zhou (Colorado School of Public Health),
+Sukolsak Sakshuwong (Stanford University), Jorge Saldivar (Catholic University of Asuncion),
+Yasamin Sadeghi (Foothill College), Amy Tran (Mission College)
+Paper 546: “I Hear You”: Understanding Awareness Information Exchange in
+an Audio-only Workspace
+Oussama Metatla (University of Bristol),
+Nick Bryan-Kinns, Tony Stockman (Queen Mary, University of London)
+Paper 547: User-Driven Design Principles for Gesture Representations
+Erin McAweeney (University of Michigan & University of Washington),
+Haihua Zhang (University of Michigan & Tsinghua University), Michael Nebeling (University of Michigan)
+Paper 548: To Put That in Perspective: Generating Analogies that Make Numbers Easier
+to Understand
+Christopher Riederer (Columbia University), Jake M. Hofman, Daniel G. Goldstein (Microsoft Research)
+CHI 2018 Proceedings Table of Contents
+xlii
+Paper 549: Addressing Network Anxieties with Alternative Design Metaphors
+James Pierce (University of California, Berkeley), Carl DiSalvo (Georgia Institute of Technology)
+Paper 550: Supporting Communication between Grandparents and Grandchildren through
+Tangible Storytelling Systems
+Torben Wallbaum, Andrii Matviienko (OFFIS - Institut for Information Technology),
+Swamy Ananthanarayan (University of Oldenburg), Thomas Olsson (Tampere University of Technology),
+Wilko Heuten (OFFIS - Institute for Information Technology), Susanne C.J. Boll (University of Oldenburg)
+Paper 551: Tangible Tens: Evaluating a Training of Basic Numerical Competencies with
+an Interactive Tabletop
+Taciana Pontual Falcão (UFRPE) Tanja Dackermann, Madeleine Schüler, Christine Ulrich, Andre Klemke, 
+Korbinian Moeller (Leibniz-Institut für Wissensmedien)
+Paper 552: “You Can Always Do Better!” The Impact of Social Proof on Participant
+Response Bias
+Aditya Vashistha (University of Washington), Fabian Okeke (Cornell Tech),
+Richard Anderson (University of Washington), Nicola Dell (Cornell Tech)
+Paper 553: Teaching Language to Deaf Infants with a Robot and a Virtual Human
+Brian Scassellati, Jake Brawer, Katherine Tsui (Yale University),
+Setareh Nasihati Gilani (Institute for Creative Technologies),
+Melissa Malzkuhn, Barbara Manini, Adam Stone, Geo Kartheiser (Gallaudet University),
+Arcangelo Merla (University G. d’Annunzio), Ari Shapiro, David Traum (Institute for Creative Technologies),
+Laura-Ann Petitto (Gallaudet University)
+Paper 554: ExtraSensory App: Data Collection In-the-Wild with Rich User Interface
+to Self-Report Behavior
+Yonatan Vaizman, Katherine Ellis, Gert Lanckriet, Nadir Weibel (University of California, San Diego)
+Paper 555: Collaborative Live Media Curation: Shared Context for Participation
+in Online Learning
+William A. Hamilton, Nic Lupfer, Nicolas Botello, Tyler Tesch, Alex Stacy,
+Jeremy Merrill, Blake Williford (Texas A&M University),
+Frank R. Bentley (Yahoo, Inc.), Andruid Kerne (Texas A&M University)
+Paper 556: Measuring, Understanding, and Classifying News Media Sympathy on Twitter
+after Crisis Events
+Abdallah El Ali (CWI (Centrum Wiskunde & Informatica) & University of Oldenburg),
+Tim C. Stratmann (University of Oldenburg), Souneil Park (Telefonica Research),
+Johannes Schöning (University of Bremen),
+Wilko Heuten (OFFIS - Institute for Information Technology), Susanne C.J. Boll (University of Oldenburg)
+Paper 557: Defining Through Expansion: Conducting Asynchronous Remote Communities
+(ARC) Research with Stigmatized Groups
+Juan F. Maestre, Haley MacLeod, Ciabhan L. Connelly (Indiana University Bloomington),
+Julia C. Dunbar (Siena College), Jordan Beck (Pennsylvania State University),
+Katie A. Siek (Indiana University), Patrick C. Shih (Indiana University Bloomington)
+Paper 558: ActiveErgo: Automatic and Personalized Ergonomics using Self-actuating Furniture
+Yu-Chian Wu, Te-Yen Wu (National Taiwan University),
+Paul Taele (Texas A&M University), Bryan Wang, Jun-You Liu, Pin-sung Ku (National Taiwan University),
+Po-En Lai, Mike Y. Chen (National Taiwan University)
+Paper 559: Presenting The Accessory Approach: A Start-up’s Journey Towards
+Designing An Engaging Fall Detection Device
+Trine Møller (Design School Kolding)
+Paper 560: What Moves Players? Visual Data Exploration of Twitter and Gameplay Data
+Christian Drescher, Guenter Wallner, Simone Kriglstein (Vienna University of Technology),
+Rafet Sifa (Fraunhofer IAIS), Anders Drachen (University of York),
+Margit Pohl (Vienna University of Technology)
+Paper 561: Veritaps: Truth Estimation from Mobile Interaction
+Aske Mottelson, Jarrod Knibbe, Kasper Hornbæk (University of Copenhagen)
+CHI 2018 Proceedings Table of Contents
+xliii
+Paper 562: How the Experts Do It: Assessing and Explaining Agent Behaviors in Real-Time
+Strategy Games
+Jonathan Dodge, Sean Penney, Claudia Hilderbrand, Andrew Anderson, 
+Margaret Burnett (Oregon State University)
+Paper 563: A Study of Urban Heat: Understanding the Challenges and Opportunities
+for Addressing Wicked Problems in HCI
+Stacey Kuznetsov (Arizona State University), Martin Tomitsch (University of Sydney)
+Paper 564: It’s a Wrap: Mapping On-Skin Input to Off-Skin Displays
+Joanna Bergstrom-Lehtovirta, Kasper Hornbæk, Sebastian Boring (University of Copenhagen)
+Paper 565: Designing in the Dark: Eliciting Self-tracking Dimensions for Understanding
+Enigmatic Disease
+Mollie McKillop, Lena Mamykina, Noémie Elhadad (Columbia University)
+Paper 566: Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia’s
+Relationships with Other Large-Scale Online Communities
+Nicholas Vincent, Isaac Johnson (Northwestern University), Brent Hecht (Northwestern University)
+Paper 567: Identifying Speech Input Errors Through Audio-Only Interaction
+Jonggi Hong (University of Maryland), Leah Findlater (University of Washington)
+Paper 568: Designing the Audience Journey through Repeated Experiences
+Steve Benford, Chris Greenhalgh, Adrian Hazzard, Alan Chamberlain (University of Nottingham),
+Maria Kallionpää (Aalborg University), David M. Weigl, Kevin R. Page (University of Oxford),
+Mengdie Lin (University of Michigan)
+Paper 569: Printed Paper Actuator: A Low-cost Reversible Actuation and Sensing
+Method for Shape Changing Interfaces
+Guanyun Wang, Tingyu Cheng, Youngwook Do, Humphrey Yang (Carnegie Mellon University),
+Ye Tao (Zhejiang University & Carnegie Mellon University), Jianzhe Gu (Human Computer Interaction),
+Byoungkwon An, Lining Yao (Carnegie Mellon University)
+Paper 570: Leveraging Semantic Transformation to Investigate Password Habits
+and Their Causes
+Ameya Hanamsagar (University of Southern California), Simon S. Woo (SUNY Korea),
+Chris Kanich (University of Illinois), Jelena Mirkovic (University of Southern California)
+Paper 571: Impact Activation Improves Rapid Button Pressing
+Sunjun Kim (Aalto University & Korea Advanced Institute of Science & Technology),
+Byungjoo Lee (Korea Advanced Institute of Science & Technology), Antti Oulasvirta (Aalto University)
+Paper 572: MindNavigator: Exploring the Stress and Self-Interventions for Mental Wellness
+Kwangyoung Lee, Hwajung Hong (Ulsan National Institute of Science and Technology)
+Paper 573: “Only if you use English you will get to more things”: Using Smartphones
+to Navigate Multilingualism
+Naveena Karusala (University of Washington), Aditya Vishwanath (Georgia Institute of Technology),
+Aditya Vashistha (University of Washington), Sunita Kumar (Independent),
+Neha Kumar (Georgia Institute of Technology)
+Paper 574: The Problem of Community Engagement: Disentangling the Practices
+of Municipal Government
+Eric Corbett, Christopher A. Le Dantec (Georgia Institute of Technology)
+Paper 575: Using Co-Design to Examine How Children Conceptualize Intelligent Interfaces
+Julia Woodward (University of Florida), Zari McFadden (Spelman College),
+Nicole Shiver, Amir Ben-hayon (University of Florida), Jason C. Yip (University of Washington),
+Lisa Anthony (University of Florida)
+Paper 576: Rethinking Engagement with Online News through Social and Visual Co-Annotation
+Gavin Wood, Kiel Long, Tom Feltwell, Scarlett Rowland (Northumbria University),
+Phillip Brooker (University of Liverpool), Jamie Mahoney, John Vines (Northumbria University),
+Julie Barnett (University of Bath), Shaun Lawson (Northumbria University)
+CHI 2018 Proceedings Table of Contents
+xliv
+Paper 577: Season Traveller: Multisensory Narration for Enhancing the Virtual
+Reality Experience
+Nimesha Ranasinghe, Pravar Jain, Nguyen Thi Ngoc Tram (National University of Singapore),
+Koon Chuan Raymond Koh (Institute of Technical Education),
+David Tolley, Shienny Karwita, Lin Lien-Ya, Yan Liangkun (National University of Singapore),
+Kala Shamaiah (ITE College Central),
+Chow Eason Wai Tung, Ching Chiuan Yen (National University of Singapore),
+Ellen Yi-Luen Do (National University of Singapore & University of Colorado Boulder)
+Paper 578: Playing with Streakiness in Online Games: How Players Perceive
+and React to Winning and Losing Streaks in League of Legends
+Yubo Kou (Purdue University), Yao Li, Xinning Gui, Eli Suzuki-Gill (University of California, Irvine)
+Paper 579: RoMA: Interactive Fabrication with Augmented Reality and a Robotic 3D Printer
+Huaishu Peng, Jimmy Briggs, Cheng-Yao Wang, Kevin Guo (Cornell University),
+Joseph Kider (University of Central Florida), Stefanie Mueller (Massachusetts Institute of Technology),
+Patrick Baudisch (Hasso Plattner Institute), François Guimbretière (Cornell University)
+Paper 580: Visualizing API Usage Examples at Scale
+Elena L. Glassman (University of California, Berkeley), Tianyi Zhang (University of California, Los Angeles),
+Björn Hartmann (University of California, Berkeley), Miryung Kim (University of California, Los Angeles)
+Paper 581: A Multi-site Investigation of Community Awareness Through Passive
+Location Sharing
+Emily Sun, Mor Naaman (Cornell Tech)
+Paper 582: Trends and Trajectories for Explainable, Accountable and Intelligible Systems:
+An HCI Research Agenda
+Ashraf Abdul (National University of Singapore), Jo Vermeulen (Aarhus University),
+Danding Wang, Brian Y. Lim, Mohan Kankanhalli (National University of Singapore)
+Paper 583: TopicOnTiles: Tile-Based Spatio-Temporal Event Analytics via Exclusive Topic
+Modeling on Social Media
+Minsuk Choi, Sungbok Shin, Jinho Choi (Korea University),
+Scott Langevin, Christopher Bethune, Philippe Horne, Nathan Kronenfeld (Uncharted Software Inc.),
+Ramakrishnan Kannan (Oak Ridge National Laboratory),
+Barry Drake, Haesun Park (Georgia Institute of Technology), Jaegul Choo (Korea University)
+Paper 584: In a New Land: Mobile Phones, Amplified Pressures and Reduced Capabilities
+Lizzie Coles-Kemp, Rikke Bjerg Jensen (Royal Holloway University of London),
+Reem Talhouk (Newcastle University)
+Paper 585: Lessons from the Woodshop: Cultivating Design with Living Materials
+Kristin N. Dew, Daniela K. Rosner (University of Washington)
+Paper 586: Squadbox: A Tool to Combat Email Harassment Using Friendsourced Moderation
+Kaitlin Mahar, Amy X. Zhang, David Karger (Massachusetts Institute of Technology)
+Paper 587: Hoarding and Minimalism: Tendencies in Digital Data Preservation
+Francesco Vitale, Izabelle Janzen, Joanna McGrenere (University of British Columbia)
+Paper 588: Mercury: A Messaging Framework for Modular UI Components
+Carmine Elvezio, Mengu Sukan, Steven Feiner (Columbia University)
+Paper 589: Characterizing Finger Pitch and Roll Orientation During Atomic Touch Actions
+Alix Goguey (University of Saskatchewan & Inria), Géry Casiez (Université de Lille & Inria),
+Daniel Vogel (University of Waterloo), Carl Gutwin (University of Saskatchewan)
+Paper 590: Extending Manual Drawing Practices with Artist-Centric Programming Tools
+Jennifer Jacobs (Massachusetts Institute of Technology), Joel Brandt, Radomír Mech (Adobe Research),
+Mitchel Resnick (Massachusetts Institute of Technology)
+Paper 591: Sensing Interruptibility in the Office: A Field Study on the Use of Biometric
+and Computer Interaction Sensors
+Manuela Züger, Sebastian C. Müller, André N. Meyer, Thomas Fritz (University of Zurich)
+CHI 2018 Proceedings Table of Contents
+xlv
+Paper 592: Customizing Developmentally Situated Design (DSD) Cards:
+Informing Designers about Preschoolers’ Spatial Learning
+Gokçe Elif Baykal, Tilbe Goksun, Asim Evren Yantaç (Koç University)
+Paper 593: Framed Guessability: Improving the Discoverability of Gestures and Body
+Movements for Full-Body Interaction
+Francesco Cafaro (Indiana University-Purdue University Indianapolis),
+Leilah Lyons (University of Illinois at Chicago & New York Hall of Science),
+Alissa N. Antle (Simon Fraser University)
+Paper 594: Beagle: Automated Extraction and Interpretation of Visualizations from the Web
+Leilani Battle (University of Washington),
+Peitong Duan, Zachery Miranda, Dana Mukusheva (Massachusetts Institute of Technology),
+Remco Chang (Tufts University), Michael Stonebraker (Massachusetts Institute of Technology)
+Paper 595: Mediating Conflicts in Minecraft: Empowering Learning in Online Multiplayer Games
+Petr Slovak (University College London), Katie Salen (University of California, Irvine),
+Stephanie Ta, Geraldine Fitzpatrick (Vienna University of Technology)
+Paper 596: GestAKey: Touch Interaction on Individual Keycaps
+Yilei Shi, Haimo Zhang, Hasitha Rajapakse, Nuwan Tharaka Perera, Tomás Vega Gálvez, 
+Suranga Nanayakkara (Singapore University of Technology and Design)
+Paper 597: How Social Dynamics and the Context of Digital Content Impact Workplace Remix
+Jessica L. Feuston (Northwestern University), Siân E. Lindley (Microsoft Research)
+Paper 598: Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps
+Yang Liu, Jeffrey Heer (University of Washington)
+Paper 599: Two Kinds of Novel Multi-user Immersive Display Systems
+Dongdong Guan (Shandong University & Ministry of Education),
+Chenglei Yang, Weisi Sun, Yuan Wei (Shandong University),
+Wei Gai, Yulong Bian, Juan Liu (Shandong University & Ministry of Education),
+Qianhui Sun , Siwei Zhao (Shandong University),
+Xiangxu Meng (Shandong University & Ministry of Education)
+Paper 600: The Effects of Badges and Avatar Identification on Play and Making
+in Educational Games
+Dominic Kao, D. Fox Harrell (Massachusetts Institute of Technology)
+Paper 601: Full-Body Ownership Illusion Can Change Our Emotion
+Joohee Jun, Myeongul Jung (Hanyang University), So-Yeon Kim (Duksung Women’s University),
+Kwanguk (Kenny) Kim (Hanyang University)
+Paper 602: c.light: A Tool for Exploring Light Properties in Early Design Stage
+Kyeong Ah Jeong, Eunjin Kim, Taesu Kim, Hyeon-Jeong Suk
+(Korea Advanced Institute of Science & Technology)
+Paper 603: Steering through Successive Objects
+Shota Yamanaka (Yahoo Japan Corporation), Wolfgang Stuerzlinger (Simon Fraser University),
+Homei Miyashita (Meiji University)
+Paper 604: The Ethnobot: Gathering Ethnographies in the Age of IoT
+Ella Tallyn, Hector Fried, Rory Gianni, Amy Isard, Chris Speed (University of Edinburgh)
+Paper 605: An Experimental Study of Cryptocurrency Market Dynamics
+Peter M. Krafft (Massachusetts Institute of Technology), Nicolás Della Penna (Australian National University),
+Alex “Sandy” Pentland (Massachusetts Institute of Technology)
+Paper 606: Paragon: An Online Gallery for Enhancing Design Feedback with Visual Examples
+Hyeonsu B. Kang (University of California, San Diego), Gabriel Amoako (University of Toronto),
+Neil Sengupta, Steven P. Dow (University of California, San Diego)
+Paper 607: Personality Depends on The Medium: Differences in Self-Perception on Snapchat,
+Facebook and Offline
+Lee Taber, Steve Whittaker (University of California, Santa Cruz)
+CHI 2018 Proceedings Table of Contents 
+xlvi
+Paper 608: “We Don’t Do That Here”: How Collaborative Editing with Mentors Improves 
+Engagement in Social Q&A Communities
+Denae Ford (North Carolina State University), Kristina Lustig, Jeremy Banks (Stack Exchange, Inc.), 
+Chris Parnin (North Carolina State University)
+Paper 609: Using High Frequency Accelerometer and Mouse to Compensate for End-to-end 
+Latency in Indirect Interaction
+Axel Antoine (Université de Lille), Sylvain Malacria (Inria), Géry Casiez (Université de Lille)
+Paper 610: Modeling Perceived Screen Resolution Based on Position and Orientation 
+of Wrist-Worn Devices
+Frederic Kerber (Saarland Informatics Campus), Michael Mauderer (University of Dundee), 
+Antonio Krüger (Saarland Informatics Campus)
+Paper 611: Investigating Perceptual Congruence between Data and Display 
+Dimensions in Sonification
+Jamie Ferguson, Stephen A. Brewster (University of Glasgow)
+Paper 612: Acceptability and Acceptance of Autonomous Mobility on Demand: 
+The Impact of an Immersive Experience
+Verena Distler, Carine Lallemand (University of Luxembourg), 
+Thierry Bellet (French Institute of Science & Technology for Transport, Development & Networks)
+Paper 613: BioFidget: Biofeedback for Respiration Training Using an Augmented Fidget Spinner
+Rong-Hao Liang, Bin Yu, Mengru Xue, Jun Hu, Loe M. G. Feijs (Eindhoven University of Technology)
+Paper 614: Gender-Inclusive Design: Sense of Belonging and Bias in Web Interfaces
+Danaë Metaxa-Kakavouli (Stanford University), Kelly Wang (Brown University), 
+James A. Landay, Jeff Hancock (Stanford University)
+Paper 615: Too Close and Crowded: Understanding Stress on Mobile Instant Messengers based 
+on Proxemics
+In-geon Shin, Jin-min Seok, Youn-kyung Lim (Korea Advanced Institute of Science & Technology) 
+Paper 616: Socioeconomic Inequalities in the Non/use of Facebook
+Eric P. S. Baumer (Lehigh University)
+Paper 617: Navigation Systems for Motorcyclists: Exploring Wearable Tactile 
+Feedback for Route Guidance in the Real World
+Francisco Kiss, Robin Boldt (University of Stuttgart), Bastian Pfleging (LMU Munich), 
+Stefan Schneegass (University of Duisburg-Essen)
+Paper 618: CodeTalk: Improving Programming Environment Accessibility for Visually 
+Impaired Developers
+Venkatesh Potluri, Priyan Vaithilingam, Suresh Iyengar (Microsoft Research India), 
+Y. Vidya (Vision Empower Trust), Manohar Swaminathan, Gopal Srinivasa (Microsoft Research India)
+Paper 619: Morphees+: Studying Everyday Reconfigurable Objects for the Design 
+and Taxonomy of Reconfigurable UIs
+Hyunyoung Kim, Celine Coutrix (Université Grenoble Alpes & University of Stuttgart), 
+Anne Roudaut (University of Bristol)
+Paper 620: The Theory-Practice Gap as Generative Metaphor
+Jordan Beck (Pennsylvania State University), Hamid R. Ekbia (Indiana University Bloomington)
+Paper 621: Playing to Wait: A Taxonomy of Idle Games
+Sultan A. Alharthi, Olaa Alsaedi, Zachary O. Toups (New Mexico State University), 
+Theresa Jean Tanenbaum (University of California, Irvine), Jessica Hammer (Carnegie Mellon University)
+Paper 622: Empowering Families Facing English Literacy Challenges to Jointly Engage 
+in Computer Programming
+Rahul Banerjee, Leanne Liu, Kiley Sobel, Caroline Pitt, Kung Jin Lee (University of Washington), 
+Meng Wang (Wuhan Huada National E-Learning Technologies), 
+Sijin Chen, Lydia Davison, Jason C. Yip, Amy J. Ko, Zoran Popovic (University of Washington) 
+CHI 2018 Proceedings Table of Contents
+xlvii
+Paper 623: Digital Exhibit Labels in Museums: Promoting Visitor Engagement
+with Cultural Artifacts
+Jessica Roberts (Northwestern University & Carnegie Mellon University),
+Amartya Banerjee, Annette Hong (Northwestern University), Steven McGee (The Learning Partnership),
+Michael Horn (Northwestern University), Matt Matcuk (The Field Museum)
+Paper 624: Training Person-Specific Gaze Estimators from User Interactions with Multiple
+Devices
+Xucong Zhang (Max Planck Institute for Informatics, Saarland Informatics Campus),
+Michael Xuelin Huang (Max Planck Institute for Informatics, Saarland Informatics Campus),
+Yusuke Sugano (Osaka University),
+Andreas Bulling (Max Planck Institute for Informatics, Saarland Informatics Campus)
+Paper 625: Designing for Diabetes Decision Support Systems with Fluid Contextual Reasoning
+Dmitri S. Katz, Blaine A. Price, Simon Holland (Open University),
+Nicholas Sheep Dalton (Nortumbria University & Open University)
+Paper 626: The Impact of Word, Multiple Word, and Sentence Input on Virtual Keyboard
+Decoding Performance
+Keith Vertanen, Crystal Fletcher, Dylan Gaines, Jacob Gould (Michigan Technological University),
+Per Ola Kristensson (University of Cambridge)
+Paper 627: Designing the Future of Personal Fashion
+Kristen Vaccaro, Tanvi Agarwalla, Sunaya Shivakumar, 
+Ranjitha Kumar (University of Illinois at Urbana-Champaign)
+Paper 628: To Distort or Not to Distort: Distance Cartograms in the Wild
+Sungsoo (Ray) Hong (University of Washington), Min-Joon Yoo (New York University),
+Bonnie Chinh (University of Washington), Amy Han (Swathmore College),
+Sarah Battersby (Tableau Software), Juho Kim (Korea Advanced Institute of Science & Technology)
+Paper 629: Towards a Multisensory Augmented Reality Map for Blind and Low Vision People:
+A Participatory Design Approach
+Jérémy Albouys-Perrois (Inria Bordeaux), Jérémy Laviole (RealityTech), Carine Briant (IRSA),
+Anke M. Brock (University Toulouse - ENAC & Inria)
+Paper 630: Scaling Classroom IT Skill Tutoring: A Case Study from India
+Meghna Joshi, Tanmay Joshi (International Institute of Information Technology),
+Nimmi Rangaswamy (Indian Institute of Technology)
+Paper 631: Regulating Feelings During Interpersonal Conflicts by Changing Voice
+Self-perception
+Jean Costa, Malte F. Jung (Cornell University), Mary Czerwinski (Microsoft Research),
+François Guimbretière (Cornell University), Trinh Le (IBM), Tanzeem Choudhury (Cornell University)
+Paper 632: Flotation Simulation in a Cable-driven Virtual Environment - A Study with Parasailing
+HyeongYeop Kang, Geonsun Lee, Seongsu Kwon (Korea University),
+Ohung Kwon, Seongpil Kim (KITECH), JungHyun Han (Korea University)
+Paper 633: Identity Work as Deliberation: AAPI Political Discourse in the 2016 US Presidential
+Election
+Bryan Dosono, Bryan Semaan (Syracuse University)
+Paper 634: D-SWIME: A Design Space for Smartwatch Interaction Techniques Supporting
+Mobility and Encumbrance
+Gaganpreet Singh, William Delamare, Pourang Irani (University of Manitoba)
+Paper 635: A Visual Interaction Framework for Dimensionality Reduction Based
+Data Exploration
+Marco Cavallo, Çağatay Demiralp (IBM Research)
+Paper 636: Complex Mediation in the Formation of Political Opinions
+Yubo Kou (Purdue University), Bonnie Nardi (University of California, Irvine)
+Paper 637: NavigaTone: Seamlessly Embedding Navigation Cues in Mobile Music Listening
+Florian Heller (Hasselt University - tUL - imec), Johannes Schöning (University of Bremen)
+CHI 2018 Proceedings Table of Contents
+xlviii
+Paper 638: Considering Agency and Data Granularity in the Design of Visualization Tools
+Gonzalo Gabriel Méndez (University of St Andrews & Escuela Superior Politécnica del Litoral),
+Miguel A. Nacenta, Uta Hinrichs (University of St Andrews)
+Paper 639: El Paquete Semanal: The Week’s Internet in Havana
+Michaelanne Dye (Georgia Institute of Technology), David Nemer (University of Kentucky),
+Josiah Mangiameli (Independent), Amy S. Bruckman, Neha Kumar (Georgia Institute of Technology)
+Paper 640: Voice Interfaces in Everyday Life
+Martin Porcheron, Joel E. Fischer, Stuart Reeves, Sarah Sharples (University of Nottingham)
+Paper 641: Mental Health Support and its Relationship to Linguistic Accommodation
+in Online Communities
+Eva Sharma, Munmun De Choudhury (Georgia Institute of Technology)
+Paper 642: Value-Suppressing Uncertainty Palettes
+Michael Correll (Tableau Research), Dominik Moritz, Jeffrey Heer (University of Washington)
+Paper 643: Baang: A Viral Speech-based Social Platform for Under-Connected Populations
+Agha Ali Raza, Bilal Saleem (Information Technology University),
+Shan Randhawa, Zain Tariq (Information Technology University),
+Awais Athar (European Bioinformatics Institute), Umar Saif (Information Technology University),
+Roni Rosenfeld (Carnegie Mellon University)
+Paper 644: Haptic Links: Bimanual Haptics for Virtual Reality Using Variable Stiffness Actuation
+Evan Strasnick (Stanford University),
+Christian Holz, Eyal Ofek, Mike Sinclair, Hrvoje Benko (Microsoft Research)
+Paper 645: Breeze: Sharing Biofeedback through Wearable Technologies
+Jérémy Frey (Interdisciplinary Center Herzliya & Ullo),
+May Grabli, Ronit Slyper, Jessica R. Cauchard (Interdisciplinary Center Herzliya)
+Paper 646: Observations on Typing from 136 Million Keystrokes
+Vivek Dhakal, Anna Maria Feit (Aalto University), Per Ola Kristensson (Cambridge University),
+Antti Oulasvirta (Aalto University)
+Paper 647: Selection-based Text Entry in Virtual Reality
+Marco Speicher (Saarland University, Saarland Informatics Campus), Anna Maria Feit (Aalto University),
+Pascal Ziegler, Antonio Krüger (Saarland University, Saarland Informatics Campus)
+Paper 648: Effects of Viewing Multiple Viewpoint Videos on Metacognition of Collaborative
+Experiences
+Yasuyuki Sumi (Future University Hakodate), Masaki Suwa (Keio University),
+Koichi Hanaue (Integrated Environment Support Inc.)
+Paper 649: I Lead, You Help but Only with Enough Details: Understanding
+User Experience of Co-Creation with Artificial Intelligence
+Changhoon Oh, Jungwoo Song, Jinhan Choi, Seonghyeon Kim, Sungwoo Lee, 
+Bongwon Suh (Seoul National University)
+Paper 650: Supporting Collaborative Health Tracking in the Hospital: Patients’ Perspectives
+Sonali R. Mishra (University of Washington),
+Andrew D. Miller (Indiana University Purdue University Indianapolis),
+Shefali Haldar, Maher Khelifi, Jordan Eschler, Rashmi G. Elera (University of Washington),
+Ari H. Pollack (University of Washington & Seattle Children’s Hospital),
+Wanda Pratt (University of Washington)
+Paper 651: Investigating the Impact of Gender on Rank in Resume Search Engines
+Le Chen (Northeastern University), Ruijun Ma (Rutgers University),
+Anikó Hannák (Central European University), Christo Wilson (Northeastern University)
+Paper 652: Cognitive Load Estimation in the Wild
+Lex Fridman, Bryan Reimer, Bruce Mehler (Massachusetts Institute of Technology),
+William T. Freeman (Massachusetts Institute of Technology & Google Research)
+Paper 653: The Effect of Offset Correction and Cursor on Mid-Air Pointing in Real
+and Virtual Environments
+Sven Mayer, Valentin Schwind, Robin Schweigert, Niels Henze (University of Stuttgart)
+CHI 2018 Proceedings Table of Contents
+xlix
+Paper 654: CLAW: A Multifunctional Handheld Haptic Controller for Grasping,
+Touching, and Triggering in Virtual Reality
+Inrak Choi (Microsoft Research & Stanford University),
+Eyal Ofek, Hrvoje Benko, Mike Sinclair, Christian Holz (Microsoft Research)
+Paper 655: Ripple Thermostat: Affecting the Emotional Experience through Interactive
+Force Feedback and Shape Change
+Anke van Oosterhout (Aarhus University & Eindhoven University of Technology),
+Miguel Bruns Alonso (Eindhoven University of Technology),
+Satu Jumisko-Pyykkö (Eindhoven University of Technology, Vincit, & Tampere University of Technology)
+Paper 656: A Qualitative Exploration of Perceptions of Algorithmic Fairness
+Allison Woodruff (Google, Inc.), Sarah E. Fox (Google, Inc. & University of Washington),
+Steven Rousso-Schindler (California State University Long Beach), Jeffrey Warshaw (Google, Inc.)
+Paper 657: The Benefits and Challenges of Video Calling for Emergency Situations
+Carman Neustaedter (Simon Fraser University),
+Brennan Jones (Simon Fraser University & University of Calgary),
+Kenton O’Hara, Abigail Sellen (Microsoft Research Cambridge)
+Paper 658: Whiskers: Exploring the Use of Ultrasonic Haptic Cues on the Face
+Hyunjae Gil (Ulsan National Institute of Science & Technology),
+Hyungki Son, Jin Ryong Kim (Electronics and Telecommunications Research Institute),
+Ian Oakley (Ulsan National Institute of Science & Technology)
+Paper 659: Let’s Play! Digital and Analog Play between Preschoolers and Parents
+Alexis Hiniker (University of Washington & Microsoft Research),
+Bongshin Lee (Microsoft Research), Julie A. Kientz (University of Washington),
+Jenny S. Radesky (University of Michigan)
+Paper 660: Combating Attrition in Digital Self-Improvement Programs using Avatar
+Customization
+Max V. Birk, Regan L. Mandryk (University of Saskatchewan)
+Paper 661: Use the Force Picker, Luke: Space-Efficient Value Input on Force-Sensitive
+Mobile Touchscreens
+Christian Corsten, Simon Voelker, Andreas Link, Jan Borchers (RWTH Aachen University)
+Paper 662: Live Sketch: Video-driven Dynamic Deformation of Static Drawings
+Qingkun Su (HKUST), Xue Bai (Megvii Inc.), Hongbo Fu (City University of Hong Kong),
+Chiew-Lan Tai (HKUST), Jue Wang (Megvii Inc.)
+Paper 663: ECGLens: Interactive Visual Exploration of Large Scale ECG Data
+for Arrhythmia Detection
+Ke Xu (Hong Kong University of Science & Technology), Shunan Guo (East China Normal University),
+Nan Cao (Tongji University), David Gotz (University of North Carolina at Chapel Hill),
+Aiwen Xu (Tongji University), Huamin Qu (Hong Kong University of Science & Technology),
+Zhenjie Yao (Beijing University of Technology), Yixin Chen (Washington University in St. Louis)
+Paper 664: “Protection on that Erection?”: Discourses of Accountability & Compromising
+Participation in Digital Sexual Health
+Matthew Wood, Andrew Garbett, Kellie Morrissey, Peter Hopkins (Newcastle University),
+Madeline Balaam (KTH Royal Institute of Technology)
+Paper 665: Fast & Furious: Detecting Stress with a Car Steering Wheel
+Pablo E. Paredes (Stanford University), Francisco Ordonez (Universidad San Francisco de Quito),
+Wendy Ju (Cornell Tech), James A. Landay (Stanford University)
+Paper 666: Norms Matter: Contrasting Social Support Around Behavior Change in Online
+Weight Loss Communities
+Stevie Chancellor (Georgia Institute of Technology), Andrea Hu (Georgia Institute of Technology),
+Munmun De Choudhury (Georgia Institute of Technology)
+Paper 667: “A Stalker’s Paradise”: How Intimate Partner Abusers Exploit Technology
+Diana Freed (Cornell Tech), Jackeline Palmer (Hunter College), Diana Minchala (City College of New York),
+Karen Levy (Cornell University), Thomas Ristenpart (Cornell Tech), Nicola Dell (Cornell Tech)

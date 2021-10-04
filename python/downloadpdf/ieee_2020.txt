@@ -1,0 +1,815 @@
+VATLD: A Visual Analytics System to Assess, Understand and Improve Traffic Light Detection
+Authors: Liang Gou, Lincan Zou, Nanxiang Li, Michael Hofmann, Shekar Arvind Kumar, Axel Wendt, Liu Ren
+
+Visual Reasoning Strategies for Effect Size Judgments and Decisions
+Authors: Alex Kale, Matthew Kay, Jessica Hullman
+
+Objective Observer-Relative Flow Visualization in Curved Spaces for Unsteady 2D Geophysical Flows
+Authors: Peter Rautek, Matej Mlejnek, Johanna Beyer, Jakob Troidl, Hanspeter Pfister, Thomas Theussl, Markus Hadwiger
+
+PlotThread: Creating Expressive Storyline Visualizations using Reinforcement Learning
+Authors: Tan Tang, Renzhong LI, Xinke Wu, Shuhan Liu, Johannes Knittel, Steffen Koch, Thomas Ertl, Lingyun Yu, Peiran Ren, Yingcai Wu
+
+Lyra 2: Designing Interactive Visualizations by Demonstration
+Authors: Jonathan Zong, Dhiraj Barnwal, Rupayan Neogy, Arvind Satyanarayan
+
+StructGraphics: Flexible Visualization Design through Data-Agnostic and Reusable Graphical Structures
+Authors: Theophanis Tsandilas
+
+VisCode: Embedding Information in Visualization Images using Encoder-Decoder Network
+Authors: Peiying Zhang, Chenhui Li, Changbo Wang
+
+Chartem: Reviving Chart Images with Data Embedding
+Authors: Jiayun Fu, Bin Zhu, Weiwei Cui, Song Ge, Yun Wang, Haidong Zhang, He Huang, Yuanyuan Tang, Dongmei Zhang, Xiaoqiang Ma
+
+Dataless Sharing of Interactive Visualization
+Authors: Mohammad Raji, Jeremiah Duncan, Tanner Hobson, Jian Huang
+
+VisConnect: Distributed Event Synchronization for Collaborative Visualization
+Authors: Michail Schwab, David Saffo, Yixuan Zhang, Shash Sinha, Cristina Nita-Rotaru, James Tompkin, Cody Dunne, Michelle Borkin
+
+A Generic Framework and Library for Exploration of Small Multiples through Interactive Piling
+(Honorable Mention)
+Authors: Fritz Lekschas, Xinyi Zhou, Wei Chen, Nils Gehlenborg, Benjamin Bach, Hanspeter Pfister
+
+NL4DV: A Toolkit for Generating Analytic Specifications for Data Visualization from Natural Language Queries
+Authors: Arpit Narechania, Arjun Srinivasan, John Stasko
+
+P6: A Declarative Language for Integrating Machine Learning in Visual Analytics
+Authors: Kelvin Li, Kwan-Liu Ma
+
+PipelineProfiler: A Visual Analytics Tool for the Exploration of AutoML Pipelines
+Authors: Jorge Piazentin Ono, Sonia Castelo Quispe, Roque Lopez, Enrico Bertini, Juliana Freire, Claudio Silva
+
+Kyrix-S: Authoring Scalable Scatterplot Visualizations of Big Data
+Authors: Wenbo Tao, Xinli Hou, Adam Sah, Leilani Battle, Remco Chang, Michael Stonebraker
+
+Semantic Discriminability for Visual Communication
+Authors: Karen Schloss, Zachary Leggon, Laurent Lessard
+
+Rainbows Revisited: Modeling Effective Colormap Design for Graphical Inference
+Authors: Khairi Reda, Danielle Szafir
+
+A Testing Environment for Continuous Colormaps
+Authors: Pascal Nardini, Min Chen, Roxana Bujack, Michael Böttinger, Gerik Scheuermann
+
+Truth or Square: Aspect Ratio Biases Recall of Position Encodings
+Authors: Cristina Ceja, Caitlyn McColeman, Cindy Xiong, Steven Franconeri
+
+No mark is an island: Precision and category repulsion biases in data reproductions
+Authors: Caitlyn McColeman, Mi Feng, Lane Harrison, Steven Franconeri
+
+Revealing Perceptual Proxies with Adversarial Examples
+Authors: Brian Ondov, Fumeng Yang, Matthew Kay, Niklas Elmqvist, Steven Franconeri
+
+Auditing the Sensitivity of Graph-based Ranking with Visual Analytics
+Authors: Tiankai Xie, Yuxin Ma, Hanghang Tong, My Thai, Ross Maciejewski
+
+Visual Analysis of Discrimination in Machine Learning
+Authors: Qianwen Wang, Zhenhua Xu, Zhutian Chen, Yong Wang, Shixia Liu, Huamin Qu
+
+Selection-Bias-Corrected Visualization via Dynamic Reweighting
+Authors: David Borland, Jonathan Zhang, Smiti Kaul, David Gotz
+
+ConfusionFlow: A model-agnostic visualization for temporal analysis of classifier confusion
+Authors: Andreas Hinterreiter, Peter Ruch, Holger Stitz, Martin Ennemoser, Jürgen Bernard, Hendrik Strobelt, Marc Streit
+
+ConceptExplorer: Visual Analysis of Concept Drifts in Multi-source Time-series Data
+Authors: Xumeng Wang, Wei Chen, Jiazhi Xia, Zexian Chen, Dongshi Xu, Xiangyang Wu, Mingliang Xu, Tobias Schreck
+
+Diagnosing Concept Drift with Visual Analytics
+Authors: Weikai Yang, Zhen Li, Mengchen Liu, Yafeng Lu, Kelei Cao, Ross Maciejewski, Shixia Liu
+
+TransVis: Integrated Distant and Close Reading of Othello Translations
+Authors: Mohammad Alharbi, Robert S Laramee, Tom Cheesman
+
+Visual Analysis of Argumentation in Essays
+Authors: Dora Kiesel, Patrick Riehmann, Henning Wachsmuth, Benno Stein, Bernd Froehlich
+
+A Survey of Text Alignment Visualization
+Authors: Tariq Yousef, Stefan Jänicke
+
+A Virtual Reality Memory Palace Variant Aids Knowledge Retrieval from Scholarly Articles
+Authors: Fumeng Yang, Jing Qian, Johannes Novotny, David Badre, Cullen D. Jackson, David H. Laidlaw
+
+ArchiText: Interactive Hierarchical Topic Modeling
+Authors: Hannah Kim, Barry Drake, Alex Endert, Haesun Park
+
+Attention Flows: Analyzing and Comparing Attention Mechanisms in Language Models
+Authors: Joseph DeRose, Jiayao Wang, Matthew Berger
+
+OoDAnalyzer: Interactive Analysis of Out-of-Distribution Samples
+Authors: Changjian Chen, Jun Yuan, Yafeng Lu, Yang Liu, Hang Su, Songtao Yuan, Shixia Liu
+
+HypoML: Visual Analysis for Hypothesis-based Evaluation of Machine Learning Models
+Authors: Qianwen Wang, William Alexander, Jack Pegg, Huamin Qu, Min Chen
+
+Explainable Matrix - Visualization for Global and Local Interpretability of Random Forest Classification Ensembles
+Authors: Mário Popolin Neto, Fernando Paulovich
+
+DECE: Decision Explorer with Counterfactual Explanations for Machine Learning Models
+Authors: Furui Cheng, Yao Ming, Huamin Qu
+
+Visual Analysis of Class Separations with Locally Linear Segments
+Authors: Yuxin Ma, Ross Maciejewski
+
+A Visual Analytics Approach for Exploratory Causal Analysis: Exploration, Validation, and Applications
+Authors: Xiao Xie, Fan Du, Yingcai Wu
+
+SpotSDC: Revealing the Silent Data Corruption Propagation in High-performance Computing Systems
+Authors: Zhimin Li, Harshitha Menon, Dan Maljovec, Yarden Livnat, Shusen Liu, Kathryn Mohror, Peer-Timo Bremer, Valerio Pascucci
+
+Vis-a-Vis: Visual Exploration of Visualization Source Code Evolution
+Authors: Fabian Bolte, Stefan Bruckner
+
+Visualizing Hierarchical Performance Profiles of Parallel Codes using CallFlow
+Authors: Huu Tan Nguyen, Abhinav Bhatele, Nikhil Jain, Suraj Padmanaban Kesavan, Harsh Bhatia, Todd Gamblin, Kwan-Liu Ma, Peer-Timo Bremer
+
+Githru: visual analytics of understanding software development context through git historical metadata analysis
+Authors: youngtaek kim, Jaeyoung Kim, Hyeon Jeon, Young-Ho Kim, Hyunjoo Song, Bohyoung Kim, Jinwook Seo
+
+A Visual Analytics Approach to Debugging Cooperative, Autonomous Multi-Robot System
+Authors: Suyun Bae, Federico Rossi, Joshua Vander Hook, Scott Davidoff, Kwan-Liu Ma
+
+CcNav: Understanding Compiler Optimizations in Binary Code
+Authors: Sabin Devkota, Pascal Aschwanden, Adam Kunen, Matthew Legendre, Katherine Isaacs
+
+ShuttleSpace: Exploring and Analyzing Movement Trajectory in Immersive Visualization
+Authors: Shuainan Ye, Zhutian Chen, Xiangtong Chu, Yifan Wang, Siwei Fu, Lejun Shen, Kun Zhou, Yingcai Wu
+
+QLens: Visual Analytics of Multi-step Problem-solving Behaviors for Improving Question Design
+Authors: Meng Xia, Reshika Palaniyappan Velumani, Yong Wang, Huamin Qu, Xiaojuan Ma
+
+Visilant: Visual Support for the Exploration and Analytical Process Tracking in Criminal Investigations
+Authors: Kristina Zakopcanova, Marko Rehacek, Jozef Batrna, Daniel Plakinger, Sergej Stoppel, Barbora Kozlikova
+
+ChemVA: Interactive Visual Analysis of Chemical Compound Similarity in Virtual Screening
+Authors: María Virginia Sabando, Pavol Ulbrich, Matias Selzer, Jan Byška, Jan Mičan, Ignacio Ponzoni, Axel Soto, María Luján Ganuza, Barbora Kozlikova
+
+A Visualization Framework for Multi-scale Coherent Structures in Taylor-Couette Turbulence
+Authors: Duong Nguyen, Rodolfo Ostilla Monico, Guoning Chen
+
+Conceptual Model of Visual Analytics for Hands-on Cybersecurity Training
+Authors: Radek Ošlejšek, Vít Rusnak, Karolína Burská, Valdemar Švábenský, Jan Vykopal, Jakub Cegan
+
+A Visual Analytics Framework for Reviewing Multivariate Time-Series Data with Dimensionality Reduction
+Authors: Takanori Fujiwara, Shilpika Shilpika, Naohisa Sakamoto, Jorji Nonaka, Keiji Yamamoto, Kwan-Liu Ma
+
+Co-Bridges: Pair-wise Visual Connection and Comparison for Multi-item Data Streams
+Authors: Siming Chen, Natalia Andrienko, Gennady Andrienko, Jie Li, Xiaoru Yuan
+
+MultiSegVA: Using Visual Analytics to Segment Biologging Time Series on Multiple Scales
+Authors: Philipp Meschenmoser, Juri Buchmuller, Daniel Seebacher, Martin Wikelski, Daniel Keim
+
+MineTime Insight: Visualizing Meeting Habits to Promote Informed Scheduling Decisions
+Authors: Marco Ancona, Marilou Beyeler, Markus Gross, Tobias Günther
+
+SineStream: Improving the Readability of Streamgraphs by Minimizing Sine Illusion Effects
+Authors: Chuan Bu, Quanjie Zhang, Qianwen Wang, Jian Zhang, Oliver Deussen, Michael Sedlmair, Yunhai Wang
+
+SplitStreams: A Visual Metaphor for Evolving Hierarchies
+Authors: Fabian Bolte, Mahsan Nourani, Eric D. Ragan, Stefan Bruckner
+
+HyperLabels: Browsing of Dense and Hierarchical Molecular 3D Models
+Authors: David Kouřil, Tobias Isenberg, Barbora Kozlíková, Miriah Meyer, M. Eduard Gröller, Ivan Viola
+
+Visual cohort comparison for spatial single-cell omics-data
+Authors: Antonios Somarakis, Marieke Ijsselsteijn, Sietse Luk, Boyd Kenkhuis, Noel de Miranda, Boudewijn Lelieveldt, Thomas Höllt
+
+Improving the Usability of Virtual Reality Neuron Tracing with Topological Elements
+Authors: Torin McDonald, Will Usher, Nate Morrical, Attila Gyulassy, Steve Petruzza, Frederick Federer, Alessandra Angelucci, Valerio Pascucci
+
+CMed: Crowd Analytics for Medical Imaging Data
+Authors: Ji Hwan Park, Saad Nadeem, Saeed Boorboor, Joseph Marino, Arie Kaufman
+
+Void Space Surfaces to Convey Depth in Vessel Visualizations
+Authors: Julian Kreiser, Pedro Hermosilla, Timo Ropinski
+
+Personalized Sketch-Based Brushing in Scatterplots
+Authors: Chaoran Fan, Helwig Hauser
+
+Aggregated Ensemble Views for Deep Water Asteroid Impact Simulations
+Authors: Simon Leistikow, Karim Huesmann, Alexey Fofonov, Lars Linsen
+
+Illustrating Changes in Time-Series Data With Data Video
+Authors: Junhua Lu, Jie Wang, Hui Ye, Yuhui Gu, Zhiyu Ding, Mingliang Xu, Wei Chen
+
+Nano for the Public: An Exploranation Perspective
+Authors: Gunnar Höst, Karljohan Palmerius, Konrad Schönborn
+
+PixelClipper: Supporting Public Engagement and Conversation About Visualizations
+Authors: Jagoda Walny, Sarah Storteboom, Richard Pusch, Steven Munsu Hwang, Søren Knudsen, Sheelagh Carpendale, Wesley Willett
+
+A Data-Driven Introduction to Authors, Readings, and Techniques in Visualization for the Digital Humanities
+Authors: Alejandro Benito-Santos, Roberto Therón Sánchez
+
+A Visual Analytics Approach for Ecosystem Dynamics based on Empirical Dynamic Modeling
+Authors: Hiroaki Natsukawa, Ethan Deyle, Gerald Pao, Koji Koyamada, George Sugihara
+
+Multiscale Snapshots: Visual Analysis of Temporal Summaries in Dynamic Graphs
+Authors: Eren Cakmak, Udo Schlegel, Dominik Jäckle, Daniel Keim, Tobias Schreck
+
+The Effectiveness of Interactive Visualization Techniques for Time Navigation of Dynamic Graphs on Large Displays
+Authors: Alexandra Lee, Daniel Archambault, Miguel Nacenta
+
+Staged Animation Strategies for Online DynamicNetworks
+Authors: Tarik Crnovrsanin, Shilpika Shilpika, Senthil Chandrasegaran, Kwan-Liu Ma
+
+Analyzing Dynamic Hypergraphs with Parallel Aggregated Ordered Hypergraph Visualization
+Authors: Paola Valdivia, Paolo Buono, Catherine Plaisant, Nicole Dufournaud, Jean-Daniel Fekete
+
+Visual Analytics for Temporal Hypergraph Model Exploration
+Authors: Maximilian Fischer, Devanshu Arya, Dirk Streeb, Daniel Seebacher, Daniel Keim, Marcel Worring
+
+CNNPruner: Pruning Convolutional Neural Networks with Visual Analytics
+Authors: Guan Li, Junpeng Wang, Han-Wei Shen, Kaixin Chen, Guihua Shan, ZhongHua Lu
+
+Visual Neural Decomposition to Explain Multivariate Data Sets
+Authors: Johannes Knittel, Andrés Lalama, Steffen Koch, Thomas Ertl
+
+A Visual Analytics Framework for Explaining and Diagnosing Transfer Learning Processes
+Authors: Yuxin Ma, Arlen Fan, Jingrui He, Arun Reddy Nelakurthi, Ross Maciejewski
+
+CNN Explainer: Learning Convolutional Neural Networks with Interactive Visualization
+Authors: Zijie Wang, Robert Turko, Omar Shaikh, Haekyu Park, Nilaksh Das, Fred Hohman, Minsuk Kahng, Duen Horng Chau
+
+HyperTendril: Visual Analytics for User-Driven Hyperparameter Optimization of Deep Neural Networks
+Authors: Heungseok Park, Yoonsoo Nam, Ji-Hoon Kim, Jaegul Choo
+
+Analyzing the Noise Robustness of Deep Neural Networks
+Authors: Kelei Cao, Mengchen Liu, Hang Su, Jing Wu, Jun Zhu, Shixia Liu
+
+Direct Volume Rendering with Nonparametric Models of Uncertainty
+Authors: Tushar Athawale, Bo Ma, Elham Sakhaee, Chris R. Johnson, Alireza Entezari
+
+Uncertainty Visualization of 2D Morse Complex Ensembles Using Statistical Summary Maps
+Authors: Tushar Athawale, Dan Maljovec, Lin Yan, Chris R. Johnson, Valerio Pascucci, Bei Wang
+
+Uncertainty-Oriented Ensemble Data Visualization and Exploration using Variable Spatial Spreading
+Authors: Mingdong Zhang, Li Chen, Quan Li, Xiaoru Yuan, Jun-hai Yong
+
+Uncertainty in Continuous Scatterplots, Continuous Parallel Coordinates, and Fibers
+Authors: Boyan Zheng, Filip Sadlo
+
+Modeling the Influence of Visual Density on Cluster Perception in Scatterplots Using Topology
+Authors: Ghulam Jilani Quadri, Paul Rosen
+
+ProReveal: Progressive Visual Analytics with Safeguards
+Authors: Jaemin Jo, Sehi L'Yi, Bongshin Lee, Jinwook Seo
+
+InCorr: Interactive Data-Driven Correlation Panels for Digital Outcrop Analysis
+Authors: Thomas Ortner, Andreas Walch, Rebecca Nowak, Robert Barnes, Thomas Höllt, Eduard Gröller,
+
+Extraction and Visualization of Poincaré Map Topology for Spacecraft Trajectory Design
+Authors: Xavier Tricoche, Wayne Schlei, Kathleen Howell
+
+IsoTrotter: Visually Guided Empirical Modelling of Convection in Meteorology
+Authors: Juraj Pálenik, Thomas Spengler, Helwig Hauser
+
+Interactive Visualization of Atmospheric Effects for Celestial Bodies
+Authors: Jonathas Costa, Alexander Bock, Carter Emmart, Charles Hansen, Anders Ynnerman, Claudio Silva
+
+Interactive Black-Hole Visualization
+(Honorable Mention)
+Authors: Annemieke Verbraeck, Elmar Eisemann
+
+Polyphorm: Structural Analysis of Cosmological Datasets via Interactive Physarum Polycephalum Visualization
+Authors: Oskar Elek, Joseph Burchett, Jason Prochaska, Angus Forbes
+
+What Makes a Data-GIF Understandable?
+Authors: Xinhuan Shu, Aoyu Wu, Junxiu Tang, Benjamin Bach, Yingcai Wu, Huamin Qu
+
+Guidelines For Pursuing and Revealing Data Abstractions
+Authors: Alex Bigelow, Katy Williams, Katherine Isaacs
+
+Composition and Configuration Patterns in Multiple-View Visualizations
+Authors: Xi Chen, Wei Zeng, Yanna Lin, Hayder Al-maneea, Jonathan Roberts, Remco Chang
+
+Comparative Layouts Revisited: Design Space, Guidelines, and Future Directions
+Authors: Sehi L'Yi, Jaemin Jo, Jinwook Seo
+
+LineSmooth: An Analytical Framework for Evaluating the Effectiveness of Smoothing Techniques on Line Charts
+Authors: Paul Rosen, Ghulam Jilani Quadri
+
+StackGenVis: Alignment of Data, Algorithms, and Models for Stacking Ensemble Learning Using Performance Metrics
+Authors: Angelos Chatzimparmpas, Rafael M. Martins, Kostiantyn Kucher, Andreas Kerren
+
+Shared Surfaces and Spaces: Collaborative Data Visualisation in a Co-located Immersive Environment
+Authors: Benjamin Lee, Xiaoyun Hu, Maxime Cordeil, Arnaud Prouzeau, Bernhard Jenny, Tim Dwyer
+
+Personal Augmented Reality for Information Visualization on Large Interactive Displays
+Authors: Patrick Reipschläger ,Tamara Flemisch, Raimund Dachselt
+
+VRIA: A Web-based Framework for Creating Immersive Analytics Experiences
+Authors: Peter W. S. Butcher, Nigel W. John, Panagiotis D. Ritsos
+
+Uplift: A Tangible and Immersive Tabletop System for Casual Collaborative Visual Analytics
+Authors: Barrett Ens, Sarah Goodwin, Arnaud Prouzeau, Fraser Anderson, Florence Y. Wang, Samuel Gratzl, Zac Lucarelli, Brendan Moyle, Jim Smiley, Tim Dwyer
+
+Revisited: Comparison of Empirical Methods to Evaluate Visualizations Supporting Crafting and Assembly Purposes
+Authors: Maximilian Weiß, Katrin Angerbauer, Alexandra Voit, Magdalena Schwarzl, Michael Sedlmair, Sven Mayer
+
+Embodied Navigation in Immersive Abstract Data Visualization: Is Overview+Detail or Zooming Better for 3D Scatterplots?
+Authors: Yalong Yang, Maxime Cordeil, Johanna Beyer, Tim Dwyer, Kim Marriott, Hanspeter Pfister
+
+Visual Analytics of Multivariate Event Sequence Data in Racquet Sports
+Authors: Jiang Wu, Ziyang Guo, Zuobin Wang, Qingyang Xu, Yingcai Wu
+
+Constructing Spaces and Times for Tactical Analysis in Football
+Authors: Gennady Andrienko, Natalia Andrienko, Gabriel Anzer, Pascal Bauer, Guido Budziak, Georg Fuchs, Dirk Hecker, Hendrik Weber, Stefan Wrobel
+
+PassVizor: Toward Better Understanding of the Dynamics of Soccer Passes
+Authors: Xiao Xie, Jiachen Wang, Hongye Liang, Dazhen Deng, Shoubin Cheng, Hui Zhang, Wei Chen, Yingcai Wu
+
+Once Upon A Time In Visualization: Understanding the Use of Textual Narratives for Causality
+Authors: Arjun Choudhry, Mandar Sharma, Pramod Chundury, Thomas Kapler, Derek Gray, Naren Ramakrishnan, Niklas Elmqvist
+
+Visual Causality Analysis of Event Sequence Data
+Authors: Zhuochen Jin, Shunan Guo, Nan Chen, Daniel Weiskopf, David Gotz, Nan Cao
+
+Sequence Braiding: Visual Overviews of Temporal Event Sequences and Attributes
+Authors: Sara Di Bartolomeo, Yixuan Zhang, Fangfang Sheng, Cody Dunne
+
+Towards Better Bus Networks: A Visual Analytics Approach
+Authors: Di Weng, Chengbo Zheng, Zikun Deng, Mingze Ma, Jie Bao, Yu Zheng, Mingliang Xu, Yingcai Wu
+
+Topology Density Map for Urban Data Visualization and Analysis
+Authors: Zezheng Feng, Haotian Li, Wei Zeng, Shuang-Hua Yang, Huamin Qu
+
+UrbanMotion: Visual Analysis of Metropolitan-Scale Sparse Trajectories
+Authors: Lei Shi, Congcong Huang, Meijun Liu, Jia Yan, Tao Jiang, Zhihao Tan, Yifan Hu, Wei Chen, Xiatian Zhang
+
+Revisiting the Modifiable Areal Unit Problem in Deep Traffic Prediction with Visual Analytics
+Authors: Wei Zeng, Chengqiao Lin, Juncong Lin, Jincheng Jiang, Jiazhi Xia, Cagatay Turkay, Wei Chen
+
+Visual Cause Analytics for Traffic Congestion
+Authors: Mingyu Pi, Hanbyul Yeon, Hyesook Son, Yun Jang
+
+CrimAnalyzer: Understanding Crime Patterns in São Paulo
+Authors: Germain Garcia, Jaqueline Silveira, Jorge Poco, Afonso Paiva, Marcelo Batista Nery, Claudio T. Silva, Sergio Adorno, Luis Gustavo Nonato
+
+Chemicals in the Creek: designing a situated data physicalization of open government data with the community
+Authors: Laura Perovich, Sara Wylie, Roseann Bongiovanni
+
+Designing Narrative-Focused Role-Playing Games for Visualization Literacy in Young Children
+Authors: Elaine Huynh, Angela Nyhout, Patricia Ganea, Fanny Chevalier
+
+Sea of Genes: A Reflection on Visualising Metagenomic Data for Museums
+Authors: Keshav Dasu, Kwan-Liu Ma, Joyce Ma, Jennifer Frazier
+
+Communicative Visualizations as a Learning Problem
+Authors: Eytan Adar, Elsie Lee
+
+Table Scraps: An Actionable Framework for Multi-Table Data Wrangling From An Artifact Study of Computational Journalism
+Authors: Stephen Kasica, Charles Berret, Tamara Munzner
+
+Data Comics for Reporting Controlled User Studies in Human-Computer Interaction
+Authors: Zezhong Wang, Jacob Ritchie, Jingtao Zhou, Fanny Chevalier, Benjamin Bach
+
+Cartographic Relief Shading with Neural Networks
+Authors: Bernhard Jenny, Magnus Heitzler, Dilpreet Singh, Marianna Farmakis-Serebryakova, Jeffery Chieh Liu, Lorenz Hurni
+
+A Simple Pipeline for Coherent Grid Maps
+(Honorable Mention)
+Authors: Wouter Meulemans, Max Sondag, Bettina Speckmann
+
+Zoomless Maps: External Labeling Methods for the Interactive Exploration of Dense Point Sets at a Fixed Map Scale
+Authors: Sven Gedicke, Annika Bonerath, Benjamin Niedermann, Jan-Henrik Haunert
+
+Tilt Map: Interactive Transitions Between Choropleth Map, Prism Map and Bar Chart in Immersive Environments
+Authors: Yalong Yang, Tim Dwyer, Kim Marriott, Bernhard Jenny, Sarah Goodwin
+
+Phoenixmap: An Abstract Approach to Visualize 2D Spatial Distributions
+Authors: Junhan Zhao, Xiang Liu, Chen Guo, Zhenyu Cheryl Qian, Yingjie Victor Chen
+
+MetroSets: Visualizing Sets as Metro Maps
+Authors: Ben Jacobsen, Markus Wallinger, Stephen Kobourov, Martin Nöllenburg
+
+Interweaving Multimodal Interaction with Flexible Unit Visualizations for Data Exploration
+Authors: Arjun Srinivasan, Bongshin Lee, John Stasko
+
+Competing Models: Inferring Exploration Patterns and Information Relevance via Bayesian Model Selection
+Authors: Shayan Monadjemi, Roman Garnett, Alvitta Ottley
+
+II-20: Intelligent and pragmatic analytic categorization of image collections
+Authors: Jan Zahálka, Marcel Worring, Jarke van Wijk
+
+Interactive Steering of Hierarchical Clustering
+Authors: Weikai Yang, Xiting Wang, Jie Lv, Dou Wenwen, Shixia Liu
+
+The Making of Continuous Colormaps
+Authors: Pascal Nardini , Min Chen , Francesca Samsel, Roxana Bujack, Michael Böttinger, Gerik Scheuermann
+
+Argus: Interactive a priori Power Analysis
+Authors: Xiaoyi Wang, Alexander Eiselmayer, Wendy Mackay, Kasper Hornbæk, Chat Wacharamanotham
+
+Evaluating the Readability of Force Directed Graph Layouts: A Deep Learning Approach
+Authors: Hammad Haleem, Yong Wang, Abishek Puri, Sahil Wadhwa, Huamin Qu
+
+Flow Field Reduction Via Reconstructing Vector Data From 3-D Streamlines Using Deep Learning
+Authors: Jun Han, Jun Tao, Hao Zheng, Hanqi Guo, Danny Z. Chen, Chaoli Wang
+
+Analytic Provenance in Practice: The Role of Provenance in Real-World Visualization and Data Analysis Environments
+Authors: Karthic Madanagopal, Eric D. Ragan, Perakath Benjamin
+
+A Provenance Task Abstraction Framework
+Authors: Christian Bors, John Wenskovitch, Michelle Dowling, Simon Attfield, Leilani Battle, Alex Endert, Olga Kulyk, Robert S. Laramee
+
+Capturing and Visualizing Provenance From Data Wrangling
+Authors: Christian Bors, Theresia Gschwandtner, Silvia Miksch
+
+Towards Placental Surface Vasculature Exploration in Virtual Reality
+Authors: Johannes Novotny, Wesley R. Miller, François I. Luks, Derek Merck, Scott Collins, David H. Laidlaw
+
+TopoMap: A 0-dimensional Homology Preserving Projection of High-Dimensional Data
+Authors: Harish Doraiswamy, Julien Tierny, Paulo J. S. Silva, Luis Gustavo Nonato, Claudio Silva
+
+Localized Topological Simplification of Scalar Data
+Authors: Jonas Lukasczyk, Christoph Garth, Ross Maciejewski, Julien Tierny
+
+Mode Surfaces of Symmetric Tensor Fields: Topological Analysis and Seamless Extraction
+Authors: Botong Qu, Lawrence Roy, Yue Zhang, Eugene Zhang
+
+A Suggestive Interface for Untangling Mathematical Knots
+Authors: Huan Liu, Hui Zhang
+
+Geometry-Driven Detection, Tracking and Visual Analysis of Viscous and Gravitational Fingers
+Authors: Jiayi Xu, Soumya Dutta, Wenbin He, Joachim Moortgat, Han-Wei Shen
+
+Efficient and Flexible Hierarchical Data Layouts for a Unified Encoding of Scalar Field Precision and Resolution
+Authors: Duong Hoang, Brian Summa, Pavol Klacansky, Will Usher, Harsh Bhatia, Peter Lindstrom, Peer-Timo Bremer, Valerio Pascucci
+
+Responsive Matrix Cells: A Focus+Context Approach for Exploring and Editing Multivariate Graphs
+Authors: Tom Horak, Philip Berger, Heidrun Schumann, Raimund Dachselt, Christian Tominski
+
+Exemplar-based Layout Fine-tuning for Node-link Diagrams
+Authors: Jiacheng Pan, Wei Chen, Xiaodong Zhao, Shuyue Zhou, Wei Zeng, Minfeng Zhu, Jian Chen, Siwei Fu, Yingcai Wu
+
+DRGraph: An Efficient Graph Layout Algorithm for Large-scale Graphs by Dimensionality Reduction
+Authors: Minfeng Zhu, Wei Chen, Yuanzhe Hu, Yuxuan Hou, Liangjun Liu, Kaiyuan Zhang
+
+Scalability of Network Visualisation from a Cognitive Load Perspective
+Authors: Vahan Yoghourdjian, Yalong Yang, Tim Dwyer, Lee Lawrence, Michael Wybrow, Kim Marriott
+
+A Visual Analytics Framework for Contrastive Network Analysis
+Authors: Takanori Fujiwara, Jian Zhao, Francine Chen, Kwan-Liu Ma
+
+SafetyLens: Visual Data Analysis of Functional Safety of Vehicles
+Authors: Arpit Narechania, Ahsan Qamar, Alex Endert
+
+Retrieve-Then-Adapt: Example-based Automatic Generation for Proportion-related Infographics
+Authors: Chunyao Qian, Shizhao Sun, Weiwei Cui, Jian-Guang Lou, Haidong Zhang, Dongmei Zhang
+
+Calliope: A System for Automatic Visual Data Story Generation from a Spreadsheet
+Authors: Danqing Shi, Xinyue Xu, Fuling Sun, Yang Shi, Nan Cao
+
+MobileVisFixer: Tailoring Web Visualizations for Mobile Phones Leveraging an Explainable Reinforcement Learning Framework
+Authors: Aoyu Wu, Wai Tong, Tim Dwyer, Bongshin Lee, Petra Isenberg, Huamin Qu
+
+Palettailor: Discriminable Colorization for Categorical Data
+Authors: Kecheng Lu, Mi Feng, Xin Chen, Michael Sedlmair, Oliver Deussen, Dani Lischinski, Zhanglin Cheng, Yunhai Wang
+
+Gemini: A Grammar and Recommender System for Animated Transitions in Statistical Graphics
+Authors: Younghoon Kim, Jeffrey Heer
+
+VizCommender: Computing Text-Based Similarity in Visualization Repositories for Content-Based Recommendations
+Authors: Michael Oppermann, Robert Kincaid, Tamara Munzner
+
+Deep Volumetric Ambient Occlusion
+Authors: Dominik Engel, Timo Ropinski
+
+A Fluid Flow Data Set for Machine Learning and its Application to Neural Flow Map Interpolation
+Authors: Jakob Jakob, Markus Gross, Tobias Günther
+
+V2V: A Deep Learning Approach to Variable-to-Variable Selection and Translation for Multivariate Time-Varying Data
+Authors: Jun Han, Hao Zheng, Yunhao Xing, Danny Chen, Chaoli Wang
+
+VC-Net: Deep Volume-Composition Networks for Segmentation and Visualization of Highly Sparse and Noisy Image Data
+Authors: Yifan Wang, Guoli Yan, Haikuan Zhu, Sagar Buch, Ying Wang, Ewart Haacke, Jing Hua, Zichun Zhong
+
+Interactive Visual Study of Multiple Attributes Learning Model of X-Ray Scattering Images
+Authors: Xinyi Huang, Suphanut Jamonnak, Ye Zhao, Boyu Wang, Minh Hoai, Kevin Yager, Wei Xu
+
+Volumetric Isosurface Rendering with Deep Learning-Based Super-Resolution
+Authors: Sebastian Weiss, Mengyu Chu, Nils Thuerey, Rüdiger Westermann
+
+CAVA: A Visual Analytics System for Exploratory Columnar Data Augmentation Using Knowledge Graphs
+Authors: Dylan Cashman, Shenyu Xu, Subhajit Das, Florian Heimerl, Cong Liu, Shah Rukh Humayoun, Michael Gleicher, Alex Endert, Remco Chang
+
+An Examination of Grouping and Spatial Organization Tasks for High-Dimensional Data Exploration
+Authors: John Wenskovitch, Chris North
+
+Boba: Authoring and Visualizing Multiverse Analyses
+Authors: Yang Liu, Alex Kale, Tim Althoff, Jeffrey Heer
+
+Supporting the Problem-Solving Loop: Designing Highly Interactive Optimisation Systems
+Authors: Jie Liu, Tim Dwyer, Guido Tack, Samuel Gratzl, Kim Marriott
+
+Integrating Prior Knowledge in Mixed Initiative Social Network Clustering
+Authors: Alexis Pister, Paolo Buono, Jean-Daniel Fekete, Catherine Plaisant, Paola Valdivia
+
+Investigating Visual Analysis of Differentially Private Data
+Authors: Dan Zhang, Ali Sarvghad, Gerome Miklau
+
+A Bayesian cognition approach for belief updating of correlation judgment through uncertainty visualizations
+Authors: Alireza Karduni, Doug Markant, Ryan Wesslen, Wenwen Dou
+
+Bayesian-Assisted Inference from Visualized Data
+Authors: Yea-Seul Kim, Paula Kayongo, Madeleine Grunde-McLaughlin, Jessica Hullman
+
+Towards Modeling Visualization Processes as Dynamic Bayesian Networks
+Authors: Christian Heine
+
+Characterizing the Quality of Insight by Interactions: A Case Study
+Authors: Chen He, Luana Micallef, Liye He, Gopal Peddinti, Tero Aittokallio, Giulio Jacucci
+
+Insight Beyond Numbers: The Impact of Qualitative Factors on Visual Data Analysis
+Authors: Benjamin Karer, Hans Hagen, Dirk Lehmann
+
+EmotionCues: Emotion-Oriented Visual Summarization of Classroom Videos
+Authors: Haipeng Zeng, Xinhuan Shu, Yanbang Wang, Yong Wang, Liguo Zhang, Ting-Chuen Pong, Huamin Qu
+
+Preserving Minority Structures in Graph Sampling
+(Honorable Mention)
+Authors: Ying Zhao, Haojin Jiang, Qi'an Chen, Yaqi Qin, Huixuan Xie, Yitao Wu, Shixia Liu, Zhiguang Zhou, Jiazhi Xia, Fangfang Zhou
+
+Context-aware Sampling of Large Networks via Graph Representation Learning
+Authors: Zhiguang Zhou, Chen Shi, Xilong Shen, Lihong Cai, Haoxuan Wang, Yuhua Liu, Ying Zhao, Wei Chen
+
+Evaluation of Sampling Methods for Scatterplots
+Authors: Jun Yuan, Shouxing Xiang, Jiazhi Xia, Lingyun Yu, Shixia Liu
+
+Visual Abstraction of Geographical Point Data with Spatial Autocorrelations
+Authors: Zhiguang Zhou, Xinlong Zhang, Zhendong Yang, Yuhua Liu, Yuanyuan Chen, Ying Zhao, Wei Chen
+
+STULL: Unbiased Online Sampling for Visual Exploration of Large Spatiotemporal Data
+Authors: Guizhen Wang, Jingjing Guo, Mingjie Tang, José Florencio de Queiroz, Calvin Yau, Anas Daghistani, Morteza Karimzadeh, Walid Aref, David Ebert
+
+Humane Visual AI: Telling the stories behind a medical condition
+Authors: Wonyoung So, Edyta Paulina Bogucka, Sanja Scepanovic, Sagar Joglekar, Ke Zhou, Daniele Quercia
+
+QualDash: Adaptable Generation of Visualisation Dashboards for Healthcare Quality Improvement
+Authors: Mai Elshehaly, Rebecca Randell, Matthew Brehmer, Lynn McVey, Natasha Alvarado, Chris P. Gale, Roy Ruddle
+
+Visualization of Human Spine Biomechanics for Spinal Surgery
+Authors: Pepe Eulzer, Sabine Bauer, Francis Kilian, Kai Lawonn
+
+In Search of Patient Zero: Visual Analytics of Pathogen Transmission Pathways in Hospitals
+(Honorable Mention)
+Authors: Tom Baumgartl, Markus Petzold, Marcel Wunderlich, Markus Höhn, Daniel Archambault, Michael Lieser, Alexander Dalpke, Simone Scheithauer, Michael Marschollek, Vanessa Eichel, Nico T. Mutters, Tatiana von Landesberger
+
+DPVis: Visual Analytics with Hidden Markov Models for Disease Progression Pathways
+Authors: Bum Chul Kwon, Vibha Anand, Kristen A Severson, Soumya Ghosh, Zhaonan Sun, Brigitte I Frohnert, Markus Lundgren, Kenney Ng
+
+Modeling in the Time of COVID-19: Statistical and Rule-based Mesoscale Models
+Authors: Ngan Nguyen, Ondřej Strnad, Tobias Klein, Deng Luo, Ruwayda Alharbi, Peter Wonka, Martina Maritan, Peter Mindek, Ludovic Autin, David Goodsell, Ivan Viola
+
+TaxThemis: Interactive Mining and Exploration of Suspicious Tax Evasion Group
+Authors: Yating Lin, Kamkwai Wong, Yong Wang, Rong Zhang, Bo Dong, Huamin Qu, Qinghua Zheng,
+
+iConViz: Interactive Visual Exploration of the Default Contagion Risk of Networked-Guarantee Loans
+Authors: Zhibin Niu, Runlin Li, Junqi Wu, Dawei Cheng, Jiawan Zhang
+
+Visualization of Blockchain Data: A Systematic Review
+Authors: Natkamon Tovanich, Nicolas Heulot, Jean-Daniel Fekete, Petra Isenberg
+
+SilkViser: A Visual Explorer of Blockchain-based Cryptocurrency Transaction Data
+Authors: Zengsheng Zhong, Shuirun Wei, Yeting Xu, Ying Zhao, Fangfang Zhou, Feng Luo, Ronghua Shi
+
+AgentVis: Visual Analysis of Agent Behavior with Hierarchical Glyphs
+Authors: Dylan Rees, Robert S Laramee, Paul Brookes, Tony D'Cruze, Gary A Smith, Aslam Miah
+
+SMAP: A Joint Dimensionality Reduction Scheme for Secure Multi-Party Visualization
+Authors: Jiazhi Xia, Tianxiang Chen, Lei Zhang, Wei Chen, Yang Chen, Xiaolong Zhang, Cong Xie, Tobias Schreck
+
+Implicit Multidimensional Projection of Local Subspaces
+Authors: Rongzheng Bian, Yumeng Xue, Liang Zhou, Jian Zhang, Baoquan Chen, Daniel Weiskopf, Yunhai Wang
+
+Multi-Perspective, Simultaneous Embedding
+Authors: Md Iqbal Hossain, Vahan Huroyan, Stephen Kobourov, Raymundo Navarrete
+
+Visual Analysis of Large Multivariate Scattered Data using Clustering and Probabilistic Summaries
+Authors: Tobias Rapp, Christoph Peters, Carsten Dachsbacher
+
+t-viSNE: Interactive Assessment and Interpretation of t-SNE Projections
+Authors: Angelos Chatzimparmpas, Rafael M. Martins, Andreas Kerren
+
+Data-Driven Space-Filling Curves
+Authors: Liang Zhou, Chris R. Johnson, Daniel Weiskopf
+
+Why Visualize? Untangling a Large Network of Arguments
+Authors: Dirk Streeb, Mennatallah El-Assady, Daniel A. Keim, Min Chen
+
+Introducing Layers of Meaning (LoM): A Framework to Reduce Semantic Distance of Visualization In Humanistic Research
+Authors: Houda Lamqaddam, Andrew Vande Moere, Vero Vanden Abeele, Koenraad Brosens, Katrien Verbert
+
+Data Visceralization: Enabling Deeper Understanding of Data Using Virtual Reality
+Authors: Benjamin Lee, David Brown, Bongshin Lee, Christophe Hurter, Steven Drucker, Tim Dwyer
+
+Insights From Experiments with Rigor in an EvoBio Design Study
+Authors: Jen Rogers, Austin Patton, Luke Harmon, Alexander Lex, Miriah Meyer
+
+A Design Space of Vision Science Methods for Visualization Research
+Authors: Madison Elliott, Christine Nothelfer, Cindy Xiong, Danielle Szafir
+
+A Structured Review of Data Management Technology for Interactive Visualization and Analysis
+Authors: Leilani Battle, Carlos Scheidegger
+
+Advanced Rendering of Line Data with Ambient Occlusion and Transparency
+Authors: David Groß, Stefan Gumhold
+
+A Comparison of Rendering Techniques for 3D Line Sets with Transparency
+Authors: Michael Kern, Christoph Neuhauser, Torben Maack, Mengjiao Han, Will Usher, Rüdiger Westermann
+
+A Discrete Probabilistic Approach to Dense Flow Visualization
+Authors: Daniel Preuß, Tino Weinkauf, Jens Krüger
+
+Ray Tracing Structured AMR Data Using ExaBricks
+Authors: Ingo Wald, Stefan Zellmann, Will Usher, Nate Morrical, Ulrich Lang, Valerio Pascucci
+
+Homomorphic-Encrypted Volume Rendering
+Authors: Sebastian Mazza, Daniel Patel, Ivan Viola
+
+The Mixture Graph - A Data Structure for Compressing, Rendering, and Querying Segmentation Histograms
+Authors: Khaled Al-Thelaya, Marco Agus, Jens Schneider
+
+Short papers
+The Anatomical Edutainer
+(Best Paper Award)
+Authors: Marwin Schindler, Hsiang-Yun Wu, Renata Georgia Raidou
+
+Topological Analysis of Magnetic Reconnection in Kinetic Plasma Simulations
+Authors: Divya Banesh, Li-Ta Lo, Patrick Kilian, Fan Guo, Bernd Hamann
+
+A Virtual Frame Buffer Abstraction for Parallel Rendering of Large Tiled Display Walls
+Authors: Ingo Wald, Mengjiao Han, Will Usher, Nate Morrical, Aaron Knoll, Valerio Pascucci, Chris R. Johnson
+
+Uncertain Transport in Unsteady Flows
+Authors: Tobias Rapp, Carsten Dachsbacher
+
+High-quality real-time raycasting and raytracing of streamtubes with sparse voxel octrees
+Authors: Tim McGraw
+
+GPU-based Raycasting of Hermite Spline Tubes
+Authors: Benjamin Russig, Mirco Salm, Stefan Gumhold
+
+Implicit Ray Casting of the Parallel Vectors Operator
+Authors: Ramon Witschi, Tobias Günther
+
+GPU Parallel Computation of Morse-Smale Complexes
+Authors: Varshini Subhash, Karran Pandey, Vijay Natarajan
+
+Relationship-aware Multivariate Sampling Strategy for Scientific Simulation Data
+Authors: Subhashis Hazarika, Ayan Biswas, Philip Wolfram, Earl Lawrence, Nathan Urban
+
+PRAGMA: Interactively Constructing Functional Brain Parcellations
+(Honorable Mention)
+Authors: Roza Gunes Bayrak, Nhung Hoang, Colin Blake Hansen, Catie Chang, Matthew Berger
+
+A Review of Geospatial Content in IEEE Visualization Publications
+Authors: Alexander Yoshizumi, Megan M. Coffer, Elyssa L. Collins, Mollie D. Gaines, Xiaojie Gao, Kate Jones, Ian R. McGregor, Katie A. McQuillan, Vinicius Perin, Thom Worm, Laura M. Tomkins, Laura Tateosian
+
+COVIs: Supporting Temporal Visual Analysis of Covid-19 Events Usable in Data-Driven Journalism
+Authors: Roger A. Leite, Victor Schetinger, Davide Ceneda, Bernardo Henz, Silvia Miksch
+
+TradAO: A Visual Analytics System for Trading Algorithm Optimization
+Authors: Ka Wing Tsang, Haotian Li, Fuk Ming Lam, Yifan Mu, Yong Wang, Huamin Qu
+
+A Study of Opacity Ranges for Transparent Overlays in 3D Landscapes
+Authors: Jan Niklas Hombeck, LI JI, Kai Lawonn, Charles Perin
+
+Co-visualization of air temperature and urban data for visual exploration
+Authors: Jacques Gautier, Mathieu Brédif, Sidonie Christophe
+
+A Visual Analytics Approach to Scheduling Customized Shuttle Buses via Perceiving Passengers' Travel Demands'
+Authors: Qiangqiang Liu, Quan Li, Chunfeng Tang, Huanbin Lin, Xiaojuan Ma, Tianjian Chen
+
+Designing for Ambiguity: Visual Analytics in Avalanche Forecasting
+Authors: Stan Nowak, Lyn Bartram, Pascal Haegeli
+
+A Visual Analytics Based Decision Making Environment for COVID-19 Modeling and Visualization
+Authors: Shehzad Afzal, Sohaib Ghani, Hank C. Jenkins-Smith, David Ebert, Markus Hadwiger, Ibrahim Hoteit
+
+Mapping the Global South: Equal-Area Projections for Choropleth Maps
+Authors: Gabriela Molina León, Michael Lischka, Andreas Breiter
+
+Accelerating Force-Directed Graph Drawing with RT Cores
+Authors: Stefan Zellmann, Martin Weier, Ingo Wald
+
+Fast and Flexible Overlap Detection for Chart Labeling with Occupancy Bitmaps
+Authors: Chanwut Kittivorawong, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey Heer
+
+FAVR - Accelerating Direct Volume Rendering for Virtual Reality Systems
+Authors: Andre Waschk, Jens Krueger
+
+DRUIDJS - A JavaScript Library for Dimensionality Reduction
+Authors: Rene Cutura, Christoph Kralj, Michael Sedlmair
+
+Trrack: A Library for Provenance Tracking in Web-Based Visualizations
+Authors: Zach Cutler, Kiran Gadhave, Alexander Lex
+
+Just TYPEical: Visualizing Common Function Type Signatures in R
+Authors: Cameron Moy, Julia Belyakova, Alexi Turcotte, Sara Di Bartolomeo, Cody Dunne
+
+Loch Prospector: Metadata Visualization for Lakes of Open Data
+Authors: Neha Makhija, Mansi Jain, Nikolaos Tziavelis, Laura Di Rocco, Sara Di Bartolomeo, Cody Dunne
+
+Encodable: Configurable Grammar for Visualization Components
+(Honorable Mention)
+Authors: Krist Wongsuphasawat
+
+Facilitating Exploration with Interaction Snapshots under High Latency
+Authors: Yifan Wu, Remco Chang, Joseph Hellerstein, Eugene Wu
+
+Improving Engagement of Animated Visualization withVisual Foreshadowing
+Authors: Wenchao Li, Yun Wang, Haidong Zhang, Huamin Qu
+
+Representing Real-Time Multi-User Collaboration in Visualizations
+Authors: Rupayan Neogy, Jonathan Zong, Arvind Satyanarayan
+
+Narrative Transitions in Data Videos
+Authors: Junxiu Tang, Lingyun Yu, Tan Tang, Xinhuan Shu, Lu Ying, Yuhua Zhou, Peiran Ren, Yingcai Wu
+
+Visualizing information on watch faces: A survey with smartwatch users
+Authors: Alaul Islam, Anastasia Bezerianos, Bongshin Lee, Tanja Blascheck, Petra Isenberg
+
+Evaluating Animated Transitions between Contiguous Visualizations for Streaming Big Data
+Authors: Tiago Pereira, João Moreira, Daniel Mendes, Daniel Gonçalves
+
+Gaze-Driven Links for Magazine Style Narrative Visualizations
+Authors: Sebastien Lalle, Tiffany Wu, Cristina Conati
+
+Characterizing Automated Data Insights
+Authors: Po-Ming Law, Alex Endert, John Stasko
+
+Design Judgment in Data Visualization Practice
+Authors: Paul Parsons, Colin M. Gray, Ali Baigelenov, Ian Carr
+
+What are Data Insights to Professional Visualization Users?
+Authors: Po-Ming Law, Alex Endert, John Stasko
+
+A Didactic Methodology for Crafting Information Visualizations
+Authors: Mandy Keck, Rainer Groh, Zana Vosough
+
+CrowdTrace: Visualizing Provenance in Distributed Sensemaking
+Authors: Tianyi Li, Yasmine Belghith, Chris North, Kurt Luther
+
+Let's Gamble: How a Poor Visualization Can Elicit Risky Behavior
+Authors: Melanie Bancilhon, Zhengliang Liu, Alvitta Ottley
+
+Exploring How Personality Models Information Visualization Preferences
+Authors: Tomás Alves, Bárbara Ramalho, Joana Henriques-Calado, Daniel Gonçalves, Sandra Gama
+
+Why Shouldn't All Charts Be Scatter Plots? Beyond Precision-Driven Visualizations
+Authors: Enrico Bertini, Michael Correll, Steven Franconeri
+
+Data Visualization Practitioners' Perspectives on Chartjunk
+Authors: Paul Parsons, Prakash Chandra Shukla
+
+Sentifiers: Interpreting Vague Intent Modifiers in Visual Analysis using Word Co-occurrence and Sentiment Analysis
+Authors: Vidya Setlur, Arathi S. Kumar
+
+Data Visualization for Transgender Voice Training
+Authors: Alex A. Ahmed, Michelle A. Borkin
+
+GlassViz: Visualizing Automatically-Extracted Entry Points for Exploring Scientific Corpora in Problem-Driven Visualization Research
+Authors: Alejandro Benito-Santos, Roberto Therón
+
+Knowing what to look for: A Fact-Evidence Reasoning Framework for Decoding Communicative Visualization
+Authors: Sahaj Vaidya, Aritra Dasgupta
+
+MeetCues: Supporting Online Meetings Experience
+Authors: Bon Adriel Aseniero, Marios Constantinides, Sagar Joglekar, Ke Zhou, Daniele Quercia
+
+DebateVis: Visualizing Political Debates for Non-Expert Users
+Authors: Laura South, Michail Schwab, Nick Beauchamp, Lu Wang, John Wihbey, Michelle A. Borkin
+
+ClaimViz: Visual Analytics for Identifying and Verifying Factual Claims
+Authors: Md Main Uddin Rony, Enamul Hoque, Naeemul Hassan
+
+Visually Analyzing and Steering Zero Shot Learning
+Authors: Saroj Sahoo, Matthew Berger
+
+DRIL: Descriptive Rules by Interactive Learning
+Authors: Fang Cao, Eli T Brown
+
+Vortex Boundary Identification using Convolutional Neural Network
+Authors: Marzieh Berenjkoub, Guoning Chen, Tobias Günther
+
+How Does Visualization Help People Learn Deep Learning? Evaluating GAN Lab with Observational Study and Log Analysis
+Authors: Minsuk Kahng, Duen Horng Chau
+
+Bluff: Interactively Deciphering Adversarial Attacks on Deep Neural Networks
+Authors: Nilaksh Das, Haekyu Park, Zijie J. Wang, Fred Hohman, Robert Firstman, Emily Rogers, Duen Horng Chau
+
+Visually Analyzing Contextualized Embeddings
+Authors: Matthew Berger
+
+Explainable Spatial Clustering: Leveraging Spatial Data in Radiation Oncology
+Authors: Andrew Wentzel, Guadalupe Canahuate, Lisanne van Dijk, Abdallah Mohamed, Clifton David Fuller, G. Elisabeta Marai
+
+ProtoViewer: Visual Interpretation and Diagnostics of DNNs via Prototype Factorization
+Authors: Junhan Zhao, Zeng Dai, Panpan Xu, Liu Ren
+
+InstanceFlow: Visualizing the Evolution of Classifier Confusion on the Instance Level
+Authors: Michael Pühringer, Andreas Hinterreiter, Marc Streit
