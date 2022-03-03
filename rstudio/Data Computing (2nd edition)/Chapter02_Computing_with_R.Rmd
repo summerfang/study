@@ -1,0 +1,19 @@
+---
+title: "Chapter Computing with R"
+output: html_notebook
+---
+
+```{r}
+rm(list = ls())
+
+required_packages <- c("tidyverse","devtools")
+packages_needed <- required_packages[!(required_packages %in% installed.packages()[,"Package"])]
+if(length(packages_needed))
+  install.packages(packages_needed)
+
+devtools::install_github("mdbeckman/dcData")
+
+library(tidyverse)
+library(dcData)
+```
+
