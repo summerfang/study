@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.20)  20 FEB 2022 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.2)  2 MAR 2022 18:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/jianbfan/Desktop/github/study/latex/learn001.tex
-(/Users/jianbfan/Desktop/github/study/latex/learn001.tex
+**/Users/summerfang/Documents/github/study/latex/learn001.tex
+(/Users/summerfang/Documents/github/study/latex/learn001.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -80,7 +80,7 @@ LaTeX Info: Redefining \] on input line 2924.
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count199
 \l__pdf_internal_box=\box49
-) (/Users/jianbfan/Desktop/github/study/latex/learn001.aux)
+) (/Users/summerfang/Documents/github/study/latex/learn001.aux)
 \openout1 = `learn001.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -99,17 +99,17 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
  [1
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (/Users/jianbfan/Desktop/github/study/latex/learn001.aux) ) 
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (/Users/summerfang/Documents/github/study/latex/learn001.aux) ) 
 Here is how much of TeX's memory you used:
  1056 strings out of 478994
- 14990 string characters out of 5858184
+ 15026 string characters out of 5858185
  306938 words of memory out of 5000000
  18589 multiletter control sequences out of 15000+600000
  410101 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,6n,74p,263b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,6n,74p,267b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /Users/jianbfan/Desktop/github/study/latex/learn001.pdf (2 pages, 132773 bytes).
+Output written on /Users/summerfang/Documents/github/study/latex/learn001.pdf (2 pages, 132978 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream

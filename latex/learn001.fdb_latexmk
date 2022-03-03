@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1645416406 "/Users/jianbfan/Desktop/github/study/latex/learn001.tex" "/Users/jianbfan/Desktop/github/study/latex/learn001.pdf" "learn001" 1645416407
-  "/Users/jianbfan/Desktop/github/study/latex/learn001.aux" 1645416407 842 2ff9cdb6da6f5b4e43d307bd71397b92 ""
-  "/Users/jianbfan/Desktop/github/study/latex/learn001.tex" 1645416406 1244 a1211ef28ca5dcdfd7ec1d2bd9fe5043 ""
+["pdflatex"] 1646273446 "/Users/summerfang/Documents/github/study/latex/learn001.tex" "/Users/summerfang/Documents/github/study/latex/learn001.pdf" "learn001" 1646273524
+  "/Users/summerfang/Documents/github/study/latex/learn001.aux" 1646273447 842 2ff9cdb6da6f5b4e43d307bd71397b92 ""
+  "/Users/summerfang/Documents/github/study/latex/learn001.tex" 1646272253 1244 a1211ef28ca5dcdfd7ec1d2bd9fe5043 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -46,13 +46,13 @@
   "/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1616101731 27164 3d5f7887a89df4eb2f6e86ba26ef3254 ""
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
-  "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1645406882 2724731 70eb1aa6b331ff59e5c6363e12682ff9 ""
+  "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646273349 2724739 a79f556ba7b45567676ec2ce06fbed2f ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "learn001.aux" 1645416407 842 2ff9cdb6da6f5b4e43d307bd71397b92 "pdflatex"
-  "learn001.tex" 1645416406 1244 a1211ef28ca5dcdfd7ec1d2bd9fe5043 ""
+  "learn001.aux" 1646273447 842 2ff9cdb6da6f5b4e43d307bd71397b92 "pdflatex"
+  "learn001.tex" 1646272253 1244 a1211ef28ca5dcdfd7ec1d2bd9fe5043 ""
   (generated)
   "learn001.log"
-  "/Users/jianbfan/Desktop/github/study/latex/learn001.pdf"
-  "/Users/jianbfan/Desktop/github/study/latex/learn001.log"
-  "learn001.pdf"
+  "/Users/summerfang/Documents/github/study/latex/learn001.log"
   "learn001.aux"
+  "/Users/summerfang/Documents/github/study/latex/learn001.pdf"
+  "learn001.pdf"
