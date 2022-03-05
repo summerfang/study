@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-nbox/src/nbox.py
-nbox/src/nbox.egg-info/PKG-INFO
-nbox/src/nbox.egg-info/SOURCES.txt
-nbox/src/nbox.egg-info/dependency_links.txt
-nbox/src/nbox.egg-info/top_level.txt
