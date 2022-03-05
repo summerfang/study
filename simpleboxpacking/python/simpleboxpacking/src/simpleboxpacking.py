@@ -2,10 +2,36 @@ from math import sqrt
 
 class SimpleBoxPacking:
     def __init__(self, width = 1, height = 1, n = 1, p = 1) -> None:
-        self._w = round(sqrt(width*height/(n*p)))
-        self._h = round(self._w*p)
-        self._row = round(height/self._h)
-        self._col = round(width/self._w)
+        self._W = width
+        self._H = height
+        self._n = n
+        self._p = p
+
+        self._row, self._col, self._w, self._h = self.__get_row_column_make_area_biggest(self._W, self._H, self._n, self._p)
+
+        # height = round(height/item[0])
+        # width = round(width/item[1])
+
+        # w = height * p
+        # h = width/p
+
+        # if height <= h:
+        #     width = height * p
+        # else:
+        #     height = width/p
+
+        # self._w = round(width)
+        # self._h = round(height)
+        # self._row = round(height/self._h)
+        # self._col = round(width/self._w)
+    
+    def set_n(self, n):
+        self._n = n
+        self._row, self._col, self._w, self._h = self.__get_row_column_make_area_biggest(self._W, self._H, self._n, self._p)
+
+    def set_p(self, p):
+        self._p = p
+        self._row, self._col, self._w, self._h = self.__get_row_column_make_area_biggest(self._W, self._H, self._n, self._p)
 
     @property
     def w(self):
@@ -23,6 +49,14 @@ class SimpleBoxPacking:
     def col(self):
         return self._col
 
+    @property
+    def W(self):
+        return self._W
+
+    @property
+    def H(self):
+        return self._H
+
     def __box_combination(self, n):
         """
         Return a list of combination of row, column when n boxes
@@ -35,7 +69,7 @@ class SimpleBoxPacking:
 
         """
         if not isinstance(n, int) or n <= 0:
-            raise ValueError("n has to be positive integer")
+            raise ValueError("n has to be positive integer.")
 
         combinations = list()
 
@@ -87,4 +121,9 @@ class SimpleBoxPacking:
         max_area = max(list_areas)
         max_index = list_areas.index(max_area)
 
-        return list_row_col[max_index]
+        row = list_row_col[max_index][0]
+        col = list_row_col[max_index][1]
+        w = round(CW/col)
+        h = round(w/self._p)
+
+        return row, col, w, h

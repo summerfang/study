@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="simpleboxingpacking",                            # This is the name of the package
+    name="simpleboxpacking",                            # This is the name of the package
     version="0.0.2",                        # The initial release version
     author="Summer Fang",                   # Full name of the author
     description="Put n same size boxes into a rectangle.",
