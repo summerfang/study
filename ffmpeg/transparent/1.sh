@@ -1,0 +1,1 @@
+ffmpeg -y -i a.jpeg -vf "crop=200:200:50:50" a.jpg

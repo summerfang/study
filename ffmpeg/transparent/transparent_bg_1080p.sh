@@ -1,0 +1,1 @@
+ffmpeg -y -f lavfi -i "color=color=black@0.0:size=1920x1080,format=rgba,subtitles=test.ass:alpha=1" -c:v png -t "00:00:30.000" -threads 0 "video.mp4" -stats

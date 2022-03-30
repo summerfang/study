@@ -1,0 +1,1 @@
+ffmpeg -i a.jpeg -filter_complex "[0:0]crop=200:200:50:50[img];color=c=0xffffff@0x00:s=1000x1000,format=rgba,drawtext=text='Hello, World!':fontcolor=white: fontsize=100:x=(w-text_w)/2:y=(h-text_h)/2[bg];[bg][img]overlay=0:0:format=rgb,format=rgba[out]" -map [out] -c:v png -frames:v 1 output.png
