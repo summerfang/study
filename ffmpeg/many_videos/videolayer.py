@@ -76,19 +76,19 @@ class VideoLayer:
         process1.wait()
         process2.wait()
 
-    def set_4panelist(self, num_of_panelists = 4):
+    def set_panelist_number(self, num_of_panelists = 4):
         number_of_speakers = 0
         for layer in self.__layers:
             if layer.get_layer_type() == Layer.SPEAKER:
                 number_of_speakers += 1
 
         if number_of_speakers != num_of_panelists:
-            print("set_4panelist() need {} speakers!".format(num_of_panelists))
+            print("set_panelist_number() need {} speakers!".format(num_of_panelists))
             return False
         
         speaker_order = 0
         x_pos = self.__margin_left + self.__boader
-        _width = (self.__iw - self.__margin_left - self.__margin_right - self.__boader * 4 * 2 - self.__spacing*3)/4
+        _width = (self.__iw - self.__margin_left - self.__margin_right - self.__boader *num_of_panelists * 2 - self.__spacing*(num_of_panelists-1))/num_of_panelists
         for layer in self.__layers:
             if layer.get_layer_type() == Layer.SPEAKER:
                 speaker_order += 1
@@ -113,3 +113,6 @@ class VideoLayer:
                 return layer
         
         return None
+
+    def set_speaker(self, order_of_speaker):
+        pass
