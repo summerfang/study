@@ -1,4 +1,3 @@
-from telnetlib import NOP
 from producer_layout import producerLayout
 
 if __name__ == "__main__":
