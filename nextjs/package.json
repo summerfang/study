@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "next": "^12.1.5",
+    "react": "^18.0.0",
+    "react-com": "^1.0.6"
+  },
+  "name": "learnnextjs001",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
