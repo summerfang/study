@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {
+    "electron": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  },
   "author": "",
   "license": "ISC"
 }
