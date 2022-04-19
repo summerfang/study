@@ -1,4 +1,4 @@
-import Router from 'next/router'
+import Link from 'next/link'
 import Head from 'next/head'
 
 function HomePage(props) {
@@ -8,11 +8,11 @@ function HomePage(props) {
             <title>Welcome to Next.js!</title>
          </Head>
          <div>Welcome to Next.js!</div>
-         <span onClick={() => Router.push('/?counter=1', undefined, { shallow: true })}>Reload</span>
+         <Link href="/posts/first"><a>First Post</a></Link>
          <br/>
          <div>Next stars: {props.stars}</div>
-         <img src="/banner.jpeg" alt="TutorialsPoint Logo" />
-      </>	      
+         <img src="/logo.png" alt="TutorialsPoint Logo" />
+      </>	    
    )
 }
 
@@ -23,5 +23,3 @@ export async function getServerSideProps(context) {
       props: { stars: json.stargazers_count }
    }
 }
-
-export default HomePage

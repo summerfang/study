@@ -7,12 +7,16 @@
   "name": "learnnextjs001",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "@types/react": "^18.0.5",
+    "typescript": "^4.6.3"
+  }
 }

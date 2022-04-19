@@ -2,14 +2,14 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Container from '../../components/container'
 
-export default function FirstPost(props) {
+export default function SecondPost(props) {
    return (
       <>
          <Container>
             <Head>
-               <title>My First Post</title>
+               <title>My second Post</title>
             </Head>
-            <h1>My First Post</h1>
+            <h1>My second Post</h1>
             <h2>
                <Link href="/">
                   <a>Home</a>
@@ -22,9 +22,5 @@ export default function FirstPost(props) {
 }
 
 export async function getStaticProps() {
-   const res = await fetch('https://api.github.com/repos/vercel/next.js')
-   const json = await res.json()
-   return {
-      props: { stars: json.stargazers_count }
-   }
+   const res = await fetch('https://api.github.com/repos/vercel/next.js');
 }
