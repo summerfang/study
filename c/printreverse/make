@@ -1,0 +1,5 @@
+# bin/sh
+
+gcc printreverse.c -o printreverse
+
+./printreverse
