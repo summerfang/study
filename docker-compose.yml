@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  learnnode001:
+    image: learnnode001
+    build:
+      context: node/learn_node_001
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3001:3001
