@@ -63,3 +63,4 @@ Neo4j|Database|Y|Y|Y||
 Oracle|Database|Y|Y|Y|Y|
 MySQL|Database|Y|Y|Y|Y|
 SQL Server|Database|Y|Y|Y|Y|
+CNN|AI|Y|Y|Y||
