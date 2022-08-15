@@ -1,0 +1,71 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+install.packages("dplyr")
+library("dplyr")
+```
+
+
+```{r}
+tqqq <- read.csv('tqqq_all.csv')
+head(tqqq)
+```
+```{r}
+delta_close = tqqq %>% mutate(delta_by_close_price = Close - lag(Close), delta_accumate = 0, direction = TRUE)
+head(delta_close)
+```
+```{r}
+up = FALSE
+start_price = 68.690
+
+for (row in 2:nrow(delta_close)) {
+  if (TRUE == up) { # Keep up
+    if(delta_close[row, 'delta_by_close_price'] >= 0) {
+      #delta_close[row, 'delta_accumate'] = delta_close[row, 'close'] - start_price
+    } else {
+      up = FALSE
+      start_price = delta_close[row - 1, 'close']
+      #delta_close[row, 'delta_accumate'] = delta_close[row, 'close'] - delta_close[row - 1, 'close']
+    }
+  } else { # up == FALSE
+    if(delta_close[row, 'delta_by_close_price'] >= 0) {
+      up = TRUE
+      start_price = delta_close[row - 1, 'close']
+      #delta_close[row, 'delta_accumate'] = delta_close[row, 'close'] - delta_close[row - 1, 'close']
+    } else {
+      #delta_close[row, 'delta_accumate'] = delta_close[row, 'close'] - start_price
+      delta_close[row, 10] = 5
+      
+    }
+    
+  }
+  
+  delta_close[row, 'direction'] = up
+  # if(delta_close[row, 'delta_by_close_price'] < 0) {
+  #   delta_close[row, 'delta_accumate'] = delta_close[row-1, 'delta_accumate'] + delta_close[row, 'delta_by_close_price']
+  # }
+  # if(delta_close[row, 'delta_by_close_price'] >= 0) {
+  #   delta_close[row,'delta_accumate'] =  delta_close
+  # }
+}
+head(delta_close)
+```
+
+```{r}
+direction <- rle(delta_close$direction)$lengths
+print(direction)
+```
+
+```{r}
+summary(direction)
+```
+
+
+```{r}
+d <- data.frame(direction)
+d %>% group_by(direction) %>% summarise(n=n())
+```
+
