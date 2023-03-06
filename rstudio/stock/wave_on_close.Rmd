@@ -10,7 +10,7 @@ library("dplyr")
 
 
 ```{r}
-tqqq <- read.csv('tqqq_all.csv')
+tqqq <- read.csv('tqqq.csv')
 head(tqqq)
 ```
 ```{r}
@@ -66,6 +66,6 @@ summary(direction)
 
 ```{r}
 d <- data.frame(direction)
-d %>% group_by(direction) %>% summarise(n=n())
+d %>% group_by(direction) %>% summarise(n=n(), )
 ```
 
