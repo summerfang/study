@@ -1,25 +1,17 @@
-<img src="https://raw.githubusercontent.com/summerfang/study/master/summerfang.jpg"
+<img src="./summerfang.jpg"
      alt="Summer Fang"
      width="36" height="36"/> <font size="7">Summer Fang</font>
 
-![Summer Fang](summerfang.jpg)
-
 # Coding is fun
-![Summer Fang](summerfang.jpg)
 
 Coding is a pleasant brain sport. I like to explore different kind of technology. Writing a few code snippet help me to undertstand the syntax or detail of different computer languages, framework or library. Nothing serious but a lot of fun here.
 
-
 Here is partial list of technology that I am intersted in. I classified it from different level of understanding:
-
 * Heard it - Heard the word but don't know the what does it exactly meaning.
 * Knew it - Knows the definition but don't know how to use it.
 * Learned it - Finished reading tutorial and used it in learning purpose.
 * Used it - Used it in official product.
 * Master it - Can teach others. If want, can write an article or book about it.
-
-![Summer Fang](summerfang.jpg)
-
 
 Technology | Category | Heard it | Knew it | Learned it | Used it | Master it
 --- | --- | --- | --- | --- | --- | --- 
