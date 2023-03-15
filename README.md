@@ -18,6 +18,8 @@ Here is partial list of technology that I am intersted in. I classified it from 
 * Used it - Used it in official product.
 * Master it - Can teach others. If want, can write an article or book about it.
 
+![Summer Fang](summerfang.jpg)
+
 
 Technology | Category | Heard it | Knew it | Learned it | Used it | Master it
 --- | --- | --- | --- | --- | --- | --- 
