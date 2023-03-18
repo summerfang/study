@@ -1,6 +1,6 @@
 <img src="./summerfang.jpg"
      alt="Summer Fang"
-     width="36" height="36"/> <font size="7">Summer Fang</font>
+     width="36" height="36"/> <font size="7"></font>
 
 # Coding is fun
 For me, coding is an enjoyable mental activity that involves exploring various technologies. I find that writing short code snippets is helpful in understanding the syntax and nuances of different computer languages, frameworks, and libraries. While my pursuits in this area are primarily for fun, I take great interest in learning about new technologies.
