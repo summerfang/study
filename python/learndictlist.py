@@ -26,3 +26,26 @@ print(dic)
 # Access content of a dictionary
 print(d["c"][1]['John'])
 print(dic[3])
+
+# Do a function to calculate fibonacci
+
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+    
+# Do a function to calculate decimal to binary
+def decimal_to_binary(n):    
+    if n == 0:
+        return 0
+    else:
+        return n%2 + 10 * decimal_to_binary(int(n/2))
+    
+
+# test
+print(decimal_to_binary(83))
+
+# 

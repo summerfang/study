@@ -1,17 +1,17 @@
 <img src="./summerfang.jpg"
      alt="Summer Fang"
-     width="36" height="36"/> <font size="7">Summer Fang</font>
+     width="36" height="36"/> <font size="7"></font>
 
 # Coding is fun
+For me, coding is an enjoyable mental activity that involves exploring various technologies. I find that writing short code snippets is helpful in understanding the syntax and nuances of different computer languages, frameworks, and libraries. While my pursuits in this area are primarily for fun, I take great interest in learning about new technologies.
 
-Coding is a pleasant brain sport. I like to explore different kind of technology. Writing a few code snippet help me to undertstand the syntax or detail of different computer languages, framework or library. Nothing serious but a lot of fun here.
+To better classify my level of understanding, I have categorized my knowledge into the following levels:
 
-Here is partial list of technology that I am intersted in. I classified it from different level of understanding:
-* Heard it - Heard the word but don't know the what does it exactly meaning.
-* Knew it - Knows the definition but don't know how to use it.
-* Learned it - Finished reading tutorial and used it in learning purpose.
-* Used it - Used it in official product.
-* Master it - Can teach others. If want, can write an article or book about it.
+* Heard it: I have heard of the technology but am uncertain of its meaning.
+* Knew it: I know the definition but have yet to learn how to use it.
+* Learned it: I have read tutorials and used the technology for learning purposes.
+* Used it: I have incorporated the technology into official products.
+* Mastered it: I am proficient enough to teach others and, if desired, could write an article or book on the technology.
 
 Technology | Category | Heard it | Knew it | Learned it | Used it | Master it
 --- | --- | --- | --- | --- | --- | --- 
