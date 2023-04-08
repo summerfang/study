@@ -3,7 +3,8 @@
      width="36" height="36"/> <font size="7"></font>
 
 # Coding is fun
-For me, coding is an enjoyable mental activity that involves exploring various technologies. I find that writing short code snippets is helpful in understanding the syntax and nuances of different computer languages, frameworks, and libraries. While my pursuits in this area are primarily for fun, I take great interest in learning about new technologies.
+
+I find pleasure in coding as it allows me to engage in a stimulating mental activity that involves delving into various technologies. Through writing brief snippets of code, I gain a deeper comprehension of the syntax and subtleties of different computer languages, frameworks, and libraries. Although my endeavors in this domain are primarily for personal enjoyment, I am always eager to expand my knowledge and learn about the latest technologies.
 
 To better classify my level of understanding, I have categorized my knowledge into the following levels:
 
