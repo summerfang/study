@@ -1,6 +1,8 @@
 ---
 title: "Chapter 1 Tidy Data"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r}

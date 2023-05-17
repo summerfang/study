@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>First</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>  
+  <div id="app">
+    <p>{{ message }}</p>
+    <p><input v-model="message"></p>
+    <ul>
+      <li v-for="x in todo">
+        {{ x.text }}
+      </li>
+    </ul>
+  </div>
+
+
+<button onclick="changeMessage()">Change Message</button>
+<script>
+  var vue_object = new Vue({
+    el: '#app',
+    data: {
+      todo: [{text: 'Learn Vue1'}, {text: 'Learn Vue2'}, {text: 'Learn Vue3'}],
+      message: 'Hello Vue!'
+    },
+  })
+
+  function changeMessage() {
+    vue_object.message = "I love to study Vue.js"
+  }
+</script>
+</body>
+</html>
