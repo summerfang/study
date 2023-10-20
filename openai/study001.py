@@ -16,3 +16,5 @@ response = openai.Completion.create(
   presence_penalty=0.6,
   stop=[" Human:", " AI:"]
 )
+
+print(response)
