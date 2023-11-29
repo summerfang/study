@@ -31,7 +31,11 @@ So
 $$
 n \times \bar{y} = n \times (\beta_0 +  \beta_1 \times \bar{x}) \\
 \bar{y} = \beta_0 +\beta_1 \times \bar{x} \\
-\beta_0 = \bar{y}-\beta_1 \bar{x} 
+$$
+$$
+\begin{equation}
+\beta_0 = \bar{y}-\beta_1 \bar{x} \\
+\end{equation}
 $$
 
 ### How to estimate $\beta_1$
@@ -71,18 +75,33 @@ According to estimation of $\beta_0$
 $$
 \beta_0 = \bar{y}-\beta_1 \bar{x}
 $$
-so
+So:
 $$
 \begin{aligned}
 \sum x_iy_i - \sum x_i  (\bar{y}-\beta_1 \bar{x}) &= \beta_1\sum x_i^2 \\ 
 \sum x_iy_i - \sum x_i \bar{y} + \beta_1\sum  x_i\bar{x} &= \beta_1\sum x_i^2 \\ 
 \beta_1 &=\frac {\sum x_iy_i - \sum x_i \bar{y} }{\sum x_i^2 - \sum x_i\bar{x}} \\
-\beta_1 &=\frac {\sum x_i(y_i -\bar{y}) }{\sum x_i(x_i - \bar{x})} \\
+\end{aligned}
+$$
+So, we have
+$$
+\begin{equation}
+\beta_1 =\frac {\sum x_i(y_i -\bar{y}) }{\sum x_i(x_i - \bar{x})} 
+\end{equation}
+$$
+
+$$
+\begin{aligned}
 \because
 \sum(y_i - \bar{y}) = \sum y_i -n \times \bar{y} &= \sum(x_i-\bar{x}) = \sum x_i -n \times \bar{x} = 0 , \\
 \beta_1 &=\frac {\sum x_i(y_i -\bar{y}) - \sum \bar{x}(y_i - \bar{y})  }{\sum x_i(x_i - \bar{x})-\sum \bar{x}(x_i-\bar{x})} \\
-\beta_1 &=\frac {\sum (x_i - \bar{x})(y_i -\bar{y})}{\sum (x_i - \bar{x})^2} \\
 \end{aligned}
+$$
+Finally, we have
+$$
+\begin{equation}
+\beta_1 =\frac {\sum (x_i - \bar{x})(y_i -\bar{y})}{\sum (x_i - \bar{x})^2} \\
+\end{equation}
 $$
 
 
