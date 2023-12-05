@@ -36,6 +36,11 @@ f(\chi) &= 0, \ &\chi \le 0
 \end{aligned}
 $$ 
 
+[Normal Distribution Table](https://www.mathsisfun.com/data/standard-normal-distribution-table.html)  vs [Z-score table](https://www.z-table.com/)
+
+They are diffferent.
+
+
 #### T-distribution
 
 
