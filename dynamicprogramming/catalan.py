@@ -27,8 +27,8 @@ def catalan(n):
     return Cn
 
 def catalan_v2(n) -> int: 
-    #C0=C1=1, Cn=\sum_{i=0}^{n-1}C_iC_{n-i-1}\, for \, n>=2
-
+    # C0=C1=1, Cn=\sum_{i=0}^{n-1}C_iC_{n-i-1}\, for \, n>=2
+    # 
     if n == 0 or n == 1: return 1
 
     C_0 = 1
