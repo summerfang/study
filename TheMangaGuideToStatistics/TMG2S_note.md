@@ -27,6 +27,10 @@ $$
 f(x) = \frac{1}{\sigma \sqrt {2 \pi}} e^{-\frac {1}{2}(\frac {x-\bar x}{\sigma})^2}
 $$
 
+#### Degree of freedom (df)
+
+
+
 ####  Chi-Square Distribution
 $$
 \begin{aligned}
@@ -46,7 +50,25 @@ They are diffferent.
 
 #### F-distribution
 
+#### Corelation coefficiency
+
+#### Corelation ratio
 
 #### Cramers' coefficient
+It is used to measure the relation between two categorical variables. It is also named as Cramer's V or $\varphi$
+
+The book has a mistake about the last step to calculate from $\Chi^2$ to Cramer's V. 
+
+The book says to calcualte Cramer's coefficient, it is:
+$$
+\sqrt \frac {\Chi^2}{\text {the total number of values} \times \text {the min of } (\text {the total number of lines in the cross tabulation - 1}, \text{the number of rows in the cross tabulation - 1})}
+$$
+
+It should be the column and row not line and row.
+
+This is better formula about Cramer's V:
+$$
+V = \sqrt {\frac {\Chi^2}{n \times min(k-1, r-1)}}
+$$
 
 #### 
