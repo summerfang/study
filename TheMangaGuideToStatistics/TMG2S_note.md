@@ -47,6 +47,15 @@ They are diffferent.
 
 #### T-distribution
 
+#### Poisson Distribution
+$$
+P(X=k) = \frac {e^{-\lambda} \lambda^k}{k!}
+$$
+
+Mathmatical expectation = mean
+
+##### Probability mass function(PMF) vs probability density function(PDF)
+PMF is for discrete data and PDF is for continuous data. PDF need to integal to get the value.
 
 #### F-distribution
 
