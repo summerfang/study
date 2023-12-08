@@ -1,6 +1,7 @@
-# The frequently used equation
+## The frequently used equation
 
 ### Addition equation
+
 $$ P(A\cup B) = P(A) + P(B) - P(AB) $$
 
 ### Conditional probability equation, this comes from the definiton.
