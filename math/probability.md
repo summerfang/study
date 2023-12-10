@@ -59,3 +59,14 @@ D. 1/8
 6.If A, B has and only has 1 happen is 0.3. P(A)=0.2 and P(B)=0.3. THen P(B|A)
 
 [Answer is here](https://blog.csdn.net/ZCMUCZX/article/details/80780765)
+
+|outcome|Win|Loss|Tie|
+|--|--|--|--|
+|Game|4|13|7|
+|Expected|8|8|8|
+|$(Game-Expected)^2$|16|25|1|
+$\chi^2$ = $\frac{16}{8}+\frac{25}{8}+\frac{1}{8}=\frac{42}{8}=5.25$
+Check $\chi^2$ table, it is large than 0.05 and less than 0.10
+
+
+### Central Limit Theorem

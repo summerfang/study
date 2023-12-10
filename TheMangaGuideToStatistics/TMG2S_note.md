@@ -9,9 +9,19 @@ $$
 $$
 N repesents total number of population
 
+### Variance
+$$
+\sigma ^2 = \sum (x-\bar x)^2
+$$
+
 ### Standard Deviation of samples
 $$
 \sigma = \sqrt \frac{\sum_{i=1}^{n} (x_i-\bar x)^2}{N-1}
+$$
+
+### Standard error
+$$
+SE = \frac {\sigma} {\sqrt n}
 $$
 
 N represents total number of sampels.
@@ -45,26 +55,35 @@ $$
 They are diffferent.
 
 
-#### T-distribution
 
 #### Poisson Distribution
 $$
 P(X=k) = \frac {e^{-\lambda} \lambda^k}{k!}
 $$
 
-Mathmatical expectation = mean
+#### Mathmatical expectation = mean
 
 ##### Probability mass function(PMF) vs probability density function(PDF)
 PMF is for discrete data and PDF is for continuous data. PDF need to integal to get the value.
 
+#### T-distribution
+
 #### F-distribution
 
 #### Corelation coefficiency
+$$
+\frac {\sum(x-\bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2 \sum(y-\bar{y})^2}} = \frac {S_{xy}}{S_{xx}S_{yy}}
+$$
 
 #### Corelation ratio
+$$
+\frac {interclass \ variance}{interclass \ variance + intraclass \ variance}
+$$
 
 #### Cramers' coefficient
 It is used to measure the relation between two categorical variables. It is also named as Cramer's V or $\varphi$
+
+
 
 The book has a mistake about the last step to calculate from $\Chi^2$ to Cramer's V. 
 
