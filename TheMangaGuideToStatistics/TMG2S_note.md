@@ -69,6 +69,7 @@ PMF is for discrete data and PDF is for continuous data. PDF need to integal to 
 #### T-distribution
 
 #### F-distribution
+The F-distribution is used to compare whether two populations are belong to same variable. If their covariance is same, they are belong to the same variable and te F statistic will be close to 1. Or it will be greater than 1.
 
 #### Corelation coefficiency
 $$
