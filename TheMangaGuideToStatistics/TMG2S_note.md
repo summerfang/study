@@ -73,8 +73,23 @@ The F-distribution is used to compare whether two populations are belong to same
 
 #### Corelation coefficiency
 $$
-\frac {\sum(x-\bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2 \sum(y-\bar{y})^2}} = \frac {S_{xy}}{S_{xx}S_{yy}}
+\frac {\sum(x-\bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2}\sqrt {\sum(y-\bar{y})^2}} = \frac {S_{xy}}{S_{xx}S_{yy}}
 $$
+
+#### Covariance
+$$
+cov(x,y) = \frac {\sum(x-\bar x)(y-\bar y)}{N} \  \text{covariance for population} \\
+cov(x,y) = \frac {\sum (x-\bar x)(y - \bar y)}{N-1} \ \text{covariance for sample} \\
+
+Corelation \ coefficien = \frac {cov(x,y)}{\sigma_x \sigma_y} \\
+\sigma_x = \sqrt {\frac {\sum (x- \bar x)^2}{N}} \\
+\sigma_y = \sqrt {\frac {\sum (y- \bar y)^2}{N}} \\
+\sigma_x \sigma_y = \frac {\sqrt {\sum (x-\bar x)^2} \sqrt{\sum (y-\bar y)^2}}{N} \\
+Corelation \ coefficien = \frac {\sum(x-\bar x)(y-\bar y)}{N} * \frac {N}{\sqrt {\sum (x-\bar x)^2} \sqrt{\sum (y-\bar y)^2}} \\= \frac {\sum(x-\bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2}\sqrt {\sum(y-\bar{y})^2}} \ \text {Same as above}
+
+$$
+
+
 
 #### Corelation ratio
 $$
@@ -100,4 +115,17 @@ $$
 V = \sqrt {\frac {\Chi^2}{n \times min(k-1, r-1)}}
 $$
 
-#### 
+#### Comparasion method
+
+* Numerical vs Categorical
+* One variable vs Two variables
+    - mean, median, min, max, mode, count
+    - variance, standard deviation, standard error
+    - covariance, covariance matrix
+* Numerical vs Numerical
+* Numerical vs Categorical
+* Categorical vs Categorical
+* z test
+* t test
+* f test
+* chi-squared $\chi^2$ test
