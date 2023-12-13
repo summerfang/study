@@ -119,7 +119,7 @@ class Math4Leetcode(object):
         # So sort original list and choose from 0 and add every two number is the final answer
         nums.sort()
         
-        sum_of_nums = 0;
+        sum_of_nums = 0
 
         for i in range(0, len(nums), 2):
             sum_of_nums += nums[i]
