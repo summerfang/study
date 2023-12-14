@@ -3,6 +3,8 @@
 ### Contingincy Table
 ### Histogram
 ### Sturges' rule
+
+### These terminology is for x
 ### Standard Deviation of population
 $$
 \sigma = \sqrt \frac{\sum_{i=1}^{n} (x_i-\bar x)^2}{N}
@@ -25,6 +27,24 @@ SE = \frac {\sigma} {\sqrt n}
 $$
 
 N represents total number of sampels.
+
+### These teminologies are related with y
+### What is $R^2$
+
+$$
+R^2 = 1 - \frac {RSS}{TSS} \\
+RSS = \sum (y-f(x_i))^2 \\
+TSS = \sum (y_i-\bar y)^2
+$$
+
+### What is MSE and RMSE
+$$
+MSE = \frac {\sum (y_i-\hat y)^2}{n} \\
+
+and \\
+
+RMSE = \sqrt {MSE}
+$$
 
 ### Standard score
 ### z-score
