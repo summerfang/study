@@ -1,7 +1,7 @@
 import sys
-sys.path.insert(1, './src/')
+# sys.path.insert(1, './src/')
 
-from simpleboxpacking import SimpleBoxPacking 
+from ..src.simpleboxpacking import SimpleBoxPacking 
 
 import pytest
 

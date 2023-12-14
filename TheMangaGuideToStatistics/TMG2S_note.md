@@ -3,6 +3,8 @@
 ### Contingincy Table
 ### Histogram
 ### Sturges' rule
+
+### These terminology is for x
 ### Standard Deviation of population
 $$
 \sigma = \sqrt \frac{\sum_{i=1}^{n} (x_i-\bar x)^2}{N}
@@ -25,6 +27,24 @@ SE = \frac {\sigma} {\sqrt n}
 $$
 
 N represents total number of sampels.
+
+### These teminologies are related with y
+### What is $R^2$
+
+$$
+R^2 = 1 - \frac {RSS}{TSS} \\
+RSS = \sum (y-f(x_i))^2 \\
+TSS = \sum (y_i-\bar y)^2
+$$
+
+### What is MSE and RMSE
+$$
+MSE = \frac {\sum (y_i-\hat y)^2}{n} \\
+
+and \\
+
+RMSE = \sqrt {MSE}
+$$
 
 ### Standard score
 ### z-score
@@ -73,8 +93,23 @@ The F-distribution is used to compare whether two populations are belong to same
 
 #### Corelation coefficiency
 $$
-\frac {\sum(x-\bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2 \sum(y-\bar{y})^2}} = \frac {S_{xy}}{S_{xx}S_{yy}}
+\frac {\sum(x-\bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2}\sqrt {\sum(y-\bar{y})^2}} = \frac {S_{xy}}{S_{xx}S_{yy}}
 $$
+
+#### Covariance
+$$
+cov(x,y) = \frac {\sum(x-\bar x)(y-\bar y)}{N} \  \text{covariance for population} \\
+cov(x,y) = \frac {\sum (x-\bar x)(y - \bar y)}{N-1} \ \text{covariance for sample} \\
+
+Corelation \ coefficien = \frac {cov(x,y)}{\sigma_x \sigma_y} \\
+\sigma_x = \sqrt {\frac {\sum (x- \bar x)^2}{N}} \\
+\sigma_y = \sqrt {\frac {\sum (y- \bar y)^2}{N}} \\
+\sigma_x \sigma_y = \frac {\sqrt {\sum (x-\bar x)^2} \sqrt{\sum (y-\bar y)^2}}{N} \\
+Corelation \ coefficien = \frac {\sum(x-\bar x)(y-\bar y)}{N} * \frac {N}{\sqrt {\sum (x-\bar x)^2} \sqrt{\sum (y-\bar y)^2}} \\= \frac {\sum(x-\bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2}\sqrt {\sum(y-\bar{y})^2}} \ \text {Same as above}
+
+$$
+
+
 
 #### Corelation ratio
 $$
@@ -100,4 +135,17 @@ $$
 V = \sqrt {\frac {\Chi^2}{n \times min(k-1, r-1)}}
 $$
 
-#### 
+#### Comparasion method
+
+* Numerical vs Categorical
+* One variable vs Two variables
+    - mean, median, min, max, mode, count
+    - variance, standard deviation, standard error
+    - covariance, covariance matrix
+* Numerical vs Numerical
+* Numerical vs Categorical
+* Categorical vs Categorical
+* z test
+* t test
+* f test
+* chi-squared $\chi^2$ test
