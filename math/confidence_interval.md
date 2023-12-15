@@ -1,0 +1,1 @@
+Confidence interval measure the confidence level not proportion of popular for some characteristic. For example, if we choose confidence level is 95%, you can't say 95% of population has certain characteristic. You must say, we have 95% confidence level the confidence interval is among []
