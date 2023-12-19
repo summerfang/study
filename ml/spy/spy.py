@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import csv
 import pandas as pd
+import os
 
 def get_wave_point(df: pd.DataFrame, point_chosen: str):
     if point_chosen.lower() in ['high', 'low', 'open', 'close']:
@@ -31,10 +32,33 @@ def extract_features_from_wave_point(df: pd.DataFrame):
         for j in range(len(df)-1, i, -1):
             pass
 
-df_spy_min = pd.read_csv('SPY_1min_sample.txt', sep=',', header=None)
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+df_spy_min = pd.read_csv(f'{dir_path}/SPY_1min_sample.txt', sep=',', header=None)
 df_spy_min.columns = ['Date Time', 'open', 'high', 'low', 'close', 'volume']
 
-print(get_wave_point(df_spy_min, 'close'))
+last_high_list = []
+
+close_prices = df_spy_min['close'].to_numpy()
+len_of_close_prices = len(close_prices)
+turn_point_prices = []
+if len_of_close_prices > 1:
+    revserse_direction_is_up = (close_prices[len_of_close_prices-2] > close_prices[len_of_close_prices-1])
+
+last_turn_price = close_prices[-1]
+for i in range(len(close_prices) - 2, -1, -1):
+    if close_prices[i] == last_turn_price: continue
+    if close_prices[i] > last_turn_price:
+        if revserse_direction_is_up == False:
+            turn_point_prices.append(last_turn_price)
+            last_turn_price = close_prices[i]
+    if close_prices[i] < last_turn_price:
+        if revserse_direction_is_up == True:
+            turn_point_prices.append(last_turn_price)
+            last_turn_price = close_prices[i]
+
+print(turn_point_prices)
+print(len(turn_point_prices))
 
 
     

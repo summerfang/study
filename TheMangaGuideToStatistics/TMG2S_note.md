@@ -21,7 +21,7 @@ $$
 \sigma = \sqrt \frac{\sum_{i=1}^{n} (x_i-\bar x)^2}{N-1}
 $$
 
-### Standard error
+### Standard error for population
 $$
 SE = \frac {\sigma} {\sqrt n}
 $$
