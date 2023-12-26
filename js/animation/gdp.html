@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bar Chart</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    canvas {
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="600" height="400"></canvas>
+</body>
+</html>
+<script>
+// Define the data for the chart
+const data = [
+    { country: "USA", GDP: 21.44, year: 2021 },
+    { country: "China", GDP: 16.16, year: 2021 },
+    { country: "Japan", GDP: 5.15, year: 2021 },
+    { country: "Germany", GDP: 4.24, year: 2021 },
+    { country: "India", GDP: 3.08, year: 2021 },
+    // Add more data entries for each year
+    { country: "USA", GDP: 20.93, year: 2020 },
+    { country: "China", GDP: 14.34, year: 2020 },
+    { country: "Japan", GDP: 5.08, year: 2020 },
+    { country: "Germany", GDP: 3.86, year: 2020 },
+    { country: "India", GDP: 2.87, year: 2020 },
+    // Add more data entries for each year
+    // ...
+];
+
+// Define the canvas element
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+
+// Define the chart properties
+const chart = {
+    x: 50,
+    y: 50,
+    width: 500,
+    height: 300,
+    barWidth: 50,
+    barSpacing: 10,
+    animationSpeed: 10,
+};
+
+// Define the animation loop
+function animate() {
+    requestAnimationFrame(animate);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Draw the bars
+    let x = chart.x;
+    for (let i = 0; i < data.length; i++) {
+        const barHeight = data[i].GDP * 10;
+        const y = chart.y + chart.height - barHeight;
+        ctx.fillStyle = "#0095DD";
+        ctx.fillRect(x, y, chart.barWidth, barHeight);
+
+        // Draw the labels
+        ctx.fillStyle = "#000000";
+        ctx.font = "14px Arial";
+        ctx.fillText(data[i].country, x, chart.y + chart.height + 20);
+        ctx.fillText(data[i].year, x, chart.y + chart.height + 40);
+
+        x += chart.barWidth + chart.barSpacing;
+    }
+}
+
+// Start the animation loop
+animate();
+
+</script>
