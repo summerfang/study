@@ -1,4 +1,7 @@
 # Linear Algebra
+## Determinant
+
+If determnant is zero, it means there are no solution for a polynomial
 
 det(A) = $ \sum_{\sigma \in S_n}{} sgn(\sigma)\prod_{i=1}^{n}a_i,\sigma(i) $
 
@@ -50,3 +53,6 @@ $
 \sum_{i=1}^{\infty}
 \prod_{i=1}^n
 $
+
+
+eigenvalue and eigenvector
