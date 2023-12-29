@@ -1,0 +1,10 @@
+[project]
+name = "add2number"
+version = "0.0.1"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+add2num = "add2num.main:main"
