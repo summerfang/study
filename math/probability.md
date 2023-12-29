@@ -1,13 +1,13 @@
 ## The frequently used equation
 
-### Addition equation
+## Addition equation
 
 $$ P(A\cup B) = P(A) + P(B) - P(AB) $$
 
-### Conditional probability equation, this comes from the definiton.
+## Conditional probability equation, this comes from the definiton.
 $$ P(A|B) = \frac{P(AB)}{P(B)} \, and \, P(B|A)= \frac{P(AB)}{P(A)}$$
 
-### Bayes Equation
+## Bayes Equation
 $$ P(A|B) = \frac{P(A)P(B|A)}{P(B)} $$
 
 Proven of Bayes Equation

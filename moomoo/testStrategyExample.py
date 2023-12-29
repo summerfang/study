@@ -1,4 +1,4 @@
-from futu import *
+from moomoo import *
 
 ############################ 全局变量设置 ############################
 FUTUOPEND_ADDRESS = '127.0.0.1'  # FutuOpenD 监听地址
