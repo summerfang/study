@@ -1,0 +1,5 @@
+pip install --use-pep517 \
+            --config-setting="--global-option=build_ext" \
+            --config-setting="--build-option=-I$(brew --prefix graphviz)/include/" \
+            --config-setting="--build-option=-L$(brew --prefix graphviz)/lib/" \
+            pygraphviz
