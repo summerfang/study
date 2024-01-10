@@ -52,3 +52,24 @@ Predictions for SOXL using Transformer: [30.859798 31.396442 30.376095 30.787685
 Predictions for SOXS using Transformer: [20.083467 20.16095  19.898859 19.281404 19.842545]
 Predictions for TMF using Transformer: [66.67599 67.64359 67.68806 67.49944 67.43212]
 Predictions for PYPL using Transformer: [62.84357  63.176186 63.36431  62.906338 63.143024]
+Current date and time: 2024-01-01 23:45:09
+Predictions for SCO using Transformer: [28.17251  28.453098 28.440666 28.55565  28.497816]
+Current date and time: 2024-01-02 22:29:18
+Predictions for SCO using Transformer: [30.572723 30.528337 30.923681 31.378235 31.297344]
+Current date and time: 2024-01-02 22:30:54
+Predictions for JD using Transformer: [26.746485 26.491524 26.679363 26.78705  26.622025]
+Predictions for NTES using Transformer: [92.63545 93.74765 94.01509 95.08386 95.30046]
+Predictions for BABA using Transformer: [75.107254 75.49576  75.345116 75.37648  75.21414 ]
+Current date and time: 2024-01-02 22:33:43
+Predictions for JD using LSTM: [27.886337 27.655357 27.934982 27.806524 28.118296]
+Predictions for NTES using LSTM: [89.70974  88.99056  89.80104  89.114876 88.45186 ]
+Predictions for BABA using LSTM: [72.974884 73.827286 74.16921  74.71949  74.126816]
+Predictions for YINN using LSTM: [13.170085 13.17778  11.798754 13.434787 12.943997]
+Predictions for SCO using LSTM: [16.975008 17.756231 17.054909 16.803204 17.721863]
+Predictions for UNG using LSTM: [4.6029806 4.52756   4.521094  4.2424026 4.5556264]
+Predictions for BOIL using LSTM: [19.329313 18.65988  19.453014 19.695435 18.660393]
+Predictions for AAL using LSTM: [14.364758 14.277673 14.272291 14.401587 14.295375]
+Predictions for SOXL using LSTM: [31.39088  32.31468  31.909306 32.708477 32.090668]
+Predictions for SOXS using LSTM: [2.6893995 2.523994  2.6056032 2.500304  2.4644802]
+Predictions for TMF using LSTM: [66.99812  67.35643  67.15448  67.401726 66.16338 ]
+Predictions for PYPL using LSTM: [61.91744  61.604412 61.542282 61.6938   61.718857]
