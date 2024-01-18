@@ -1,1 +1,1 @@
-生产一课完美树，一共5层。节点用圆圈表示，圆圈里从1开始标注数字。节点和节点间用线连接。生产视频文件
+生产一课完美树，一共5层。节点用圆圈表示，圆圈里从1开始标注数字。Generate circle and line one by one. Don't generate once for all. 节点和节点间用线连接。生产视频文件. Then make the circle to red from 1 to last

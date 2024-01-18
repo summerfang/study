@@ -1,0 +1,6 @@
+[project]
+name = "timesnumber"
+version = "0.0.1"
+
+[project.scripts]
+timesnumber = "times_number.main:main"
