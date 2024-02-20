@@ -45,7 +45,7 @@ def get_stock_fin_rpt_days(ticker):
             next_qrpt_date = (dt + timedelta(days=90)).strftime("%Y-%m-%d")
 
             if date_after_rpt < datetime.now().strftime("%Y-%m-%d"):
-                print(f'{date_before_rpt} {date_after_rpt} {next_qrpt_date}')
+                # print(f'{date_before_rpt} {date_after_rpt} {next_qrpt_date}')
                 stock_financial_report_days.append((date_before_rpt, date_after_rpt, next_qrpt_date))
         else:
             offset = pd.tseries.offsets.BusinessDay(n=1)
@@ -55,7 +55,7 @@ def get_stock_fin_rpt_days(ticker):
             next_qrpt_date = (dt + timedelta(days=89)).strftime("%Y-%m-%d")
 
             if date_after_rpt < datetime.now().strftime("%Y-%m-%d"):
-                print(f'{date_before_rpt} {date_after_rpt} {next_qrpt_date}')
+                # print(f'{date_before_rpt} {date_after_rpt} {next_qrpt_date}')
                 stock_financial_report_days.append((date_before_rpt, date_after_rpt, next_qrpt_date))
 
     return stock_financial_report_days
@@ -88,6 +88,7 @@ def get_success_ratio(ticker, current_price, low_break_even_price, high_break_ev
     prices_list = [p[1] for p in prices]
     price_series = pd.Series(prices_list)
     summary = price_series.describe()
+    print(summary)
 
     low_z_score = (low_percentage - summary['mean']) / summary['std']
     low_p = stats.norm.cdf(low_z_score)
@@ -97,7 +98,7 @@ def get_success_ratio(ticker, current_price, low_break_even_price, high_break_ev
 
     success_ratio = (low_p + high_p) * 100
 
-    return success_ratio, [summary['mean'], summary['std'], low_z_score, high_z_score]
+    return success_ratio, [summary['mean'], summary['std'], low_percentage, high_percentage]
 
 
 
@@ -112,6 +113,8 @@ def draw_normal_distribution(mean, std_dev, low_z_score, high_z_score):
     # Plot the normal distribution
     plt.figure(figsize=(8, 6))
     plt.plot(x_values, pdf_values, label="Normal Distribution", color="blue")
+    plt.axvline(low_z_score, color="red", linestyle="--", label="Low Z-Score")
+    plt.axvline(high_z_score, color="green", linestyle="--", label="High Z-Score")
     plt.title("Normal Distribution")
     plt.xlabel("X")
     plt.ylabel("Probability Density")
@@ -122,14 +125,15 @@ def draw_normal_distribution(mean, std_dev, low_z_score, high_z_score):
     low_percentile = norm.cdf(low_z_score, mean, std_dev)
     high_percentile = norm.cdf(high_z_score, mean, std_dev)
 
-    print(f"Low Z-Score (5% percentile): {low_z_score:.2f} (Probability: {low_percentile:.2f})")
-    print(f"High Z-Score (95% percentile): {high_z_score:.2f} (Probability: {high_percentile:.2f})")
+    print(f"Low Z-Score ({low_percentile:.2f}% percentile): {low_z_score:.2f} (Probability: {low_percentile:.2f})")
+    print(f"High Z-Score ({high_percentile:.2f}% percentile): {high_z_score:.2f} (Probability: {high_percentile:.2f})")
 
     # Show the plot
     plt.show()
 
-success_ratio, distribution = get_success_ratio('WMT', 170.36, 162.36, 180.14)
-print(f'{success_ratio:.2f}%')
 
-draw_normal_distribution(distribution[0], distribution[1], distribution[2], distribution[3])
 
+# success_ratio, distribution = get_success_ratio('WMT', 170.36, 162.36, 180.14)
+# print(f'{success_ratio:.2f}%')
+
+# draw_normal_distribution(distribution[0], distribution[1], distribution[2], distribution[3])
