@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>parenthese</title>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/parenthese.js"></script>
+    <script>
+        function test() {
+            return (
+                <>
+                    <SearchInput
+                        value={searchText}
+                        onChange={newText => setSearchText(newText)} />
+                    <VideoList
+                        videos={foundVideos}
+                        emptyHeading={`No matches for “${searchText}”`} />
+                </>
+            );
+        }
+    </script>
+</head>
+
+<body>
+    <div id="parenthese">
+        <input type="text" id="input" />
+        <button id="submit">Submit</button>
+        <div id="result"></div>
+    </div>
+    <script>
+        alert(test());
+    </script>
+</body>
+
+</html>
