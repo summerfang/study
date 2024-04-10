@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World</title>
-    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    
-    <!-- Don't use this in production: -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="text/babel">
-      function Test() {
-        return (
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello World</title>
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+  <!-- Don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    import { useState } from 'react';
+
+    function Test() {
+
+      const [name, setName] = useState('');
+
+      return (
         <div>
           <h1>Hello, world!</h1>
-          <h2>It is {new Date().toLocaleTimeString()}.</h2>
+          <h2>It is {new Date().toLocaleTimeString()}. {value}</h2>
+          <form>
+            <label>Enter your name:
+              <input
+                type="text"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+            </label>
+          </form>
         </div>
-        )
-      }
+      )
+    }
 
-      ReactDOM.render(
-        <h1>Hello, world!<Test /></h1>,
-        document.getElementById('root')
-      );
+    ReactDOM.render(
+      <h1>Hello, world!<Test /></h1>,
+      document.getElementById('root')
+    );
 
-    </script>
-    <!--
+  </script>
+  <!--
       Note: this page is a great way to try React but it's not suitable for production.
       It slowly compiles JSX with Babel in the browser and uses a large development build of React.
 
@@ -40,5 +56,6 @@
       You can also use React without JSX, in which case you can remove Babel:
       https://reactjs.org/docs/react-without-jsx.html
     -->
-  </body>
+</body>
+
 </html>
