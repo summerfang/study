@@ -6,7 +6,7 @@ export const links: LinksFunction = () => [
   {rel : "stylesheet", href: appStyleHref},
 ];
 
-import {json} from "@remix-run/node"
+import {json, redirect} from "@remix-run/node"
 
 import {
   Form,
@@ -19,7 +19,13 @@ import {
   useLoaderData,
 } from "@remix-run/react";
 
-import { getContacts } from "./data";
+import { createEmptyContact, getContacts } from "./data";
+
+export const action = async () => {
+  const contact = await createEmptyContact();
+  return redirect(`/contacts/${contact.id}/edit`);
+  // return json({ contact })
+}
 
 export const loader = async () => {
   const contacts = await getContacts();
