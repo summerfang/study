@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc & node ./out/hw.js",
+    "start": "tsc & node ./out/useconv.js",
     "build": "tsc"
   },
   "keywords": [],
@@ -15,6 +15,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@remix-run/node": "^2.8.1",
     "axios": "^1.6.8",
     "match-sorter": "^6.3.4",
     "node-fetch": "^3.3.2",
