@@ -70,3 +70,27 @@ Check $\chi^2$ table, it is large than 0.05 and less than 0.10
 
 
 ### Central Limit Theorem
+
+#
+$$
+Gini = 1 - 2 \left(1 - \frac{\sum_{i=1}^n (n + 1 - i) \cdot y_i}{n \cdot \sum_{i=1}^n y_i}\right) 
+$$
+$$
+ Gini = 1 - 2 \left(1 - \frac{(2 + 1 - 1) \cdot 1,200}{2 \cdot 5,000}\right) = 0.24
+$$
+
+$$
+(w = w + \alpha \cdot y_i \cdot x_i)
+$$
+
+$$
+ \ln(2) + \ln(3) = \ln(2 \cdot 3) = \ln(6) 
+ $$
+
+ $$
+  \sigma(z)_i = \frac{e{z_i}}{\sum_{j=1}K e^{z_j}}
+ $$
+
+ $$
+ e^{-\ln a} = \frac{1}{a} =  \frac{1}{e^{\ln a}}
+ $$
