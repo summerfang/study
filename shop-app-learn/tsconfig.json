@@ -1,0 +1,26 @@
+{
+  "include": ["env.d.ts", "**/*.ts", "**/*.tsx", "app/routes/_index1.jsx", "app/routes/about.jsx", "app/routes/concerts.trending.jsx", "app/routes/concerts.$city.jsx"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./app/*"]
+    },
+    "types": [
+      "node", "@shopify/app-bridge-types"
+    ]
+  }
+}
