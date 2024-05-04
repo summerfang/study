@@ -3,7 +3,7 @@
 client_id = "c992d655ebe2eaf43baa1597e1c3e656"
 name = "shop-app-learn"
 handle = "shop-app-learn"
-application_url = "https://kentucky-samba-economics-vincent.trycloudflare.com"
+application_url = "https://perl-designation-replacing-jury.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://kentucky-samba-economics-vincent.trycloudflare.com/auth/callback",
-  "https://kentucky-samba-economics-vincent.trycloudflare.com/auth/shopify/callback",
-  "https://kentucky-samba-economics-vincent.trycloudflare.com/api/auth/callback"
+  "https://perl-designation-replacing-jury.trycloudflare.com/auth/callback",
+  "https://perl-designation-replacing-jury.trycloudflare.com/auth/shopify/callback",
+  "https://perl-designation-replacing-jury.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
