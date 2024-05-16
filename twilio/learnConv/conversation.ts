@@ -9,4 +9,7 @@ const client = require('twilio')(accountSid, authToken);
 
 client.conversations.v1.conversations
                        .create({friendlyName: 'My First Conversation'})
-                       .then((conversation : Conversation) => console.log(conversation.sid));
+                       .then((conversation : Conversation) => {
+                            console.log(conversation.sid);
+                            conversation.sendMessage('Hello World');
+                        });
