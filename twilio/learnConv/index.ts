@@ -17,6 +17,6 @@ client.conversations.v1.conversations
                         });
 
 
-client.conversations.v1.conversations(cid)
-                        .fetch()
-                        .then((conversation) => console.log(conversation.chatServiceSid));
+// client.conversations.v1.conversations(cid)
+//                         .fetch()
+//                         .then((conversation) => console.log(conversation.chatServiceSid));

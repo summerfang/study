@@ -11,7 +11,9 @@
     "conversation": "ts-node conversation.ts",
     "sendMsg": "ts-node sendMsg.ts",
     "createConv": "node createConv.js",
-    "sendSMS": "node sendSMS.js"
+    "sendSMS": "node sendSMS.js",
+    "initConv": "ts-node initConv.ts",
+    "chat": "node chatclient.js"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +21,8 @@
   "dependencies": {
     "@twilio/conversations": "^2.5.0",
     "dotenv": "^16.4.5",
-    "twilio": "^5.0.4"
+    "twilio": "^5.0.4",
+    "twilio-chat": "^6.0.0"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
