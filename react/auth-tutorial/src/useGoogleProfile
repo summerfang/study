@@ -1,0 +1,21 @@
+import { useState } from "react";
+
+export default function useGoogleProfile() {
+    const getGoogleProfile = () => {
+        const googleProfileString = sessionStorage.getItem("GoogleProfile");
+        const googleProfile = JSON.parse(googleProfileString);
+        return googleProfile?.googleProfile
+    }
+
+    const [googleProfile, setGoogleProfile] = useState(getGoogleProfile);
+
+    const saveGoogleProfile = googleProfile => {
+        sessionStorage.setItem('GoogleProfile', JSON.stringify(googleProfile));
+        setGoogleProfile(googleProfile)
+    }
+
+    return {
+        setGoogleProfile: saveGoogleProfile,
+        googleProfile
+    }
+}
