@@ -1,4 +1,4 @@
-import { Form, Link, NavLink, Outlet, redirect, useLoaderData, useSubmit } from "react-router-dom";
+import { Form, json, Link, NavLink, Outlet, redirect, useLoaderData, useSubmit } from "react-router-dom";
 import { createContact, getContacts } from "../contacts";
 import { useEffect } from "react";
 
@@ -6,6 +6,7 @@ export async function loader( {request}) {
   const url = new URL(request.url);
   const q = url.searchParams.get("q");
   const contacts = await getContacts(q);
+  console.info(`root.jsx::loader contacts: \n${JSON.stringify(contacts)}\n q: ${q}`);
   return { contacts, q };
 }
 

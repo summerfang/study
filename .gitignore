@@ -9,3 +9,4 @@
 **/package-lock.json
 .Rproj.user
 .venv
+.env

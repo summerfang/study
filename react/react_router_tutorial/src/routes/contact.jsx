@@ -6,6 +6,7 @@ export async function loader({ params }) {
   if (!contact) {
       throw new Response(null, { status: 404, statusText: "Not Found" });
   }
+  console.info(`contact.jsx::loader contact: \n${JSON.stringify(contact)}`);
   return { contact };
 }
 

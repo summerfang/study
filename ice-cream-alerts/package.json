@@ -1,0 +1,19 @@
+{
+  "name": "ice-cream-alerts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "firstscoop": "nodenv firstscoop.js",
+    "multipack": "nodenv multipack.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-env-run": "^4.0.2",
+    "twilio": "^5.3.3"
+  }
+}
