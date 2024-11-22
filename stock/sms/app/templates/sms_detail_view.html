@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h3>SMS Details</h3>
+    <table class="table table-bordered">
+        <tr>
+            <th>Date</th>
+            <td>{{ message.timestamp.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+        </tr>
+        <tr>
+            <th>From</th>
+            <td>
+                {% if message.from_number_id == message.from_merchant_id %}
+                    {{ message.from_number }}
+                {% else %}
+                    {{ message.from_customer_name }} ({{ message.from_number }})
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>To</th>
+            <td>
+                {% if message.to_number_id == message.to_merchant_id %}
+                    {{ message.to_number }}
+                {% else %}
+                    {{ message.to_customer_name }} ({{ message.to_number }})
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>Message</th>
+            <td>{{ message.content }}</td>
+        </tr>
+        <tr>
+            <th>Status</th>
+            <td>{{ message.status }}</td>
+        </tr>
+    </table>
+    <a href="/sms/messages/{{ message.from_number_id }}" class="btn btn-secondary">Back to Messages</a>
+</div>
+{% endblock %}

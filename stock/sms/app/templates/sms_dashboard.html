@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <!-- Left Navigation Bar -->
+    <div class="col-md-3">
+        <div class="mb-3">
+            <h5>Phone Numbers</h5>
+            <input type="text" id="search-box" class="form-control mb-2" placeholder="Search...">
+        </div>
+        <ul class="list-group" id="phone-number-list">
+            {% for phone in phone_numbers %}
+                <li class="list-group-item">
+                    <a href="/sms/messages/{{ phone.id }}">
+                        {{ phone.customer_name }} ({{ phone.number }})
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    
+    <!-- Main Content Area -->
+    <div class="col-md-9">
+        <div class="mb-3">
+            <h3>{{ merchant.name }}</h3>
+            <p>Role: {{ current_user.role }}</p>
+            <p>Projects: 
+                {% if current_user.projects %}
+                    {{ current_user.projects | map(attribute='name') | join(', ') }}
+                {% else %}
+                    N/A
+                {% endif %}
+            </p>
+        </div>
+        
+        <h5>Select a Phone Number to View Messages</h5>
+    </div>
+</div>
+
+<script>
+    // Implement search functionality
+    $(document).ready(function(){
+        $("#search-box").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#phone-number-list li").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>
+{% endblock %}
