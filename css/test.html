@@ -1,0 +1,72 @@
+<Html>
+<head>
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+    <body>
+<script type="text/javascript">
+    
+    var dataset = [    40, 80, 120, 160 ];
+    var svg = d3.select("body")
+    .append("svg")
+    .attr("width", 200)
+    .attr("height", 200);
+
+    svg.selectAll("circle")
+    .data(dataset)
+    .enter()
+    .append("circle")
+    .attr("cy", d=>d)
+    .attr('r', 15)
+</script>
+<p>Orange</p>
+<p>Pink</p>
+<script>
+    var dataset = ["red", "green", "blue"];
+      d3.select('body')
+        
+        .selectAll('p')
+        .data(dataset)
+        .enter()
+        .append('p')
+        .text(d=>d)
+</script>
+<div>Apples</div>
+<div>Oranges</div>
+<div>Bananas</div>
+
+<script>
+  d3.select('div')
+  	.text('Apples2')
+
+  var data = ['Cherries', 'Apricot', 'Avocados', 'Strawberries', 'Dates']
+  d3.select('body')
+    .selectAll('div')
+    .data(data)
+    .enter()
+    .text(d => d)
+    .append('div')
+    .text(d => d);
+</script>
+
+<script>
+const data = [
+  { id: 1, value: 10 },
+  { id: 2, value: 20 },
+  { id: 3, value: 30 }
+];
+
+const key = function(d) { return d.id; };
+
+d3.select("body")
+  .selectAll("div")
+  .data(data, key)
+  .enter()
+  .append("div")
+  .text(function(d) { return d.value; });
+
+</script>
+</body>
+</Html>
