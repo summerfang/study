@@ -4,3 +4,7 @@ google-api-python-client
 python-dotenv
 openai-whisper
 snownlp
+jieba
+openai
+transformers
+torch

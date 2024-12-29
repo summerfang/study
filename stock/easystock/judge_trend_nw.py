@@ -12,7 +12,6 @@ if not OPENAI_API_KEY:
     print("Error: OPENAI_API_KEY not found in environment variables.")
     sys.exit(1)
 
-openai.api_key = OPENAI_API_KEY
 
 def summarize_article(article_text):
     try:
@@ -44,7 +43,7 @@ def judge_trend(file_path):
             if not article_text.strip():
                 print("文件为空。")
                 return
-            
+
         summary = summarize_article(article_text)
         if summary:
             print(f"总结与市场趋势判断:\n{summary}")
