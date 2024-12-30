@@ -11,6 +11,7 @@ import dl_yt_dlp  # Import the dl_yt_dlp module
 import extract_audio  # Import the extract_audio module
 import audio2text  # Import the audio2text module
 import market_trend  # Import the market_trend module
+from summarize_gemini import summarize_file_in_chinese  # Import the summarize_gemini module
 
 # Load environment variables from .env file
 load_dotenv()
@@ -188,6 +189,18 @@ def main():
                         channel_trends[channel] = trend
                         print(f"Market trend for '{channel}': {trend}")
                         
+                        # Generate and save summary
+                        summary_file_path = f"{os.path.splitext(audio_file_path)[0]}.summary.txt"
+                        try:
+                            summary = summarize_file_in_chinese(txt_output_path)
+                            with open(summary_file_path, 'w', encoding='utf-8') as f:
+                                f.write(summary)
+                            print(f"Summary saved successfully: {summary_file_path}")
+                            channel_trends[channel] = {"trend": trend, "summary": summary}
+                        except Exception as e:
+                            logging.error(f"Failed to generate summary for {channel}: {e}")
+                            channel_trends[channel] = {"trend": trend, "summary": "Summary generation failed"}
+                        
                         # Define archive directory based on current date and channel name
                         today = datetime.utcnow()
                         archive_dir = os.path.join(
@@ -195,31 +208,37 @@ def main():
                             str(today.year),
                             str(today.month),
                             str(today.day),
-                            channel.replace(" ", "_")  # Replace spaces with underscores for directory naming
+                            channel.replace(" ", "_")
                         )
                         os.makedirs(archive_dir, exist_ok=True)
                         
-                        # Copy audio and transcript files to the archive directory
+                        # Copy audio, transcript, and summary files to the archive directory
                         try:
                             shutil.copy2(audio_file_path, archive_dir)
                             shutil.copy2(txt_output_path, archive_dir)
+                            shutil.copy2(summary_file_path, archive_dir)
                             print(f"Files archived to: {archive_dir}")
                         except Exception as e:
                             logging.error(f"Failed to archive files for {channel}: {e}")
                     else:
                         print(f"Transcription failed for: {audio_file_path}")
-                        channel_trends[channel] = "Transcription Failed"
+                        channel_trends[channel] = {"trend": "Transcription Failed", "summary": None}
                 else:
                     print(f"Audio extraction failed for: {downloaded_video_path}")
-                    channel_trends[channel] = "Audio Extraction Failed"
+                    channel_trends[channel] = {"trend": "Audio Extraction Failed", "summary": None}
         else:
             print(f"Channel '{channel}' has no new videos today.")
-            channel_trends[channel] = "No new video"
+            channel_trends[channel] = {"trend": "No new video", "summary": None}
 
-    # After processing all channels, list the market trends
-    print("\n=== Market Trends Summary ===")
-    for channel, trend in channel_trends.items():
-        print(f"Channel '{channel}': {trend}")
+    # After processing all channels, list the market trends with summaries
+    print("\n=== Market Trends and Summaries ===")
+    for channel, info in channel_trends.items():
+        print(f"\nChannel: '{channel}'")
+        print(f"Trend: {info['trend']}")
+        if info['summary']:
+            print("Summary:")
+            print(info['summary'])
+        print("-" * 50)
 
 if __name__ == "__main__":
     main()
