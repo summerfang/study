@@ -1,46 +1,47 @@
 import os
 import subprocess
 
-# Directory where the extracted clips are saved
-extracted_clips_dir = 'extracted_clips'
+def merge_video_segments(extracted_clips_dir, merged_videos_dir, merged_video_filename='merged_video.mp4'):
+    # Directory to save the merged video
+    os.makedirs(merged_videos_dir, exist_ok=True)
+    for filename in os.listdir(merged_videos_dir):
+        file_path = os.path.join(merged_videos_dir, filename)
+        if os.path.isfile(file_path):
+            os.remove(file_path)
 
-# Directory to save the merged video
-merged_videos_dir = 'merged_videos'
+    # Path to the output merged video file
+    merged_video = os.path.join(merged_videos_dir, merged_video_filename)
 
-# Create the merged videos directory if it doesn't exist
-os.makedirs(merged_videos_dir, exist_ok=True)
+    # List all video files in the extracted_clips directory and sort by creation time
+    video_files = sorted(
+        [f for f in os.listdir(extracted_clips_dir) if f.endswith('.mp4')],
+        key=lambda f: os.path.getctime(os.path.join(extracted_clips_dir, f))
+    )
 
-# Path to the output merged video file
-merged_video = os.path.join(merged_videos_dir, 'merged_video.mp4')
+    # Path to the temporary file list
+    file_list_path = 'file_list.txt'
 
-# List all video files in the extracted_clips directory and sort by creation time
-video_files = sorted(
-    [f for f in os.listdir(extracted_clips_dir) if f.endswith('.mp4')],
-    key=lambda f: os.path.getctime(os.path.join(extracted_clips_dir, f))
-)
+    # Write the list of video files to the temporary file
+    with open(file_list_path, 'w') as file_list:
+        for video_file in video_files:
+            file_list.write(f"file '{os.path.join(extracted_clips_dir, video_file)}'\n")
 
-# Path to the temporary file list
-file_list_path = 'file_list.txt'
+    # Construct the FFmpeg command to merge the video files
+    ffmpeg_command = [
+        'ffmpeg',
+        '-f', 'concat',
+        '-safe', '0',
+        '-i', file_list_path,
+        '-c', 'copy',
+        merged_video
+    ]
 
-# Write the list of video files to the temporary file
-with open(file_list_path, 'w') as file_list:
-    for video_file in video_files:
-        file_list.write(f"file '{os.path.join(extracted_clips_dir, video_file)}'\n")
+    # Run the FFmpeg command
+    subprocess.run(ffmpeg_command)
 
-# Construct the FFmpeg command to merge the video files
-ffmpeg_command = [
-    'ffmpeg',
-    '-f', 'concat',
-    '-safe', '0',
-    '-i', file_list_path,
-    '-c', 'copy',
-    merged_video
-]
+    print("Video segments merged successfully.")
 
-# Run the FFmpeg command
-subprocess.run(ffmpeg_command)
-
-# Remove the temporary file list
-os.remove(file_list_path)
-
-print("Video merging completed.")
+# Example usage
+# extracted_clips_dir = 'extracted_clips'
+# merged_videos_dir = 'merged_videos'
+# merge_video_segments(extracted_clips_dir, merged_videos_dir)
