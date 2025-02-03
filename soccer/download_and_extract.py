@@ -12,7 +12,7 @@ def download_youtube_video(url):
     subprocess.run([yt_dlp_path, "-o", os.path.join(download_folder, "%(title)s.%(ext)s"), url])
 
 if __name__ == "__main__":
-    youtube_url = "https://youtu.be/bzOWTiV7YCA?si=TTlzc3EA5ZgHFyf-"
+    youtube_url = os.getenv("YOUTUBE_URL")
     download_youtube_video(youtube_url)
 
     # Get the downloaded video file

@@ -5,3 +5,4 @@ merged_videos/
 .venv
 *.webm
 yolov8n.pt
+download/
