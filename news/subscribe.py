@@ -11,7 +11,7 @@ from dl_yt_dlp import download_video
 from extract_audio import extract_audio
 from audio2text import transcribe_audio
 from summarize_gemini import summarize_file_in_chinese
-import market_trend
+# import market_trend
 
 # Load environment variables from .env file
 load_dotenv()
@@ -173,8 +173,25 @@ def get_recent_videos(channel_id):
         logging.error(f"Error getting videos for channel {channel_id}: {e}")
     return videos
 
+def clear_downloads_folder():
+    """Clear all files in the downloads folder."""
+    downloads_dir = "downloads"
+    if os.path.exists(downloads_dir):
+        for file in os.listdir(downloads_dir):
+            file_path = os.path.join(downloads_dir, file)
+            try:
+                if os.path.isfile(file_path):
+                    os.unlink(file_path)
+                elif os.path.isdir(file_path):
+                    shutil.rmtree(file_path)
+            except Exception as e:
+                print(f"Error: {e}")
+
 def process_video(video, channel_name):
     """Process a single video: download, transcribe, summarize, and analyze trend."""
+     # Clear downloads folder before processing new video
+    clear_downloads_folder()
+    
     result = {
         'title': video['title'],
         'timestamp': video['publishedAt'],
@@ -183,6 +200,7 @@ def process_video(video, channel_name):
     }
     
     try:
+        # 
         # Download video using dl_yt_dlp
         downloaded_video_path = download_video(video['url'])
         if not downloaded_video_path:
@@ -205,7 +223,7 @@ def process_video(video, channel_name):
 
         # Generate summary using summarize_file_in_chinese
         result['summary'] = summarize_file_in_chinese(txt_output_path)
-        result['trend'] = market_trend.determine_trend(transcription)
+        # result['trend'] = market_trend.determine_trend(transcription)
 
         # Add new summary file path
         summary_file = f"{os.path.splitext(audio_file_path)[0]}.summary.txt"
@@ -213,7 +231,7 @@ def process_video(video, channel_name):
         # Write summary to the new file
         with open(summary_file, 'w', encoding='utf-8') as f:
             f.write(result['summary'])
-            f.write(result['trend'])
+            # f.write(result['trend'])
 
         # Move both files to archive
         # archive_path = os.path.join(archive_dir, os.path.basename(txt_output_path))
@@ -332,7 +350,7 @@ def main():
         for result in results:
             print(f"\nVideo: {result['title']}")
             print(f"Published at: {result['timestamp']}")
-            print(f"Market Trend: {result['trend']}")
+            # print(f"Market Trend: {result['trend']}")
             if result['summary']:
                 print("Summary:")
                 print(result['summary'])

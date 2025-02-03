@@ -1,0 +1,12 @@
+pytube 
+youtube_transcript_api 
+google-api-python-client
+python-dotenv
+openai-whisper
+snownlp
+jieba
+openai
+transformers
+torch
+google-generativeai
+opencv-python
