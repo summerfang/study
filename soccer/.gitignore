@@ -1,0 +1,7 @@
+yolov5
+extracted_clips/
+merged_videos/
+*.jpg
+.venv
+*.webm
+yolov8n.pt
