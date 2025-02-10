@@ -6,3 +6,4 @@ merged_videos/
 *.webm
 yolov8n.pt
 download/
+file_list.txt
