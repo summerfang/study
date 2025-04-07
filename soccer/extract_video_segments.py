@@ -30,16 +30,18 @@ def extract_video_segments(file_path):
         # Construct the output file name
         output_video = os.path.join(output_directory, f'output_segment_{i + 1}.mp4')
 
-        # Construct the FFmpeg command with re-encoding to ensure clean cuts
+        # Construct the FFmpeg command to cut at the nearest previous keyframe
         ffmpeg_command = [
             'ffmpeg',
-            '-ss', start_time,  # Seek to the start time
+            '-ss', start_time,  # First seek to the approximate position
             '-i', input_video,  # Input file
-            '-t', str(segment_duration),  # Duration of segment
-            '-c:v', 'libx264',  # Re-encode video using h264
-            '-preset', 'fast',  # Encoding preset for speed/quality balance
-            '-c:a', 'aac',      # Re-encode audio using AAC
+            '-c:v', 'libx264',  # Video codec
+            '-preset', 'fast',  # Encoding preset
+            '-c:a', 'aac',      # Audio codec
             '-b:a', '128k',     # Audio bitrate
+            '-t', str(segment_duration),  # Duration of segment
+            '-avoid_negative_ts', 'make_zero',  # Avoid negative timestamps
+            '-async', '1',      # Audio sync
             output_video
         ]
 
