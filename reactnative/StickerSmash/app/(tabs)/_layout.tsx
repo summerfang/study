@@ -1,5 +1,4 @@
 import { Tabs } from 'expo-router';
-
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 export default function TabLayout() {
@@ -17,7 +16,6 @@ export default function TabLayout() {
                 },
             }}
         >
-
             <Tabs.Screen
                 name="index"
                 options={{
@@ -28,7 +26,7 @@ export default function TabLayout() {
                 }}
             />
             <Tabs.Screen
-                name="message"
+                name="messages"
                 options={{
                     title: 'Messages',
                     tabBarIcon: ({ color, focused }) => (

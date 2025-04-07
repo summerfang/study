@@ -5,7 +5,6 @@ import { useNavigation } from '@react-navigation/native';
 const messages = [
   {
     id: '1',
-    avatar: 'https://example.com/avatar1.png',
     name: 'John Doe',
     message: 'Hey, how are you?',
     time: '10:30 AM',
@@ -13,85 +12,67 @@ const messages = [
   },
   {
     id: '2',
-    avatar: 'https://example.com/avatar2.png',
     name: 'Jane Smith',
-    message: 'Are we still on for tomorrow?',
-    time: '9:15 AM',
-    unread: 1,
-  },
-  {
-    id: '3',
-    avatar: 'https://example.com/avatar3.png',
-    name: 'Alice Johnson',
-    message: 'Can you send me the report?',
-    time: '8:45 AM',
+    message: 'Hey, did you finalize the design?',
+    time: '11:00 AM',
     unread: 0,
   },
   {
+    id: '3',
+    name: 'Mark Johnson',
+    message: 'Let’s schedule a call later.',
+    time: '12:15 PM',
+    unread: 1,
+  },
+  {
     id: '4',
-    avatar: 'https://example.com/avatar4.png',
-    name: 'Bob Brown',
-    message: 'Meeting at 3 PM.',
-    time: '8:00 AM',
-    unread: 3,
+    name: 'Sara Lee',
+    message: 'Awesome! I’ll check it out now.',
+    time: '1:30 PM',
+    unread: 0,
   },
   {
     id: '5',
-    avatar: 'https://example.com/avatar5.png',
-    name: 'Charlie Davis',
-    message: 'Lunch tomorrow?',
-    time: '7:30 AM',
+    name: 'David Park',
+    message: 'Could you explain the new feature?',
+    time: '2:05 PM',
     unread: 1,
   },
   {
     id: '6',
-    avatar: 'https://example.com/avatar6.png',
-    name: 'David Evans',
-    message: 'Project update?',
-    time: '7:00 AM',
+    name: 'Emily Carter',
+    message: 'Thanks for the update!',
+    time: '2:20 PM',
     unread: 0,
   },
   {
     id: '7',
-    avatar: 'https://example.com/avatar7.png',
-    name: 'Eva Green',
-    message: 'Call me when you can.',
-    time: '6:30 AM',
-    unread: 2,
-  },
-  {
-    id: '8',
-    avatar: 'https://example.com/avatar8.png',
-    name: 'Frank Harris',
-    message: 'Good morning!',
-    time: '6:00 AM',
+    name: 'Peter Brown',
+    message: 'Lunch at 1:00?',
+    time: '10:45 AM',
     unread: 0,
   },
   {
+    id: '8',
+    name: 'Jessica Martin',
+    message: 'Please review the PR.',
+    time: '4:10 PM',
+    unread: 3,
+  },
+  {
     id: '9',
-    avatar: 'https://example.com/avatar9.png',
-    name: 'Grace Lee',
-    message: 'See you soon.',
-    time: '5:30 AM',
+    name: 'Kevin Adams',
+    message: 'We need to discuss the budget.',
+    time: '5:00 PM',
     unread: 1,
   },
   {
     id: '10',
-    avatar: 'https://example.com/avatar10.png',
-    name: 'Henry Miller',
-    message: 'Thanks!',
-    time: '5:00 AM',
-    unread: 0,
+    name: 'Anna Moore',
+    message: 'Let me know what you think!',
+    time: '5:30 PM',
+    unread: 2,
   },
-  {
-    id: '11',
-    avatar: 'https://example.com/avatar11.png',
-    name: 'Ivy Nelson',
-    message: 'Got it.',
-    time: '4:30 AM',
-    unread: 0,
-  },
-  // Add more messages as needed
 ];
 
 export default function MessagesScreen() {
@@ -117,7 +98,14 @@ function MessageRow({ message }) {
   const initials = message.name.split(' ').map(name => name[0]).join('').toUpperCase();
 
   return (
-    <TouchableOpacity onPress={() => navigation.navigate('MessageDetail', { name: message.name, messages: [message.message] })}>
+    <TouchableOpacity
+      onPress={() =>
+        navigation.navigate('newmessagedetail', {
+          name: message.name,
+          messages: [message.message],
+        })
+      }
+    >
       <View style={styles.row}>
         <View style={styles.avatar}>
           <Text style={styles.avatarText}>{initials}</Text>

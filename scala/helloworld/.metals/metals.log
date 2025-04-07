@@ -1,0 +1,51 @@
+2025.03.01 19:33:03 INFO  Started: Metals version 1.5.1 in folders 'C:\study\scala\helloworld' for client Visual Studio Code 1.97.2.
+2025.03.01 19:33:04 INFO  no build target found for C:\study\scala\helloworld\src\main\scala\example\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.01 19:33:04 INFO  no build target found for C:\study\scala\helloworld\src\main\scala\example\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Mar 01, 2025 7:33:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 01, 2025 7:34:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 01, 2025 7:35:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 01, 2025 7:35:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 01, 2025 7:35:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 01, 2025 7:35:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.01 19:35:23 INFO  Shutting down server
+2025.03.01 19:35:23 INFO  shutting down Metals
+2025.03.01 19:35:23 INFO  Exiting server
+2025.03.01 19:38:23 INFO  Started: Metals version 1.5.1 in folders 'C:\study\scala\helloworld' for client Visual Studio Code 1.97.2.
+2025.03.01 19:38:23 INFO  no build target found for C:\study\scala\helloworld\src\main\scala\example\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.01 19:38:26 INFO  no build target found for C:\study\scala\helloworld\src\main\scala\example\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Mar 01, 2025 7:38:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Mar 01, 2025 7:38:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Mar 01, 2025 7:38:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.03.01 19:38:26 INFO  no build target found for C:\study\scala\helloworld\src\main\scala\example\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.01 19:38:26 INFO  no build target found for C:\study\scala\helloworld\src\main\scala\example\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.01 19:38:26 INFO  no build target found for C:\study\scala\helloworld\src\main\scala\example\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.01 19:38:26 INFO  no build target found for C:\study\scala\helloworld\src\main\scala\example\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Mar 01, 2025 7:38:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Mar 01, 2025 7:38:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2025.03.01 19:38:26 INFO  Shutting down server
+2025.03.01 19:38:26 INFO  shutting down Metals
+2025.03.01 19:38:27 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.01 19:38:27 INFO  Exiting server

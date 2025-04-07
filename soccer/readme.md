@@ -24,3 +24,10 @@
          sudo apt-get install ffmpeg
          ```
 
+3. ** Add an .env file in the folder which is used to  read parameter **
+Example in .env
+
+```
+YT_DLP_PATH=C:\yt-dlp\yt-dlp
+YOUTUBE_URL=https://www.youtube.com/watch?v=MaGxrNcnX7c&t=550s
+```

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Page</title>
+    <script>
+        // Test function to start audio stream
+        function startAudioStream() {
+            const testSocket = new WebSocket('ws://localhost:8000/ws/openai');
+            testSocket.onopen = () => {
+                navigator.mediaDevices.getUserMedia({ audio: true })
+                    .then(stream => {
+                        const processor = new AudioContext();
+                        const source = processor.createMediaStreamSource(stream);
+                        source.connect(processor.createScriptProcessor(4096));
+                    });
+            };
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <button onclick="startAudioStream()">Click Me!</button>
+</body>
+
+</html>
