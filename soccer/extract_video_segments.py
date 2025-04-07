@@ -30,16 +30,20 @@ def extract_video_segments(file_path):
         # Construct the output file name
         output_video = os.path.join(output_directory, f'output_segment_{i + 1}.mp4')
 
-        # Construct the FFmpeg command
+        # Construct the FFmpeg command with re-encoding to ensure clean cuts
         ffmpeg_command = [
             'ffmpeg',
-            '-ss', start_time,
-            '-i', input_video,
-            '-t', str(segment_duration),
-            '-c', 'copy',
+            '-ss', start_time,  # Seek to the start time
+            '-i', input_video,  # Input file
+            '-t', str(segment_duration),  # Duration of segment
+            '-c:v', 'libx264',  # Re-encode video using h264
+            '-preset', 'fast',  # Encoding preset for speed/quality balance
+            '-c:a', 'aac',      # Re-encode audio using AAC
+            '-b:a', '128k',     # Audio bitrate
             output_video
         ]
 
+        print(f"Extracting segment {i+1}/{len(start_times)} starting at {start_time}...")
         # Run the FFmpeg command
         subprocess.run(ffmpeg_command)
 
