@@ -31,3 +31,8 @@ Example in .env
 YT_DLP_PATH=C:\yt-dlp\yt-dlp
 YOUTUBE_URL=https://www.youtube.com/watch?v=MaGxrNcnX7c&t=550s
 ```
+
+3. ** Run it **
+```
+python soccer.py
+```
