@@ -7,7 +7,9 @@ def extract_video_segments(file_path):
     input_video = file_path
 
     # Duration of each segment (in seconds)
-    segment_duration = 15
+    segment_duration = 20
+
+    
 
     # Path to the text file with start times
     start_times_file = 'start_times.txt'
