@@ -1,2 +1,9 @@
 yt_dlp
 requests
+opencv-python 
+numpy
+ultralytics
+scikit-learn
+torchreid
+gdown
+tensorboard
