@@ -1,0 +1,242 @@
+[
+  {
+    "timestamp": "2025-08-31T16:41:41.190358",
+    "query": "What is Python?",
+    "response": "Based on the retrieved information:\n\nDocument 1 (relevance: 0.365):\nPython is a high-level programming language known for its simplicity and readability.\n\nQuery: What is Python?\nRetrieved 1 relevant documents.",
+    "strategy": "basic",
+    "reward_scores": {
+      "overall_reward": 0.82,
+      "relevance": 1.0,
+      "completeness": 0.5,
+      "clarity": 1.0,
+      "length": 0.7,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 1
+  },
+  {
+    "timestamp": "2025-08-31T16:41:41.190358",
+    "query": "What is Python?",
+    "response": "Here's a comprehensive answer to your question: 'What is Python?'\n\nAdditional Context:\n1. Python is a high-level programming language known for its simplicity and readability.\n\nSummary: Based on 1 relevant sources, this information should help answer your question about 'What is Python?'.",
+    "strategy": "detailed",
+    "reward_scores": {
+      "overall_reward": 0.5533333333333333,
+      "relevance": 0.3333333333333333,
+      "completeness": 0.5,
+      "clarity": 1.0,
+      "length": 0.7,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 1
+  },
+  {
+    "timestamp": "2025-08-31T16:41:41.201652",
+    "query": "What is Python?",
+    "response": "Answer: Python is a high-level programming language known for its simplicity and readability.\n\nSource relevance: 0.365",
+    "strategy": "concise",
+    "reward_scores": {
+      "overall_reward": 0.44333333333333336,
+      "relevance": 0.3333333333333333,
+      "completeness": 0.5,
+      "clarity": 0.7,
+      "length": 0.2,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 1
+  },
+  {
+    "timestamp": "2025-08-31T16:41:41.203098",
+    "query": "How does machine learning work?",
+    "response": "Based on the retrieved information:\n\nDocument 1 (relevance: 0.425):\nMachine learning is a subset of artificial intelligence that enables computers to learn without being explicitly programmed.\n\nDocument 2 (relevance: 0.159):\nDeep learning uses neural networks with multiple layers to model and understand complex patterns in data.\n\nQuery: How does machine learning work?\nRetrieved 2 relevant documents.",
+    "strategy": "basic",
+    "reward_scores": {
+      "overall_reward": 0.9249999999999999,
+      "relevance": 1.0,
+      "completeness": 0.75,
+      "clarity": 1.0,
+      "length": 1.0,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 2
+  },
+  {
+    "timestamp": "2025-08-31T16:41:41.205105",
+    "query": "How does machine learning work?",
+    "response": "Here's a comprehensive answer to your question: 'How does machine learning work?'\n\nAdditional Context:\n1. Machine learning is a subset of artificial intelligence that enables computers to learn without being explicitly programmed.\n\nSummary: Based on 2 relevant sources, this information should help answer your question about 'How does machine learning work?'.",
+    "strategy": "detailed",
+    "reward_scores": {
+      "overall_reward": 0.765,
+      "relevance": 0.6,
+      "completeness": 0.75,
+      "clarity": 1.0,
+      "length": 1.0,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 2
+  },
+  {
+    "timestamp": "2025-08-31T16:41:41.206105",
+    "query": "How does machine learning work?",
+    "response": "Answer: Machine learning is a subset of artificial intelligence that enables computers to learn without being explicitly programmed.\n\nSource relevance: 0.425",
+    "strategy": "concise",
+    "reward_scores": {
+      "overall_reward": 0.595,
+      "relevance": 0.4,
+      "completeness": 0.75,
+      "clarity": 0.7,
+      "length": 0.7,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 2
+  },
+  {
+    "timestamp": "2025-08-31T16:41:41.208105",
+    "query": "What is RAG?",
+    "response": "Based on the retrieved information:\n\nDocument 1 (relevance: 0.245):\nRAG (Retrieval-Augmented Generation) combines information retrieval with text generation to provide more accurate and contextual responses.\n\nQuery: What is RAG?\nRetrieved 1 relevant documents.",
+    "strategy": "basic",
+    "reward_scores": {
+      "overall_reward": 0.82,
+      "relevance": 1.0,
+      "completeness": 0.5,
+      "clarity": 1.0,
+      "length": 0.7,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 1
+  },
+  {
+    "timestamp": "2025-08-31T16:41:41.209508",
+    "query": "What is RAG?",
+    "response": "Here's a comprehensive answer to your question: 'What is RAG?'\n\nAdditional Context:\n1. RAG (Retrieval-Augmented Generation) combines information retrieval with text generation to provide more accurate and contextual responses.\n\nSummary: Based on 1 relevant sources, this information should help answer your question about 'What is RAG?'.",
+    "strategy": "detailed",
+    "reward_scores": {
+      "overall_reward": 0.5533333333333333,
+      "relevance": 0.3333333333333333,
+      "completeness": 0.5,
+      "clarity": 1.0,
+      "length": 0.7,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 1
+  },
+  {
+    "timestamp": "2025-08-31T16:41:41.210539",
+    "query": "What is RAG?",
+    "response": "Answer: RAG (Retrieval-Augmented Generation) combines information retrieval with text generation to provide more accurate and contextual responses.\n\nSource relevance: 0.245",
+    "strategy": "concise",
+    "reward_scores": {
+      "overall_reward": 0.36,
+      "relevance": 0.0,
+      "completeness": 0.5,
+      "clarity": 0.7,
+      "length": 0.7,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 1
+  },
+  {
+    "timestamp": "2025-08-31T16:41:41.211515",
+    "query": "Tell me about vector databases",
+    "response": "Based on the retrieved information:\n\nDocument 1 (relevance: 0.586):\nVector databases store and retrieve data using vector embeddings, enabling semantic search capabilities.\n\nQuery: Tell me about vector databases\nRetrieved 1 relevant documents.",
+    "strategy": "basic",
+    "reward_scores": {
+      "overall_reward": 0.82,
+      "relevance": 1.0,
+      "completeness": 0.5,
+      "clarity": 1.0,
+      "length": 0.7,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 1
+  },
+  {
+    "timestamp": "2025-08-31T16:41:41.212866",
+    "query": "Tell me about vector databases",
+    "response": "Here's a comprehensive answer to your question: 'Tell me about vector databases'\n\nKey Information:\n1. Vector databases store and retrieve data using vector embeddings, enabling semantic search capabilities.\n\nSummary: Based on 1 relevant sources, this information should help answer your question about 'Tell me about vector databases'.",
+    "strategy": "detailed",
+    "reward_scores": {
+      "overall_reward": 0.7400000000000001,
+      "relevance": 0.8,
+      "completeness": 0.5,
+      "clarity": 1.0,
+      "length": 0.7,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 1
+  },
+  {
+    "timestamp": "2025-08-31T16:41:41.214046",
+    "query": "Tell me about vector databases",
+    "response": "Answer: Vector databases store and retrieve data using vector embeddings, enabling semantic search capabilities.\n\nSource relevance: 0.586",
+    "strategy": "concise",
+    "reward_scores": {
+      "overall_reward": 0.4700000000000001,
+      "relevance": 0.4,
+      "completeness": 0.5,
+      "clarity": 0.7,
+      "length": 0.2,
+      "weights": {
+        "relevance": 0.4,
+        "completeness": 0.3,
+        "clarity": 0.2,
+        "length": 0.1
+      }
+    },
+    "retrieved_docs_count": 1
+  }
+]
